@@ -5,14 +5,14 @@ from torchvision.models import resnet18, ResNet18_Weights
 
 from utils import transforms,ImageDataset
 
-IMAGE_PATH = "/mnt/scratch/bio/lkopf/ImageNet/val/"
+IMAGE_PATH = "/mnt/beegfs/share/atbstaff/ImageNet_1k/ILSVRC/Data/CLS-LOC/val/"
 RESULT_PATH = "./activations/"
 
 if not os.path.exists(RESULT_PATH):
     os.makedirs(RESULT_PATH)
 
 N_NEURONS = 1000 # 512
-MODEL_NAME = "A50k_resnet18-fc"
+MODEL_NAME = "A50k_resnet18-fc" # "A50k_resnet18-layer4"
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 print(device)
