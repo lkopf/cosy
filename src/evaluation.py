@@ -1,26 +1,13 @@
-import torch
-import torchvision
-from torchvision.models import resnet18, ResNet18_Weights
-from torch.utils.data import DataLoader,Dataset
-
 import os
-import re
-import ast
-import cv2
-import csv
-import json
+import torch
 import random
-import itertools
-import pandas as pd
 from tqdm import tqdm
-from glob import glob
-from scipy.stats import pointbiserialr,mannwhitneyu
+from datetime import datetime
 from sklearn.metrics import roc_auc_score
+from scipy.stats import pointbiserialr,mannwhitneyu
+from torchvision.models import resnet18, ResNet18_Weights
 
 from utils import *
-# clean_label
-
-from datetime import datetime
 
 torch.cuda.empty_cache()
 
@@ -126,7 +113,6 @@ for NEURON_ID, CONCEPT_NAME in tqdm(zip(NEURON_IDS, EXPLANATIONS), total=len(NEU
 
     new_rows  = [[NEURON_ID, concept_raw, round(auc_synthetic, 4), round(U1, 4), round(p, 4), round(rpb_r, 4), round(rpb_p, 4)]]
     add_rows_to_csv(csv_filename, new_rows)
-
 
 end = datetime.now()
 print("END: ", end)
