@@ -1,5 +1,9 @@
 import os
 import cv2
+import csv
+import json
+import pandas as pd
+import torch
 import torchvision
 from torch.utils.data import Dataset
 
@@ -33,3 +37,51 @@ transforms = torchvision.transforms.Compose([
                            torchvision.transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                                             std=[0.229, 0.224, 0.225])
                        ])
+
+
+# Function to load selected explanations as string
+def load_explanations(path, name, image_path, neuron_ids): 
+    if name == "INVERT":
+        # Load imagenet label ids with corresponding strings
+        with open("./assets/ImageNet_1k_map.json", "r") as f:
+            imgnt_map = json.load(f)
+        df = pd.read_csv(path)
+        explanations = [] # all explanations
+        for neuron_id in neuron_ids:
+            explanation_raw = df["formula"][neuron_id]
+            explanation_raw = str(explanation_raw).split()
+            explanation_mapped = [imgnt_map[i] if i in imgnt_map else i for i in explanation_raw]
+            explanation = " ".join(explanation_mapped)
+            explanations.append(explanation)
+
+    elif name == "MILAN":
+        pass       
+    elif name == "FALCON":
+        pass
+
+    # Check which explanation images are already existing and output missing ones
+    explanations_set = set(explanations)
+    explanations_set = list(explanations_set)    
+    image_directories = [i.replace('_', ' ') for i in os.listdir(image_path)]
+    missing_items = list(set(explanations_set) - set(image_directories))
+    explanations_filtered = missing_items
+ 
+    return explanations, explanations_filtered
+
+
+# Function to create a new CSV file with headers
+def create_csv(filename, headers):
+    with open(filename, mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(headers)
+
+# Function to check if a CSV file exists
+def csv_file_exists(filename):
+    return os.path.exists(filename)
+
+# Function to add new rows to an existing CSV file
+def add_rows_to_csv(filename, rows):
+    with open(filename, mode='a', newline='') as file:
+        writer = csv.writer(file)
+        for row in rows:
+            writer.writerow(row)

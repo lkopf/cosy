@@ -1,4 +1,5 @@
 *__pycache__/
 src/.ipynb_checkpoints/
 activations/
-data/
+results/
+gen_images/
