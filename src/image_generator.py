@@ -60,10 +60,10 @@ def run_inference(rank, world_size, batch_size, image_path=IMAGE_PATH, num_image
             if torch.distributed.get_rank() == 0:
                 prompt = f"realistic photo of a close up of {current_batch[0]}"
                 prompt_name = current_batch[0]
-            elif torch.distributed.get_rank() == 1:
+            elif torch.distributed.get_rank() == 1 and len(current_batch) > 0:
                 prompt = f"realistic photo of a close up of {current_batch[1]}"
                 prompt_name = current_batch[1]
-            elif torch.distributed.get_rank() == 2:
+            elif torch.distributed.get_rank() == 2 and len(current_batch) > 1:
                 prompt = f"realistic photo of a close up of {current_batch[2]}" 
                 prompt_name = current_batch[2]
             
