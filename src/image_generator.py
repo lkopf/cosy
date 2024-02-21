@@ -49,14 +49,12 @@ def run_inference(rank, world_size, batch_size, image_path=IMAGE_PATH, num_image
     num_batches = (len(EXPLANATIONS) + batch_size - 1) // batch_size
 
     for batch_index in range(num_batches):
-        torch.cuda.empty_cache()
         start_index = batch_index * batch_size
         end_index = min((batch_index + 1) * batch_size, len(EXPLANATIONS))
 
         current_batch = EXPLANATIONS[start_index:end_index]
         
         for i in range(num_images):            
-            torch.cuda.empty_cache()
             if torch.distributed.get_rank() == 0:
                 prompt = f"realistic photo of a close up of {current_batch[0]}"
                 prompt_name = current_batch[0]

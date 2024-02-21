@@ -54,6 +54,13 @@ def load_explanations(path, name, image_path, neuron_ids):
             explanation = " ".join(explanation_mapped)
             explanations.append(explanation)
 
+    elif name == "CLIP-Dissect":
+        df = pd.read_csv(path)
+        explanations = []
+        for neuron_id in neuron_ids:
+            explanation = df.loc[df["unit"] == neuron_id, "description"].values[0]
+            explanations.append(explanation)
+
     elif name == "MILAN":
         pass       
     elif name == "FALCON":
