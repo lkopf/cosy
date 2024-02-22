@@ -11,6 +11,8 @@ from utils import *
 
 torch.cuda.empty_cache()
 
+random.seed(42)
+
 start = datetime.now()
 print("START: ", start)
 
