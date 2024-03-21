@@ -1,6 +1,6 @@
-# GloVal: Validation of Global Explanations
+# Concept Synthesis: Evaluation of Concept-based Textual Explanations
 
-Evaluation method for global explanations
+Evaluation method for concept-based textual explanations
 
 ## 1. Collect Activations
 
