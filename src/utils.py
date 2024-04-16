@@ -41,11 +41,11 @@ transforms = torchvision.transforms.Compose([
 
 # Function to load selected explanations as string
 def load_explanations(path, name, image_path, neuron_ids): 
+    df = pd.read_csv(path)
     if name == "INVERT":
         # Load imagenet label ids with corresponding strings
         with open("./assets/ImageNet_1k_map.json", "r") as f:
             imgnt_map = json.load(f)
-        df = pd.read_csv(path)
         explanations = [] # all explanations
         for neuron_id in neuron_ids:
             explanation_raw = df["formula"][neuron_id]
@@ -55,16 +55,27 @@ def load_explanations(path, name, image_path, neuron_ids):
             explanations.append(explanation)
 
     elif name == "CLIP-Dissect":
-        df = pd.read_csv(path)
         explanations = []
         for neuron_id in neuron_ids:
             explanation = df.loc[df["unit"] == neuron_id, "description"].values[0]
             explanations.append(explanation)
 
     elif name == "MILAN":
-        pass       
+        explanations = []
+        for neuron_id in neuron_ids:
+            explanation = df.loc[df["unit"] == neuron_id, "description"].values[0]
+            explanations.append(explanation.lower())
+
     elif name == "FALCON":
-        pass
+        falcon_concept_list = []
+        for i in range(len(df)):
+            falcon_concepts_all = ast.literal_eval(df["concept_set_noun_phrases"][i])
+            falcon_concept = falcon_concepts_all[0][0]
+            falcon_concept_list.append(falcon_concept)
+        falcon_neuron_ids = df["group"].to_list()
+        falcon_concept_ids = dict(zip(falcon_neuron_ids, falcon_concept_list))
+        filtered_dict = {key: value for key, value in falcon_concept_ids.items() if key in neuron_ids}
+        explanations = list(filtered_dict.values())
 
     # Check which explanation images are already existing and output missing ones
     explanations_set = set(explanations)
