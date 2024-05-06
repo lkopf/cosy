@@ -3,10 +3,23 @@ import cv2
 import csv
 import json
 import pandas as pd
+from PIL import Image
 import torch
 import torchvision
+from torchvision import datasets
 from torch.utils.data import Dataset
 
+DATASET_PATH = {# dataset : "/path/to/images/",
+                }
+
+TRANSFORMS_IMGNT = torchvision.transforms.Compose([
+                        torchvision.transforms.ToPILImage(),
+                        torchvision.transforms.Resize(224),
+                        torchvision.transforms.CenterCrop((224,224)),
+                        torchvision.transforms.ToTensor(),
+                        torchvision.transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                                                        std=[0.229, 0.224, 0.225])
+                    ])
 class ImageDataset(Dataset):
     def __init__(self,root,transform):#,image_format):
         self.root=root
@@ -28,15 +41,30 @@ class ImageDataset(Dataset):
 
         return image
 
+# Function to load pre-trained models
+def get_target_model(target_name, device):
+    """
+    returns target model in eval mode and its preprocess function
+    target_name: supported options - {resnet18, vit_b}
+    """
+    if "resnet" in target_name:
+        target_name_cap = target_name.replace("resnet", "ResNet")
+        weights = eval("models.{}_Weights.IMAGENET1K_V1".format(target_name_cap))
+        preprocess = weights.transforms()
+        target_model = eval("models.{}(weights=weights).to(device)".format(target_name))
+    elif "vit_b" in target_name:
+        target_name_cap = target_name.replace("vit_b", "ViT_B")
+        weights = eval("models.{}_Weights.IMAGENET1K_V1".format(target_name_cap))
+        preprocess = weights.transforms()
+        target_model = eval("models.{}(weights=weights).to(device)".format(target_name))        
+    target_model.eval()
+    return target_model, preprocess
 
-transforms = torchvision.transforms.Compose([
-                           torchvision.transforms.ToPILImage(),
-                           torchvision.transforms.Resize(224),
-                           torchvision.transforms.CenterCrop((224,224)),
-                           torchvision.transforms.ToTensor(),
-                           torchvision.transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                                                            std=[0.229, 0.224, 0.225])
-                       ])
+def get_data(dataset_name, preprocess=None):
+    data = datasets.ImageFolder(DATASET_PATH[dataset_name], preprocess)
+
+    return data
+
 
 
 # Function to load selected explanations as string
