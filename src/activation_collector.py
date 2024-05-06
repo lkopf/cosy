@@ -96,6 +96,6 @@ with torch.no_grad():
             MODEL_FEATURES[counter:counter + x.shape[0],:] = activation['layer11'][:,0,:].data.to(device)
         counter += x.shape[0]
 
-torch.save(MODEL_FEATURES, f"{RESULT_PATH}{MODEL_NAME}.pt")
+torch.save(MODEL_FEATURES, f"{RESULT_PATH}/validation/{MODEL_NAME}.pt")
 
 print("Done!")

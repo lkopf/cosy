@@ -53,7 +53,7 @@ model = resnet18(weights=ResNet18_Weights.IMAGENET1K_V1).to(device)
 model.eval()
 
 # Load activations for val dataset
-A_F_val = torch.load(ACTIVATION_PATH+f"{MODEL_NAME}.pt").to(device)
+A_F_val = torch.load(f"{ACTIVATION_PATH}validation/{MODEL_NAME}.pt").to(device)
 
 csv_filename = RESULT_PATH+f"evaluation_{METHOD}_{MODEL_NAME}.csv"
 csv_headers = ["neuron", "concept", "auc", "U1", "p", "statistic", "m_pvalue", "median"]
@@ -74,7 +74,7 @@ for NEURON_ID, CONCEPT_NAME in tqdm(zip(NEURON_IDS, EXPLANATIONS), total=len(NEU
                                             shuffle=False,
                                             num_workers=2)
 
-    TENSOR_PATH = ACTIVATION_PATH + MODEL_NAME + f"_neuron-{NEURON_ID}.pt"
+    TENSOR_PATH = f"{ACTIVATION_PATH}synthetic/{MODEL_NAME}_neuron-{NEURON_ID}.pt"
 
     if os.path.exists(TENSOR_PATH):
         A_F = torch.load(TENSOR_PATH)
