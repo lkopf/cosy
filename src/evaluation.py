@@ -4,8 +4,8 @@ import random
 from tqdm import tqdm
 from datetime import datetime
 from sklearn.metrics import roc_auc_score
-from scipy.stats import pointbiserialr,mannwhitneyu
-from torchvision.models import resnet18, ResNet18_Weights
+from scipy.stats import mannwhitneyu,median_test
+from torchvision.models import resnet18, ResNet18_Weights, vit_b_16, ViT_B_16_Weights
 
 from utils import *
 
@@ -16,8 +16,19 @@ random.seed(42)
 start = datetime.now()
 print("START: ", start)
 
-METHOD = "INVERT"
-MODEL_NAME = "A50k_resnet18-fc" # "A50k_resnet18-layer4"
+METHOD = (# "MILAN"
+          "INVERT"
+          # "CLIP-Dissect"
+          # "FALCON"
+          )
+print(METHOD)
+MODEL_NAME = (# "A50k_resnet18-fc"
+              "A50k-train_resnet18-avgpool" 
+              # "A50k_resnet18v1-layer4_val"
+              # "A50k_vit16b-head"
+              # "A50k_vit16b-layer11"
+            )
+print(MODEL_NAME)
 RESULT_PATH = "./results/"
 os.makedirs(RESULT_PATH, exist_ok=True)
 EXPLANATION_PATH = # path to METHOD csv file with neuron explanations
@@ -44,6 +55,9 @@ model.eval()
 # Load activations for val dataset
 A_F_val = torch.load(ACTIVATION_PATH+f"{MODEL_NAME}.pt").to(device)
 
+csv_filename = RESULT_PATH+f"evaluation_{METHOD}_{MODEL_NAME}.csv"
+csv_headers = ["neuron", "concept", "auc", "U1", "p", "statistic", "m_pvalue", "median"]
+
 for NEURON_ID, CONCEPT_NAME in tqdm(zip(NEURON_IDS, EXPLANATIONS), total=len(NEURON_IDS), desc="Processing"):
     NEURON_ID = int(NEURON_ID)
     concept_raw = CONCEPT_NAME
@@ -51,7 +65,7 @@ for NEURON_ID, CONCEPT_NAME in tqdm(zip(NEURON_IDS, EXPLANATIONS), total=len(NEU
     CONCEPT_PATH = IMAGE_PATH+concept+"/"
 
     dataset = ImageDataset(root=CONCEPT_PATH,
-                            transform=transforms,
+                            transform=TRANSFORMS_IMGNT,
                             )
                             #image_format=FORMAT)
 
@@ -60,13 +74,7 @@ for NEURON_ID, CONCEPT_NAME in tqdm(zip(NEURON_IDS, EXPLANATIONS), total=len(NEU
                                             shuffle=False,
                                             num_workers=2)
 
-    csv_filename = RESULT_PATH+f"auc_p_rpb_{METHOD}_{MODEL_NAME}.csv"
-    csv_headers = ["neuron", "concept", "auc", "U1", "p", "rpb_r", "rpb_p"]
-
-    if not csv_file_exists(csv_filename):
-        create_csv(csv_filename, csv_headers)
-
-    TENSOR_PATH = ACTIVATION_PATH + MODEL_NAME + f"_neuron-{NEURON_ID}_{concept}.pt"
+    TENSOR_PATH = ACTIVATION_PATH + MODEL_NAME + f"_neuron-{NEURON_ID}.pt"
 
     if os.path.exists(TENSOR_PATH):
         A_F = torch.load(TENSOR_PATH)
@@ -111,9 +119,9 @@ for NEURON_ID, CONCEPT_NAME in tqdm(zip(NEURON_IDS, EXPLANATIONS), total=len(NEU
     # Binary classification scores
     auc_synthetic = roc_auc_score(class_labels.to("cpu"), A_D.to("cpu"))
     U1, p = mannwhitneyu(class_labels.to("cpu"), A_D.to("cpu"))
-    rpb_r, rpb_p = pointbiserialr(class_labels.to("cpu"), A_D.to("cpu"))
+    statistic, m_pvalue, median, table = median_test(activ_non_class.to("cpu"), activ_class.to("cpu"))
 
-    new_rows  = [[NEURON_ID, concept_raw, round(auc_synthetic, 4), round(U1, 4), round(p, 4), round(rpb_r, 4), round(rpb_p, 4)]]
+    new_rows  = [[NEURON_ID, concept_raw, auc_synthetic, U1, p, statistic, m_pvalue, median]]
     add_rows_to_csv(csv_filename, new_rows)
 
 end = datetime.now()
