@@ -2,6 +2,15 @@
 
 Evaluation method for concept-based textual explanations
 
+## 0. Collect Explanations with Explanation Methods
+
+TODO: Write instructions on how to set up the following repos:
+
+- [MILAN](https://github.com/evandez/neuron-descriptions)
+- [FALCON](https://github.com/NehaKalibhat/falcon-explain)
+- [CLIP-Dissect](https://github.com/Trustworthy-ML-Lab/CLIP-dissect)
+- [INVERT](https://github.com/lapalap/invert)
+
 ## 1. Collect Activations
 
 Collect activations for your model
