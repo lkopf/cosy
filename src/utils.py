@@ -1,6 +1,7 @@
 import os
 import cv2
 import csv
+import ast
 import json
 import pandas as pd
 from PIL import Image
@@ -8,8 +9,15 @@ import torch
 import torchvision
 from torchvision import datasets
 from torch.utils.data import Dataset
+from transformers import DetrImageProcessor,DetrForObjectDetection,BeitFeatureExtractor,BeitForSemanticSegmentation
 
 DATASET_PATH = {# dataset : "/path/to/images/",
+                "imagenet_train" : "/path/to/images/",
+                "imagenet_val" : "/path/to/images/",
+                "ade20k_train" : "/path/to/images/",
+                "ade20k_val" : "/path/to/images/",
+                "coco_train" : "/path/to/images/",
+                "coco_val" : "/path/to/images/",
                 }
 
 TRANSFORMS_IMGNT = torchvision.transforms.Compose([
@@ -49,14 +57,20 @@ def get_target_model(target_name, device):
     """
     if "resnet" in target_name:
         target_name_cap = target_name.replace("resnet", "ResNet")
-        weights = eval("models.{}_Weights.IMAGENET1K_V1".format(target_name_cap))
+        weights = eval(f"models.{target_name_cap}_Weights.IMAGENET1K_V1")
         preprocess = weights.transforms()
-        target_model = eval("models.{}(weights=weights).to(device)".format(target_name))
+        target_model = eval(f"models.{target_name_cap}(weights=weights).to(device)")
     elif "vit_b" in target_name:
         target_name_cap = target_name.replace("vit_b", "ViT_B")
-        weights = eval("models.{}_Weights.IMAGENET1K_V1".format(target_name_cap))
+        weights = eval(f"models.{target_name_cap}_Weights.IMAGENET1K_V1")
         preprocess = weights.transforms()
-        target_model = eval("models.{}(weights=weights).to(device)".format(target_name))        
+        target_model = eval(f"models.{target_name_cap}(weights=weights).to(device)")
+    elif "detr" in target_name:
+        preprocess = DetrImageProcessor.from_pretrained("facebook/detr-resnet-50", revision="no_timm").to(device)
+        target_model = DetrForObjectDetection.from_pretrained("facebook/detr-resnet-50", revision="no_timm").to(device)
+    elif "beit" in target_name:
+        preprocess = BeitFeatureExtractor.from_pretrained('microsoft/beit-base-finetuned-ade-640-640').to(device)
+        target_model = BeitForSemanticSegmentation.from_pretrained('microsoft/beit-base-finetuned-ade-640-640').to(device)
     target_model.eval()
     return target_model, preprocess
 
@@ -64,8 +78,6 @@ def get_data(dataset_name, preprocess=None):
     data = datasets.ImageFolder(DATASET_PATH[dataset_name], preprocess)
 
     return data
-
-
 
 # Function to load selected explanations as string
 def load_explanations(path, name, image_path, neuron_ids): 

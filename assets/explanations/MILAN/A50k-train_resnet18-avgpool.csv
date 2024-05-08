@@ -1,0 +1,513 @@
+layer,unit,description
+avgpool,0,Grids
+avgpool,1,Bookcases
+avgpool,2,Straight lines
+avgpool,3,Sharks and underwater animals
+avgpool,4,Rounded edges in pictures
+avgpool,5,Dresses
+avgpool,6,Edges of objects
+avgpool,7,Bodies of water
+avgpool,8,Items with designs
+avgpool,9,Dogs and other animals
+avgpool,10,Rounded edges in pictures
+avgpool,11,Edges of objects
+avgpool,12,Animals
+avgpool,13,Food
+avgpool,14,Edges of objects
+avgpool,15,Organs and arches
+avgpool,16,Red and yellow objects
+avgpool,17,Nature
+avgpool,18,Coral and food
+avgpool,19,Black and white colored objects
+avgpool,20,Round objects
+avgpool,21,Living things
+avgpool,22,Electronics
+avgpool,23,Speedometer and electronics
+avgpool,24,Specific patterns
+avgpool,25,Edges of objects
+avgpool,26,Food
+avgpool,27,Nature
+avgpool,28,"Nature, animal"
+avgpool,29,Red colored objects
+avgpool,30,Edges of objects
+avgpool,31,Animals
+avgpool,32,Vehicles
+avgpool,33,Written text
+avgpool,34,Black and white colored objects
+avgpool,35,Animal fur
+avgpool,36,Vertical lines
+avgpool,37,"Food, coral and manhole covers"
+avgpool,38,Vertical lines
+avgpool,39,Bodies of water
+avgpool,40,Dresses
+avgpool,41,Diagonal lines
+avgpool,42,Dog ears
+avgpool,43,Nature
+avgpool,44,Edges of objects
+avgpool,45,Faces of people
+avgpool,46,Cages
+avgpool,47,Edges of objects
+avgpool,48,Items that are knitted and cheetahs
+avgpool,49,Textured areas
+avgpool,50,Regions with straight features
+avgpool,51,Animal fur
+avgpool,52,Balls
+avgpool,53,Metal objects
+avgpool,54,Nature
+avgpool,55,Animals
+avgpool,56,Water
+avgpool,57,Similar color patterns
+avgpool,58,Green areas in picture
+avgpool,59,Edges of objects
+avgpool,60,Animal
+avgpool,61,Edges of objects
+avgpool,62,Body parts
+avgpool,63,Circular objects
+avgpool,64,Edges of objects
+avgpool,65,Nature
+avgpool,66,Cluster of objects
+avgpool,67,Vertical lines
+avgpool,68,Green areas in picture
+avgpool,69,Animals
+avgpool,70,Tennis racket
+avgpool,71,Rounded edges in pictures
+avgpool,72,Red and orange objects
+avgpool,73,Circular objects
+avgpool,74,Clothing
+avgpool,75,Edges of objects
+avgpool,76,Patterned objects
+avgpool,77,Items with straight features
+avgpool,78,Textured areas
+avgpool,79,Items with straight features
+avgpool,80,Red areas in picture
+avgpool,81,The bottom of objects
+avgpool,82,Edges of objects
+avgpool,83,People and dogs
+avgpool,84,Furniture
+avgpool,85,Diagonal lines
+avgpool,86,"Aquatic life, food"
+avgpool,87,"Fruit, food"
+avgpool,88,Vehicles
+avgpool,89,Edges of objects
+avgpool,90,Edges of objects
+avgpool,91,Diagonal lines
+avgpool,92,Animals
+avgpool,93,Orange and yellow objects
+avgpool,94,Vertical line pattern on objects
+avgpool,95,Rounded edges in pictures
+avgpool,96,Windows
+avgpool,97,People and buildings
+avgpool,98,Dog ears
+avgpool,99,Patterned objects
+avgpool,100,Edges of objects
+avgpool,101,Nature
+avgpool,102,Nature
+avgpool,103,Edges of objects
+avgpool,104,Airplanes
+avgpool,105,Text on a web page
+avgpool,106,People
+avgpool,107,Edges of objects
+avgpool,108,Edges of objects
+avgpool,109,Edges of objects
+avgpool,110,Animal heads
+avgpool,111,Diagonal lines
+avgpool,112,Edges of objects
+avgpool,113,Written text
+avgpool,114,"Person, food"
+avgpool,115,Dogs and people
+avgpool,116,Furniture
+avgpool,117,White backgrounds
+avgpool,118,"Food, building"
+avgpool,119,Dresses
+avgpool,120,The ground
+avgpool,121,Keyboards
+avgpool,122,Round objects
+avgpool,123,Layered places
+avgpool,124,Fur of animals
+avgpool,125,Faces
+avgpool,126,Rounded edges in pictures
+avgpool,127,Animal
+avgpool,128,Regions with straight features
+avgpool,129,Edges of objects
+avgpool,130,Sign boards with text in it
+avgpool,131,Diagonal lines
+avgpool,132,Diagonal lines
+avgpool,133,Birds
+avgpool,134,Red and white colored objects
+avgpool,135,Bugs
+avgpool,136,Rounded edges in pictures
+avgpool,137,Edges of objects
+avgpool,138,Edges of objects
+avgpool,139,Regions with straight features
+avgpool,140,Furniture
+avgpool,141,Yellow areas in pictures
+avgpool,142,Nature
+avgpool,143,Edges of objects
+avgpool,144,Rounded edges in pictures
+avgpool,145,Round edges on objects
+avgpool,146,Fur of animals
+avgpool,147,Fire
+avgpool,148,Faces of things
+avgpool,149,Nature
+avgpool,150,Items with designs
+avgpool,151,Edges of objects
+avgpool,152,"Person, animal"
+avgpool,153,"Animal, person"
+avgpool,154,The middle of objects
+avgpool,155,Circular objects
+avgpool,156,Animal fur
+avgpool,157,Animals
+avgpool,158,Food
+avgpool,159,Animals
+avgpool,160,The bottoms of objects
+avgpool,161,Nature
+avgpool,162,Edges of objects
+avgpool,163,Black and white colored objects
+avgpool,164,Diagonal lines
+avgpool,165,Rounded edges in pictures
+avgpool,166,The ground
+avgpool,167,Edges of objects
+avgpool,168,"Gusher of water, water"
+avgpool,169,Circles
+avgpool,170,Nature
+avgpool,171,Rounded edges in pictures
+avgpool,172,Edges of objects
+avgpool,173,Animal
+avgpool,174,Edges of objects
+avgpool,175,Similar color patterns
+avgpool,176,Diagonal lines
+avgpool,177,Motorcycles
+avgpool,178,Pineapples and flowers
+avgpool,179,Diagonal lines
+avgpool,180,Orange and yellow areas
+avgpool,181,Food
+avgpool,182,Landscapes
+avgpool,183,Items with designs
+avgpool,184,"Animals, people and the sky"
+avgpool,185,Pink carpet
+avgpool,186,Edges of objects
+avgpool,187,Edges of objects
+avgpool,188,Keyboard and keyboards
+avgpool,189,Similar color patterns
+avgpool,190,Diagonal lines
+avgpool,191,Orange colored objects
+avgpool,192,Edges of objects
+avgpool,193,Airplanes
+avgpool,194,Edges of objects
+avgpool,195,Edges of objects
+avgpool,196,Items with designs
+avgpool,197,Straight lines
+avgpool,198,Edges of objects
+avgpool,199,Round edges on objects
+avgpool,200,Rounded edges in pictures
+avgpool,201,Edges of objects
+avgpool,202,Grass
+avgpool,203,Diagonal lines
+avgpool,204,Grass
+avgpool,205,Stripes
+avgpool,206,Edges of objects
+avgpool,207,Edges of objects
+avgpool,208,Vertical line pattern on objects
+avgpool,209,"Plant life, insects"
+avgpool,210,Circular objects
+avgpool,211,The left side of objects
+avgpool,212,Dog ears
+avgpool,213,Items with straight features
+avgpool,214,Nature
+avgpool,215,Similar color patterns
+avgpool,216,Electronics
+avgpool,217,Animals
+avgpool,218,Spotted areas in picture
+avgpool,219,Clothing
+avgpool,220,Rounded edges in pictures
+avgpool,221,Grass
+avgpool,222,Keyboards
+avgpool,223,Striped objects
+avgpool,224,Food
+avgpool,225,Rounded edges in pictures
+avgpool,226,Mountains and mountains
+avgpool,227,Round edges on objects
+avgpool,228,Animals and grass
+avgpool,229,Edges of objects
+avgpool,230,Edges of objects
+avgpool,231,Edges of objects
+avgpool,232,People and animals
+avgpool,233,Orange and yellow areas
+avgpool,234,Curved lines
+avgpool,235,Red and orange objects
+avgpool,236,People
+avgpool,237,Edges of objects
+avgpool,238,Circles
+avgpool,239,Black and white colored objects
+avgpool,240,Edges of objects
+avgpool,241,Dresses
+avgpool,242,Dogs and other animals
+avgpool,243,Layered places
+avgpool,244,Rounded edges in pictures
+avgpool,245,Birds
+avgpool,246,Edges of objects
+avgpool,247,Edges of objects
+avgpool,248,Circular objects
+avgpool,249,Nature
+avgpool,250,Mountains and valleys
+avgpool,251,Animals and food
+avgpool,252,Vertical line pattern on objects
+avgpool,253,Stripes
+avgpool,254,Mma fighters
+avgpool,255,Nature
+avgpool,256,Dogs and other animals
+avgpool,257,Green areas in picture
+avgpool,258,Rounded edges in pictures
+avgpool,259,Items with circular features
+avgpool,260,Edges of objects
+avgpool,261,Circles
+avgpool,262,Vertical line pattern on objects
+avgpool,263,Edges of objects
+avgpool,264,Food
+avgpool,265,Diagonal lines
+avgpool,266,Dogs and other animals
+avgpool,267,Porcelain and white objects
+avgpool,268,People and animals
+avgpool,269,Horizontal lines
+avgpool,270,Items with straight features
+avgpool,271,Animal
+avgpool,272,Black and white colored objects
+avgpool,273,Neon lights
+avgpool,274,Dogs
+avgpool,275,"People, animals"
+avgpool,276,Sharks and underwater animals
+avgpool,277,Nature
+avgpool,278,Black and white colored objects
+avgpool,279,Sunglasses
+avgpool,280,Animals in the wild
+avgpool,281,Edges of objects
+avgpool,282,Grids
+avgpool,283,Snow and blue skies
+avgpool,284,Birds and butterflies
+avgpool,285,Items with circular features
+avgpool,286,Stripes
+avgpool,287,Edges of objects
+avgpool,288,Edges of objects
+avgpool,289,"Person, animal"
+avgpool,290,Edges of objects
+avgpool,291,Vertical lines
+avgpool,292,Animals and food
+avgpool,293,Bird legs
+avgpool,294,Coral and food
+avgpool,295,Circular objects and animals
+avgpool,296,Rectangular objects
+avgpool,297,Items with straight features
+avgpool,298,Items with designs
+avgpool,299,Cluster of objects
+avgpool,300,Black and white objects
+avgpool,301,Edges of objects
+avgpool,302,Rounded edges in pictures
+avgpool,303,Vertical lines
+avgpool,304,Nature
+avgpool,305,"Aquatic life, animals"
+avgpool,306,Round edges on objects
+avgpool,307,Nature
+avgpool,308,Vertical line pattern on objects
+avgpool,309,"Person, animal"
+avgpool,310,Nature
+avgpool,311,Edges of objects
+avgpool,312,Red and white colored objects
+avgpool,313,Items with circular features
+avgpool,314,Edges of objects
+avgpool,315,Nature
+avgpool,316,Fruits and vegetables
+avgpool,317,Rounded edges in pictures
+avgpool,318,Nature
+avgpool,319,Vertical line pattern on objects
+avgpool,320,Items with designs
+avgpool,321,The sky and planes
+avgpool,322,Circular objects
+avgpool,323,Dogs
+avgpool,324,Edges of objects
+avgpool,325,Circular items
+avgpool,326,Circular objects
+avgpool,327,Edges of teapots and mugs
+avgpool,328,Regions with straight features
+avgpool,329,Diagonal lines
+avgpool,330,Vehicles and roads
+avgpool,331,Food
+avgpool,332,Items with straight features
+avgpool,333,Fur of animals
+avgpool,334,Red and white colored objects
+avgpool,335,Similar color patterns
+avgpool,336,Nature
+avgpool,337,Sea life
+avgpool,338,Rounded edges in pictures
+avgpool,339,Items that are knitted
+avgpool,340,Red colored objects
+avgpool,341,Soccer players
+avgpool,342,Nature
+avgpool,343,Edges of objects
+avgpool,344,Nature
+avgpool,345,Animals
+avgpool,346,Animal legs
+avgpool,347,Edges of objects
+avgpool,348,Rounded edges in pictures
+avgpool,349,Blue skies
+avgpool,350,Sharks
+avgpool,351,Round edges on objects
+avgpool,352,Edges of objects
+avgpool,353,Red and purple objects
+avgpool,354,Blue and red objects
+avgpool,355,Items with designs
+avgpool,356,Edges of objects
+avgpool,357,Plant life
+avgpool,358,Fur of animals
+avgpool,359,Round objects
+avgpool,360,Edges of objects
+avgpool,361,Diagonal lines
+avgpool,362,Edges of objects
+avgpool,363,Diagonal lines
+avgpool,364,Edges of objects
+avgpool,365,Items with designs
+avgpool,366,Nature
+avgpool,367,People
+avgpool,368,Electronics
+avgpool,369,Items with straight features
+avgpool,370,Nature
+avgpool,371,Living things
+avgpool,372,White areas
+avgpool,373,Keyboards
+avgpool,374,Edges of objects
+avgpool,375,Athletes
+avgpool,376,Red and orange objects
+avgpool,377,Edges of objects
+avgpool,378,Animal fur
+avgpool,379,Birds
+avgpool,380,Food
+avgpool,381,Regions with straight features
+avgpool,382,Walls
+avgpool,383,Regions with straight features
+avgpool,384,"People, animals"
+avgpool,385,"Water, person, animal"
+avgpool,386,Rounded edges in pictures
+avgpool,387,Birds
+avgpool,388,Items with straight features
+avgpool,389,Nature
+avgpool,390,Nature
+avgpool,391,Clocks and speedometer
+avgpool,392,Striped objects
+avgpool,393,Cages
+avgpool,394,Items with circular features
+avgpool,395,Red and white colored objects
+avgpool,396,Food
+avgpool,397,Items with straight features
+avgpool,398,Nature
+avgpool,399,Animals
+avgpool,400,Green objects
+avgpool,401,Aquatic life
+avgpool,402,Dogs and other animals
+avgpool,403,Edges of objects
+avgpool,404,Edges of objects
+avgpool,405,Bottles
+avgpool,406,Numbers and letters
+avgpool,407,Edges of objects
+avgpool,408,Edges of objects
+avgpool,409,Athletes
+avgpool,410,Animals
+avgpool,411,Living things
+avgpool,412,Vertical lines
+avgpool,413,Edges of objects
+avgpool,414,Similar color patterns
+avgpool,415,Edges of objects
+avgpool,416,Similar color patterns
+avgpool,417,Nature
+avgpool,418,Faces of things
+avgpool,419,Stripes
+avgpool,420,Food
+avgpool,421,Items with circular features
+avgpool,422,Birds
+avgpool,423,Text on a menu
+avgpool,424,The ocean
+avgpool,425,Edges of objects
+avgpool,426,Green colored objects
+avgpool,427,Vehicles
+avgpool,428,Diagonal lines
+avgpool,429,Rounded edges in pictures
+avgpool,430,People
+avgpool,431,Diagonal lines
+avgpool,432,Rounded edges in pictures
+avgpool,433,Edges of objects
+avgpool,434,Textured areas
+avgpool,435,Sky and water
+avgpool,436,Edges of objects
+avgpool,437,Edges of objects
+avgpool,438,Diagonal lines
+avgpool,439,Rounded edges in pictures
+avgpool,440,Food
+avgpool,441,Edges of objects
+avgpool,442,Legs
+avgpool,443,Edges of objects
+avgpool,444,Items with straight features
+avgpool,445,Animals
+avgpool,446,Furniture
+avgpool,447,Arches
+avgpool,448,Nature
+avgpool,449,Purple and pink objects
+avgpool,450,Grids
+avgpool,451,Edges of objects
+avgpool,452,Vertical line pattern on objects
+avgpool,453,White areas
+avgpool,454,Similar color patterns
+avgpool,455,Diagonal lines
+avgpool,456,Vehicles and trains
+avgpool,457,Black and white colored objects
+avgpool,458,"People, food, and furniture"
+avgpool,459,Elephants and dinosaur fossils
+avgpool,460,Aquatic life
+avgpool,461,Edges of objects
+avgpool,462,Rounded edges in pictures
+avgpool,463,Animals
+avgpool,464,Vertical line pattern on objects
+avgpool,465,Black and white colored objects
+avgpool,466,Diagonal lines
+avgpool,467,Similar color patterns
+avgpool,468,Hats
+avgpool,469,Nature
+avgpool,470,Nature
+avgpool,471,Animals
+avgpool,472,Edges of objects
+avgpool,473,Edges of objects
+avgpool,474,Dogs and other animals
+avgpool,475,Edges of objects
+avgpool,476,Edges of objects
+avgpool,477,Nature
+avgpool,478,Animal fur
+avgpool,479,Lights
+avgpool,480,Ships and water
+avgpool,481,Nature
+avgpool,482,Edges of objects
+avgpool,483,Nature
+avgpool,484,Books and teeth
+avgpool,485,Dog ears
+avgpool,486,Nature
+avgpool,487,Edges of objects
+avgpool,488,Green colored objects
+avgpool,489,Edges of objects
+avgpool,490,Green plants and vegetables
+avgpool,491,Vertical line pattern on objects
+avgpool,492,Edges of objects
+avgpool,493,Animals
+avgpool,494,Rounded edges in pictures
+avgpool,495,Dogs and people
+avgpool,496,Layered places
+avgpool,497,Striped objects
+avgpool,498,Food
+avgpool,499,Edges of objects
+avgpool,500,Edges of objects
+avgpool,501,Items of central focus
+avgpool,502,Similar color patterns
+avgpool,503,Arched entry way
+avgpool,504,Round objects
+avgpool,505,Items with designs
+avgpool,506,Edges of objects
+avgpool,507,Similar color patterns
+avgpool,508,Vertical line pattern on objects
+avgpool,509,"People, water, boat"
+avgpool,510,Water
+avgpool,511,Animals

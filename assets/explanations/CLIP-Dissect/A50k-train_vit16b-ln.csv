@@ -1,0 +1,769 @@
+layer,unit,description,similarity
+encoder.ln,0,trench coat,0.12890625
+encoder.ln,1,"unicycle, monocycle",0.06008911
+encoder.ln,2,textile,0.087890625
+encoder.ln,3,"saltshaker, salt shaker",0.094573975
+encoder.ln,4,"china cabinet, china closet",0.10055542
+encoder.ln,5,"crane, machine",0.09371948
+encoder.ln,6,Italian greyhound,0.16812134
+encoder.ln,7,"cocker spaniel, English cocker spaniel, cocker",0.1532898
+encoder.ln,8,purses,0.12609863
+encoder.ln,9,"ringneck snake, ring-necked snake, ring snake",0.06460571
+encoder.ln,10,alligator lizard,0.23199463
+encoder.ln,11,coffee mug,0.11160278
+encoder.ln,12,"pencil box, pencil case",0.081604004
+encoder.ln,13,"long-horned beetle, longicorn, longicorn beetle",0.11248779
+encoder.ln,14,soft-coated wheaten terrier,0.2672119
+encoder.ln,15,waffle iron,0.08328247
+encoder.ln,16,"ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin",0.14907837
+encoder.ln,17,"confectionery, confectionary, candy store",0.10714722
+encoder.ln,18,"Sealyham terrier, Sealyham",0.1748352
+encoder.ln,19,"Sealyham terrier, Sealyham",0.13613892
+encoder.ln,20,library,0.06365967
+encoder.ln,21,shopzilla,0.06652832
+encoder.ln,22,wooden spoon,0.09991455
+encoder.ln,23,"motor scooter, scooter",0.14315796
+encoder.ln,24,black-and-tan coonhound,0.12857056
+encoder.ln,25,printprinter,0.10192871
+encoder.ln,26,barber,0.108184814
+encoder.ln,27,diapers,0.09576416
+encoder.ln,28,"pencil box, pencil case",0.111816406
+encoder.ln,29,fragrances,0.1210022
+encoder.ln,30,"hand-held computer, hand-held microcomputer",0.08432007
+encoder.ln,31,booksellers,0.06277466
+encoder.ln,32,Crock Pot,0.4465332
+encoder.ln,33,"washbasin, handbasin, washbowl, lavabo, wash-hand basin",0.09378052
+encoder.ln,34,parking meter,0.077545166
+encoder.ln,35,French bulldog,0.08773804
+encoder.ln,36,"English springer, English springer spaniel",0.117492676
+encoder.ln,37,Blenheim spaniel,0.3871765
+encoder.ln,38,bindings,0.11074829
+encoder.ln,39,poured,0.09158325
+encoder.ln,40,"hand-held computer, hand-held microcomputer",0.09854126
+encoder.ln,41,manufacturer,0.07067871
+encoder.ln,42,"barrow, garden cart, lawn cart, wheelbarrow",0.08068848
+encoder.ln,43,"corkscrew, bottle screw",0.09918213
+encoder.ln,44,"hand-held computer, hand-held microcomputer",0.09561157
+encoder.ln,45,steel arch bridge,0.15042114
+encoder.ln,46,"pencil box, pencil case",0.15631104
+encoder.ln,47,"mobile home, manufactured home",0.14208984
+encoder.ln,48,shower curtain,0.1048584
+encoder.ln,49,workstation,0.10192871
+encoder.ln,50,cleaning,0.054107666
+encoder.ln,51,mosque,0.13119507
+encoder.ln,52,maypole,0.09753418
+encoder.ln,53,dinner,0.08416748
+encoder.ln,54,epoxy,0.074920654
+encoder.ln,55,archbishop,0.056243896
+encoder.ln,56,"tobacco shop, tobacconist shop, tobacconist",0.08578491
+encoder.ln,57,"letter opener, paper knife, paperknife",0.07888794
+encoder.ln,58,trivium,0.059692383
+encoder.ln,59,Shih-Tzu,0.2868042
+encoder.ln,60,"pencil box, pencil case",0.09829712
+encoder.ln,61,chainlink fence,0.08996582
+encoder.ln,62,mating,0.2140503
+encoder.ln,63,"rocking chair, rocker",0.11151123
+encoder.ln,64,"Tibetan terrier, chrysanthemum dog",0.25967407
+encoder.ln,65,"microwave, microwave oven",0.068237305
+encoder.ln,66,spatula,0.06607056
+encoder.ln,67,table lamp,0.065216064
+encoder.ln,68,goblet,0.10040283
+encoder.ln,69,schipperke,0.13220215
+encoder.ln,70,"spider monkey, Ateles geoffroyi",0.08981323
+encoder.ln,71,supervise,0.0982666
+encoder.ln,72,"pencil box, pencil case",0.10040283
+encoder.ln,73,telefonsex,0.08905029
+encoder.ln,74,ladle,0.15249634
+encoder.ln,75,tunisia,0.08856201
+encoder.ln,76,plastic bag,0.07321167
+encoder.ln,77,maize,0.06341553
+encoder.ln,78,percussion,0.10934448
+encoder.ln,79,sonyericsson,0.13510132
+encoder.ln,80,"hippopotamus, hippo, river horse, Hippopotamus amphibius",0.19604492
+encoder.ln,81,miniature pinscher,0.10165405
+encoder.ln,82,Labrador retriever,0.09918213
+encoder.ln,83,"capuchin, ringtail, Cebus capucinus",0.21160889
+encoder.ln,84,street,0.07888794
+encoder.ln,85,"loudspeaker, speaker, speaker unit, loudspeaker system, speaker system",0.08035278
+encoder.ln,86,"pick, plectrum, plectron",0.13668823
+encoder.ln,87,fountains,0.06921387
+encoder.ln,88,"Walker hound, Walker foxhound",0.10922241
+encoder.ln,89,sniper,0.083984375
+encoder.ln,90,"solar dish, solar collector, solar furnace",0.07562256
+encoder.ln,91,bassoon,0.11895752
+encoder.ln,92,rustic,0.063964844
+encoder.ln,93,"Pekinese, Pekingese, Peke",0.16546631
+encoder.ln,94,subwoofer,0.06741333
+encoder.ln,95,headquarters,0.12600708
+encoder.ln,96,"letter opener, paper knife, paperknife",0.19042969
+encoder.ln,97,"bannister, banister, balustrade, balusters, handrail",0.16149902
+encoder.ln,98,"bucket, pail",0.11428833
+encoder.ln,99,desktop computer,0.1083374
+encoder.ln,100,painter,0.062194824
+encoder.ln,101,habitat,0.16494751
+encoder.ln,102,"lacewing, lacewing fly",0.18469238
+encoder.ln,103,measuring cup,0.09298706
+encoder.ln,104,hooded,0.083740234
+encoder.ln,105,rain barrel,0.08590698
+encoder.ln,106,bracelet,0.08786011
+encoder.ln,107,military uniform,0.05859375
+encoder.ln,108,carpets,0.08984375
+encoder.ln,109,black-and-tan coonhound,0.33010864
+encoder.ln,110,kitchen,0.12728882
+encoder.ln,111,handbag,0.09869385
+encoder.ln,112,"solar dish, solar collector, solar furnace",0.09603882
+encoder.ln,113,"academic gown, academic robe, judge's robe",0.114990234
+encoder.ln,114,"Bouvier des Flandres, Bouviers des Flandres",0.14761353
+encoder.ln,115,fasteners,0.059661865
+encoder.ln,116,handle,0.08230591
+encoder.ln,117,"can opener, tin opener",0.07574463
+encoder.ln,118,"Boston bull, Boston terrier",0.056884766
+encoder.ln,119,"trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi",0.11956787
+encoder.ln,120,soup,0.1687622
+encoder.ln,121,"Doberman, Doberman pinscher",0.3373413
+encoder.ln,122,rapeseed,0.74749756
+encoder.ln,123,"English springer, English springer spaniel",0.10638428
+encoder.ln,124,Border collie,0.08746338
+encoder.ln,125,soup bowl,0.10583496
+encoder.ln,126,belts,0.08062744
+encoder.ln,127,Rhodesian ridgeback,0.074920654
+encoder.ln,128,rake,0.13513184
+encoder.ln,129,"dalmatian, coach dog, carriage dog",0.12585449
+encoder.ln,130,Leonberg,0.16546631
+encoder.ln,131,"gar, garfish, garpike, billfish, Lepisosteus osseus",0.08950806
+encoder.ln,132,"pajama, pyjama, pj's, jammies",0.06921387
+encoder.ln,133,"rock crab, Cancer irroratus",0.3257141
+encoder.ln,134,percussion,0.07644653
+encoder.ln,135,abaya,0.1408081
+encoder.ln,136,"ice lolly, lolly, lollipop, popsicle",0.14337158
+encoder.ln,137,"Indian elephant, Elephas maximus",0.12289429
+encoder.ln,138,tranny,0.072265625
+encoder.ln,139,fasteners,0.096588135
+encoder.ln,140,"corkscrew, bottle screw",0.08224487
+encoder.ln,141,snowboard,0.060394287
+encoder.ln,142,musician,0.07281494
+encoder.ln,143,hurricane,0.071136475
+encoder.ln,144,"plunger, plumber's helper",0.073791504
+encoder.ln,145,espresso maker,0.09854126
+encoder.ln,146,kiosk,0.069366455
+encoder.ln,147,"corkscrew, bottle screw",0.2802124
+encoder.ln,148,table lamp,0.11566162
+encoder.ln,149,"corkscrew, bottle screw",0.12384033
+encoder.ln,150,"bicycle-built-for-two, tandem bicycle, tandem",0.11380005
+encoder.ln,151,fasteners,0.079711914
+encoder.ln,152,"hand-held computer, hand-held microcomputer",0.06518555
+encoder.ln,153,"racket, racquet",0.06021118
+encoder.ln,154,ambulance,0.11260986
+encoder.ln,155,surveying,0.06304932
+encoder.ln,156,carts,0.08502197
+encoder.ln,157,Blenheim spaniel,0.07156372
+encoder.ln,158,trailers,0.0637207
+encoder.ln,159,soft-coated wheaten terrier,0.093933105
+encoder.ln,160,toyshop,0.10803223
+encoder.ln,161,wire-haired fox terrier,0.21176147
+encoder.ln,162,sarong,0.08999634
+encoder.ln,163,cassette player,0.058441162
+encoder.ln,164,"china cabinet, china closet",0.11392212
+encoder.ln,165,"butcher shop, meat market",0.068573
+encoder.ln,166,street sign,0.089263916
+encoder.ln,167,habitat,0.08325195
+encoder.ln,168,"Tibetan terrier, chrysanthemum dog",0.12338257
+encoder.ln,169,West Highland white terrier,0.1010437
+encoder.ln,170,"home theater, home theatre",0.19696045
+encoder.ln,171,"pencil box, pencil case",0.09716797
+encoder.ln,172,flat-coated retriever,0.10958862
+encoder.ln,173,"cellular telephone, cellular phone, cellphone, cell, mobile phone",0.114746094
+encoder.ln,174,kuvasz,0.07461548
+encoder.ln,175,bookstores,0.06277466
+encoder.ln,176,English setter,0.18109131
+encoder.ln,177,"hand-held computer, hand-held microcomputer",0.13720703
+encoder.ln,178,"borzoi, Russian wolfhound",0.073516846
+encoder.ln,179,dewalt,0.07925415
+encoder.ln,180,"pencil box, pencil case",0.11691284
+encoder.ln,181,"Tibetan terrier, chrysanthemum dog",0.28128052
+encoder.ln,182,mud turtle,0.19119263
+encoder.ln,183,Great Dane,0.19268799
+encoder.ln,184,armadillo,0.21069336
+encoder.ln,185,pencil sharpener,0.106903076
+encoder.ln,186,beach,0.108184814
+encoder.ln,187,"sunscreen, sunblock, sun blocker",0.08026123
+encoder.ln,188,barbell,0.20986938
+encoder.ln,189,whiskey jug,0.17929077
+encoder.ln,190,musicians,0.08276367
+encoder.ln,191,"lighter, light, igniter, ignitor",0.087371826
+encoder.ln,192,"Maltese dog, Maltese terrier, Maltese",0.22583008
+encoder.ln,193,"grey fox, gray fox, Urocyon cinereoargenteus",0.12823486
+encoder.ln,194,whiskey jug,0.075408936
+encoder.ln,195,water jug,0.25613403
+encoder.ln,196,"Scotch terrier, Scottish terrier, Scottie",0.152771
+encoder.ln,197,"corkscrew, bottle screw",0.20953369
+encoder.ln,198,bookshop,0.061645508
+encoder.ln,199,"vizsla, Hungarian pointer",0.40628052
+encoder.ln,200,barbershop,0.110198975
+encoder.ln,201,Labrador retriever,0.2024231
+encoder.ln,202,eel,0.07720947
+encoder.ln,203,"pencil box, pencil case",0.08483887
+encoder.ln,204,"Samoyed, Samoyede",0.122039795
+encoder.ln,205,Australian terrier,0.19192505
+encoder.ln,206,"plane, carpenter's plane, woodworking plane",0.1635437
+encoder.ln,207,hoodia,0.06442261
+encoder.ln,208,hair spray,0.08807373
+encoder.ln,209,abaya,0.06124878
+encoder.ln,210,"washer, automatic washer, washing machine",0.09643555
+encoder.ln,211,soap dispenser,0.13265991
+encoder.ln,212,sinks,0.11608887
+encoder.ln,213,bookcase,0.10043335
+encoder.ln,214,"wallet, billfold, notecase, pocketbook",0.12866211
+encoder.ln,215,drumstick,0.123809814
+encoder.ln,216,exhibits,0.07992554
+encoder.ln,217,stethoscope,0.10470581
+encoder.ln,218,clamp,0.08065796
+encoder.ln,219,vases,0.0769043
+encoder.ln,220,bridging,0.061584473
+encoder.ln,221,televisions,0.11947632
+encoder.ln,222,laserjet,0.14620972
+encoder.ln,223,camcorders,0.085235596
+encoder.ln,224,beagle,0.07470703
+encoder.ln,225,"hand-held computer, hand-held microcomputer",0.08892822
+encoder.ln,226,suites,0.08804321
+encoder.ln,227,lighthouse,0.13800049
+encoder.ln,228,Brittany spaniel,0.2626953
+encoder.ln,229,stethoscope,0.07946777
+encoder.ln,230,"Bouvier des Flandres, Bouviers des Flandres",0.068847656
+encoder.ln,231,merchandising,0.07254028
+encoder.ln,232,sonyericsson,0.09979248
+encoder.ln,233,vase,0.14505005
+encoder.ln,234,French bulldog,0.13516235
+encoder.ln,235,"night snake, Hypsiglena torquata",0.20977783
+encoder.ln,236,musician,0.092926025
+encoder.ln,237,Italian greyhound,0.10714722
+encoder.ln,238,"pencil box, pencil case",0.1425476
+encoder.ln,239,"Shetland sheepdog, Shetland sheep dog, Shetland",0.11541748
+encoder.ln,240,whirlpool,0.054779053
+encoder.ln,241,restaurants,0.07022095
+encoder.ln,242,radio,0.099121094
+encoder.ln,243,strainer,0.15267944
+encoder.ln,244,Labrador retriever,0.071380615
+encoder.ln,245,"German shepherd, German shepherd dog, German police dog, alsatian",0.18286133
+encoder.ln,246,"Pekinese, Pekingese, Peke",0.09240723
+encoder.ln,247,"bathing cap, swimming cap",0.12954712
+encoder.ln,248,"red-backed sandpiper, dunlin, Erolia alpina",0.18634033
+encoder.ln,249,"trolleybus, trolley coach, trackless trolley",0.0881958
+encoder.ln,250,"refrigerator, icebox",0.10836792
+encoder.ln,251,"hand-held computer, hand-held microcomputer",0.14956665
+encoder.ln,252,black-and-tan coonhound,0.08917236
+encoder.ln,253,"pencil box, pencil case",0.22747803
+encoder.ln,254,"chime, bell, gong",0.07601929
+encoder.ln,255,"skunk, polecat, wood pussy",0.0793457
+encoder.ln,256,magnetic compass,0.11682129
+encoder.ln,257,power drill,0.17822266
+encoder.ln,258,pcmcia,0.069244385
+encoder.ln,259,archery,0.06976318
+encoder.ln,260,table lamp,0.11550903
+encoder.ln,261,"gar, garfish, garpike, billfish, Lepisosteus osseus",0.076416016
+encoder.ln,262,"Bouvier des Flandres, Bouviers des Flandres",0.11740112
+encoder.ln,263,Shih-Tzu,0.16888428
+encoder.ln,264,plastic bag,0.06655884
+encoder.ln,265,"bathing cap, swimming cap",0.084350586
+encoder.ln,266,"bicycle-built-for-two, tandem bicycle, tandem",0.11764526
+encoder.ln,267,stone wall,0.07650757
+encoder.ln,268,"water buffalo, water ox, Asiatic buffalo, Bubalus bubalis",0.29714966
+encoder.ln,269,alligator lizard,0.19781494
+encoder.ln,270,sarong,0.10647583
+encoder.ln,271,candid,0.04611206
+encoder.ln,272,coffee mug,0.10708618
+encoder.ln,273,rifle,0.08682251
+encoder.ln,274,sea snake,0.12023926
+encoder.ln,275,rangers,0.06478882
+encoder.ln,276,"Ibizan hound, Ibizan Podenco",0.09802246
+encoder.ln,277,window shade,0.08557129
+encoder.ln,278,toy terrier,0.15924072
+encoder.ln,279,"Afghan hound, Afghan",0.14706421
+encoder.ln,280,perfumes,0.082336426
+encoder.ln,281,"wallet, billfold, notecase, pocketbook",0.16455078
+encoder.ln,282,toy terrier,0.10144043
+encoder.ln,283,boiler,0.07897949
+encoder.ln,284,"cowboy hat, ten-gallon hat",0.08847046
+encoder.ln,285,"cornet, horn, trumpet, trump",0.14593506
+encoder.ln,286,"notebook, notebook computer",0.10122681
+encoder.ln,287,"Saint Bernard, St Bernard",0.124572754
+encoder.ln,288,"restaurant, eating house, eating place, eatery",0.073913574
+encoder.ln,289,barber,0.062316895
+encoder.ln,290,key,0.08227539
+encoder.ln,291,desktop computer,0.10446167
+encoder.ln,292,"letter opener, paper knife, paperknife",0.06295776
+encoder.ln,293,Gordon setter,0.11212158
+encoder.ln,294,"flute, transverse flute",0.121154785
+encoder.ln,295,water jug,0.09350586
+encoder.ln,296,"solar dish, solar collector, solar furnace",0.12948608
+encoder.ln,297,Yorkshire terrier,0.14749146
+encoder.ln,298,"home theater, home theatre",0.12017822
+encoder.ln,299,"academic gown, academic robe, judge's robe",0.11437988
+encoder.ln,300,"vizsla, Hungarian pointer",0.19021606
+encoder.ln,301,"plane, carpenter's plane, woodworking plane",0.08218384
+encoder.ln,302,"swimming trunks, bathing trunks",0.10751343
+encoder.ln,303,"washbasin, handbasin, washbowl, lavabo, wash-hand basin",0.09567261
+encoder.ln,304,sarong,0.055847168
+encoder.ln,305,maraca,0.06109619
+encoder.ln,306,"sandbar, sand bar",0.09475708
+encoder.ln,307,pcmcia,0.07342529
+encoder.ln,308,swings,0.08242798
+encoder.ln,309,tub,0.109954834
+encoder.ln,310,"vizsla, Hungarian pointer",0.33544922
+encoder.ln,311,drumstick,0.13534546
+encoder.ln,312,"fox squirrel, eastern fox squirrel, Sciurus niger",0.25357056
+encoder.ln,313,giant schnauzer,0.12554932
+encoder.ln,314,"pug, pug-dog",0.14025879
+encoder.ln,315,"cocker spaniel, English cocker spaniel, cocker",0.21704102
+encoder.ln,316,mask,0.059814453
+encoder.ln,317,Bernese mountain dog,0.11413574
+encoder.ln,318,hamper,0.109436035
+encoder.ln,319,archery,0.08325195
+encoder.ln,320,standard poodle,0.13320923
+encoder.ln,321,bookcase,0.15963745
+encoder.ln,322,registers,0.056274414
+encoder.ln,323,Gordon setter,0.10650635
+encoder.ln,324,go-kart,0.29019165
+encoder.ln,325,"silky terrier, Sydney silky",0.11062622
+encoder.ln,326,"chambered nautilus, pearly nautilus, nautilus",0.07824707
+encoder.ln,327,sleeping bag,0.0864563
+encoder.ln,328,archery,0.05368042
+encoder.ln,329,Border collie,0.29205322
+encoder.ln,330,swimsuit,0.07067871
+encoder.ln,331,sewing machine,0.081726074
+encoder.ln,332,stethoscope,0.25445557
+encoder.ln,333,screening,0.081726074
+encoder.ln,334,"tobacco shop, tobacconist shop, tobacconist",0.093566895
+encoder.ln,335,"affenpinscher, monkey pinscher, monkey dog",0.1465149
+encoder.ln,336,"lumbermill, sawmill",0.09017944
+encoder.ln,337,"restaurant, eating house, eating place, eatery",0.08459473
+encoder.ln,338,"washbasin, handbasin, washbowl, lavabo, wash-hand basin",0.09573364
+encoder.ln,339,planetarium,0.07696533
+encoder.ln,340,"patio, terrace",0.08682251
+encoder.ln,341,workstations,0.108551025
+encoder.ln,342,eel,0.104766846
+encoder.ln,343,black-and-tan coonhound,0.24502563
+encoder.ln,344,"koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus",0.3928833
+encoder.ln,345,"Shetland sheepdog, Shetland sheep dog, Shetland",0.25042725
+encoder.ln,346,soups,0.07736206
+encoder.ln,347,"red wolf, maned wolf, Canis rufus, Canis niger",0.10964966
+encoder.ln,348,hatchet,0.064941406
+encoder.ln,349,hair spray,0.14041138
+encoder.ln,350,black-and-tan coonhound,0.18218994
+encoder.ln,351,hamper,0.06262207
+encoder.ln,352,"Doberman, Doberman pinscher",0.07446289
+encoder.ln,353,"radio, wireless",0.06878662
+encoder.ln,354,mongoose,0.16592407
+encoder.ln,355,overskirt,0.08654785
+encoder.ln,356,"cairn, cairn terrier",0.099823
+encoder.ln,357,packing,0.0914917
+encoder.ln,358,shower curtain,0.090423584
+encoder.ln,359,"black swan, Cygnus atratus",0.06439209
+encoder.ln,360,trimaran,0.18701172
+encoder.ln,361,"fire engine, fire truck",0.20883179
+encoder.ln,362,teaspoon,0.12802124
+encoder.ln,363,table lamp,0.0854187
+encoder.ln,364,coffin,0.07366943
+encoder.ln,365,barber,0.10571289
+encoder.ln,366,sea snake,0.12734985
+encoder.ln,367,Blenheim spaniel,0.19647217
+encoder.ln,368,backpacks,0.07034302
+encoder.ln,369,French bulldog,0.20605469
+encoder.ln,370,"rocking chair, rocker",0.06442261
+encoder.ln,371,macaque,0.14273071
+encoder.ln,372,"borzoi, Russian wolfhound",0.095214844
+encoder.ln,373,meg,0.056243896
+encoder.ln,374,"Samoyed, Samoyede",0.15145874
+encoder.ln,375,boathouse,0.15716553
+encoder.ln,376,"crane, bird",0.06311035
+encoder.ln,377,instructors,0.07473755
+encoder.ln,378,"sandbar, sand bar",0.09927368
+encoder.ln,379,pcmcia,0.091796875
+encoder.ln,380,table lamp,0.083343506
+encoder.ln,381,crash helmet,0.07977295
+encoder.ln,382,sewing machine,0.086517334
+encoder.ln,383,hoodie,0.09799194
+encoder.ln,384,wire-haired fox terrier,0.11029053
+encoder.ln,385,telescope,0.116363525
+encoder.ln,386,"washer, automatic washer, washing machine",0.06417847
+encoder.ln,387,German short-haired pointer,0.19821167
+encoder.ln,388,"plunger, plumber's helper",0.18997192
+encoder.ln,389,printprinter,0.06536865
+encoder.ln,390,"pot, flowerpot",0.08856201
+encoder.ln,391,pressing,0.070617676
+encoder.ln,392,soap dispenser,0.13485718
+encoder.ln,393,"pencil box, pencil case",0.10119629
+encoder.ln,394,cushions,0.13781738
+encoder.ln,395,carpenter,0.078552246
+encoder.ln,396,umbrella,0.10110474
+encoder.ln,397,mud turtle,0.07901001
+encoder.ln,398,"orangutan, orang, orangutang, Pongo pygmaeus",0.06790161
+encoder.ln,399,abaya,0.12643433
+encoder.ln,400,stethoscope,0.111816406
+encoder.ln,401,"patio, terrace",0.09274292
+encoder.ln,402,surveying,0.06982422
+encoder.ln,403,briard,0.124572754
+encoder.ln,404,motif,0.063568115
+encoder.ln,405,desk,0.095184326
+encoder.ln,406,"Sealyham terrier, Sealyham",0.18972778
+encoder.ln,407,entrance,0.09484863
+encoder.ln,408,Irish water spaniel,0.64941406
+encoder.ln,409,bassinet,0.17852783
+encoder.ln,410,musicians,0.08395386
+encoder.ln,411,"capuchin, ringtail, Cebus capucinus",0.4038391
+encoder.ln,412,glassware,0.07467651
+encoder.ln,413,"sea cucumber, holothurian",0.06707764
+encoder.ln,414,"English springer, English springer spaniel",0.25552368
+encoder.ln,415,vases,0.12921143
+encoder.ln,416,overstock,0.07369995
+encoder.ln,417,"rocking chair, rocker",0.07058716
+encoder.ln,418,"Pekinese, Pekingese, Peke",0.11605835
+encoder.ln,419,trays,0.110839844
+encoder.ln,420,"Newfoundland, Newfoundland dog",0.20837402
+encoder.ln,421,"Cardigan, Cardigan Welsh corgi",0.099487305
+encoder.ln,422,Rottweiler,0.12771606
+encoder.ln,423,Shih-Tzu,0.1517334
+encoder.ln,424,"brassiere, bra, bandeau",0.07598877
+encoder.ln,425,weymouth,0.08886719
+encoder.ln,426,chassis,0.10809326
+encoder.ln,427,spf,0.094055176
+encoder.ln,428,power drill,0.07946777
+encoder.ln,429,hair spray,0.08078003
+encoder.ln,430,measuring cup,0.08605957
+encoder.ln,431,"butcher shop, meat market",0.101501465
+encoder.ln,432,"tiger shark, Galeocerdo cuvieri",0.047821045
+encoder.ln,433,Irish terrier,0.21160889
+encoder.ln,434,syringe,0.2951355
+encoder.ln,435,stationery,0.094055176
+encoder.ln,436,scorpion,0.15536499
+encoder.ln,437,"promontory, headland, head, foreland",0.168396
+encoder.ln,438,divers,0.061157227
+encoder.ln,439,fashions,0.06265259
+encoder.ln,440,"pick, plectrum, plectron",0.109375
+encoder.ln,441,table lamp,0.09939575
+encoder.ln,442,flying,0.0687561
+encoder.ln,443,"rubber eraser, rubber, pencil eraser",0.058166504
+encoder.ln,444,standard poodle,0.1458435
+encoder.ln,445,Gordon setter,0.06820679
+encoder.ln,446,corridors,0.08807373
+encoder.ln,447,schipperke,0.104644775
+encoder.ln,448,plastics,0.077301025
+encoder.ln,449,"hoopskirt, crinoline",0.103393555
+encoder.ln,450,kiosk,0.07348633
+encoder.ln,451,"prairie chicken, prairie grouse, prairie fowl",0.089538574
+encoder.ln,452,Windsor tie,0.103393555
+encoder.ln,453,guitarist,0.07159424
+encoder.ln,454,"bathtub, bathing tub, bath, tub",0.13040161
+encoder.ln,455,adaptors,0.07473755
+encoder.ln,456,"flute, transverse flute",0.18807983
+encoder.ln,457,"Pekinese, Pekingese, Peke",0.63571167
+encoder.ln,458,"Bouvier des Flandres, Bouviers des Flandres",0.084472656
+encoder.ln,459,"pencil box, pencil case",0.10736084
+encoder.ln,460,vase,0.10836792
+encoder.ln,461,shopping basket,0.07458496
+encoder.ln,462,rockport,0.1027832
+encoder.ln,463,table lamp,0.100860596
+encoder.ln,464,"pencil box, pencil case",0.10864258
+encoder.ln,465,"microwave, microwave oven",0.068573
+encoder.ln,466,"beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon",0.075042725
+encoder.ln,467,"drum, membranophone, tympan",0.08969116
+encoder.ln,468,ladle,0.11013794
+encoder.ln,469,tableware,0.084869385
+encoder.ln,470,"patio, terrace",0.07513428
+encoder.ln,471,"medicine chest, medicine cabinet",0.06762695
+encoder.ln,472,mousetrap,0.08135986
+encoder.ln,473,oil filter,0.1793518
+encoder.ln,474,workstations,0.11431885
+encoder.ln,475,"bicycle-built-for-two, tandem bicycle, tandem",0.10845947
+encoder.ln,476,space heater,0.13748169
+encoder.ln,477,goblet,0.15078735
+encoder.ln,478,Band Aid,0.05871582
+encoder.ln,479,"European fire salamander, Salamandra salamandra",0.22238159
+encoder.ln,480,"carpenter's kit, tool kit",0.10891724
+encoder.ln,481,envelopes,0.09768677
+encoder.ln,482,"beacon, lighthouse, beacon light, pharos",0.108306885
+encoder.ln,483,dinnerware,0.13064575
+encoder.ln,484,imac,0.06375122
+encoder.ln,485,Border collie,0.10217285
+encoder.ln,486,"green lizard, Lacerta viridis",0.07098389
+encoder.ln,487,"thresher, thrasher, threshing machine",0.10064697
+encoder.ln,488,videotape,0.07772827
+encoder.ln,489,table lamp,0.10961914
+encoder.ln,490,"sunscreen, sunblock, sun blocker",0.13702393
+encoder.ln,491,"Airedale, Airedale terrier",0.10067749
+encoder.ln,492,"worm fence, snake fence, snake-rail fence, Virginia fence",0.09375
+encoder.ln,493,desktop computer,0.0932312
+encoder.ln,494,"patio, terrace",0.13101196
+encoder.ln,495,"barrow, garden cart, lawn cart, wheelbarrow",0.25830078
+encoder.ln,496,"academic gown, academic robe, judge's robe",0.07965088
+encoder.ln,497,"wardrobe, closet, press",0.0859375
+encoder.ln,498,wire-haired fox terrier,0.13296509
+encoder.ln,499,hdtv,0.117889404
+encoder.ln,500,soap dispenser,0.113983154
+encoder.ln,501,"corkscrew, bottle screw",0.24533081
+encoder.ln,502,bassinet,0.105407715
+encoder.ln,503,barber,0.15707397
+encoder.ln,504,"wallet, billfold, notecase, pocketbook",0.1656189
+encoder.ln,505,aquaculture,0.12094116
+encoder.ln,506,molding,0.09164429
+encoder.ln,507,kitchen,0.1308899
+encoder.ln,508,cartridges,0.08508301
+encoder.ln,509,marmoset,0.06530762
+encoder.ln,510,helium,0.048675537
+encoder.ln,511,"Newfoundland, Newfoundland dog",0.11645508
+encoder.ln,512,pillow,0.04638672
+encoder.ln,513,giant schnauzer,0.14300537
+encoder.ln,514,"Ibizan hound, Ibizan Podenco",0.24523926
+encoder.ln,515,flags,0.07867432
+encoder.ln,516,microbiology,0.06765747
+encoder.ln,517,rain barrel,0.12210083
+encoder.ln,518,Gordon setter,0.16571045
+encoder.ln,519,pantyhose,0.08874512
+encoder.ln,520,"Ibizan hound, Ibizan Podenco",0.18133545
+encoder.ln,521,plate rack,0.1408081
+encoder.ln,522,bathroom,0.09988403
+encoder.ln,523,vendors,0.0909729
+encoder.ln,524,triumphal arch,0.10092163
+encoder.ln,525,CD player,0.11645508
+encoder.ln,526,knives,0.09069824
+encoder.ln,527,"pencil box, pencil case",0.14151001
+encoder.ln,528,flat-coated retriever,0.14749146
+encoder.ln,529,maraca,0.108184814
+encoder.ln,530,"great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias",0.1590271
+encoder.ln,531,skateboard,0.07952881
+encoder.ln,532,coffee mug,0.11105347
+encoder.ln,533,"bathing cap, swimming cap",0.116119385
+encoder.ln,534,camping,0.06933594
+encoder.ln,535,"bicycle-built-for-two, tandem bicycle, tandem",0.05899048
+encoder.ln,536,"lacewing, lacewing fly",0.08856201
+encoder.ln,537,cafeteria,0.06695557
+encoder.ln,538,"frying pan, frypan, skillet",0.22106934
+encoder.ln,539,chromatography,0.08248901
+encoder.ln,540,tableware,0.08694458
+encoder.ln,541,Band Aid,0.08187866
+encoder.ln,542,sofa,0.077423096
+encoder.ln,543,Australian terrier,0.124176025
+encoder.ln,544,Rhodesian ridgeback,0.37826538
+encoder.ln,545,barrels,0.072021484
+encoder.ln,546,stylus,0.08639526
+encoder.ln,547,washington,0.11505127
+encoder.ln,548,pencil sharpener,0.120025635
+encoder.ln,549,"Shetland sheepdog, Shetland sheep dog, Shetland",0.09552002
+encoder.ln,550,"letter opener, paper knife, paperknife",0.07501221
+encoder.ln,551,"prayer rug, prayer mat",0.08468628
+encoder.ln,552,flat-coated retriever,0.08850098
+encoder.ln,553,"Maltese dog, Maltese terrier, Maltese",0.13977051
+encoder.ln,554,"submarine, pigboat, sub, U-boat",0.09933472
+encoder.ln,555,"church, church building",0.084198
+encoder.ln,556,"cello, violoncello",0.06573486
+encoder.ln,557,pills,0.054992676
+encoder.ln,558,tees,0.052947998
+encoder.ln,559,"pitcher, ewer",0.20721436
+encoder.ln,560,"kit fox, Vulpes macrotis",0.13339233
+encoder.ln,561,miniature pinscher,0.10531616
+encoder.ln,562,oil filter,0.084106445
+encoder.ln,563,"washer, automatic washer, washing machine",0.15301514
+encoder.ln,564,"Scottish deerhound, deerhound",0.069610596
+encoder.ln,565,Australian terrier,0.10128784
+encoder.ln,566,"Walker hound, Walker foxhound",0.11630249
+encoder.ln,567,mixing bowl,0.14294434
+encoder.ln,568,"Lhasa, Lhasa apso",0.07571411
+encoder.ln,569,miniature pinscher,0.08364868
+encoder.ln,570,bakery,0.10614014
+encoder.ln,571,"bagel, beigel",0.08062744
+encoder.ln,572,nap,0.059417725
+encoder.ln,573,"tobacco shop, tobacconist shop, tobacconist",0.08340454
+encoder.ln,574,gyromitra,0.080963135
+encoder.ln,575,bureau,0.07791138
+encoder.ln,576,umbrella,0.32983398
+encoder.ln,577,"hot pot, hotpot",0.0680542
+encoder.ln,578,faucet,0.06832886
+encoder.ln,579,safety pin,0.33807373
+encoder.ln,580,EntleBucher,0.11355591
+encoder.ln,581,"Newfoundland, Newfoundland dog",0.096466064
+encoder.ln,582,Kerry blue terrier,0.44415283
+encoder.ln,583,microphone,0.07022095
+encoder.ln,584,spices,0.120391846
+encoder.ln,585,standard poodle,0.11343384
+encoder.ln,586,handles,0.11935425
+encoder.ln,587,"crib, cot",0.08041382
+encoder.ln,588,"hot pot, hotpot",0.11325073
+encoder.ln,589,tractor,0.06619263
+encoder.ln,590,"sea cucumber, holothurian",0.15856934
+encoder.ln,591,"breakwater, groin, groyne, mole, bulwark, seawall, jetty",0.11312866
+encoder.ln,592,bakery,0.106170654
+encoder.ln,593,bottle,0.06588745
+encoder.ln,594,"letter opener, paper knife, paperknife",0.15487671
+encoder.ln,595,croquet ball,0.076049805
+encoder.ln,596,ambulance,0.113983154
+encoder.ln,597,"bucket, pail",0.0713501
+encoder.ln,598,wire-haired fox terrier,0.1402893
+encoder.ln,599,"horizontal bar, high bar",0.08883667
+encoder.ln,600,"bow tie, bow-tie, bowtie",0.1638794
+encoder.ln,601,parking meter,0.10195923
+encoder.ln,602,reading,0.08279419
+encoder.ln,603,shoppe,0.08480835
+encoder.ln,604,cartridges,0.06500244
+encoder.ln,605,"gar, garfish, garpike, billfish, Lepisosteus osseus",0.08666992
+encoder.ln,606,Tibetan mastiff,0.38415527
+encoder.ln,607,musicians,0.09353638
+encoder.ln,608,"Maltese dog, Maltese terrier, Maltese",0.16619873
+encoder.ln,609,airsoft,0.09490967
+encoder.ln,610,"Shetland sheepdog, Shetland sheep dog, Shetland",0.18878174
+encoder.ln,611,wooden spoon,0.074523926
+encoder.ln,612,"loupe, jeweler's loupe",0.08477783
+encoder.ln,613,"patio, terrace",0.081848145
+encoder.ln,614,menu,0.06863403
+encoder.ln,615,petrol,0.07928467
+encoder.ln,616,"bannister, banister, balustrade, balusters, handrail",0.10998535
+encoder.ln,617,folding chair,0.11260986
+encoder.ln,618,crutch,0.13775635
+encoder.ln,619,"carpenter's kit, tool kit",0.07437134
+encoder.ln,620,cellar,0.09753418
+encoder.ln,621,notebooks,0.0975647
+encoder.ln,622,belt,0.07485962
+encoder.ln,623,crochet,0.07254028
+encoder.ln,624,"albatross, mollymawk",0.14926147
+encoder.ln,625,"Norwegian elkhound, elkhound",0.08218384
+encoder.ln,626,"loudspeaker, speaker, speaker unit, loudspeaker system, speaker system",0.13146973
+encoder.ln,627,tights,0.08282471
+encoder.ln,628,Blenheim spaniel,0.15707397
+encoder.ln,629,"wallet, billfold, notecase, pocketbook",0.1423645
+encoder.ln,630,"hand-held computer, hand-held microcomputer",0.11294556
+encoder.ln,631,Band Aid,0.088378906
+encoder.ln,632,marketplace,0.09094238
+encoder.ln,633,basenji,0.15563965
+encoder.ln,634,"wool, woolen, woollen",0.06289673
+encoder.ln,635,Chesapeake Bay retriever,0.11218262
+encoder.ln,636,"Norwegian elkhound, elkhound",0.12738037
+encoder.ln,637,percussion,0.1689148
+encoder.ln,638,car mirror,0.072021484
+encoder.ln,639,minivan,0.08666992
+encoder.ln,640,"patio, terrace",0.08383179
+encoder.ln,641,skis,0.10235596
+encoder.ln,642,"chocolate sauce, chocolate syrup",0.07382202
+encoder.ln,643,vase,0.11062622
+encoder.ln,644,poles,0.06362915
+encoder.ln,645,soft-coated wheaten terrier,0.14730835
+encoder.ln,646,"silky terrier, Sydney silky",0.11679077
+encoder.ln,647,immunization,0.09320068
+encoder.ln,648,laserjet,0.09854126
+encoder.ln,649,"red wolf, maned wolf, Canis rufus, Canis niger",0.099975586
+encoder.ln,650,military uniform,0.07098389
+encoder.ln,651,chimney,0.053253174
+encoder.ln,652,soap dispenser,0.08999634
+encoder.ln,653,"American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier",0.06109619
+encoder.ln,654,plastic bag,0.2569275
+encoder.ln,655,"diaper, nappy, napkin",0.0927124
+encoder.ln,656,fishermen,0.07861328
+encoder.ln,657,afghanistan,0.06262207
+encoder.ln,658,rugby ball,0.056427002
+encoder.ln,659,hair spray,0.075286865
+encoder.ln,660,"corkscrew, bottle screw",0.08642578
+encoder.ln,661,"black-footed ferret, ferret, Mustela nigripes",0.07406616
+encoder.ln,662,"mouse, computer mouse",0.1144104
+encoder.ln,663,Leonberg,0.22659302
+encoder.ln,664,"washbasin, handbasin, washbowl, lavabo, wash-hand basin",0.16537476
+encoder.ln,665,"pencil box, pencil case",0.0904541
+encoder.ln,666,"pencil box, pencil case",0.24136353
+encoder.ln,667,bookmarks,0.06314087
+encoder.ln,668,"rock python, rock snake, Python sebae",0.0703125
+encoder.ln,669,implements,0.08972168
+encoder.ln,670,auditorium,0.13565063
+encoder.ln,671,"pencil box, pencil case",0.11352539
+encoder.ln,672,glassware,0.07696533
+encoder.ln,673,balloon,0.21331787
+encoder.ln,674,shed,0.08831787
+encoder.ln,675,Australian terrier,0.1543274
+encoder.ln,676,"Siamese cat, Siamese",0.18136597
+encoder.ln,677,"Ibizan hound, Ibizan Podenco",0.08023071
+encoder.ln,678,"oscilloscope, scope, cathode-ray oscilloscope, CRO",0.10702515
+encoder.ln,679,Blenheim spaniel,0.10757446
+encoder.ln,680,"washbasin, handbasin, washbowl, lavabo, wash-hand basin",0.0932312
+encoder.ln,681,habitat,0.07284546
+encoder.ln,682,"bicycle-built-for-two, tandem bicycle, tandem",0.09414673
+encoder.ln,683,"Tibetan terrier, chrysanthemum dog",0.11819458
+encoder.ln,684,"loudspeaker, speaker, speaker unit, loudspeaker system, speaker system",0.13659668
+encoder.ln,685,"wallet, billfold, notecase, pocketbook",0.13424683
+encoder.ln,686,door,0.068359375
+encoder.ln,687,restaurants,0.10638428
+encoder.ln,688,"punching bag, punch bag, punching ball, punchball",0.07366943
+encoder.ln,689,"hand blower, blow dryer, blow drier, hair dryer, hair drier",0.12637329
+encoder.ln,690,"hand-held computer, hand-held microcomputer",0.08013916
+encoder.ln,691,"bicycle-built-for-two, tandem bicycle, tandem",0.07180786
+encoder.ln,692,"lumbermill, sawmill",0.12545776
+encoder.ln,693,"Ibizan hound, Ibizan Podenco",0.18951416
+encoder.ln,694,"silky terrier, Sydney silky",0.13879395
+encoder.ln,695,"wool, woolen, woollen",0.12124634
+encoder.ln,696,pesticides,0.059631348
+encoder.ln,697,weights,0.08526611
+encoder.ln,698,parking meter,0.079437256
+encoder.ln,699,"flagpole, flagstaff",0.0897522
+encoder.ln,700,"axolotl, mud puppy, Ambystoma mexicanum",0.8179016
+encoder.ln,701,sarong,0.11691284
+encoder.ln,702,prescott,0.07531738
+encoder.ln,703,market,0.15661621
+encoder.ln,704,pendants,0.08493042
+encoder.ln,705,potter's wheel,0.08325195
+encoder.ln,706,equipment,0.08291626
+encoder.ln,707,soft-coated wheaten terrier,0.12286377
+encoder.ln,708,Kerry blue terrier,0.09802246
+encoder.ln,709,"cairn, cairn terrier",0.08279419
+encoder.ln,710,"flagpole, flagstaff",0.080718994
+encoder.ln,711,miniature pinscher,0.07122803
+encoder.ln,712,surveyor,0.128479
+encoder.ln,713,musicians,0.07437134
+encoder.ln,714,transporter,0.05633545
+encoder.ln,715,pocketpc,0.09390259
+encoder.ln,716,benches,0.07052612
+encoder.ln,717,dishes,0.10040283
+encoder.ln,718,"quilt, comforter, comfort, puff",0.1899414
+encoder.ln,719,restaurant,0.12149048
+encoder.ln,720,bookcase,0.074523926
+encoder.ln,721,recipes,0.07455444
+encoder.ln,722,cooking,0.0920105
+encoder.ln,723,"chiton, coat-of-mail shell, sea cradle, polyplacophore",0.09536743
+encoder.ln,724,rain barrel,0.13156128
+encoder.ln,725,squirrel,0.073028564
+encoder.ln,726,habitat,0.09817505
+encoder.ln,727,kitchens,0.09295654
+encoder.ln,728,cookbooks,0.09088135
+encoder.ln,729,hatchet,0.107421875
+encoder.ln,730,"lumbermill, sawmill",0.075653076
+encoder.ln,731,"bookshop, bookstore, bookstall",0.09567261
+encoder.ln,732,wooden spoon,0.10076904
+encoder.ln,733,"seat belt, seatbelt",0.10394287
+encoder.ln,734,"pencil box, pencil case",0.092163086
+encoder.ln,735,"capuchin, ringtail, Cebus capucinus",0.15670776
+encoder.ln,736,table lamp,0.106048584
+encoder.ln,737,"wardrobe, closet, press",0.057922363
+encoder.ln,738,"chime, bell, gong",0.11975098
+encoder.ln,739,Crock Pot,0.053985596
+encoder.ln,740,wooden spoon,0.101379395
+encoder.ln,741,label,0.07998657
+encoder.ln,742,"Indian elephant, Elephas maximus",0.29260254
+encoder.ln,743,radiator,0.08154297
+encoder.ln,744,Australian terrier,0.12695312
+encoder.ln,745,"plunger, plumber's helper",0.06088257
+encoder.ln,746,hatchet,0.17779541
+encoder.ln,747,cylinders,0.0942688
+encoder.ln,748,camcorder,0.07211304
+encoder.ln,749,statutes,0.09030151
+encoder.ln,750,"flute, transverse flute",0.07473755
+encoder.ln,751,"punching bag, punch bag, punching ball, punchball",0.15167236
+encoder.ln,752,"African crocodile, Nile crocodile, Crocodylus niloticus",0.07662964
+encoder.ln,753,hair slide,0.0887146
+encoder.ln,754,librarian,0.08102417
+encoder.ln,755,"German shepherd, German shepherd dog, German police dog, alsatian",0.07815552
+encoder.ln,756,Chesapeake Bay retriever,0.13195801
+encoder.ln,757,English setter,0.16436768
+encoder.ln,758,"cairn, cairn terrier",0.08569336
+encoder.ln,759,"unicycle, monocycle",0.06991577
+encoder.ln,760,"timber wolf, grey wolf, gray wolf, Canis lupus",0.26065063
+encoder.ln,761,Italian greyhound,0.09423828
+encoder.ln,762,"Staffordshire bullterrier, Staffordshire bull terrier",0.10787964
+encoder.ln,763,hazard,0.042938232
+encoder.ln,764,"Irish setter, red setter",0.23657227
+encoder.ln,765,"worm fence, snake fence, snake-rail fence, Virginia fence",0.10498047
+encoder.ln,766,vase,0.1446228
+encoder.ln,767,visitation,0.10241699
