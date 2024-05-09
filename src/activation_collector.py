@@ -1,101 +1,65 @@
 import os
 import torch
-from tqdm import tqdm
-from torchvision.models import resnet18, ResNet18_Weights, vit_b_16, ViT_B_16_Weights
+import argparse
 
 from utils import *
 
 torch.cuda.empty_cache()
 
-IMAGE_PATH = "/path/to/images/"
-RESULT_PATH = "./activations/"
-os.makedirs(RESULT_PATH, exist_ok=True)
+parser = argparse.ArgumentParser(description='Activation-Collector')
 
-MODEL_NAME = (# "A50k-train_resnet18-fc"
-              "A50k-train_resnet18-avgpool"    
-              # "A50k-train_resnet18-layer4"
-              # "A50k-train_vit16b-head"
-              # "A50k-train_vit16b-layer11"
-            )
-print(MODEL_NAME)
+parser.add_argument("--target_model", type=str, default="resnet18", 
+                   help=""""Which model to analyze, supported options are pretrained imagenet models from
+                        torchvision and vision models from huggingface""")
+parser.add_argument("--target_layer", type=str, default="fc",
+                    help="""Which layer neurons to describe. String list of layer names to describe, separated by comma(no spaces). 
+                          Follows the naming scheme of the Pytorch module used""")
+parser.add_argument("--dataset", type=str, default="imagenet_val", 
+                    choices = ["imagenet_train", "imagenet_val", "ade20k_train", "ade20k_val", "coco_train", "coco_val"],
+                    help="""Which dataset to use for probing and evaluation.""")
+parser.add_argument("--data_type", type=str, default="val",
+                    choices = ["val", "probe"])
+parser.add_argument("--device", type=str, default="cuda", help="whether to use GPU/which gpu")
+parser.add_argument("--batch_size_activ", type=int, default=256, help="Batch size when running activation collector")
+parser.add_argument("--num_workers", type=int, default=2, help="Number of workers for dataloader")
+parser.add_argument("--activation_dir", type=str, default="activations", help="where to save activations")
 
-if MODEL_NAME == "A50k-train_resnet18-fc" or MODEL_NAME == "A50k-train_vit16b-head":
-    N_NEURONS = 1000
-elif MODEL_NAME == "A50k-train_resnet18-layer4" or MODEL_NAME == "A50k-train_resnet18-avgpool":
-    N_NEURONS = 512
-elif MODEL_NAME == "A50k-train_vit16b-layer11":
-    N_NEURONS = 768
 
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-print(device)
-print("Collect activations...")
+parser.parse_args()
 
-dataset = ImageDataset(root=IMAGE_PATH,
+if __name__ == '__main__':
+    args = parser.parse_args()
+
+    PATH = os.getcwd()
+    ACTIVATION_PATH = os.path.join(PATH, args.activation_dir)
+    os.makedirs(ACTIVATION_PATH, exist_ok=True)
+
+    layer_name = args.target_layer.split(".")[-1]
+    model_layer = f"{args.target_model}-{layer_name}"
+    target_model, preprocess = get_target_model(args.target_model, args.device)
+    n_neurons = get_n_neurons(model_layer)
+    
+    print(f"Target: {model_layer}")
+
+    data_path = get_data_path(args.dataset)
+
+    dataset = ImageDataset(root=data_path,
                             transform=TRANSFORMS_IMGNT,
                             )
 
-testloader = torch.utils.data.DataLoader(dataset,
-                                          batch_size=256,
-                                          shuffle=False,
-                                          num_workers=2,
-                                          )
+    dataloader = torch.utils.data.DataLoader(dataset,
+                                            batch_size=args.batch_size_activ,
+                                            shuffle=False,
+                                            num_workers=args.num_workers,
+                                            )
 
-if MODEL_NAME == "A50k-train_resnet18-fc" or MODEL_NAME == "A50k-train_resnet18-avgpool" or MODEL_NAME == "A50k-train_resnet18-layer4":
-    model = resnet18(weights=ResNet18_Weights.IMAGENET1K_V1).to(device)
-elif MODEL_NAME == "A50k-train_vit16b-head" or MODEL_NAME == "A50k-train_vit16b-layer11":
-    model = vit_b_16(weights=ViT_B_16_Weights.IMAGENET1K_V1).to(device)
-model.eval()
+    print("Collect activations...")
 
-activation = {}
-def get_activation(name):
-    def hook(model, input, output):
-        activation[name] = output.data
-    return hook
+    TENSOR_PATH = f"{ACTIVATION_PATH}/{args.data_type}_{model_layer}.pt"
 
-if MODEL_NAME == "A50k-train_resnet18-fc":
-    model.fc.register_forward_hook(get_activation('fc'))
-elif MODEL_NAME == "A50k-train_resnet18-avgpool":
-    model.avgpool.register_forward_hook(get_activation('avgpool'))
-elif MODEL_NAME == "A50k-train_resnet18-layer4":
-    model.layer4.register_forward_hook(get_activation('layer4'))
-elif MODEL_NAME == "A50k-train_vit16b-head":
-    model.heads.head.register_forward_hook(get_activation('head'))
-elif MODEL_NAME == "A50k-train_vit16b-layer11":
-    model.encoder.layers[11].register_forward_hook(get_activation('layer11'))
+    A_F = get_activations(model=target_model, model_name=model_layer,
+                            tensor_path=TENSOR_PATH,
+                            dataset=dataset, dataloader=dataloader,
+                            n_neurons=n_neurons, device=args.device)
 
-MODEL_FEATURES = torch.zeros([len(dataset), N_NEURONS])
-
-counter = 0
-flag = True
-with torch.no_grad():
-    for i, x in tqdm(enumerate(testloader)):
-        x = x.float().data.to(device)
-
-        outputs = model(x).data
-        if flag:
-            if MODEL_NAME == "A50k-train_resnet18-fc":
-                print(activation['fc'].shape)
-            elif MODEL_NAME == "A50k-train_resnet18-avgpool":
-                print(activation['avgpool'].shape)
-            elif MODEL_NAME == "A50k-train_resnet18-layer4":
-                print(activation['layer4'].shape)
-            elif MODEL_NAME == "A50k-train_vit16b-head":
-                print(activation['head'].shape)
-            elif MODEL_NAME == "A50k-train_vit16b-layer11":
-                print(activation['layer11'].shape)
-            flag = False
-
-
-        if MODEL_NAME == "A50k-train_resnet18-fc" or MODEL_NAME == "A50k-train_vit16b-head":
-            MODEL_FEATURES[counter:counter + x.shape[0],:] = outputs
-        elif MODEL_NAME == "A50k-train_resnet18-avgpool":
-            MODEL_FEATURES[counter:counter + x.shape[0],:] = activation['avgpool'][:, :, 0, 0].data.to(device)
-        elif MODEL_NAME == "A50k-train_resnet18-layer4":
-            MODEL_FEATURES[counter:counter + x.shape[0],:] = activation['layer4'].mean(axis =[2,3]).data.to(device)
-        elif MODEL_NAME == "A50k-train_vit16b-layer11":
-            MODEL_FEATURES[counter:counter + x.shape[0],:] = activation['layer11'][:,0,:].data.to(device)
-        counter += x.shape[0]
-
-torch.save(MODEL_FEATURES, f"{RESULT_PATH}/validation/{MODEL_NAME}.pt")
-
-print("Done!")
+    print("Done!")
