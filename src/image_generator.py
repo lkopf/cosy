@@ -1,3 +1,6 @@
+"""
+torchrun src/image_generator.py --nproc_per_node=3
+"""
 import os
 import random
 import torch
@@ -17,16 +20,30 @@ print("START: ", start)
 
 IMAGE_PATH = "./gen_images/"
 os.makedirs(IMAGE_PATH, exist_ok=True)
-EXPLANATION_PATH = # path to METHOD csv file with neuron explanations
-
-# Select n random neurons
-N_NEURONS  = 512 # 1000
-N_NEURONS_RANDOM = 50
-NEURON_IDS = random.sample(range(N_NEURONS), N_NEURONS_RANDOM)
 
 # Load Explanations
-METHOD = "INVERT" # "MILAN" # "FALCON"
+METHOD = (# "MILAN"
+          # "INVERT"
+          "CLIP-Dissect"
+          # "FALCON"
+          )
+print(METHOD)
+MODEL_NAME = ("resnet18-avgpool"
+              # "vit16b-ln"
+            )
+print(MODEL_NAME)
+if MODEL_NAME == "resnet18-fc":
+    N_NEURONS = 1000
+elif MODEL_NAME == "resnet18-layer4" or MODEL_NAME == "resnet18-avgpool":
+    N_NEURONS = 512
+elif MODEL_NAME == "vit16b-ln":
+    N_NEURONS = 768
+
+N_NEURONS_RANDOM = 50
+NEURON_IDS = random.sample(range(N_NEURONS), N_NEURONS_RANDOM)
+EXPLANATION_PATH = f"./assets/explanations/{METHOD}/{MODEL_NAME}.csv" # path to METHOD csv file with neuron explanations
 _, EXPLANATIONS = load_explanations(path=EXPLANATION_PATH, name=METHOD, image_path=IMAGE_PATH, neuron_ids=NEURON_IDS)
+print("# EXPLANATIONS", len(EXPLANATIONS))
 
 N_SIZE = 3 # world and batch size
 N_IMAGES = 50 # number of generated images
@@ -49,10 +66,12 @@ def run_inference(rank, world_size, batch_size, image_path=IMAGE_PATH, num_image
     num_batches = (len(EXPLANATIONS) + batch_size - 1) // batch_size
 
     for batch_index in range(num_batches):
+        torch.cuda.empty_cache()
         start_index = batch_index * batch_size
         end_index = min((batch_index + 1) * batch_size, len(EXPLANATIONS))
 
         current_batch = EXPLANATIONS[start_index:end_index]
+        print(current_batch, len(current_batch))
         
         for i in range(num_images):            
             if torch.distributed.get_rank() == 0:

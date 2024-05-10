@@ -30,12 +30,11 @@ parser.add_argument("--target_layer", type=str, default="fc",
                     help="""Which layer neurons to describe. String list of layer names to describe, separated by comma(no spaces). 
                           Follows the naming scheme of the Pytorch module used""")
 parser.add_argument("--dataset", type=str, default="imagenet_val", 
-                    choices = ["imagenet_train", "imagenet_val", "ade20k_train", "ade20k_val", "coco_train", "coco_val"],
                     help="""Which dataset to use for probing and evaluation.""")
 parser.add_argument("--method", type=str, default="INVERT", 
                     help="""Which explanation method to use for analysis.""")
-parser.add_argument("--data_type", type=str, default="val",
-                    choices = ["val", "probe"])
+parser.add_argument("--transform", type=str, default="transform_imagenet",
+                    help="""Which transform to use for dataset.""")
 parser.add_argument("--device", type=str, default="cuda", help="whether to use GPU/which gpu")
 parser.add_argument("--batch_size_eval", type=int, default=10, help="Batch size when running evaluation")
 parser.add_argument("--num_workers", type=int, default=2, help="Number of workers for dataloader")
@@ -49,15 +48,14 @@ parser.parse_args()
 if __name__ == '__main__':
     args = parser.parse_args()
 
-    PATH = os.getcwd()
-    os.makedirs(os.path.join(PATH, args.result_dir), exist_ok=True)
-    RESULT_PATH = f"{os.path.join(PATH, args.result_dir)}/meta-eval/random_class/"
+    RESULT_PATH = f"{args.result_dir}/meta-eval/random_class/"
     os.makedirs(RESULT_PATH, exist_ok=True)
 
     layer_name = args.target_layer.split(".")[-1]
     model_layer = f"{args.target_model}-{layer_name}"
     target_model, preprocess = get_target_model(args.target_model, args.device)
     n_neurons = get_n_neurons(model_layer)
+    data_transform = get_transform(args.transform)
     
     print(f"Target: {model_layer}")
 
@@ -70,8 +68,7 @@ if __name__ == '__main__':
         imgnt_map = json.load(json_file)
 
     # Load activations for val dataset
-    ACTIVATION_PATH = os.path.join(PATH, args.activation_dir)
-    A_F_val = torch.load(f"{ACTIVATION_PATH}/{args.data_type}_{model_layer}.pt").to(args.device)
+    A_F_val = torch.load(f"{args.activation_dir}/{model_layer}.pt").to(args.device)    
 
     # Load ImageNet labels
     df_imgnt = pd.read_csv("./assets/ILSVRC2012_val_labels.csv")
@@ -91,7 +88,7 @@ if __name__ == '__main__':
         CONCEPT_PATH = f"{args.gen_images_dir}{concept}/"
 
         dataset = ImageDataset(root=CONCEPT_PATH,
-                                transform=TRANSFORMS_IMGNT,
+                                transform=data_transform,
                                 )
 
         dataloader = torch.utils.data.DataLoader(dataset,
@@ -105,9 +102,9 @@ if __name__ == '__main__':
             A_F = torch.load(TENSOR_PATH).to(args.device)
         else:
             A_F = get_activations(model=target_model, model_name=model_layer,
-                                  tensor_path=TENSOR_PATH,
-                                  dataset=dataset, dataloader=dataloader,
-                                  n_neurons=n_neurons,  device=args.device)
+                                  tensor_path=TENSOR_PATH, dataset=dataset,
+                                  dataloader=dataloader, n_neurons=n_neurons,
+                                  device=args.device, preprocess=preprocess)
 
         ############################################################################################################
 
@@ -118,7 +115,7 @@ if __name__ == '__main__':
         RANDOM_CONCEPT_PATH = f"{args.gen_images_dir}{random_concept_syn}/"
 
         dataset_rnd = ImageDataset(root=RANDOM_CONCEPT_PATH,
-                                transform=TRANSFORMS_IMGNT,
+                                transform=data_transform,
                                 )
 
         dataloader_rnd = torch.utils.data.DataLoader(dataset_rnd,
@@ -132,9 +129,9 @@ if __name__ == '__main__':
             A_F_rnd_syn = torch.load(RANDOM_SYN_TENSOR_PATH).to(args.device)
         else:
             A_F_rnd_syn = get_activations(model=target_model, model_name=model_layer,
-                                  tensor_path=RANDOM_SYN_TENSOR_PATH,
-                                  dataset=dataset_rnd, dataloader=dataloader_rnd,
-                                  n_neurons=n_neurons,  device=args.device)
+                                  tensor_path=RANDOM_SYN_TENSOR_PATH, dataset=dataset_rnd,
+                                  dataloader=dataloader_rnd, n_neurons=n_neurons,
+                                  device=args.device, preprocess=preprocess)
 
         ############################################################################################################
 
@@ -148,7 +145,7 @@ if __name__ == '__main__':
 
         dataset_rnd_nat = ConceptDataset(root=data_path,
                                         concept=random_natural_concept,
-                                        transform=TRANSFORMS_IMGNT,
+                                        transform=data_transform,
                                         )
 
         dataloader_rnd_nat = torch.utils.data.DataLoader(dataset_rnd_nat,
@@ -163,9 +160,9 @@ if __name__ == '__main__':
             A_F_rnd_nat = torch.load(RANDOM_NAT_TENSOR_PATH).to(args.device)
         else:
             A_F_rnd_nat = get_activations(model=target_model, model_name=model_layer,
-                                  tensor_path=RANDOM_NAT_TENSOR_PATH,
-                                  dataset=dataset_rnd_nat, dataloader=dataloader_rnd_nat,
-                                  n_neurons=n_neurons,  device=args.device)
+                                  tensor_path=RANDOM_NAT_TENSOR_PATH, dataset=dataset_rnd_nat,
+                                  dataloader=dataloader_rnd_nat, n_neurons=n_neurons,
+                                  device=args.device, preprocess=preprocess)
 
         ############################################################################################################
 
@@ -205,5 +202,3 @@ if __name__ == '__main__':
 end = datetime.now()
 print("END: ", end)
 print(f"TOTAL TIME: {end - start}")
-
-print("Done!")
