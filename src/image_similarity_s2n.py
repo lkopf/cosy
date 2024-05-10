@@ -81,8 +81,8 @@ for prompt in PROMPTS:
     for class_name in CLASSES:
         print(class_name)
         imgnt_name = name2id[class_name.replace("_", " ")]
-        syn_class_path = os.path.join(IMAGE_PATH, class_name, prompt)
-        nat_class_path = os.path.join(IMAGENET_PATH, imgnt_name)
+        syn_class_path = os.path.join(IMAGE_PATH, class_name, prompt + "/")
+        nat_class_path = os.path.join(IMAGENET_PATH, imgnt_name + "/")
         tensor_path = os.path.join(DISTANCE_PATH, f"concept_distances_{prompt}_{MODEL_NAME}_{class_name}.pt")
 
         if os.path.exists(tensor_path):
