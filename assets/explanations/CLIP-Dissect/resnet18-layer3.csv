@@ -1,0 +1,257 @@
+layer,unit,description,similarity
+layer3,0,menu,0.2866211
+layer3,1,chainlink fence,0.19015503
+layer3,2,habit,0.39486694
+layer3,3,"garden spider, Aranea diademata",0.29421997
+layer3,4,"spider web, spider's web",0.11584473
+layer3,5,green mamba,0.29821777
+layer3,6,"file, file cabinet, filing cabinet",0.20361328
+layer3,7,"hognose snake, puff adder, sand viper",0.58206177
+layer3,8,juvenile,0.28494263
+layer3,9,habit,0.27929688
+layer3,10,cauliflower,0.1513977
+layer3,11,manhole cover,0.20135498
+layer3,12,oil filter,0.1251831
+layer3,13,"flute, transverse flute",0.113983154
+layer3,14,"Shetland sheepdog, Shetland sheep dog, Shetland",0.22183228
+layer3,15,"red-backed sandpiper, dunlin, Erolia alpina",0.19433594
+layer3,16,brain coral,0.18283081
+layer3,17,scoreboard,0.20159912
+layer3,18,"china cabinet, china closet",0.2564087
+layer3,19,"tiger shark, Galeocerdo cuvieri",0.17370605
+layer3,20,workstations,0.12808228
+layer3,21,"chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour",0.12310791
+layer3,22,handful,0.120025635
+layer3,23,fruits,0.29934692
+layer3,24,"odometer, hodometer, mileometer, milometer",0.15045166
+layer3,25,"computer keyboard, keypad",0.22479248
+layer3,26,birding,0.3062439
+layer3,27,fruits,0.23184204
+layer3,28,vending machine,0.20581055
+layer3,29,"computer keyboard, keypad",0.21740723
+layer3,30,chainlink fence,0.39031982
+layer3,31,vestment,0.08654785
+layer3,32,"capuchin, ringtail, Cebus capucinus",0.27786255
+layer3,33,snorkeling,0.19552612
+layer3,34,fruits,0.3312683
+layer3,35,digital clock,0.21417236
+layer3,36,"European fire salamander, Salamandra salamandra",0.63812256
+layer3,37,"rock beauty, Holocanthus tricolor",0.1739502
+layer3,38,fruits,0.10232544
+layer3,39,"dugong, Dugong dugon",0.20254517
+layer3,40,head cabbage,0.114715576
+layer3,41,"theater curtain, theatre curtain",0.2991333
+layer3,42,"doormat, welcome mat",0.10443115
+layer3,43,mating,0.2416687
+layer3,44,"chiffonier, commode",0.16946411
+layer3,45,maize,0.18902588
+layer3,46,"crossword puzzle, crossword",0.319458
+layer3,47,cups,0.23825073
+layer3,48,"computer keyboard, keypad",0.2106018
+layer3,49,acoustic guitar,0.14575195
+layer3,50,coolers,0.0954895
+layer3,51,"hand-held computer, hand-held microcomputer",0.112701416
+layer3,52,window screen,0.15792847
+layer3,53,"ringneck snake, ring-necked snake, ring snake",0.12423706
+layer3,54,window screen,0.16494751
+layer3,55,"spider monkey, Ateles geoffroyi",0.13772583
+layer3,56,"bookshop, bookstore, bookstall",0.25979614
+layer3,57,"red-breasted merganser, Mergus serrator",0.19381714
+layer3,58,"corkscrew, bottle screw",0.11242676
+layer3,59,"slide rule, slipstick",0.2520752
+layer3,60,typewriter keyboard,0.27651978
+layer3,61,Norfolk terrier,0.1871643
+layer3,62,"worm fence, snake fence, snake-rail fence, Virginia fence",0.09954834
+layer3,63,"cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM",0.16967773
+layer3,64,"flute, transverse flute",0.10494995
+layer3,65,brain coral,0.37857056
+layer3,66,whiskey jug,0.2434082
+layer3,67,sea urchin,0.13259888
+layer3,68,rapeseed,0.30526733
+layer3,69,"chiffonier, commode",0.14794922
+layer3,70,aftermarket,0.12390137
+layer3,71,slashdot,0.18508911
+layer3,72,"hammerhead, hammerhead shark",0.08932495
+layer3,73,brain coral,0.17098999
+layer3,74,Welsh springer spaniel,0.55633545
+layer3,75,"prayer rug, prayer mat",0.31445312
+layer3,76,"leopard, Panthera pardus",0.3626709
+layer3,77,assortment,0.19726562
+layer3,78,Yorkshire terrier,0.1621399
+layer3,79,fur coat,0.20880127
+layer3,80,brain coral,0.20681763
+layer3,81,"coil, spiral, volute, whorl, helix",0.11898804
+layer3,82,"ringneck snake, ring-necked snake, ring snake",0.2723999
+layer3,83,carbonara,0.15536499
+layer3,84,"Shetland sheepdog, Shetland sheep dog, Shetland",0.427063
+layer3,85,honeycomb,0.3383484
+layer3,86,"capuchin, ringtail, Cebus capucinus",0.36566162
+layer3,87,soft-coated wheaten terrier,0.20343018
+layer3,88,gauges,0.1942749
+layer3,89,"slide rule, slipstick",0.121917725
+layer3,90,produce,0.2197876
+layer3,91,"bicycle-built-for-two, tandem bicycle, tandem",0.16903687
+layer3,92,chainlink fence,0.1508789
+layer3,93,suspension bridge,0.23287964
+layer3,94,"Tibetan terrier, chrysanthemum dog",0.29467773
+layer3,95,"Tibetan terrier, chrysanthemum dog",0.21362305
+layer3,96,landmarks,0.14752197
+layer3,97,blinds,0.2310791
+layer3,98,jigsaw puzzle,0.12609863
+layer3,99,"oscilloscope, scope, cathode-ray oscilloscope, CRO",0.19674683
+layer3,100,"king penguin, Aptenodytes patagonica",0.093566895
+layer3,101,"hand-held computer, hand-held microcomputer",0.3553772
+layer3,102,vending machine,0.19018555
+layer3,103,pomegranate,0.093811035
+layer3,104,"crossword puzzle, crossword",0.39263916
+layer3,105,"gas pump, gasoline pump, petrol pump, island dispenser",0.10079956
+layer3,106,fruits,0.30020142
+layer3,107,typewriter keyboard,0.19100952
+layer3,108,"Tibetan terrier, chrysanthemum dog",0.30975342
+layer3,109,"capuchin, ringtail, Cebus capucinus",0.26965332
+layer3,110,bw,0.17041016
+layer3,111,"leopard, Panthera pardus",0.16378784
+layer3,112,participants,0.24438477
+layer3,113,"slide rule, slipstick",0.10812378
+layer3,114,glassware,0.13653564
+layer3,115,"dishrag, dishcloth",0.20941162
+layer3,116,marmot,0.24734497
+layer3,117,"loupe, jeweler's loupe",0.1954956
+layer3,118,"Tibetan terrier, chrysanthemum dog",0.40301514
+layer3,119,kernels,0.18374634
+layer3,120,regard,0.12490845
+layer3,121,"academic gown, academic robe, judge's robe",0.22460938
+layer3,122,manhole cover,0.21200562
+layer3,123,fruits,0.19262695
+layer3,124,"hand-held computer, hand-held microcomputer",0.23632812
+layer3,125,brain coral,0.32086182
+layer3,126,female,0.109954834
+layer3,127,"sea cucumber, holothurian",0.1932373
+layer3,128,"Scotch terrier, Scottish terrier, Scottie",0.38308716
+layer3,129,fruits,0.15576172
+layer3,130,"red-breasted merganser, Mergus serrator",0.2461853
+layer3,131,"organ, pipe organ",0.28799438
+layer3,132,anemone fish,0.16369629
+layer3,133,exterior,0.27978516
+layer3,134,"disk brake, disc brake",0.18789673
+layer3,135,chainlink fence,0.24108887
+layer3,136,"rock crab, Cancer irroratus",0.13671875
+layer3,137,"common newt, Triturus vulgaris",0.3468628
+layer3,138,"bicycle-built-for-two, tandem bicycle, tandem",0.118896484
+layer3,139,"marimba, xylophone",0.24880981
+layer3,140,brain coral,0.39953613
+layer3,141,wire-haired fox terrier,0.38320923
+layer3,142,"paddlewheel, paddle wheel",0.12741089
+layer3,143,"monarch, monarch butterfly, milkweed butterfly, Danaus plexippus",0.16223145
+layer3,144,brain coral,0.2814026
+layer3,145,car wheel,0.1496582
+layer3,146,"bannister, banister, balustrade, balusters, handrail",0.2024231
+layer3,147,gown,0.16445923
+layer3,148,"unicycle, monocycle",0.111206055
+layer3,149,Japanese spaniel,0.3668518
+layer3,150,barometer,0.2545166
+layer3,151,tile roof,0.24835205
+layer3,152,brain coral,0.29403687
+layer3,153,sea urchin,0.30999756
+layer3,154,"china cabinet, china closet",0.4128418
+layer3,155,"computer keyboard, keypad",0.12994385
+layer3,156,"spider web, spider's web",0.29351807
+layer3,157,Greater Swiss Mountain dog,0.09643555
+layer3,158,"garter snake, grass snake",0.23590088
+layer3,159,"chiffonier, commode",0.11843872
+layer3,160,"green lizard, Lacerta viridis",0.38793945
+layer3,161,"red-breasted merganser, Mergus serrator",0.3959961
+layer3,162,"crossword puzzle, crossword",0.27078247
+layer3,163,brain coral,0.17630005
+layer3,164,vaults,0.19418335
+layer3,165,tile roof,0.2842102
+layer3,166,honeycomb,0.109375
+layer3,167,"chime, bell, gong",0.16937256
+layer3,168,produce,0.25326538
+layer3,169,chainlink fence,0.25564575
+layer3,170,transexual,0.19311523
+layer3,171,seafood,0.14187622
+layer3,172,"capuchin, ringtail, Cebus capucinus",0.3065796
+layer3,173,tile roof,0.12780762
+layer3,174,fireboat,0.26028442
+layer3,175,"shield, buckler",0.08444214
+layer3,176,cauliflower,0.4092102
+layer3,177,honeycomb,0.2425232
+layer3,178,French loaf,0.13842773
+layer3,179,"loudspeaker, speaker, speaker unit, loudspeaker system, speaker system",0.19491577
+layer3,180,rows,0.1368103
+layer3,181,"Shetland sheepdog, Shetland sheep dog, Shetland",0.2529602
+layer3,182,curtains,0.14797974
+layer3,183,dog,0.24761963
+layer3,184,"computer keyboard, keypad",0.28479004
+layer3,185,digital watch,0.14477539
+layer3,186,mashed potato,0.23132324
+layer3,187,"hand-held computer, hand-held microcomputer",0.22357178
+layer3,188,"computer keyboard, keypad",0.13092041
+layer3,189,"siamang, Hylobates syndactylus, Symphalangus syndactylus",0.10159302
+layer3,190,reorganization,0.12402344
+layer3,191,"night snake, Hypsiglena torquata",0.25790405
+layer3,192,caps,0.09289551
+layer3,193,"black and gold garden spider, Argiope aurantia",0.22268677
+layer3,194,cauliflower,0.18551636
+layer3,195,fruits,0.24725342
+layer3,196,window screen,0.11557007
+layer3,197,cliff dwelling,0.2050476
+layer3,198,honeycomb,0.14822388
+layer3,199,"polecat, fitch, foulmart, foumart, Mustela putorius",0.2690735
+layer3,200,honeycomb,0.12619019
+layer3,201,"spider web, spider's web",0.23867798
+layer3,202,orange,0.21740723
+layer3,203,menus,0.25027466
+layer3,204,"wallet, billfold, notecase, pocketbook",0.14004517
+layer3,205,ivtools,0.23355103
+layer3,206,keypad,0.13241577
+layer3,207,bottles,0.13583374
+layer3,208,"upright, upright piano",0.13171387
+layer3,209,"crayfish, crawfish, crawdad, crawdaddy",0.17852783
+layer3,210,"disk brake, disc brake",0.07888794
+layer3,211,"chocolate sauce, chocolate syrup",0.21340942
+layer3,212,bw,0.1510315
+layer3,213,"slide rule, slipstick",0.1602478
+layer3,214,juvenile,0.32400513
+layer3,215,"microwave, microwave oven",0.20672607
+layer3,216,pomegranate,0.057403564
+layer3,217,manhole cover,0.14123535
+layer3,218,soft-coated wheaten terrier,0.29660034
+layer3,219,soups,0.123535156
+layer3,220,chainlink fence,0.38198853
+layer3,221,cylinders,0.09475708
+layer3,222,acorn squash,0.22912598
+layer3,223,"porcupine, hedgehog",0.32867432
+layer3,224,"pencil box, pencil case",0.118011475
+layer3,225,Blenheim spaniel,0.38119507
+layer3,226,"night snake, Hypsiglena torquata",1.055603
+layer3,227,"capuchin, ringtail, Cebus capucinus",0.15393066
+layer3,228,fruits,0.29992676
+layer3,229,"capuchin, ringtail, Cebus capucinus",0.23184204
+layer3,230,"slide rule, slipstick",0.21420288
+layer3,231,flowers,0.2692566
+layer3,232,"capuchin, ringtail, Cebus capucinus",0.27478027
+layer3,233,"china cabinet, china closet",0.22567749
+layer3,234,desktop computer,0.09945679
+layer3,235,"slide rule, slipstick",0.32174683
+layer3,236,brain coral,0.21188354
+layer3,237,"washer, automatic washer, washing machine",0.22537231
+layer3,238,peacock,0.1930542
+layer3,239,habitat,0.18771362
+layer3,240,"slide rule, slipstick",0.42242432
+layer3,241,lights,0.17697144
+layer3,242,"marimba, xylophone",0.108795166
+layer3,243,wholesale,0.13452148
+layer3,244,"gasmask, respirator, gas helmet",0.117126465
+layer3,245,honeycomb,0.117126465
+layer3,246,gauges,0.11300659
+layer3,247,shelves,0.19238281
+layer3,248,bottles,0.22305298
+layer3,249,menu,0.18319702
+layer3,250,tile roof,0.18981934
+layer3,251,"Tibetan terrier, chrysanthemum dog",0.3517456
+layer3,252,honeycomb,0.15301514
+layer3,253,"black widow, Latrodectus mactans",0.16384888
+layer3,254,"silky terrier, Sydney silky",0.23074341
+layer3,255,"Gila monster, Heloderma suspectum",0.3505249

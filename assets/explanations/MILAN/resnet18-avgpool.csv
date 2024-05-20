@@ -1,0 +1,513 @@
+layer,unit,description
+avgpool,0,Circles
+avgpool,1,Books
+avgpool,2,White areas
+avgpool,3,The ocean
+avgpool,4,Faces of things
+avgpool,5,Dresses
+avgpool,6,Diagonal lines
+avgpool,7,Water
+avgpool,8,Clothing
+avgpool,9,Dog ears
+avgpool,10,Edges of objects
+avgpool,11,Diagonal lines
+avgpool,12,Animals
+avgpool,13,Food
+avgpool,14,Parts of things
+avgpool,15,Organs and arches
+avgpool,16,Red colored objects
+avgpool,17,Living things
+avgpool,18,Food
+avgpool,19,The right side of a object
+avgpool,20,Round objects
+avgpool,21,Living things
+avgpool,22,Light reflections
+avgpool,23,Computer screens
+avgpool,24,Specific patterns
+avgpool,25,Faces of things
+avgpool,26,Food
+avgpool,27,The ground
+avgpool,28,Living things
+avgpool,29,Red objects
+avgpool,30,Edges of objects
+avgpool,31,Animals
+avgpool,32,Vehicles
+avgpool,33,Text
+avgpool,34,Faces of things
+avgpool,35,Animals
+avgpool,36,Edges of objects
+avgpool,37,Items with designs
+avgpool,38,Hinges
+avgpool,39,Landscapes
+avgpool,40,Clothes
+avgpool,41,Diagonal lines
+avgpool,42,Faces of things
+avgpool,43,Items with designs
+avgpool,44,The right side of a object
+avgpool,45,Faces of things
+avgpool,46,Fences
+avgpool,47,Furniture
+avgpool,48,The right side of a object
+avgpool,49,Living things
+avgpool,50,Regions with straight features
+avgpool,51,Animals
+avgpool,52,Round objects
+avgpool,53,Wooden stands
+avgpool,54,The sky
+avgpool,55,Animals
+avgpool,56,The ocean
+avgpool,57,Faces of things
+avgpool,58,Green areas in picture
+avgpool,59,Edges of objects
+avgpool,60,Dogs
+avgpool,61,Regions with straight features
+avgpool,62,Living things
+avgpool,63,Rounded edges in pictures
+avgpool,64,Items with designs
+avgpool,65,Living things
+avgpool,66,Items with designs
+avgpool,67,The right side of a object
+avgpool,68,Greenery
+avgpool,69,Living things
+avgpool,70,The right side of a object
+avgpool,71,Bottles
+avgpool,72,Produce
+avgpool,73,Round objects
+avgpool,74,Clothing
+avgpool,75,Arches
+avgpool,76,Small checkered patterns
+avgpool,77,Regions with straight features
+avgpool,78,Items with designs
+avgpool,79,Wooden chairs
+avgpool,80,Produce
+avgpool,81,Areas where objects
+avgpool,82,The right side of a object
+avgpool,83,Dogs
+avgpool,84,Edges of objects
+avgpool,85,Diagonal lines
+avgpool,86,Items with designs
+avgpool,87,Produce
+avgpool,88,Vehicles
+avgpool,89,Clothes
+avgpool,90,The right side of a object
+avgpool,91,Edges of objects
+avgpool,92,Animals
+avgpool,93,Yellow areas
+avgpool,94,Regions with straight features
+avgpool,95,Faces of things
+avgpool,96,Windows
+avgpool,97,Faces of things
+avgpool,98,Dogs
+avgpool,99,Spotted areas in pictures
+avgpool,100,Dogs
+avgpool,101,Water
+avgpool,102,Living things
+avgpool,103,Food
+avgpool,104,Smoke and the sky
+avgpool,105,Text
+avgpool,106,Clothes
+avgpool,107,The right side of a object
+avgpool,108,Parts of things
+avgpool,109,Hinges
+avgpool,110,Faces of things
+avgpool,111,Regions with straight features
+avgpool,112,Light reflections
+avgpool,113,Text
+avgpool,114,Hands of people
+avgpool,115,Faces of things
+avgpool,116,Regions with straight features
+avgpool,117,White backgrounds
+avgpool,118,Houses built in rock cliff
+avgpool,119,Clothes
+avgpool,120,Items with designs
+avgpool,121,Horizontal lines
+avgpool,122,Round objects
+avgpool,123,Similar color patterns
+avgpool,124,Fur of animals
+avgpool,125,Faces
+avgpool,126,Items with circular features
+avgpool,127,Dog ears
+avgpool,128,Regions with straight features
+avgpool,129,The middle of objects
+avgpool,130,Text
+avgpool,131,Edges of objects
+avgpool,132,Living things
+avgpool,133,Birds
+avgpool,134,Red areas
+avgpool,135,Insects
+avgpool,136,Items with circular features
+avgpool,137,Parts of things
+avgpool,138,The ground
+avgpool,139,Items with designs
+avgpool,140,Furniture
+avgpool,141,Yellow areas in pictures
+avgpool,142,The ground and animals
+avgpool,143,Circles
+avgpool,144,Rounded edges in pictures
+avgpool,145,Round edges on objects
+avgpool,146,Animals
+avgpool,147,Red lights
+avgpool,148,Faces of things
+avgpool,149,Animals
+avgpool,150,Items with designs
+avgpool,151,Edges of objects
+avgpool,152,Faces of things
+avgpool,153,Faces of things
+avgpool,154,The middle of objects
+avgpool,155,Circles
+avgpool,156,Faces of things
+avgpool,157,Fur of animals
+avgpool,158,Food
+avgpool,159,Animals
+avgpool,160,The screens
+avgpool,161,Nature
+avgpool,162,The area around the object
+avgpool,163,Living things
+avgpool,164,Diagonal lines
+avgpool,165,The ground
+avgpool,166,The ground
+avgpool,167,Faces of things
+avgpool,168,Water geysers
+avgpool,169,Circles
+avgpool,170,Spiders and crabs
+avgpool,171,Produce
+avgpool,172,Items with circular features
+avgpool,173,Animal
+avgpool,174,Metal screws
+avgpool,175,Items with designs
+avgpool,176,Wheels
+avgpool,177,Wheels
+avgpool,178,Produce
+avgpool,179,Wheels
+avgpool,180,Food
+avgpool,181,Food
+avgpool,182,Landscapes
+avgpool,183,Items with designs
+avgpool,184,Distorted faces
+avgpool,185,Pink carpet
+avgpool,186,Diagonal lines
+avgpool,187,Regions with straight features
+avgpool,188,Dots
+avgpool,189,Stripes
+avgpool,190,They all contain leg lines
+avgpool,191,Yellow areas
+avgpool,192,Hinges
+avgpool,193,The sky
+avgpool,194,Edges of objects
+avgpool,195,Living things
+avgpool,196,Clothing
+avgpool,197,Diagonal lines
+avgpool,198,Clothes
+avgpool,199,Light reflections
+avgpool,200,Colorful areas
+avgpool,201,Edges of objects
+avgpool,202,Animals in the savannah
+avgpool,203,Diagonal lines
+avgpool,204,Green areas in picture
+avgpool,205,Stripes
+avgpool,206,The right side of a object
+avgpool,207,Faces of things
+avgpool,208,Regions with straight features
+avgpool,209,"Insects, spiders"
+avgpool,210,Circles
+avgpool,211,Blue sky
+avgpool,212,Dog ears
+avgpool,213,Living things
+avgpool,214,Living things
+avgpool,215,Similar patterns
+avgpool,216,Edges of objects
+avgpool,217,Animals
+avgpool,218,Living things
+avgpool,219,Clothes
+avgpool,220,Round objects
+avgpool,221,Yellow or green
+avgpool,222,Dots
+avgpool,223,Items with designs
+avgpool,224,Food
+avgpool,225,Faces of things
+avgpool,226,Landscapes
+avgpool,227,Round edges on objects
+avgpool,228,The ground
+avgpool,229,Edges of objects
+avgpool,230,Edges of objects
+avgpool,231,Edges of objects
+avgpool,232,Living things
+avgpool,233,Produce
+avgpool,234,Circles
+avgpool,235,Red areas in picture
+avgpool,236,Clothes
+avgpool,237,Rounded edges in pictures
+avgpool,238,Diagonal lines
+avgpool,239,The right side of a object
+avgpool,240,Edges of objects
+avgpool,241,Clothing
+avgpool,242,Dogs
+avgpool,243,Honeycomb and lattice objects
+avgpool,244,Food
+avgpool,245,Birds
+avgpool,246,Animal
+avgpool,247,Edges of objects
+avgpool,248,Clocks
+avgpool,249,Nature
+avgpool,250,Nature
+avgpool,251,Faces of things
+avgpool,252,Items with designs
+avgpool,253,Dots
+avgpool,254,Chairs
+avgpool,255,Animals
+avgpool,256,Dog ears
+avgpool,257,Green areas in picture
+avgpool,258,Rounded edges in pictures
+avgpool,259,Food
+avgpool,260,White areas
+avgpool,261,Circles
+avgpool,262,Regions with straight features
+avgpool,263,Animals
+avgpool,264,Food
+avgpool,265,Diagonal lines
+avgpool,266,Dogs
+avgpool,267,Food
+avgpool,268,The ground
+avgpool,269,Wheels
+avgpool,270,Regions with straight features
+avgpool,271,Dogs
+avgpool,272,The right side of a object
+avgpool,273,Nothing
+avgpool,274,Dogs
+avgpool,275,Faces of things
+avgpool,276,Underwater
+avgpool,277,Water sources
+avgpool,278,Faces of things
+avgpool,279,Faces
+avgpool,280,Animals
+avgpool,281,Regions with straight features
+avgpool,282,Keyboards
+avgpool,283,The ground
+avgpool,284,Living things
+avgpool,285,Food
+avgpool,286,Circles
+avgpool,287,Edges of objects
+avgpool,288,Nature
+avgpool,289,Faces of things
+avgpool,290,Edges of objects
+avgpool,291,Clothing
+avgpool,292,Living things
+avgpool,293,Living things
+avgpool,294,Food
+avgpool,295,Round objects
+avgpool,296,Rectangular objects
+avgpool,297,Grass
+avgpool,298,Faces of things
+avgpool,299,Items with designs
+avgpool,300,The corners of objects
+avgpool,301,Faces of things
+avgpool,302,Faces of things
+avgpool,303,Windows
+avgpool,304,Living things
+avgpool,305,Living things
+avgpool,306,Round objects
+avgpool,307,Stripes in an object
+avgpool,308,Furniture
+avgpool,309,Faces of things
+avgpool,310,Nature
+avgpool,311,Animals
+avgpool,312,Regions with straight features
+avgpool,313,Items with designs
+avgpool,314,Edges of objects
+avgpool,315,Regions with straight features
+avgpool,316,Yellow areas
+avgpool,317,Faces of things
+avgpool,318,Nature
+avgpool,319,Edges of objects
+avgpool,320,Items with designs
+avgpool,321,The sky
+avgpool,322,Round objects
+avgpool,323,Dogs
+avgpool,324,Green areas in picture
+avgpool,325,Faces of things
+avgpool,326,Circles
+avgpool,327,Handles and mugs
+avgpool,328,Regions with straight features
+avgpool,329,Regions with straight features
+avgpool,330,The ground
+avgpool,331,Food
+avgpool,332,Diagonal lines
+avgpool,333,Living things
+avgpool,334,Cylindrical objects
+avgpool,335,The ground
+avgpool,336,Regions with straight features
+avgpool,337,Living things
+avgpool,338,Food
+avgpool,339,Similar patterns
+avgpool,340,Parts of things
+avgpool,341,Dogs
+avgpool,342,The ground
+avgpool,343,Edges of objects
+avgpool,344,Nature
+avgpool,345,Faces of things
+avgpool,346,Animals
+avgpool,347,The corners of objects
+avgpool,348,Rounded edges in pictures
+avgpool,349,The sky
+avgpool,350,Bodies of animals
+avgpool,351,Items with designs
+avgpool,352,Living things
+avgpool,353,Pink and pink
+avgpool,354,Clothes
+avgpool,355,Items with designs
+avgpool,356,Edges of objects
+avgpool,357,Green areas in picture
+avgpool,358,Animals
+avgpool,359,Dots
+avgpool,360,Light reflections
+avgpool,361,Diagonal lines
+avgpool,362,Circles
+avgpool,363,Circles
+avgpool,364,Furniture
+avgpool,365,Items with designs
+avgpool,366,Landscapes
+avgpool,367,Clothes
+avgpool,368,Hinges
+avgpool,369,Regions with straight features
+avgpool,370,Aquatic life
+avgpool,371,Spiders and lizards
+avgpool,372,White areas
+avgpool,373,Hinges
+avgpool,374,Edges of objects
+avgpool,375,Legs of people
+avgpool,376,Wood grain
+avgpool,377,Edges of objects
+avgpool,378,Faces of things
+avgpool,379,The colors blue and green
+avgpool,380,Food
+avgpool,381,Regions with straight features
+avgpool,382,Walls
+avgpool,383,Regions with straight features
+avgpool,384,Faces of things
+avgpool,385,The ground
+avgpool,386,Rounded edges in pictures
+avgpool,387,Beaks and birds
+avgpool,388,Items with designs
+avgpool,389,Nature
+avgpool,390,Living things
+avgpool,391,Clocks
+avgpool,392,Similar patterns
+avgpool,393,Fences
+avgpool,394,Green areas in picture
+avgpool,395,Blue arches
+avgpool,396,Food
+avgpool,397,Regions with straight features
+avgpool,398,Living things
+avgpool,399,Animals
+avgpool,400,Green areas in picture
+avgpool,401,Aquatic life
+avgpool,402,Dogs
+avgpool,403,Edges of objects
+avgpool,404,Regions with straight features
+avgpool,405,Bottles
+avgpool,406,Edges of objects
+avgpool,407,Animals
+avgpool,408,Food
+avgpool,409,Legs of people
+avgpool,410,Animals
+avgpool,411,Living things
+avgpool,412,Edges of objects
+avgpool,413,Hinges
+avgpool,414,Clothing
+avgpool,415,Dog ears
+avgpool,416,Items with designs
+avgpool,417,Nature
+avgpool,418,Faces of things
+avgpool,419,Stripes
+avgpool,420,Food
+avgpool,421,The ground
+avgpool,422,Birds
+avgpool,423,Text on a menu
+avgpool,424,The ocean
+avgpool,425,Circles
+avgpool,426,The colors blue and green
+avgpool,427,Vehicles
+avgpool,428,Vehicles
+avgpool,429,Faces of things
+avgpool,430,People
+avgpool,431,Diagonal lines
+avgpool,432,Faces of things
+avgpool,433,Faces of things
+avgpool,434,Living things
+avgpool,435,The sky
+avgpool,436,The area around the object
+avgpool,437,The ground
+avgpool,438,Diagonal lines
+avgpool,439,Rounded edges in pictures
+avgpool,440,Food
+avgpool,441,Parts of things
+avgpool,442,Clothes
+avgpool,443,Animals
+avgpool,444,Living things
+avgpool,445,Animals
+avgpool,446,Furniture
+avgpool,447,Arches or arches
+avgpool,448,Living things
+avgpool,449,Pink and pink
+avgpool,450,Text
+avgpool,451,Living things
+avgpool,452,Edges of objects
+avgpool,453,The corners of objects
+avgpool,454,The right side of a object
+avgpool,455,Edges of objects
+avgpool,456,Vehicles
+avgpool,457,Clothes
+avgpool,458,Faces of things
+avgpool,459,Animals
+avgpool,460,Aquatic life
+avgpool,461,Edges of objects
+avgpool,462,Green areas in picture
+avgpool,463,Animals
+avgpool,464,Furniture
+avgpool,465,Diagonal lines
+avgpool,466,Living things
+avgpool,467,Edges of objects
+avgpool,468,Faces of things
+avgpool,469,Living things
+avgpool,470,Living things
+avgpool,471,Animals
+avgpool,472,White areas
+avgpool,473,Circles
+avgpool,474,Faces of things
+avgpool,475,Edges of objects
+avgpool,476,Living things
+avgpool,477,Items with designs
+avgpool,478,Animals
+avgpool,479,Windows
+avgpool,480,Landscapes
+avgpool,481,The sky
+avgpool,482,Edges of objects
+avgpool,483,Bodies of animals
+avgpool,484,Furniture
+avgpool,485,Dog ears
+avgpool,486,Birds and the sky
+avgpool,487,The right side of a object
+avgpool,488,Green areas in picture
+avgpool,489,Faces of things
+avgpool,490,Green areas in picture
+avgpool,491,Regions with straight features
+avgpool,492,Animal
+avgpool,493,Animals
+avgpool,494,Faces of things
+avgpool,495,Faces of things
+avgpool,496,Dots
+avgpool,497,Clothing
+avgpool,498,Food
+avgpool,499,Edges of objects
+avgpool,500,Edges of objects
+avgpool,501,Items with designs
+avgpool,502,Clothing
+avgpool,503,Round edges on objects
+avgpool,504,Spotted areas in pictures
+avgpool,505,Items with designs
+avgpool,506,The right side of a object
+avgpool,507,"Insects, spiders"
+avgpool,508,Regions with straight features
+avgpool,509,Water sources
+avgpool,510,The ocean
+avgpool,511,Living things

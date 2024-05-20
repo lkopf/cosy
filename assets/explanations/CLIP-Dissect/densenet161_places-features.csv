@@ -1,0 +1,2209 @@
+layer,unit,description,similarity
+features,0,carcinoma,0.09024048
+features,1,mountain snowy,0.27764893
+features,2,rave,0.15203857
+features,3,boxing,0.21054077
+features,4,ordered,0.21270752
+features,5,football field,0.20770264
+features,6,green,0.23425293
+features,7,banquet hall,0.2243042
+features,8,pizzeria,0.120666504
+features,9,pantry,0.3553772
+features,10,"gazebo, exterior",0.29742432
+features,11,apartment,0.14431763
+features,12,building facade,0.21664429
+features,13,utility room,0.26242065
+features,14,burial chamber,0.15148926
+features,15,supermarket,0.24621582
+features,16,rice paddy,0.19622803
+features,17,hot spring,0.3385315
+features,18,crowd,0.14962769
+features,19,"swimming pool, outdoor",0.19888306
+features,20,wardrobe,0.22805786
+features,21,building facade,0.17416382
+features,22,attic,0.28375244
+features,23,marketed,0.11340332
+features,24,fluorescence,0.115753174
+features,25,tomb,0.21411133
+features,26,rafting,0.47329712
+features,27,pink,0.14099121
+features,28,jail cell,0.2772827
+features,29,sedona,0.1177063
+features,30,viaduct,0.22949219
+features,31,fire escape,0.19152832
+features,32,restaurant kitchen,0.46951294
+features,33,red,0.16052246
+features,34,"ice skating rink, indoor",0.32617188
+features,35,building facade,0.17410278
+features,36,rafting,0.8883972
+features,37,building facade,0.16894531
+features,38,bamboo forest,0.1725769
+features,39,participants,0.2010498
+features,40,rainforest,0.19720459
+features,41,hoodia,0.12640381
+features,42,ball pit,0.33181763
+features,43,ball pit,0.17025757
+features,44,crosswalk,0.4361267
+features,45,textile,0.24560547
+features,46,butchers shop,0.39846802
+features,47,sand,0.2338562
+features,48,"atrium, public",0.19839478
+features,49,pantry,0.3651123
+features,50,bamboo forest,0.56396484
+features,51,habitat,0.3005371
+features,52,bank vault,0.12496948
+features,53,zen garden,0.3539734
+features,54,sandbox,0.34329224
+features,55,elevator lobby,0.11923218
+features,56,swimming hole,0.15148926
+features,57,"underwater, ocean deep",0.16329956
+features,58,participants,0.23474121
+features,59,topiary garden,0.76605225
+features,60,manuscripts,0.19763184
+features,61,stairs,0.16073608
+features,62,conference room,0.24099731
+features,63,car interior,0.2531128
+features,64,crevasse,0.13684082
+features,65,sauna,0.22695923
+features,66,advertisement,0.2185669
+features,67,landing deck,0.16967773
+features,68,fabric store,0.260437
+features,69,ball pit,0.31796265
+features,70,bookshelf,0.4237671
+features,71,aircraft,0.3789673
+features,72,ball pit,0.33666992
+features,73,paintings,0.11669922
+features,74,billiards,0.29159546
+features,75,drugstore,0.26486206
+features,76,habitat,0.19631958
+features,77,closet,0.2652588
+features,78,bookstores,0.08187866
+features,79,facilities,0.18865967
+features,80,nursery,0.21105957
+features,81,ball pit,0.10977173
+features,82,clouds,0.36715698
+features,83,utility room,0.40905762
+features,84,fences,0.09906006
+features,85,bamboo forest,0.4607849
+features,86,vineyards,0.22705078
+features,87,"kennel, outdoor",0.29782104
+features,88,foliage,0.20388794
+features,89,flower,0.20947266
+features,90,boxing,0.45791626
+features,91,hockey,0.074035645
+features,92,car interior,0.23348999
+features,93,"bakery, shop",0.31591797
+features,94,"arena, rodeo",0.1703186
+features,95,ball pit,0.36224365
+features,96,"stadium, football",0.1098938
+features,97,passage,0.2505188
+features,98,intergovernmental,0.2854309
+features,99,skeleton,0.2980957
+features,100,furnished,0.40582275
+features,101,glacier,0.116882324
+features,102,aviation,0.45874023
+features,103,ducks,0.13876343
+features,104,childs room,0.42782593
+features,105,aisle,0.19262695
+features,106,pantry,0.46237183
+features,107,beer,0.17321777
+features,108,operating room,0.3642578
+features,109,"apartment building, outdoor",0.14324951
+features,110,aqueduct,0.3366394
+features,111,tournament,0.16189575
+features,112,pagoda,0.36654663
+features,113,computer room,0.14706421
+features,114,warehousing,0.11538696
+features,115,throne room,0.20004272
+features,116,aqueduct,0.53305054
+features,117,ice shelf,0.13272095
+features,118,corridor,0.17614746
+features,119,canyon,0.325531
+features,120,conservatory,0.2875061
+features,121,scarves,0.0914917
+features,122,cockpit,0.3982544
+features,123,"hangar, indoor",0.09674072
+features,124,snowfield,0.16149902
+features,125,rafting,0.17178345
+features,126,seats,0.110565186
+features,127,ball pit,0.7595215
+features,128,bowling alley,0.7943115
+features,129,wind farm,0.37121582
+features,130,roof garden,0.2913208
+features,131,columns,0.22961426
+features,132,food court,0.23394775
+features,133,clouds,0.28588867
+features,134,dining room,0.31802368
+features,135,"desert, vegetation",0.22259521
+features,136,delicatessen,0.13754272
+features,137,building facade,0.2131958
+features,138,quilts,0.14712524
+features,139,snowfield,0.2949829
+features,140,conference room,0.15460205
+features,141,panorama,0.18936157
+features,142,palms,0.10202026
+features,143,locker room,0.15753174
+features,144,elevator shaft,0.14517212
+features,145,ball pit,0.22259521
+features,146,kindergarden classroom,0.3085022
+features,147,utility room,0.32369995
+features,148,boxing,0.32958984
+features,149,"bakery, shop",0.19168091
+features,150,ceilings,0.12081909
+features,151,locker,0.44589233
+features,152,fabric store,0.27798462
+features,153,flores,0.44625854
+features,154,attic,0.22207642
+features,155,phone booth,0.12219238
+features,156,habitat,0.32565308
+features,157,lights,0.1829834
+features,158,gas station,0.48208618
+features,159,homemade,0.13549805
+features,160,candy store,0.19506836
+features,161,clothing store,0.1763916
+features,162,avalanche,0.1947937
+features,163,"field, cultivated",0.12234497
+features,164,crypt,0.16226196
+features,165,ball pit,0.56707764
+features,166,"desert, vegetation",0.3414917
+features,167,fishpond,0.35058594
+features,168,fabric store,0.331604
+features,169,"parking garage, indoor",0.15231323
+features,170,snow,0.23510742
+features,171,mountain snowy,0.23043823
+features,172,jewelry shop,0.11767578
+features,173,ball pit,0.67666626
+features,174,jail cell,0.14230347
+features,175,ball pit,0.9525757
+features,176,bookshelf,0.29205322
+features,177,"field, cultivated",0.3317566
+features,178,flower,0.20983887
+features,179,recording,0.14016724
+features,180,aqueduct,0.11383057
+features,181,giclee,0.1878357
+features,182,fabric store,0.17196655
+features,183,bamboo forest,0.24493408
+features,184,surfing,0.46533203
+features,185,childs room,0.17553711
+features,186,legislative chamber,0.14797974
+features,187,pagoda,0.43688965
+features,188,crevasse,0.16656494
+features,189,tree farm,0.33547974
+features,190,waterfall,0.39987183
+features,191,car interior,0.24023438
+features,192,yellow,0.12774658
+features,193,bowling alley,0.35064697
+features,194,shoe shop,0.20074463
+features,195,"field, cultivated",0.24240112
+features,196,lava,0.26837158
+features,197,fountains,0.12475586
+features,198,kindergarten,0.24847412
+features,199,volcano,0.17855835
+features,200,"florist shop, indoor",0.28457642
+features,201,building facade,0.20663452
+features,202,amusement arcade,0.28121948
+features,203,formal garden,0.27703857
+features,204,shower,0.14337158
+features,205,bank vault,0.28845215
+features,206,wardrobe,0.37609863
+features,207,buildings,0.30160522
+features,208,juvenile,0.1281128
+features,209,oast house,0.13998413
+features,210,snowfield,0.37582397
+features,211,candy store,0.13140869
+features,212,glacier,0.2026062
+features,213,aviation,0.31536865
+features,214,sign,0.20852661
+features,215,"church, outdoor",0.13995361
+features,216,wetland,0.2144165
+features,217,amphitheater,0.68933105
+features,218,trains,0.26535034
+features,219,flowers,0.1296997
+features,220,wind farm,0.6676636
+features,221,"stadium, football",0.29870605
+features,222,pantry,0.56417847
+features,223,pagoda,0.29232788
+features,224,jail cell,0.19384766
+features,225,ball pit,0.28674316
+features,226,skyline,0.37802124
+features,227,panorama,0.27209473
+features,228,ball pit,0.18963623
+features,229,raceway,0.16339111
+features,230,"general store, indoor",0.34588623
+features,231,playground,0.2772522
+features,232,bottles,0.25878906
+features,233,aviation,0.45874023
+features,234,bamboo forest,0.29641724
+features,235,utility room,0.11462402
+features,236,forest path,0.2637329
+features,237,bamboo forest,0.81900024
+features,238,aqueduct,0.3135376
+features,239,forest path,0.13265991
+features,240,windmill,0.25402832
+features,241,water tower,0.35546875
+features,242,natural history museum,0.3798828
+features,243,bamboo forest,0.29400635
+features,244,storage room,0.19589233
+features,245,"escalator, indoor",0.34631348
+features,246,gates,0.12503052
+features,247,bedchamber,0.22763062
+features,248,cushions,0.28515625
+features,249,nurses,0.17932129
+features,250,ball pit,0.2010498
+features,251,classroom,0.42929077
+features,252,bus interior,0.27236938
+features,253,landfill,0.20373535
+features,254,fog,0.2878418
+features,255,ultraviolet,0.20098877
+features,256,mosque,0.1927185
+features,257,galley,0.43811035
+features,258,courtyard,0.24453735
+features,259,candy store,0.24490356
+features,260,glacier,0.097351074
+features,261,"escalator, indoor",0.2539673
+features,262,compressor,0.24591064
+features,263,railroad track,0.11505127
+features,264,spires,0.1434021
+features,265,autumn,0.26489258
+features,266,mating,0.23687744
+features,267,car interior,0.37722778
+features,268,mezzanine,0.16442871
+features,269,beads,0.12805176
+features,270,laboratories,0.15100098
+features,271,ball pit,0.23526001
+features,272,sahara,0.26800537
+features,273,cyclone,0.20913696
+features,274,wavelength,0.10623169
+features,275,carrousel,0.21679688
+features,276,ball pit,0.90682983
+features,277,carrousel,0.49295044
+features,278,"stadium, baseball",0.54800415
+features,279,rope bridge,0.19995117
+features,280,pagoda,0.6125183
+features,281,rock arch,0.53897095
+features,282,tomb,0.2590027
+features,283,"balcony, exterior",0.1803894
+features,284,collier,0.17071533
+features,285,"bakery, shop",0.2720642
+features,286,vegetable garden,0.59991455
+features,287,compost,0.1904602
+features,288,beaded,0.08480835
+features,289,"kennel, outdoor",0.26852417
+features,290,"balcony, interior",0.13705444
+features,291,"forest, broadleaf",0.28204346
+features,292,habitat,0.20993042
+features,293,pantry,0.39608765
+features,294,tackling,0.22128296
+features,295,shower,0.32507324
+features,296,mosque,0.35531616
+features,297,wind farm,0.7291565
+features,298,door,0.37524414
+features,299,fossils,0.085998535
+features,300,rope bridge,0.37286377
+features,301,topiary garden,0.22747803
+features,302,junkyard,0.17855835
+features,303,library,0.20297241
+features,304,water tower,0.1802063
+features,305,operating room,0.118133545
+features,306,rice paddy,0.17553711
+features,307,fabric store,0.30493164
+features,308,aviation,0.29473877
+features,309,aviation,0.45874023
+features,310,living room,0.36325073
+features,311,"gazebo, exterior",0.2696228
+features,312,instructors,0.18115234
+features,313,bowling,0.49383545
+features,314,pantry,0.107421875
+features,315,shelving,0.43804932
+features,316,fielding,0.18057251
+features,317,audience,0.109191895
+features,318,sauna,0.372406
+features,319,"arena, hockey",0.24087524
+features,320,aviation,0.45874023
+features,321,aviation,0.45874023
+features,322,rice paddy,0.22698975
+features,323,assortment,0.119262695
+features,324,ball pit,0.30752563
+features,325,jail cell,0.23794556
+features,326,butchers shop,0.340271
+features,327,aqueduct,0.2607422
+features,328,pantry,0.22790527
+features,329,staircase,0.26202393
+features,330,"doorway, outdoor",0.28250122
+features,331,sauna,0.52511597
+features,332,auditorium,0.38974
+features,333,bamboo forest,0.4610901
+features,334,kennel,0.16885376
+features,335,boats,0.46984863
+features,336,ball pit,0.17602539
+features,337,tackling,0.1972351
+features,338,ball pit,0.5871887
+features,339,curtains,0.10836792
+features,340,crevasse,0.35092163
+features,341,zen garden,0.15322876
+features,342,porch,0.117126465
+features,343,necklace,0.10882568
+features,344,pharmacist,0.29315186
+features,345,kasbah,0.3116455
+features,346,"stadium, football",0.31777954
+features,347,ball pit,0.25598145
+features,348,tackling,0.18045044
+features,349,bus interior,0.3164673
+features,350,butchers shop,0.25109863
+features,351,opponents,0.16558838
+features,352,surf,0.36691284
+features,353,pizza,0.20214844
+features,354,resort,0.27505493
+features,355,pagoda,0.39840698
+features,356,foods,0.1697998
+features,357,roads,0.16107178
+features,358,pier,0.11175537
+features,359,desserts,0.20993042
+features,360,dam,0.10845947
+features,361,amusement arcade,0.24291992
+features,362,juvenile,0.16680908
+features,363,archaelogical excavation,0.25460815
+features,364,bullring,0.15005493
+features,365,rafting,0.18756104
+features,366,drainage,0.26657104
+features,367,condominium,0.31298828
+features,368,"desert, sand",0.12615967
+features,369,cemetery,0.114746094
+features,370,formal garden,0.20483398
+features,371,"desert, sand",0.59799194
+features,372,habitat,0.24575806
+features,373,banquet hall,0.22851562
+features,374,concert,0.18972778
+features,375,junkyard,0.19210815
+features,376,performing,0.12060547
+features,377,"ice skating rink, indoor",0.33773804
+features,378,bank vault,0.2654724
+features,379,elevator lobby,0.18585205
+features,380,"apartment building, outdoor",0.2447815
+features,381,pantry,0.35403442
+features,382,autumn,0.19915771
+features,383,"desert, sand",0.10745239
+features,384,museum,0.1880188
+features,385,cathedral,0.24154663
+features,386,soccer,0.2532959
+features,387,grazing,0.2124939
+features,388,building facade,0.26287842
+features,389,artists loft,0.24438477
+features,390,flower,0.22436523
+features,391,aviation,0.45874023
+features,392,columns,0.20895386
+features,393,ball pit,0.43789673
+features,394,building facade,0.23880005
+features,395,"elevator, door",0.29318237
+features,396,intergovernmental,0.20126343
+features,397,performing,0.20730591
+features,398,cellar,0.24795532
+features,399,aviation,0.35546875
+features,400,"field, cultivated",0.22943115
+features,401,kindergarden classroom,0.32217407
+features,402,castle,0.32455444
+features,403,phone booth,0.3496399
+features,404,"swimming pool, outdoor",0.45584106
+features,405,cabin,0.27755737
+features,406,art gallery,0.2814026
+features,407,candy store,0.31375122
+features,408,bank vault,0.11416626
+features,409,racecourse,0.25109863
+features,410,ball pit,0.34121704
+features,411,intake,0.11856079
+features,412,kayaking,0.29690552
+features,413,wardrobe,0.12527466
+features,414,"greenhouse, outdoor",0.4512024
+features,415,tent,0.2875061
+features,416,delicatessen,0.13232422
+features,417,wyoming,0.16940308
+features,418,carrousel,0.15081787
+features,419,tackling,0.14370728
+features,420,laundromat,0.5172119
+features,421,building facade,0.32647705
+features,422,building facade,0.3008728
+features,423,pantry,0.285614
+features,424,crosswalk,0.10800171
+features,425,textile,0.104766846
+features,426,ball pit,0.9621277
+features,427,botanical garden,0.34542847
+features,428,aqueduct,0.30529785
+features,429,archaelogical excavation,0.25341797
+features,430,"parking garage, indoor",0.13052368
+features,431,ball pit,0.296875
+features,432,pink,0.2715149
+features,433,"apartment building, outdoor",0.3991394
+features,434,dinnerware,0.26068115
+features,435,hockey,0.12979126
+features,436,bedchamber,0.16888428
+features,437,ice floe,0.14981079
+features,438,pantry,0.25854492
+features,439,catacomb,0.15161133
+features,440,sunset,0.24816895
+features,441,aerial,0.17694092
+features,442,pizza,0.20803833
+features,443,rock arch,0.45770264
+features,444,corridor,0.23498535
+features,445,quilts,0.22616577
+features,446,banquet hall,0.29504395
+features,447,filtered,0.15158081
+features,448,aqueduct,0.17529297
+features,449,boxing,0.22000122
+features,450,antarctica,0.20126343
+features,451,automotive,0.18139648
+features,452,ticket booth,0.15722656
+features,453,"lake, natural",0.14038086
+features,454,ball pit,0.67056274
+features,455,restaurant kitchen,0.12545776
+features,456,flavors,0.20516968
+features,457,drugstore,0.21911621
+features,458,flower,0.39083862
+features,459,pizza,0.24343872
+features,460,courtyard,0.16204834
+features,461,wind farm,0.61694336
+features,462,habitat,0.29840088
+features,463,elevator,0.21246338
+features,464,"hangar, indoor",0.12475586
+features,465,surfing,0.35842896
+features,466,"parking garage, indoor",0.13034058
+features,467,"kennel, outdoor",0.26675415
+features,468,"shopping mall, indoor",0.28570557
+features,469,building facade,0.20596313
+features,470,aquarium,0.55514526
+features,471,fastfood restaurant,0.20181274
+features,472,bus interior,0.31570435
+features,473,yellow,0.2036438
+features,474,exhibitors,0.21151733
+features,475,hockey,0.092285156
+features,476,building facade,0.2663269
+features,477,"hunting lodge, outdoor",0.21411133
+features,478,offshore,0.16378784
+features,479,throne room,0.16244507
+features,480,office cubicles,0.4032898
+features,481,venues,0.16751099
+features,482,tree house,0.2937622
+features,483,field,0.23565674
+features,484,"shopping mall, indoor",0.1625061
+features,485,glacier,0.1473999
+features,486,desserts,0.18362427
+features,487,ball pit,0.34292603
+features,488,pantry,0.42001343
+features,489,flowers,0.28793335
+features,490,"lake, natural",0.27157593
+features,491,prairie,0.17401123
+features,492,bamboo forest,0.16671753
+features,493,textile,0.19674683
+features,494,pendants,0.15487671
+features,495,exhaust,0.07165527
+features,496,kindergarten,0.18209839
+features,497,aviation,0.45874023
+features,498,arcade,0.32733154
+features,499,"hangar, indoor",0.09991455
+features,500,boxing,0.22375488
+features,501,aqueduct,0.51571655
+features,502,metropolis,0.10058594
+features,503,library,0.18515015
+features,504,golf course,0.2722473
+features,505,building facade,0.30947876
+features,506,rock arch,0.64071655
+features,507,staircase,0.3826294
+features,508,aqueduct,0.22351074
+features,509,building facade,0.22189331
+features,510,parking lot,0.1133728
+features,511,volcano,0.3433838
+features,512,storage room,0.41757202
+features,513,buses,0.2218628
+features,514,yemen,0.104156494
+features,515,bank vault,0.24035645
+features,516,crevasse,0.29718018
+features,517,tomb,0.19320679
+features,518,pond,0.23355103
+features,519,softcover,0.12466431
+features,520,"escalator, indoor",0.21829224
+features,521,"balcony, interior",0.20755005
+features,522,water tower,0.28463745
+features,523,fire escape,0.1133728
+features,524,mountain snowy,0.37420654
+features,525,marketplace,0.2631836
+features,526,bus interior,0.50427246
+features,527,building facade,0.2154541
+features,528,candy store,0.16864014
+features,529,building facade,0.2124939
+features,530,habitat,0.2265625
+features,531,dining room,0.21957397
+features,532,consumables,0.14678955
+features,533,aviation,0.45874023
+features,534,"doorway, outdoor",0.28363037
+features,535,paintings,0.17932129
+features,536,amphitheater,0.31710815
+features,537,ice shelf,0.4621582
+features,538,foods,0.20663452
+features,539,flower,0.26974487
+features,540,afghanistan,0.19766235
+features,541,trains,0.4855652
+features,542,art gallery,0.4942932
+features,543,mountain snowy,0.29260254
+features,544,slogan,0.103759766
+features,545,market,0.19226074
+features,546,kindergarden classroom,0.39935303
+features,547,barn,0.6392212
+features,548,aviation,0.43426514
+features,549,"shopping mall, indoor",0.31900024
+features,550,carrousel,0.27526855
+features,551,hostel,0.27487183
+features,552,building facade,0.26116943
+features,553,fountains,0.4965515
+features,554,building facade,0.16506958
+features,555,snorkeling,0.37277222
+features,556,"kennel, outdoor",0.24551392
+features,557,jail cell,0.19213867
+features,558,"bow window, indoor",0.24423218
+features,559,exterior,0.1885376
+features,560,aviation,0.45874023
+features,561,fabrics,0.23605347
+features,562,alley,0.14199829
+features,563,"hangar, indoor",0.15789795
+features,564,landfill,0.28457642
+features,565,aqueduct,0.4869995
+features,566,skies,0.21496582
+features,567,elevator shaft,0.106536865
+features,568,slum,0.09414673
+features,569,cockpit,0.33129883
+features,570,building facade,0.29907227
+features,571,pagoda,0.26452637
+features,572,elevator shaft,0.15612793
+features,573,sauna,0.40725708
+features,574,bank vault,0.55267334
+features,575,mauritania,0.3140564
+features,576,rice paddy,0.32565308
+features,577,sea,0.17504883
+features,578,paving,0.30081177
+features,579,dashboard,0.2909546
+features,580,"underwater, ocean deep",0.18798828
+features,581,spires,0.20507812
+features,582,grazing,0.21838379
+features,583,building facade,0.32565308
+features,584,waterfall,0.13934326
+features,585,glacier,0.22161865
+features,586,throne room,0.31033325
+features,587,building facade,0.14712524
+features,588,rock arch,0.18347168
+features,589,bookstore,0.4454651
+features,590,flower,0.27645874
+features,591,snorkeling,0.24310303
+features,592,bank vault,0.14559937
+features,593,yellow,0.20950317
+features,594,tomb,0.21942139
+features,595,fire escape,0.2041626
+features,596,bamboo forest,0.6280823
+features,597,preschool,0.09902954
+features,598,crypt,0.22570801
+features,599,auditorium,0.28601074
+features,600,operating room,0.33236694
+features,601,rafting,0.15536499
+features,602,bedchamber,0.24517822
+features,603,fundraiser,0.13882446
+features,604,valves,0.19265747
+features,605,rave,0.26101685
+features,606,tables,0.17089844
+features,607,racing,0.2284851
+features,608,"temple, asia",0.21743774
+features,609,archaelogical excavation,0.18817139
+features,610,viaduct,0.122924805
+features,611,jewelry shop,0.3138733
+features,612,locker room,0.26748657
+features,613,assorted,0.1446228
+features,614,recreation room,0.18087769
+features,615,fire escape,0.22015381
+features,616,windmill,0.23800659
+features,617,cabinets,0.37228394
+features,618,aisle,0.38882446
+features,619,aviation,0.43554688
+features,620,"greenhouse, indoor",0.14431763
+features,621,windmill,0.261261
+features,622,"underwater, ocean deep",0.5321045
+features,623,"desert, vegetation",0.47369385
+features,624,aviation,0.45874023
+features,625,foods,0.23937988
+features,626,volcano,0.29992676
+features,627,foliage,0.32318115
+features,628,automotive,0.28094482
+features,629,automotive,0.13168335
+features,630,"field, cultivated",0.14370728
+features,631,home theater,0.24972534
+features,632,ball pit,0.9326477
+features,633,tree farm,0.21762085
+features,634,aqueduct,0.20739746
+features,635,banquet hall,0.23690796
+features,636,yellowstone,0.10293579
+features,637,bathroom,0.41967773
+features,638,delegates,0.18060303
+features,639,carrousel,0.17126465
+features,640,building facade,0.278656
+features,641,toyshop,0.18307495
+features,642,soldiers,0.17837524
+features,643,banquet hall,0.16473389
+features,644,ball pit,0.12472534
+features,645,server room,0.30090332
+features,646,ball pit,0.3746643
+features,647,shoes,0.28240967
+features,648,corsair,0.17279053
+features,649,ball pit,0.14859009
+features,650,hotel room,0.12512207
+features,651,"market, outdoor",0.21279907
+features,652,forest road,0.2566223
+features,653,ceiling,0.2972412
+features,654,bookstore,0.42492676
+features,655,mountain snowy,0.19760132
+features,656,"apartment building, outdoor",0.23895264
+features,657,zen garden,0.21835327
+features,658,ball pit,0.18115234
+features,659,fountain,0.3085327
+features,660,"swimming pool, indoor",0.3139038
+features,661,office cubicles,0.36102295
+features,662,building facade,0.3010559
+features,663,imprisonment,0.16888428
+features,664,yellow,0.13772583
+features,665,throne room,0.37722778
+features,666,"desert, sand",0.13284302
+features,667,flores,0.12237549
+features,668,watersports,0.24493408
+features,669,phone booth,0.20144653
+features,670,"library, outdoor",0.15911865
+features,671,"field, cultivated",0.18408203
+features,672,avenue,0.09576416
+features,673,rope bridge,0.1439209
+features,674,surf,0.20126343
+features,675,locker,0.1715393
+features,676,rope bridge,0.6600952
+features,677,"stadium, football",0.4039917
+features,678,locker,0.15383911
+features,679,"gazebo, exterior",0.340271
+features,680,hockey,0.20410156
+features,681,dashboard,0.21343994
+features,682,ball pit,0.25582886
+features,683,fire escape,0.3647461
+features,684,bookshop,0.28424072
+features,685,ball pit,0.2144165
+features,686,"jacuzzi, indoor",0.13366699
+features,687,rapids,0.2467041
+features,688,vegetation,0.2098999
+features,689,"jacuzzi, indoor",0.2854004
+features,690,ocean,0.20883179
+features,691,tree farm,0.13900757
+features,692,habitat,0.17578125
+features,693,carrousel,0.6269531
+features,694,cabinets,0.31097412
+features,695,"escalator, indoor",0.6034241
+features,696,mvp,0.093444824
+features,697,building facade,0.17883301
+features,698,cliffs,0.3079834
+features,699,dozen,0.13623047
+features,700,bank vault,0.24563599
+features,701,mausoleum,0.2986145
+features,702,plaque,0.20129395
+features,703,ball pit,0.30645752
+features,704,"bow window, indoor",0.16513062
+features,705,home theater,0.27542114
+features,706,"shopping mall, indoor",0.27053833
+features,707,automotive,0.18585205
+features,708,sky,0.28207397
+features,709,sea,0.21661377
+features,710,fence,0.17276001
+features,711,building facade,0.29934692
+features,712,snorkeling,0.25021362
+features,713,canyon,0.33047485
+features,714,stadium,0.1715393
+features,715,wetland,0.30822754
+features,716,archaelogical excavation,0.1630249
+features,717,"stadium, baseball",0.52560425
+features,718,plaque,0.2729187
+features,719,phone booth,0.46502686
+features,720,ball pit,0.5687866
+features,721,"shopping mall, indoor",0.3607788
+features,722,facilities,0.17214966
+features,723,sauna,0.24291992
+features,724,elevator shaft,0.3161621
+features,725,flower,0.15567017
+features,726,competitiveness,0.10357666
+features,727,bookshelf,0.26535034
+features,728,fabric store,0.18069458
+features,729,amphitheater,0.19165039
+features,730,elevator lobby,0.14901733
+features,731,bamboo forest,0.44003296
+features,732,wheat field,0.30337524
+features,733,adopt,0.19012451
+features,734,bank vault,0.30038452
+features,735,slum,0.22610474
+features,736,aviation,0.23287964
+features,737,"hangar, indoor",0.27648926
+features,738,fruits,0.27026367
+features,739,pantry,0.44378662
+features,740,geological,0.18252563
+features,741,elevator lobby,0.22912598
+features,742,ball pit,0.40826416
+features,743,plaques,0.16799927
+features,744,forest,0.30810547
+features,745,cemetery,0.27426147
+features,746,bamboo forest,0.66693115
+features,747,elevator shaft,0.15209961
+features,748,nightlife,0.23132324
+features,749,nightlife,0.21548462
+features,750,bank vault,0.21057129
+features,751,"greenhouse, outdoor",0.2772827
+features,752,"movie theater, indoor",0.25860596
+features,753,toyshop,0.11300659
+features,754,"underwater, ocean deep",0.42105103
+features,755,catacomb,0.21325684
+features,756,aqueduct,0.14944458
+features,757,signage,0.21331787
+features,758,"volleyball court, outdoor",0.21853638
+features,759,blinds,0.12286377
+features,760,home theater,0.11758423
+features,761,"ice skating rink, indoor",0.33685303
+features,762,bamboo forest,0.24050903
+features,763,bookshop,0.24511719
+features,764,windmill,0.5332947
+features,765,banquet hall,0.4534607
+features,766,"arena, hockey",0.21246338
+features,767,building facade,0.1703186
+features,768,ball pit,0.6060791
+features,769,detail,0.116119385
+features,770,ball pit,0.17028809
+features,771,greenhouse,0.21627808
+features,772,condemned,0.20431519
+features,773,watersports,0.28582764
+features,774,pizza,0.18148804
+features,775,childs room,0.19488525
+features,776,throne room,0.18484497
+features,777,vineyards,0.24737549
+features,778,zen garden,0.18875122
+features,779,plant,0.17773438
+features,780,candy store,0.1907959
+features,781,bamboo forest,0.28048706
+features,782,fishpond,0.3413391
+features,783,autumn,0.16348267
+features,784,cabinets,0.2763977
+features,785,bookshop,0.23449707
+features,786,bamboo forest,0.23025513
+features,787,stairs,0.38497925
+features,788,"arena, hockey",0.58465576
+features,789,cabinets,0.22793579
+features,790,bookshop,0.17141724
+features,791,badlands,0.7457886
+features,792,glacier,0.56137085
+features,793,conference room,0.44363403
+features,794,aqueduct,0.17251587
+features,795,canyon,0.3072815
+features,796,rodeo,0.12509155
+features,797,"balcony, exterior",0.19128418
+features,798,landing,0.1569519
+features,799,bikes,0.1781311
+features,800,bamboo forest,0.21887207
+features,801,fountain,0.19647217
+features,802,signage,0.13290405
+features,803,pond,0.15756226
+features,804,water tower,0.20941162
+features,805,gift shop,0.3222351
+features,806,football,0.13296509
+features,807,kennel,0.15203857
+features,808,cathedral,0.24645996
+features,809,attic,0.16998291
+features,810,rope bridge,0.3798828
+features,811,performing,0.12802124
+features,812,wheat field,0.6080322
+features,813,ball pit,0.27059937
+features,814,golf,0.1781311
+features,815,operating room,0.20471191
+features,816,door,0.2793579
+features,817,candid,0.10549927
+features,818,scrapbooking,0.105773926
+features,819,aqueduct,0.22167969
+features,820,crypt,0.24676514
+features,821,vendors,0.18145752
+features,822,bookshelf,0.28067017
+features,823,"atrium, public",0.26486206
+features,824,cathedral,0.1408081
+features,825,vegetation,0.20614624
+features,826,igloo,0.24710083
+features,827,green,0.11373901
+features,828,rock arch,0.28726196
+features,829,aviation,0.33654785
+features,830,yacht,0.1481018
+features,831,ball pit,0.30871582
+features,832,building facade,0.17843628
+features,833,flores,0.28305054
+features,834,crevasse,0.18234253
+features,835,badlands,0.35360718
+features,836,cafe,0.17977905
+features,837,banquet hall,0.21820068
+features,838,bookshelf,0.3736267
+features,839,pantry,0.27166748
+features,840,car interior,0.13516235
+features,841,blinds,0.12188721
+features,842,candy store,0.13357544
+features,843,aviation,0.43737793
+features,844,participants,0.11315918
+features,845,interstate,0.14065552
+features,846,"apartment building, outdoor",0.1579895
+features,847,wheat field,0.18240356
+features,848,bamboo forest,0.5310364
+features,849,plant,0.30358887
+features,850,food court,0.25109863
+features,851,snowy,0.46966553
+features,852,track,0.115753174
+features,853,"arena, rodeo",0.16149902
+features,854,bamboo forest,0.58099365
+features,855,blue,0.14199829
+features,856,merchandising,0.11468506
+features,857,waterfall,0.24865723
+features,858,habitat,0.24234009
+features,859,utility room,0.31784058
+features,860,building facade,0.18173218
+features,861,bookshop,0.39971924
+features,862,pharmacist,0.1899414
+features,863,ball pit,0.6128845
+features,864,vending,0.14422607
+features,865,taj,0.39562988
+features,866,wind farm,0.07904053
+features,867,aqueduct,0.1635437
+features,868,diver,0.17337036
+features,869,arena,0.31848145
+features,870,pasture,0.31741333
+features,871,wheat field,0.108947754
+features,872,building facade,0.2312622
+features,873,"synagogue, outdoor",0.13076782
+features,874,bus interior,0.7398987
+features,875,columns,0.28753662
+features,876,compressor,0.22555542
+features,877,"stadium, soccer",0.16247559
+features,878,engine,0.13894653
+features,879,dam,0.20635986
+features,880,participants,0.17105103
+features,881,"stadium, football",0.21011353
+features,882,grandchildren,0.14163208
+features,883,enlisted,0.3867798
+features,884,engine,0.1928711
+features,885,pantry,0.2704773
+features,886,fabric store,0.28433228
+features,887,pharmacy,0.2388916
+features,888,bookshelf,0.11505127
+features,889,operating room,0.3730774
+features,890,pagoda,0.8067932
+features,891,landing deck,0.35266113
+features,892,ball pit,0.53564453
+features,893,alley,0.3694458
+features,894,oem,0.17681885
+features,895,"general store, indoor",0.18511963
+features,896,"stadium, football",0.3833313
+features,897,landing deck,0.19207764
+features,898,utility room,0.34423828
+features,899,"ice skating rink, indoor",0.16751099
+features,900,pantry,0.15805054
+features,901,flower,0.122558594
+features,902,valley,0.36557007
+features,903,hoodia,0.15966797
+features,904,"apartment building, outdoor",0.19137573
+features,905,waterfall,0.1329956
+features,906,symposium,0.21780396
+features,907,ball pit,1.0536499
+features,908,"temple, asia",0.3189087
+features,909,glacier,0.5385437
+features,910,throne room,0.31243896
+features,911,ball pit,0.28808594
+features,912,sauna,0.37908936
+features,913,automotive,0.26831055
+features,914,water tower,0.13269043
+features,915,dessert,0.23828125
+features,916,wind farm,0.30844116
+features,917,dirt,0.16235352
+features,918,wheat field,0.41238403
+features,919,ball pit,0.20825195
+features,920,ball pit,0.5548706
+features,921,ice floe,0.21878052
+features,922,"arena, hockey",0.33624268
+features,923,ornaments,0.10626221
+features,924,sauna,0.28952026
+features,925,"volleyball court, outdoor",0.15655518
+features,926,surfing,0.22827148
+features,927,ball pit,0.17074585
+features,928,amusement park,0.10211182
+features,929,cathedral,0.23254395
+features,930,utah,0.10620117
+features,931,bookshop,0.44403076
+features,932,sweets,0.17089844
+features,933,"doorway, outdoor",0.18725586
+features,934,kayaking,0.2157898
+features,935,valley,0.10626221
+features,936,underway,0.19836426
+features,937,"shopping mall, indoor",0.3907776
+features,938,dancers,0.17333984
+features,939,bamboo forest,0.45532227
+features,940,archaelogical excavation,0.30444336
+features,941,"elevator, door",0.29641724
+features,942,ball pit,0.56936646
+features,943,mauritania,0.2059021
+features,944,bamboo forest,0.18667603
+features,945,fishpond,0.3227539
+features,946,panorama,0.27301025
+features,947,bamboo forest,0.42944336
+features,948,"market, indoor",0.15335083
+features,949,forest path,0.34970093
+features,950,male,0.13973999
+features,951,tackling,0.15310669
+features,952,rock arch,0.23571777
+features,953,badlands,0.22845459
+features,954,fire escape,0.21569824
+features,955,priests,0.10870361
+features,956,horticulture,0.25283813
+features,957,manufacturing,0.3323059
+features,958,grass,0.21603394
+features,959,bamboo forest,0.28915405
+features,960,physics laboratory,0.18991089
+features,961,bamboo forest,0.5307617
+features,962,pizza,0.50860596
+features,963,aqueduct,0.19644165
+features,964,sedona,0.13604736
+features,965,swimming,0.29275513
+features,966,utility room,0.26727295
+features,967,corn field,0.5906372
+features,968,"field, cultivated",0.2781372
+features,969,ball pit,0.7000122
+features,970,aqueduct,0.22860718
+features,971,restaurant patio,0.40802002
+features,972,"elevator, door",0.18774414
+features,973,juvenile,0.28671265
+features,974,childs room,0.2250061
+features,975,fire escape,0.47698975
+features,976,"balcony, exterior",0.35662842
+features,977,mozambique,0.1166687
+features,978,watersports,0.22039795
+features,979,pantry,0.29940796
+features,980,"temple, asia",0.1826477
+features,981,hostel,0.30621338
+features,982,closet,0.50579834
+features,983,"kennel, outdoor",0.15383911
+features,984,shopfront,0.14569092
+features,985,fabric store,0.27581787
+features,986,"balcony, exterior",0.24786377
+features,987,canyon,0.20794678
+features,988,wheat,0.1774292
+features,989,food,0.16326904
+features,990,elevator,0.22116089
+features,991,nunavut,0.10797119
+features,992,dining room,0.29626465
+features,993,"stadium, baseball",0.49594116
+features,994,topiary garden,0.19729614
+features,995,debut,0.24484253
+features,996,fossil,0.18496704
+features,997,interchange,0.0847168
+features,998,mezzanine,0.27407837
+features,999,banner,0.11062622
+features,1000,volcano,0.13919067
+features,1001,sauna,0.30038452
+features,1002,elevator shaft,0.30322266
+features,1003,field,0.2171936
+features,1004,"stadium, football",0.30010986
+features,1005,viaduct,0.16973877
+features,1006,crevasse,0.28079224
+features,1007,wetland,0.19543457
+features,1008,baseball,0.18496704
+features,1009,bamboo forest,0.3876648
+features,1010,wheat field,0.11651611
+features,1011,entrance hall,0.24273682
+features,1012,fruits,0.16619873
+features,1013,sunset,0.30136108
+features,1014,"escalator, indoor",0.1890564
+features,1015,aviation,0.45874023
+features,1016,underwater,0.3293152
+features,1017,plants,0.12289429
+features,1018,tackling,0.13400269
+features,1019,bamboo forest,0.23638916
+features,1020,wind farm,0.32418823
+features,1021,tent,0.42807007
+features,1022,buildings,0.16021729
+features,1023,bank vault,0.1399231
+features,1024,formal garden,0.2602539
+features,1025,ball pit,0.34503174
+features,1026,exhibits,0.14141846
+features,1027,architectures,0.13659668
+features,1028,macro,0.0836792
+features,1029,operating room,0.2286377
+features,1030,formal garden,0.42941284
+features,1031,mountain snowy,0.45632935
+features,1032,"bus station, indoor",0.21398926
+features,1033,garrison,0.1187439
+features,1034,caves,0.22052002
+features,1035,lecture room,0.47106934
+features,1036,shoe shop,0.59347534
+features,1037,branches,0.076538086
+features,1038,bookshop,0.33624268
+features,1039,server room,0.13619995
+features,1040,ball pit,0.421875
+features,1041,"desert, vegetation",0.7159424
+features,1042,utility room,0.1428833
+features,1043,computer room,0.18341064
+features,1044,flower,0.2937317
+features,1045,collier,0.3968811
+features,1046,crypt,0.34857178
+features,1047,ruins,0.36038208
+features,1048,food court,0.26922607
+features,1049,flowers,0.2637024
+features,1050,tobago,0.2529602
+features,1051,bouvet,0.12924194
+features,1052,childs room,0.18200684
+features,1053,flower,0.44522095
+features,1054,corn field,0.12921143
+features,1055,habitat,0.3135376
+features,1056,nightlife,0.28878784
+features,1057,nature,0.2600708
+features,1058,beach,0.21853638
+features,1059,skyline,0.30636597
+features,1060,cockpit,0.6298218
+features,1061,"gazebo, exterior",0.2640686
+features,1062,building facade,0.34750366
+features,1063,uss,0.23156738
+features,1064,dining hall,0.21902466
+features,1065,glacier,0.1817627
+features,1066,"stadium, soccer",0.21414185
+features,1067,watersports,0.35302734
+features,1068,waterfall,0.26504517
+features,1069,ball pit,0.31695557
+features,1070,panorama,0.19924927
+features,1071,townhouse,0.2548523
+features,1072,signage,0.24557495
+features,1073,waterfall,0.5928345
+features,1074,coastline,0.16564941
+features,1075,waterfall,0.6170349
+features,1076,skyline,0.23208618
+features,1077,cottages,0.2576294
+features,1078,"apartment building, outdoor",0.34054565
+features,1079,"apartment building, outdoor",0.15170288
+features,1080,crosswalk,0.2517395
+features,1081,pantry,0.14141846
+features,1082,courthouse,0.29144287
+features,1083,zen garden,0.32351685
+features,1084,aviation,0.45874023
+features,1085,pagoda,0.23916626
+features,1086,cockpit,0.41864014
+features,1087,cockpit,0.5633545
+features,1088,aviation,0.45874023
+features,1089,stocked,0.1701355
+features,1090,pond,0.23059082
+features,1091,zen garden,0.33868408
+features,1092,rafting,0.6522827
+features,1093,recreation room,0.31414795
+features,1094,pantry,0.14578247
+features,1095,grass,0.20541382
+features,1096,department store,0.34170532
+features,1097,waterfall,0.33029175
+features,1098,punt,0.26205444
+features,1099,waterfall,0.3149414
+features,1100,zen garden,0.5498657
+features,1101,aisle,0.1678772
+features,1102,"swimming pool, indoor",0.105529785
+features,1103,plaque,0.11138916
+features,1104,auditorium,0.630249
+features,1105,car interior,0.18914795
+features,1106,"stadium, baseball",0.6330261
+features,1107,"shopping mall, indoor",0.19256592
+features,1108,rafting,0.46853638
+features,1109,ball pit,0.13928223
+features,1110,building facade,0.22277832
+features,1111,water tower,0.29992676
+features,1112,intake,0.14840698
+features,1113,"stadium, baseball",0.7765198
+features,1114,baseball,0.4194641
+features,1115,watersports,0.42041016
+features,1116,baseball,0.27844238
+features,1117,car interior,0.115722656
+features,1118,homestead,0.2177124
+features,1119,formal garden,0.374115
+features,1120,lecture room,0.28833008
+features,1121,"stadium, baseball",0.7094116
+features,1122,"shopping mall, indoor",0.4956665
+features,1123,boathouse,0.17321777
+features,1124,topiary garden,0.19070435
+features,1125,formal garden,0.5064392
+features,1126,building facade,0.17733765
+features,1127,waterfall,0.2477417
+features,1128,aviation,0.45874023
+features,1129,ticket booth,0.1904602
+features,1130,"stadium, baseball",0.6069336
+features,1131,"swimming pool, outdoor",0.15301514
+features,1132,instructors,0.24090576
+features,1133,vendors,0.15444946
+features,1134,monument,0.11227417
+features,1135,"shopping mall, indoor",0.43014526
+features,1136,pantry,0.33673096
+features,1137,airplane cabin,0.66329956
+features,1138,horsepower,0.119384766
+features,1139,watersports,0.37747192
+features,1140,aviation,0.45874023
+features,1141,"apartment building, outdoor",0.22702026
+features,1142,auditorium,0.21264648
+features,1143,hockey,0.25375366
+features,1144,aviation,0.45874023
+features,1145,volunteers,0.17178345
+features,1146,signage,0.12506104
+features,1147,door,0.21554565
+features,1148,rafting,0.10675049
+features,1149,flyer,0.10220337
+features,1150,building facade,0.18429565
+features,1151,cottage,0.10076904
+features,1152,"moat, water",0.34439087
+features,1153,"general store, indoor",0.35012817
+features,1154,bamboo forest,0.35379028
+features,1155,foods,0.16485596
+features,1156,wetland,0.38119507
+features,1157,arin,0.08114624
+features,1158,hoodia,0.095336914
+features,1159,bamboo forest,0.81051636
+features,1160,butchers shop,0.56918335
+features,1161,compost,0.19143677
+features,1162,cabinets,0.2758484
+features,1163,sushi bar,0.086364746
+features,1164,vineyards,0.33221436
+features,1165,statue,0.1184082
+features,1166,junkyard,0.20843506
+features,1167,fishpond,0.3143921
+features,1168,female,0.1269226
+features,1169,watersports,0.3908081
+features,1170,butchers shop,0.27542114
+features,1171,cabinets,0.33651733
+features,1172,forest path,0.26968384
+features,1173,compost,0.27404785
+features,1174,"apartment building, outdoor",0.27627563
+features,1175,slum,0.22116089
+features,1176,cabinets,0.34118652
+features,1177,restaurant kitchen,0.24417114
+features,1178,wetland,0.36831665
+features,1179,"desert, vegetation",0.21890259
+features,1180,shopfront,0.21017456
+features,1181,rafting,0.3854065
+features,1182,wetland,0.25146484
+features,1183,boathouse,0.089263916
+features,1184,"shopping mall, indoor",0.38946533
+features,1185,storage room,0.41488647
+features,1186,compost,0.29611206
+features,1187,lagoon,0.1767273
+features,1188,fishing,0.115112305
+features,1189,"market, indoor",0.29382324
+features,1190,rafting,0.27764893
+features,1191,aviation,0.45874023
+features,1192,garrison,0.08880615
+features,1193,rafting,0.7637024
+features,1194,wetland,0.2567749
+features,1195,aviation,0.45874023
+features,1196,rapids,0.21310425
+features,1197,wyoming,0.18728638
+features,1198,cathedral,0.18011475
+features,1199,husband,0.14160156
+features,1200,wheat field,0.60858154
+features,1201,kasbah,0.37677002
+features,1202,horticulture,0.27215576
+features,1203,forest path,0.35317993
+features,1204,flower,0.33468628
+features,1205,bike,0.22338867
+features,1206,bikes,0.37731934
+features,1207,forest path,0.35958862
+features,1208,ball pit,0.7756958
+features,1209,pfc,0.24572754
+features,1210,pagoda,0.83343506
+features,1211,rock arch,0.6135254
+features,1212,pagoda,0.5105591
+features,1213,plains,0.23297119
+features,1214,mountain snowy,0.42456055
+features,1215,flower,0.45681763
+features,1216,door,0.18151855
+features,1217,bikes,0.29434204
+features,1218,enlisted,0.50942993
+features,1219,horses,0.19793701
+features,1220,flower,0.39419556
+features,1221,aviation,0.45874023
+features,1222,"gazebo, exterior",0.22680664
+features,1223,wind farm,0.2977295
+features,1224,computer room,0.29159546
+features,1225,ball pit,0.64279175
+features,1226,nursery,0.17617798
+features,1227,bamboo forest,0.31604004
+features,1228,pagoda,0.23022461
+features,1229,pagoda,0.5730896
+features,1230,flower,0.4248352
+features,1231,enlisted,0.42996216
+features,1232,bookstore,0.2659912
+features,1233,habit,0.32546997
+features,1234,corn field,0.33325195
+features,1235,"field, cultivated",0.29794312
+features,1236,"desert, vegetation",0.26593018
+features,1237,kindergarden classroom,0.40109253
+features,1238,watering hole,0.1524353
+features,1239,ball pit,0.56832886
+features,1240,corn field,0.74020386
+features,1241,presenters,0.18551636
+features,1242,appetizers,0.18804932
+features,1243,aviation,0.45874023
+features,1244,mountain snowy,0.40698242
+features,1245,mountain snowy,0.35369873
+features,1246,mountain snowy,0.40945435
+features,1247,habitat,0.24099731
+features,1248,wind farm,0.2894287
+features,1249,office building,0.18362427
+features,1250,"underwater, ocean deep",0.28225708
+features,1251,concert,0.16931152
+features,1252,skiing,0.26382446
+features,1253,"shopping mall, indoor",0.4500122
+features,1254,amusement park,0.2324524
+features,1255,"stadium, football",0.46331787
+features,1256,offshore,0.19949341
+features,1257,tackling,0.2362976
+features,1258,"stadium, soccer",0.6316223
+features,1259,golf course,0.1402893
+features,1260,plants,0.30697632
+features,1261,wind farm,0.43063354
+features,1262,clouds,0.1965332
+features,1263,elevator lobby,0.2461853
+features,1264,"swimming pool, indoor",0.30285645
+features,1265,"stadium, football",0.35092163
+features,1266,"field, cultivated",0.21716309
+features,1267,rice paddy,0.24645996
+features,1268,clouds,0.29904175
+features,1269,"arena, hockey",0.11026001
+features,1270,restaurant patio,0.2846985
+features,1271,car interior,0.29159546
+features,1272,residential neighborhood,0.22766113
+features,1273,hockey,0.23883057
+features,1274,trains,0.17312622
+features,1275,"stadium, football",0.27487183
+features,1276,"florist shop, indoor",0.16897583
+features,1277,bathroom,0.517334
+features,1278,collier,0.12908936
+features,1279,"doorway, outdoor",0.42593384
+features,1280,lawn,0.20358276
+features,1281,falls,0.26605225
+features,1282,computer room,0.29763794
+features,1283,flores,0.19650269
+features,1284,wheat field,0.5432434
+features,1285,wind farm,0.37594604
+features,1286,"escalator, indoor",0.511261
+features,1287,"ice skating rink, outdoor",0.46481323
+features,1288,aviation,0.45874023
+features,1289,"stadium, baseball",0.22607422
+features,1290,laguna,0.2333374
+features,1291,mountain snowy,0.44836426
+features,1292,"escalator, indoor",0.5781555
+features,1293,"stage, indoor",0.17333984
+features,1294,wind farm,0.3708496
+features,1295,rock arch,0.35549927
+features,1296,beer,0.3218994
+features,1297,bottles,0.29071045
+features,1298,vehicle,0.17315674
+features,1299,pharmacy,0.29623413
+features,1300,ice shelf,0.47357178
+features,1301,glacier,0.64712524
+features,1302,infants,0.10784912
+features,1303,topiary garden,0.2815857
+features,1304,"atrium, public",0.21066284
+features,1305,"pub, indoor",0.19876099
+features,1306,"atrium, public",0.28659058
+features,1307,topiary garden,0.76498413
+features,1308,glassware,0.19546509
+features,1309,glacier,0.27319336
+features,1310,bamboo forest,0.7948303
+features,1311,aviation,0.45874023
+features,1312,pagoda,0.34646606
+features,1313,pharmacy,0.21218872
+features,1314,"elevator, door",0.12594604
+features,1315,"shopping mall, indoor",0.407135
+features,1316,aerial,0.26501465
+features,1317,beverages,0.3336792
+features,1318,"general store, indoor",0.23587036
+features,1319,hatchback,0.3843994
+features,1320,building facade,0.24743652
+features,1321,slum,0.35153198
+features,1322,conservatory,0.2692871
+features,1323,glacier,0.5718384
+features,1324,hatchback,0.22579956
+features,1325,topiary garden,0.96707153
+features,1326,skating,0.11758423
+features,1327,formal garden,0.17407227
+features,1328,"general store, indoor",0.36880493
+features,1329,wind farm,0.20056152
+features,1330,igloo,0.19143677
+features,1331,restaurant patio,0.23898315
+features,1332,statue,0.14816284
+features,1333,wind farm,0.24938965
+features,1334,beer,0.26791382
+features,1335,panorama,0.3598938
+features,1336,rope bridge,0.39205933
+features,1337,junkyard,0.22235107
+features,1338,rope bridge,0.39743042
+features,1339,wind farm,0.40393066
+features,1340,drinking,0.19039917
+features,1341,glacier,0.59207153
+features,1342,topiary garden,0.6004944
+features,1343,fire escape,0.23516846
+features,1344,food court,0.43615723
+features,1345,cunt,0.101989746
+features,1346,flowers,0.40170288
+features,1347,flower,0.24768066
+features,1348,office cubicles,0.23916626
+features,1349,clouds,0.2638855
+features,1350,food,0.15542603
+features,1351,bikes,0.21328735
+features,1352,clouds,0.17974854
+features,1353,ball pit,0.25567627
+features,1354,"escalator, indoor",0.3440857
+features,1355,"florist shop, indoor",0.45620728
+features,1356,engine,0.48187256
+features,1357,aviation,0.45874023
+features,1358,pagoda,0.18765259
+features,1359,"escalator, indoor",0.32546997
+features,1360,"florist shop, indoor",0.3126831
+features,1361,"florist shop, indoor",0.16726685
+features,1362,"escalator, indoor",0.12524414
+features,1363,trees,0.25732422
+features,1364,operating room,0.5648804
+features,1365,manufacturing,0.42419434
+features,1366,bottles,0.11227417
+features,1367,bamboo forest,0.2739563
+features,1368,lock chamber,0.25332642
+features,1369,cafeteria,0.18338013
+features,1370,residential neighborhood,0.27575684
+features,1371,presenters,0.1159668
+features,1372,organized,0.18743896
+features,1373,aviation,0.268219
+features,1374,wind farm,0.36209106
+features,1375,operating room,0.5751648
+features,1376,ball pit,0.51586914
+features,1377,"hangar, indoor",0.25082397
+features,1378,panorama,0.26046753
+features,1379,landscaping,0.19439697
+features,1380,"diner, outdoor",0.19735718
+features,1381,underwater,0.16638184
+features,1382,restaurant patio,0.23794556
+features,1383,"greenhouse, indoor",0.4296875
+features,1384,irrigation,0.26501465
+features,1385,wind farm,0.14852905
+features,1386,ball pit,0.28012085
+features,1387,"stadium, baseball",0.2841797
+features,1388,warehousing,0.14968872
+features,1389,pharmacy,0.2194519
+features,1390,surfer,0.21780396
+features,1391,operating room,0.67214966
+features,1392,phone booth,0.13479614
+features,1393,bank vault,0.463562
+features,1394,aerial,0.2442627
+features,1395,pizza,0.3157959
+features,1396,uniforms,0.2033081
+features,1397,fishpond,0.3414917
+features,1398,aqueduct,0.29992676
+features,1399,audience,0.13180542
+features,1400,picnic area,0.17306519
+features,1401,boathouse,0.28271484
+features,1402,gym,0.28601074
+features,1403,recreation room,0.18319702
+features,1404,pond,0.19610596
+features,1405,attendees,0.1715393
+features,1406,quarry,0.24996948
+features,1407,sauna,0.21343994
+features,1408,pond,0.26098633
+features,1409,office cubicles,0.30664062
+features,1410,rock arch,0.18249512
+features,1411,instructors,0.16781616
+features,1412,fire escape,0.48443604
+features,1413,aqueduct,0.32400513
+features,1414,billiard,0.19165039
+features,1415,bank vault,0.35598755
+features,1416,pricerunner,0.122924805
+features,1417,windmill,0.589386
+features,1418,valley,0.34594727
+features,1419,martial arts gym,0.23693848
+features,1420,"apartment building, outdoor",0.2286377
+features,1421,"escalator, indoor",0.5157776
+features,1422,recreation room,0.55532837
+features,1423,barn,0.3277588
+features,1424,gyms,0.39697266
+features,1425,landing deck,0.22885132
+features,1426,building facade,0.2571106
+features,1427,contested,0.17358398
+features,1428,"cabin, outdoor",0.43807983
+features,1429,building facade,0.35958862
+features,1430,auditorium,0.30889893
+features,1431,"apartment building, outdoor",0.34295654
+features,1432,aerial,0.222229
+features,1433,participants,0.27044678
+features,1434,"balcony, interior",0.4394226
+features,1435,statue,0.13885498
+features,1436,panorama,0.19192505
+features,1437,kayak,0.21139526
+features,1438,sauna,0.52493286
+features,1439,"apartment building, outdoor",0.20480347
+features,1440,rock arch,0.36828613
+features,1441,"garage, outdoor",0.4202881
+features,1442,customizing,0.08892822
+features,1443,sedona,0.2514038
+features,1444,pantry,0.4172058
+features,1445,catacomb,0.20214844
+features,1446,fire escape,0.22943115
+features,1447,oast house,0.78881836
+features,1448,bus interior,0.5406189
+features,1449,"hunting lodge, outdoor",0.15548706
+features,1450,skyscraper,0.2081604
+features,1451,"gazebo, exterior",0.5614624
+features,1452,"gazebo, exterior",0.55737305
+features,1453,"shopping mall, indoor",0.31082153
+features,1454,skyline,0.370636
+features,1455,bamboo forest,0.16992188
+features,1456,volunteers,0.30023193
+features,1457,"arena, performance",0.12271118
+features,1458,furniture,0.1612854
+features,1459,"desert, vegetation",0.6447449
+features,1460,handmade,0.18078613
+features,1461,vendors,0.1586914
+features,1462,wildlife,0.22879028
+features,1463,aerial,0.23623657
+features,1464,"desert, vegetation",0.8909607
+features,1465,instructors,0.11920166
+features,1466,rock arch,0.36160278
+features,1467,rock arch,0.25552368
+features,1468,condominiums,0.18951416
+features,1469,attendees,0.2680664
+features,1470,crosswalk,0.30407715
+features,1471,wind farm,0.4557495
+features,1472,passage,0.23736572
+features,1473,viaduct,0.24401855
+features,1474,oast house,0.2659607
+features,1475,ceiling,0.14678955
+features,1476,"escalator, indoor",0.20977783
+features,1477,utility room,0.13702393
+features,1478,corridor,0.2477417
+features,1479,crosswalk,0.6498718
+features,1480,attic,0.25131226
+features,1481,skyline,0.21817017
+features,1482,staircase,0.43527222
+features,1483,"atrium, public",0.37542725
+features,1484,wildlife,0.15072632
+features,1485,staircase,0.17007446
+features,1486,passage,0.3168335
+features,1487,marketplace,0.2345581
+features,1488,aviation,0.45874023
+features,1489,cockpit,0.6734009
+features,1490,wetland,0.21109009
+features,1491,buses,0.79174805
+features,1492,wetland,0.228302
+features,1493,attic,0.4883423
+features,1494,art gallery,0.3103943
+features,1495,"doorway, outdoor",0.21231079
+features,1496,chalet,0.3477173
+features,1497,glassware,0.22860718
+features,1498,"balcony, interior",0.3468933
+features,1499,"bow window, indoor",0.30255127
+features,1500,ski resort,0.31155396
+features,1501,bamboo forest,0.59658813
+features,1502,cockpit,0.6425781
+features,1503,highways,0.4310913
+features,1504,exhibited,0.17480469
+features,1505,viaduct,0.19299316
+features,1506,attic,0.3812256
+features,1507,attic,0.76174927
+features,1508,water park,0.22113037
+features,1509,art gallery,0.53533936
+features,1510,interstate,0.3024292
+features,1511,aviation,0.39227295
+features,1512,stairs,0.2364502
+features,1513,exhibitions,0.21160889
+features,1514,art gallery,0.21585083
+features,1515,"kennel, outdoor",0.25820923
+features,1516,cockpit,0.6218262
+features,1517,boats,0.2624817
+features,1518,buses,0.3369751
+features,1519,staircase,0.32354736
+features,1520,cockpit,0.21942139
+features,1521,"swimming pool, indoor",0.541626
+features,1522,exhibitions,0.28979492
+features,1523,interstate,0.2998352
+features,1524,trekking,0.35897827
+features,1525,"kennel, outdoor",0.465271
+features,1526,rice paddy,0.19989014
+features,1527,grazing,0.19485474
+features,1528,"elevator, door",0.40148926
+features,1529,buses,0.24069214
+features,1530,kitchen,0.5857239
+features,1531,attic,0.2947693
+features,1532,aviation,0.45874023
+features,1533,barn,0.30255127
+features,1534,rafting,0.32644653
+features,1535,aquarium,0.13366699
+features,1536,"doorway, outdoor",0.25546265
+features,1537,engine room,0.29187012
+features,1538,mesa,0.26062012
+features,1539,vegetable garden,0.43130493
+features,1540,volcanic,0.23272705
+features,1541,amphitheater,0.77279663
+features,1542,insulation,0.3210144
+features,1543,"temple, asia",0.5538635
+features,1544,amphitheater,0.13369751
+features,1545,lagoon,0.11166382
+features,1546,bamboo forest,0.1308899
+features,1547,vegetable garden,0.23449707
+features,1548,aviation,0.12246704
+features,1549,vegetable garden,0.21408081
+features,1550,vegetable garden,0.3751526
+features,1551,closet,0.14935303
+features,1552,dam,0.33068848
+features,1553,vegetable garden,0.12954712
+features,1554,"ice skating rink, outdoor",0.18301392
+features,1555,paving,0.19042969
+features,1556,beverages,0.22366333
+features,1557,"greenhouse, outdoor",0.5332947
+features,1558,"kennel, outdoor",0.21115112
+features,1559,server room,0.54696655
+features,1560,volcanic,0.25302124
+features,1561,marker,0.2640381
+features,1562,pendant,0.09310913
+features,1563,shelves,0.2982788
+features,1564,ball pit,0.6000366
+features,1565,aerial,0.16741943
+features,1566,pantry,0.21606445
+features,1567,dams,0.50527954
+features,1568,attic,0.36050415
+features,1569,aviation,0.39111328
+features,1570,participants,0.16714478
+features,1571,amphitheater,0.39343262
+features,1572,beach,0.42718506
+features,1573,clouds,0.27392578
+features,1574,vegetable garden,0.45040894
+features,1575,hockey,0.4703369
+features,1576,flowers,0.10342407
+features,1577,collier,0.48065186
+features,1578,server room,0.41183472
+features,1579,scoreboard,0.25759888
+features,1580,"elevator, door",0.107421875
+features,1581,pagoda,0.3831787
+features,1582,tree house,0.394104
+features,1583,storage room,0.2154541
+features,1584,oast house,0.25180054
+features,1585,volcano,0.41726685
+features,1586,exhibitions,0.47601318
+features,1587,bedrooms,0.5749817
+features,1588,disneyland,0.18145752
+features,1589,ball pit,0.60409546
+features,1590,arcade,0.41540527
+features,1591,pillars,0.24206543
+features,1592,sauna,0.42593384
+features,1593,volcano,0.6644592
+features,1594,nursing home,0.2038269
+features,1595,exhibitions,0.35177612
+features,1596,"hangar, indoor",0.3020935
+features,1597,volcano,0.39822388
+features,1598,archaelogical excavation,0.2701416
+features,1599,castles,0.16656494
+features,1600,ferries,0.19036865
+features,1601,pizza,0.21362305
+features,1602,volcano,0.61273193
+features,1603,buddhism,0.15264893
+features,1604,ball pit,0.41323853
+features,1605,yellowstone,0.48214722
+features,1606,conference room,0.15209961
+features,1607,columns,0.1713562
+features,1608,yacht,0.38864136
+features,1609,automotive,0.27456665
+features,1610,glassware,0.15542603
+features,1611,automotive,0.17617798
+features,1612,boat,0.45724487
+features,1613,enthusiasts,0.1777649
+features,1614,pinball,0.27148438
+features,1615,courtyard,0.1628418
+features,1616,golf course,0.3425598
+features,1617,yellowstone,0.59783936
+features,1618,archaelogical excavation,0.2753296
+features,1619,"bakery, shop",0.4180298
+features,1620,sculpture,0.0921936
+features,1621,bikes,0.20898438
+features,1622,living room,0.3734436
+features,1623,castle,0.29190063
+features,1624,exhibitions,0.2854004
+features,1625,volcano,0.46966553
+features,1626,"volleyball court, outdoor",0.2895813
+features,1627,"arena, performance",0.10592651
+features,1628,sculpture,0.29675293
+features,1629,concentrating,0.14407349
+features,1630,bamboo forest,0.20681763
+features,1631,disney,0.11419678
+features,1632,cabin,0.17596436
+features,1633,rock arch,0.67837524
+features,1634,attendees,0.2572937
+features,1635,bureau,0.37472534
+features,1636,ice floe,0.29956055
+features,1637,fabric store,0.35250854
+features,1638,clothing store,0.53634644
+features,1639,"greenhouse, indoor",0.26434326
+features,1640,fabric store,0.18725586
+features,1641,tent,0.64920044
+features,1642,car interior,0.45352173
+features,1643,clothing store,0.425354
+features,1644,clothing store,0.4517212
+features,1645,fire station,0.44308472
+features,1646,cabin,0.5755005
+features,1647,aviation,0.45874023
+features,1648,igloo,0.7424927
+features,1649,canyon,0.56985474
+features,1650,fabric store,0.4388733
+features,1651,jail cell,0.28845215
+features,1652,cockpit,0.13513184
+features,1653,"elevator, door",0.29467773
+features,1654,cottages,0.33813477
+features,1655,swimming hole,0.22735596
+features,1656,cemetery,0.3187256
+features,1657,clothing store,0.2225647
+features,1658,igloo,0.30563354
+features,1659,bureau,0.28128052
+features,1660,arizona,0.31680298
+features,1661,"atrium, public",0.16152954
+features,1662,door,0.41711426
+features,1663,cemetery,0.5571594
+features,1664,laundry,0.47512817
+features,1665,airplane cabin,0.17559814
+features,1666,fabrics,0.32687378
+features,1667,navajo,0.42456055
+features,1668,tomb,0.54992676
+features,1669,mariner,0.22445679
+features,1670,window,0.17669678
+features,1671,imprisonment,0.33010864
+features,1672,pharmacies,0.3380127
+features,1673,fabric store,0.26748657
+features,1674,landfill,0.5420532
+features,1675,bus interior,0.75393677
+features,1676,airplane cabin,0.5401001
+features,1677,fabric store,0.22268677
+features,1678,throne room,0.37234497
+features,1679,pavilion,0.35073853
+features,1680,collier,0.3025818
+features,1681,shower,0.35543823
+features,1682,cemetery,0.46569824
+features,1683,phone booth,0.41833496
+features,1684,television room,0.47964478
+features,1685,fishpond,0.34588623
+features,1686,phone booth,0.5890808
+features,1687,bedchamber,0.24603271
+features,1688,golf course,0.60687256
+features,1689,"garage, outdoor",0.31420898
+features,1690,"garage, outdoor",0.26565552
+features,1691,apron,0.24517822
+features,1692,"greenhouse, outdoor",0.38668823
+features,1693,"greenhouse, outdoor",0.73895264
+features,1694,shower,0.62075806
+features,1695,home theater,0.42251587
+features,1696,parking lot,0.31243896
+features,1697,computer room,0.5406494
+features,1698,boardwalk,0.5179138
+features,1699,"desert, sand",0.61016846
+features,1700,boardwalk,0.4139099
+features,1701,collier,0.53292847
+features,1702,phone booth,0.47540283
+features,1703,"garage, outdoor",0.44003296
+features,1704,motel,0.1723938
+features,1705,aviation,0.45874023
+features,1706,bedroom,0.32977295
+features,1707,conservatory,0.20135498
+features,1708,aquarium,0.33999634
+features,1709,phone booth,0.6010437
+features,1710,hotel room,0.22903442
+features,1711,rope bridge,0.31808472
+features,1712,golf course,0.37200928
+features,1713,disneyland,0.19091797
+features,1714,sign,0.158844
+features,1715,bedroom,0.54537964
+features,1716,"desert, sand",0.25030518
+features,1717,cemetery,0.41485596
+features,1718,"greenhouse, outdoor",0.6005554
+features,1719,cemetery,0.22543335
+features,1720,clothing store,0.17947388
+features,1721,juvenile,0.29318237
+features,1722,artists,0.12420654
+features,1723,collier,0.30718994
+features,1724,"desert, sand",0.30941772
+features,1725,throne room,0.37527466
+features,1726,phone booth,0.49993896
+features,1727,motels,0.36984253
+features,1728,"bow window, indoor",0.38452148
+features,1729,golf course,0.19140625
+features,1730,carrousel,0.51464844
+features,1731,bus interior,0.47088623
+features,1732,shelving,0.14190674
+features,1733,"hangar, indoor",0.25531006
+features,1734,racing,0.18273926
+features,1735,navajo,0.20108032
+features,1736,wind farm,0.8532715
+features,1737,carrousel,0.23892212
+features,1738,hospital room,0.26461792
+features,1739,sedan,0.20236206
+features,1740,"doorway, outdoor",0.3735962
+features,1741,intergovernmental,0.18234253
+features,1742,"gazebo, exterior",0.2059021
+features,1743,conference room,0.25967407
+features,1744,ice cream parlor,0.21469116
+features,1745,panorama,0.20877075
+features,1746,dining room,0.21594238
+features,1747,picnic area,0.21032715
+features,1748,motel,0.2059021
+features,1749,carrousel,0.6489563
+features,1750,barn,0.27471924
+features,1751,attic,0.30441284
+features,1752,hot spring,0.43762207
+features,1753,fire escape,0.31726074
+features,1754,rescued,0.2586975
+features,1755,festival,0.23986816
+features,1756,hot spring,0.4595642
+features,1757,carrousel,0.96188354
+features,1758,"hangar, indoor",0.27908325
+features,1759,graves,0.20065308
+features,1760,wind farm,0.3842163
+features,1761,"field, wild",0.21081543
+features,1762,tent,0.3388672
+features,1763,administering,0.14505005
+features,1764,"garage, outdoor",0.26635742
+features,1765,"greenhouse, outdoor",0.38534546
+features,1766,excavation,0.39382935
+features,1767,bus interior,0.8592529
+features,1768,paving,0.20532227
+features,1769,automotive,0.36947632
+features,1770,stable,0.25073242
+features,1771,ice cream parlor,0.29641724
+features,1772,pizzeria,0.2954712
+features,1773,entrance hall,0.2536621
+features,1774,"jacuzzi, indoor",0.58807373
+features,1775,carrousel,0.6047058
+features,1776,townhouse,0.10751343
+features,1777,rope bridge,0.4230652
+features,1778,bowling alley,0.44311523
+features,1779,nursery,0.42108154
+features,1780,bowling alley,0.20352173
+features,1781,rope bridge,0.23583984
+features,1782,boxing,0.44262695
+features,1783,lock chamber,0.097839355
+features,1784,"basketball court, indoor",0.34838867
+features,1785,aquarium,0.6643677
+features,1786,zen garden,0.24920654
+features,1787,closet,0.47354126
+features,1788,"balcony, interior",0.25360107
+features,1789,engine room,0.40805054
+features,1790,cockpit,0.1607666
+features,1791,motels,0.28601074
+features,1792,childs room,0.5245056
+features,1793,heliport,0.6855469
+features,1794,bowling alley,0.4189148
+features,1795,rope bridge,0.8056946
+features,1796,corridor,0.40112305
+features,1797,fashion,0.1416626
+features,1798,namibia,0.15029907
+features,1799,bowling alley,0.6595764
+features,1800,living room,0.29388428
+features,1801,sculpture,0.15701294
+features,1802,balcony,0.26901245
+features,1803,nursery,0.7012329
+features,1804,cockpit,0.27972412
+features,1805,"gymnasium, indoor",0.2084961
+features,1806,bowling alley,0.875885
+features,1807,"garage, outdoor",0.19372559
+features,1808,gas station,0.42318726
+features,1809,bowling,0.2678833
+features,1810,staircase,0.21749878
+features,1811,bowling,0.57580566
+features,1812,staircase,0.47543335
+features,1813,aviation,0.2668152
+features,1814,closet,0.25167847
+features,1815,rope bridge,0.68411255
+features,1816,rope bridge,0.57666016
+features,1817,vegetable garden,0.17044067
+features,1818,harbor,0.2328186
+features,1819,nursery,0.32888794
+features,1820,bowling,0.23947144
+features,1821,storage room,0.24084473
+features,1822,bowling alley,0.19226074
+features,1823,heliport,0.2218628
+features,1824,sauna,0.38656616
+features,1825,dance,0.1583252
+features,1826,dancers,0.3930664
+features,1827,graders,0.3322754
+features,1828,"jacuzzi, indoor",0.28396606
+features,1829,conference room,0.32162476
+features,1830,rope bridge,0.6846924
+features,1831,trains,0.22445679
+features,1832,tobago,0.35992432
+features,1833,rope bridge,0.535614
+features,1834,tackling,0.47155762
+features,1835,archaelogical excavation,0.6899414
+features,1836,volleyball,0.43804932
+features,1837,social,0.10269165
+features,1838,rope bridge,0.61550903
+features,1839,graders,0.42803955
+features,1840,invitational,0.3687744
+features,1841,natural history museum,0.637146
+features,1842,operating room,0.552124
+features,1843,dancers,0.28448486
+features,1844,soccer field,0.43722534
+features,1845,archaelogical excavation,0.28118896
+features,1846,racecourse,0.43844604
+features,1847,badlands,0.28775024
+features,1848,slum,0.27340698
+features,1849,"desert, vegetation",0.44750977
+features,1850,rope bridge,0.8726196
+features,1851,bank vault,0.59210205
+features,1852,oast house,0.31210327
+features,1853,natural history museum,0.6416321
+features,1854,boats,0.25872803
+features,1855,formal garden,0.22546387
+features,1856,exhibits,0.2977295
+features,1857,canyon,0.23831177
+features,1858,building facade,0.2083435
+features,1859,ball pit,0.23391724
+features,1860,watersports,0.19714355
+features,1861,ski resort,0.4204712
+features,1862,water tower,0.86087036
+features,1863,fishpond,0.25915527
+features,1864,buffers,0.19430542
+features,1865,mountain snowy,0.40933228
+features,1866,television room,0.13745117
+features,1867,rope bridge,0.6409302
+features,1868,graders,0.2510376
+features,1869,boat deck,0.49749756
+features,1870,boats,0.2926941
+features,1871,lighthouse,0.61273193
+features,1872,curtains,0.2368164
+features,1873,"ice skating rink, indoor",0.21148682
+features,1874,art gallery,0.2876587
+features,1875,instructors,0.16592407
+features,1876,"bus station, indoor",0.254364
+features,1877,paving,0.24359131
+features,1878,bamboo forest,0.13641357
+features,1879,staircase,0.27444458
+features,1880,"shopping mall, indoor",0.41156006
+features,1881,martial arts gym,0.18081665
+features,1882,hotel room,0.41860962
+features,1883,rope bridge,0.27178955
+features,1884,nursery,0.7233887
+features,1885,lawn,0.17529297
+features,1886,rope bridge,0.6690979
+features,1887,rope bridge,0.2925415
+features,1888,rope bridge,0.76745605
+features,1889,"ice skating rink, outdoor",0.5015259
+features,1890,tree,0.25946045
+features,1891,village,0.20812988
+features,1892,field road,0.16369629
+features,1893,"museum, indoor",0.2753296
+features,1894,boxing,0.5588074
+features,1895,boxing,0.36386108
+features,1896,childs room,0.349823
+features,1897,rope bridge,0.74780273
+features,1898,nursery,0.4223938
+features,1899,natural history museum,0.40924072
+features,1900,boxing ring,0.2576294
+features,1901,"balcony, interior",0.31585693
+features,1902,vanilla,0.16403198
+features,1903,wetland,0.31610107
+features,1904,"shopping mall, indoor",0.44058228
+features,1905,construction site,0.17922974
+features,1906,juvenile,0.42633057
+features,1907,sandbox,0.68600464
+features,1908,"volleyball court, outdoor",0.30654907
+features,1909,"canal, urban",0.24954224
+features,1910,childs room,0.24890137
+features,1911,preschool,0.254364
+features,1912,banquet hall,0.6644592
+features,1913,utility room,0.35403442
+features,1914,exhibitors,0.31304932
+features,1915,dams,0.5343933
+features,1916,nightclub,0.20007324
+features,1917,attic,0.5230408
+features,1918,hostel,0.48928833
+features,1919,courtyard,0.23782349
+features,1920,vineyards,0.5302429
+features,1921,excavation,0.21801758
+features,1922,throne room,0.323761
+features,1923,restaurant patio,0.34591675
+features,1924,operating room,0.74334717
+features,1925,rope bridge,0.4614563
+features,1926,pharmacist,0.52407837
+features,1927,tent,0.21517944
+features,1928,desk,0.32281494
+features,1929,nightclub,0.31015015
+features,1930,hotel,0.24645996
+features,1931,nursery,0.5171814
+features,1932,entrance hall,0.4170227
+features,1933,"bus station, indoor",0.28656006
+features,1934,rope bridge,0.375
+features,1935,office cubicles,0.3541565
+features,1936,restaurant kitchen,0.450531
+features,1937,paving,0.4560852
+features,1938,elders,0.16687012
+features,1939,topiary garden,0.49197388
+features,1940,office cubicles,0.49273682
+features,1941,natural history museum,0.25964355
+features,1942,rope bridge,0.6525879
+features,1943,volleyball,0.20983887
+features,1944,bus interior,0.54849243
+features,1945,rope bridge,0.3951416
+features,1946,diabetes,0.13189697
+features,1947,music studio,0.19140625
+features,1948,train interior,0.3380127
+features,1949,salons,0.40872192
+features,1950,banquet hall,0.4647522
+features,1951,pavilion,0.252594
+features,1952,salons,0.25949097
+features,1953,chef,0.2652588
+features,1954,restaurant kitchen,0.41592407
+features,1955,operating room,0.21972656
+features,1956,office cubicles,0.20700073
+features,1957,rope bridge,0.52856445
+features,1958,train interior,0.32592773
+features,1959,orchard,0.3897705
+features,1960,rope bridge,0.38601685
+features,1961,exhibits,0.2234497
+features,1962,tent,0.68356323
+features,1963,office cubicles,0.78305054
+features,1964,natural history museum,0.33270264
+features,1965,"elevator, door",0.31607056
+features,1966,pavilion,0.19711304
+features,1967,rope bridge,0.31433105
+features,1968,watersports,0.2705078
+features,1969,volcano,0.5972595
+features,1970,participants,0.1546936
+features,1971,art gallery,0.21014404
+features,1972,volleyball,0.22348022
+features,1973,natural history museum,0.44641113
+features,1974,watersports,0.15612793
+features,1975,barn,0.33486938
+features,1976,bathroom,0.25250244
+features,1977,wholesale,0.14907837
+features,1978,rope bridge,0.2831421
+features,1979,aquarium,0.3673401
+features,1980,aqueduct,0.5160217
+features,1981,"arena, rodeo",0.32894897
+features,1982,aviation,0.45874023
+features,1983,horses,0.37445068
+features,1984,lava,0.13070679
+features,1985,assembly line,0.31985474
+features,1986,fabric store,0.2918396
+features,1987,"hangar, outdoor",0.11767578
+features,1988,"temple, asia",0.3647461
+features,1989,ice floe,0.12835693
+features,1990,volcano,0.34280396
+features,1991,aqueduct,0.7572937
+features,1992,atc,0.24453735
+features,1993,operating room,0.26480103
+features,1994,martial arts gym,0.13772583
+features,1995,barn,0.26800537
+features,1996,"general store, indoor",0.174469
+features,1997,lava,0.17871094
+features,1998,aqueduct,0.31726074
+features,1999,playground,0.6499634
+features,2000,"gazebo, exterior",0.27142334
+features,2001,phone booth,0.23434448
+features,2002,gourmet,0.20526123
+features,2003,gas station,0.27508545
+features,2004,aviation,0.45874023
+features,2005,office cubicles,0.57540894
+features,2006,phone booth,0.4404297
+features,2007,instructors,0.17819214
+features,2008,crevasse,0.48345947
+features,2009,exhibitors,0.19476318
+features,2010,butchers shop,0.45706177
+features,2011,badlands,0.8915405
+features,2012,"underwater, ocean deep",0.2748108
+features,2013,rope bridge,0.25445557
+features,2014,"museum, indoor",0.40234375
+features,2015,natural history museum,0.23950195
+features,2016,"moat, water",0.22418213
+features,2017,gyms,0.49465942
+features,2018,classrooms,0.5713501
+features,2019,schoolhouse,0.23608398
+features,2020,nursery,0.2539978
+features,2021,supporters,0.17260742
+features,2022,arrangement,0.16131592
+features,2023,"cabin, outdoor",0.17279053
+features,2024,"general store, outdoor",0.22601318
+features,2025,delphi,0.19702148
+features,2026,crypt,0.24179077
+features,2027,aviation,0.30126953
+features,2028,rope bridge,0.43151855
+features,2029,skating,0.1864624
+features,2030,playground,0.24169922
+features,2031,fountain,0.23175049
+features,2032,surfing,0.47225952
+features,2033,formal garden,0.34396362
+features,2034,fostering,0.30447388
+features,2035,relay,0.14752197
+features,2036,art studio,0.23440552
+features,2037,tree house,0.2258606
+features,2038,rope bridge,0.5836487
+features,2039,rope bridge,0.31018066
+features,2040,zen garden,0.61953735
+features,2041,sculptures,0.25857544
+features,2042,landfill,0.28933716
+features,2043,bank vault,0.41018677
+features,2044,coffee shop,0.2310791
+features,2045,catacomb,0.13470459
+features,2046,restaurant kitchen,0.2614746
+features,2047,kennel,0.41229248
+features,2048,chemistry lab,0.34524536
+features,2049,grotto,0.28070068
+features,2050,art gallery,0.24432373
+features,2051,fountains,0.6990967
+features,2052,classroom,0.39797974
+features,2053,waiting room,0.28189087
+features,2054,volleyball,0.27545166
+features,2055,fountain,0.4442749
+features,2056,mausoleum,0.28048706
+features,2057,intake,0.17584229
+features,2058,guess,0.25997925
+features,2059,"moat, water",0.21408081
+features,2060,lecture room,0.32583618
+features,2061,rope bridge,0.52319336
+features,2062,laundromat,0.21673584
+features,2063,tree house,0.4135437
+features,2064,rope bridge,0.43637085
+features,2065,hospital room,0.4947815
+features,2066,airplane cabin,0.44369507
+features,2067,aviation,0.45874023
+features,2068,airplane cabin,0.20812988
+features,2069,auditorium,0.22079468
+features,2070,performing,0.28326416
+features,2071,dinosaur,0.2965088
+features,2072,performing,0.2599182
+features,2073,throne room,0.41973877
+features,2074,cockpit,0.30654907
+features,2075,japanese garden,0.46673584
+features,2076,auditorium,0.23553467
+features,2077,slum,0.5228882
+features,2078,rope bridge,0.4584961
+features,2079,medina,0.45251465
+features,2080,rope bridge,0.46377563
+features,2081,bamboo forest,0.34924316
+features,2082,auditorium,0.24737549
+features,2083,"library, outdoor",0.18145752
+features,2084,"desert, vegetation",0.3164673
+features,2085,crosswalk,0.26278687
+features,2086,engine room,0.19586182
+features,2087,"market, indoor",0.35913086
+features,2088,oilrig,0.11743164
+features,2089,hiking,0.3517151
+features,2090,landing deck,0.5375366
+features,2091,bed,0.22869873
+features,2092,fastfood restaurant,0.2640686
+features,2093,television studio,0.1437378
+features,2094,residential neighborhood,0.19049072
+features,2095,bamboo forest,0.36764526
+features,2096,sidewalk,0.21365356
+features,2097,prisoner,0.083099365
+features,2098,department store,0.23892212
+features,2099,japanese garden,0.2892456
+features,2100,auditorium,0.45785522
+features,2101,airplane cabin,0.18380737
+features,2102,rope bridge,0.36044312
+features,2103,projector,0.15234375
+features,2104,carrier,0.384552
+features,2105,alley,0.31088257
+features,2106,mariner,0.21801758
+features,2107,television studio,0.30352783
+features,2108,wyoming,0.29403687
+features,2109,"stadium, baseball",0.21377563
+features,2110,jail cell,0.2779541
+features,2111,courthouse,0.36309814
+features,2112,bowling alley,0.22265625
+features,2113,bank vault,0.2805786
+features,2114,supermarket,0.37579346
+features,2115,courtyard,0.20663452
+features,2116,porch,0.19909668
+features,2117,locker room,0.7200012
+features,2118,locker room,0.19241333
+features,2119,ticket booth,0.5034485
+features,2120,aviation,0.45874023
+features,2121,shoe shop,0.71343994
+features,2122,aviation,0.45874023
+features,2123,books,0.3491516
+features,2124,snowmobile,0.16720581
+features,2125,rope bridge,0.52822876
+features,2126,aqueduct,0.3088684
+features,2127,rope bridge,0.17504883
+features,2128,vineyards,0.39520264
+features,2129,diecast,0.109375
+features,2130,storage room,0.5021057
+features,2131,waterfront,0.27227783
+features,2132,customizing,0.13278198
+features,2133,gas station,0.7250061
+features,2134,viaduct,0.24786377
+features,2135,band,0.18930054
+features,2136,bus interior,0.2243042
+features,2137,junkyard,0.31948853
+features,2138,tree house,0.22521973
+features,2139,rope bridge,0.46414185
+features,2140,"escalator, indoor",0.51052856
+features,2141,habitat,0.24105835
+features,2142,bookshelf,0.24630737
+features,2143,elevator lobby,0.33517456
+features,2144,aviation,0.45874023
+features,2145,aviation,0.38739014
+features,2146,shelving,0.2539673
+features,2147,"general store, outdoor",0.21459961
+features,2148,dam,0.19116211
+features,2149,locker room,0.38815308
+features,2150,porch,0.35528564
+features,2151,gas station,0.5740967
+features,2152,rope bridge,0.44656372
+features,2153,rope bridge,0.17843628
+features,2154,bakery,0.19784546
+features,2155,"gazebo, exterior",0.45288086
+features,2156,office cubicles,0.29797363
+features,2157,butchers shop,0.46502686
+features,2158,bookshop,0.53237915
+features,2159,orchard,0.2157898
+features,2160,fabric store,0.5260315
+features,2161,sauna,0.2922058
+features,2162,"stadium, soccer",0.32009888
+features,2163,"arena, rodeo",0.5062256
+features,2164,excavation,0.26010132
+features,2165,"florist shop, indoor",0.24880981
+features,2166,arcade,0.47201538
+features,2167,"temple, asia",0.40350342
+features,2168,trains,0.51394653
+features,2169,racing,0.4753723
+features,2170,juvenile,0.2514038
+features,2171,ruins,0.20812988
+features,2172,bowling,0.49847412
+features,2173,vendors,0.20935059
+features,2174,aviation,0.2341919
+features,2175,amusement arcade,0.3413391
+features,2176,entrance hall,0.2048645
+features,2177,laundromat,0.39245605
+features,2178,trains,0.4574585
+features,2179,aviation,0.45874023
+features,2180,restaurant kitchen,0.35864258
+features,2181,butchers shop,0.29470825
+features,2182,fire escape,0.6187744
+features,2183,laundromat,0.8118286
+features,2184,"subway station, platform",0.24307251
+features,2185,"arena, rodeo",0.34484863
+features,2186,flores,0.36669922
+features,2187,bowling alley,0.5750427
+features,2188,flores,0.19238281
+features,2189,jewelry shop,0.22537231
+features,2190,cabin,0.35638428
+features,2191,vineyards,0.6713257
+features,2192,corn field,0.25045776
+features,2193,pinball,0.48727417
+features,2194,gym,0.25823975
+features,2195,fire escape,0.45721436
+features,2196,butchers shop,0.4208374
+features,2197,chef,0.4402771
+features,2198,rope bridge,0.38458252
+features,2199,phone booth,0.3031311
+features,2200,habitat,0.1873169
+features,2201,butchers shop,0.3470459
+features,2202,landing deck,0.246521
+features,2203,sauna,0.18530273
+features,2204,instructors,0.32138062
+features,2205,automotive,0.1430664
+features,2206,martial arts gym,0.39492798
+features,2207,sandbox,0.2492981

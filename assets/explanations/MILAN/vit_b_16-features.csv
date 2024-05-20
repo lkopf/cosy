@@ -1,0 +1,769 @@
+layer,unit,description
+subset,0,Clothes
+subset,1,Edges of objects
+subset,2,Clothing
+subset,3,Edges of objects
+subset,4,Regions with straight features
+subset,5,Edges of objects
+subset,6,Faces of things
+subset,7,Faces of things
+subset,8,Edges of objects
+subset,9,Faces of things
+subset,10,Light reflections
+subset,11,Faces of things
+subset,12,Edges of objects
+subset,13,Edges of objects
+subset,14,Dogs
+subset,15,Edges of objects
+subset,16,Edges of objects
+subset,17,Faces of things
+subset,18,Faces of things
+subset,19,Faces of things
+subset,20,Clothing
+subset,21,Edges of objects
+subset,22,Edges of objects
+subset,23,Faces of things
+subset,24,Edges of objects
+subset,25,Edges of objects
+subset,26,Human faces
+subset,27,Faces of things
+subset,28,Regions with straight features
+subset,29,Faces of things
+subset,30,The right side of a object
+subset,31,Edges of objects
+subset,32,Rounded edges in pictures
+subset,33,Edges of objects
+subset,34,Regions with straight features
+subset,35,Faces of things
+subset,36,Faces of things
+subset,37,Faces of things
+subset,38,Rounded edges in pictures
+subset,39,Edges of objects
+subset,40,Edges of objects
+subset,41,The right side of a object
+subset,42,Edges of objects
+subset,43,Edges of objects
+subset,44,Edges of objects
+subset,45,Diagonal lines
+subset,46,White areas
+subset,47,Edges of objects
+subset,48,Edges of objects
+subset,49,Diagonal lines
+subset,50,Edges of objects
+subset,51,Faces of things
+subset,52,Grassy areas
+subset,53,Faces of things
+subset,54,Edges of objects
+subset,55,Faces of things
+subset,56,Regions with straight features
+subset,57,Edges of objects
+subset,58,Faces of things
+subset,59,Faces of things
+subset,60,Edges of objects
+subset,61,Faces of things
+subset,62,Nature
+subset,63,Regions with straight features
+subset,64,Faces of things
+subset,65,Light reflections
+subset,66,Edges of objects
+subset,67,Edges of objects
+subset,68,Light reflections
+subset,69,Edges of objects
+subset,70,Edges of objects
+subset,71,Edges of objects
+subset,72,Edges of objects
+subset,73,Faces of things
+subset,74,Rounded edges in pictures
+subset,75,Blue skies
+subset,76,Faces of things
+subset,77,Regions with straight features
+subset,78,Edges of objects
+subset,79,Faces of things
+subset,80,Faces of things
+subset,81,Faces of things
+subset,82,Faces of things
+subset,83,Living things
+subset,84,Regions with straight features
+subset,85,Regions with straight features
+subset,86,Edges of objects
+subset,87,Regions with straight features
+subset,88,Regions with straight features
+subset,89,Faces of things
+subset,90,Edges of objects
+subset,91,Edges of objects
+subset,92,Regions with straight features
+subset,93,Faces of things
+subset,94,Regions with straight features
+subset,95,Regions with straight features
+subset,96,Faces of things
+subset,97,Edges of objects
+subset,98,Faces of things
+subset,99,Edges of objects
+subset,100,Faces of things
+subset,101,Nature
+subset,102,Faces of things
+subset,103,Edges of objects
+subset,104,Distorted faces
+subset,105,Faces of things
+subset,106,Faces of things
+subset,107,Regions with straight features
+subset,108,Edges of objects
+subset,109,Dog ears
+subset,110,Edges of objects
+subset,111,Regions with straight features
+subset,112,Regions with straight features
+subset,113,Edges of objects
+subset,114,Living things
+subset,115,Edges of objects
+subset,116,Edges of objects
+subset,117,Faces of things
+subset,118,Faces of things
+subset,119,Edges of objects
+subset,120,Food
+subset,121,The area around the object
+subset,122,Landscapes
+subset,123,Rounded edges in pictures
+subset,124,Human faces
+subset,125,Faces of things
+subset,126,Edges of objects
+subset,127,Walls and clothes
+subset,128,Regions with straight features
+subset,129,Faces of things
+subset,130,Edges of objects
+subset,131,Items with designs
+subset,132,Clothing
+subset,133,Nature
+subset,134,White areas
+subset,135,Clothes
+subset,136,Human faces
+subset,137,Faces of things
+subset,138,Faces of things
+subset,139,Regions with straight features
+subset,140,Faces of things
+subset,141,Edges of objects
+subset,142,Faces of things
+subset,143,Regions with straight features
+subset,144,Edges of objects
+subset,145,Faces of things
+subset,146,Edges of objects
+subset,147,Cylindrical objects
+subset,148,Edges of objects
+subset,149,The area around the object
+subset,150,The ground
+subset,151,Edges of objects
+subset,152,Faces of things
+subset,153,Edges of objects
+subset,154,Edges of objects
+subset,155,Dogs
+subset,156,Regions with straight features
+subset,157,Edges of objects
+subset,158,Regions with straight features
+subset,159,The right side of a object
+subset,160,Clothing
+subset,161,Faces of things
+subset,162,The ground
+subset,163,Faces of things
+subset,164,Regions with straight features
+subset,165,Edges of objects
+subset,166,Edges of objects
+subset,167,Regions with straight features
+subset,168,Regions with straight features
+subset,169,Faces of things
+subset,170,Edges of objects
+subset,171,Regions with straight features
+subset,172,Dogs
+subset,173,The right side of a object
+subset,174,Edges of objects
+subset,175,Edges of objects
+subset,176,Faces of things
+subset,177,Faces of things
+subset,178,Edges of objects
+subset,179,Edges of objects
+subset,180,Edges of objects
+subset,181,Dogs
+subset,182,Faces of things
+subset,183,Faces of things
+subset,184,Faces of things
+subset,185,Faces of things
+subset,186,The ground
+subset,187,Faces of things
+subset,188,Edges of objects
+subset,189,Rounded edges in pictures
+subset,190,Edges of objects
+subset,191,Faces of things
+subset,192,The ground
+subset,193,Faces of things
+subset,194,Faces of things
+subset,195,Edges of objects
+subset,196,Regions with straight features
+subset,197,Edges of objects
+subset,198,Regions with straight features
+subset,199,Faces of things
+subset,200,Edges of objects
+subset,201,Animals
+subset,202,Regions with straight features
+subset,203,Faces of things
+subset,204,Faces of things
+subset,205,Faces of things
+subset,206,Regions with straight features
+subset,207,Regions with straight features
+subset,208,Edges of objects
+subset,209,Faces of things
+subset,210,Regions with straight features
+subset,211,Edges of objects
+subset,212,Edges of objects
+subset,213,Regions with straight features
+subset,214,Regions with straight features
+subset,215,Regions with straight features
+subset,216,Edges of objects
+subset,217,Faces of things
+subset,218,Regions with straight features
+subset,219,Faces of things
+subset,220,Regions with straight features
+subset,221,Edges of objects
+subset,222,Edges of objects
+subset,223,Regions with straight features
+subset,224,Edges of objects
+subset,225,Faces of things
+subset,226,Faces of things
+subset,227,The sky
+subset,228,Faces of things
+subset,229,Edges of objects
+subset,230,Edges of objects
+subset,231,Edges of objects
+subset,232,Edges of objects
+subset,233,Edges of objects
+subset,234,Faces of things
+subset,235,Edges of objects
+subset,236,Faces of things
+subset,237,Edges of objects
+subset,238,Regions with straight features
+subset,239,Faces of things
+subset,240,Faces of things
+subset,241,Edges of objects
+subset,242,Faces of things
+subset,243,Rounded edges in pictures
+subset,244,Edges of objects
+subset,245,Faces of things
+subset,246,Edges of objects
+subset,247,Faces of things
+subset,248,The ground
+subset,249,Regions with straight features
+subset,250,Regions with straight features
+subset,251,Edges of objects
+subset,252,Edges of objects
+subset,253,Regions with straight features
+subset,254,Backgrounds in pictures
+subset,255,Edges of objects
+subset,256,Faces of things
+subset,257,Light reflections
+subset,258,Edges of objects
+subset,259,Edges of objects
+subset,260,Edges of objects
+subset,261,Faces of things
+subset,262,Regions with straight features
+subset,263,Faces of things
+subset,264,Edges of objects
+subset,265,Backgrounds in pictures
+subset,266,Rounded edges in pictures
+subset,267,Edges of objects
+subset,268,Living things
+subset,269,The ground
+subset,270,Faces of things
+subset,271,Faces of things
+subset,272,Edges of objects
+subset,273,Regions with straight features
+subset,274,Faces of things
+subset,275,Edges of objects
+subset,276,Edges of objects
+subset,277,Edges of objects
+subset,278,Faces of things
+subset,279,Dogs
+subset,280,Clothes
+subset,281,Edges of objects
+subset,282,The ground
+subset,283,Faces of things
+subset,284,Rounded edges in pictures
+subset,285,Edges of objects
+subset,286,Edges of objects
+subset,287,Faces of things
+subset,288,Human faces
+subset,289,Faces of things
+subset,290,The right side of a object
+subset,291,Edges of objects
+subset,292,Edges of objects
+subset,293,Edges of objects
+subset,294,Edges of objects
+subset,295,Faces of things
+subset,296,Rounded edges in pictures
+subset,297,Edges of objects
+subset,298,Regions with straight features
+subset,299,Edges of objects
+subset,300,Faces of things
+subset,301,Edges of objects
+subset,302,The right side of a object
+subset,303,Edges of objects
+subset,304,Human faces
+subset,305,Faces of things
+subset,306,The ground
+subset,307,Faces of things
+subset,308,Clothes
+subset,309,Regions with straight features
+subset,310,Animal
+subset,311,Regions with straight features
+subset,312,Edges of objects
+subset,313,The ground
+subset,314,Faces of things
+subset,315,Faces of things
+subset,316,Edges of objects
+subset,317,Regions with straight features
+subset,318,Clothing
+subset,319,Edges of objects
+subset,320,Faces of things
+subset,321,Regions with straight features
+subset,322,Regions with straight features
+subset,323,Edges of objects
+subset,324,The ground
+subset,325,Faces of things
+subset,326,Rounded edges in pictures
+subset,327,Clothes
+subset,328,Edges of objects
+subset,329,Faces of dogs
+subset,330,The ground
+subset,331,Edges of objects
+subset,332,The right side of a object
+subset,333,Clothes
+subset,334,Edges of objects
+subset,335,Faces of things
+subset,336,Faces of things
+subset,337,Edges of objects
+subset,338,Edges of objects
+subset,339,Light reflections
+subset,340,Faces of things
+subset,341,Edges of objects
+subset,342,Faces of things
+subset,343,Faces of things
+subset,344,Faces of things
+subset,345,Faces of things
+subset,346,Rounded edges in pictures
+subset,347,Edges of objects
+subset,348,Regions with straight features
+subset,349,Human faces
+subset,350,Faces of things
+subset,351,Regions with straight features
+subset,352,Faces of things
+subset,353,Edges of objects
+subset,354,Faces of things
+subset,355,Edges of objects
+subset,356,The ground
+subset,357,Items with designs
+subset,358,Clothes
+subset,359,Edges of objects
+subset,360,Regions with straight features
+subset,361,Edges of objects
+subset,362,Regions with straight features
+subset,363,Regions with straight features
+subset,364,Regions with straight features
+subset,365,Faces of things
+subset,366,Edges of objects
+subset,367,The ground
+subset,368,Faces of things
+subset,369,Faces of things
+subset,370,Edges of objects
+subset,371,Edges of objects
+subset,372,Faces of things
+subset,373,Edges of objects
+subset,374,Faces of things
+subset,375,Edges of objects
+subset,376,Faces of things
+subset,377,Faces of things
+subset,378,Faces of things
+subset,379,Edges of objects
+subset,380,Edges of objects
+subset,381,Faces of things
+subset,382,Regions with straight features
+subset,383,Faces of things
+subset,384,The ground
+subset,385,Faces of things
+subset,386,Edges of objects
+subset,387,The ground
+subset,388,The right side of a object
+subset,389,Edges of objects
+subset,390,Edges of objects
+subset,391,Edges of objects
+subset,392,Regions with straight features
+subset,393,Faces of things
+subset,394,Edges of objects
+subset,395,Edges of objects
+subset,396,Faces of things
+subset,397,Items with designs
+subset,398,Faces of things
+subset,399,Edges of objects
+subset,400,Edges of objects
+subset,401,Regions with straight features
+subset,402,Faces of things
+subset,403,Faces of things
+subset,404,Edges of objects
+subset,405,Regions with straight features
+subset,406,Edges of objects
+subset,407,Regions with straight features
+subset,408,Animals
+subset,409,Edges of objects
+subset,410,Edges of objects
+subset,411,Faces of things
+subset,412,Faces of things
+subset,413,Edges of objects
+subset,414,Faces of things
+subset,415,Edges of objects
+subset,416,Rounded edges in pictures
+subset,417,Edges of objects
+subset,418,Faces of things
+subset,419,Regions with straight features
+subset,420,Animals
+subset,421,Faces of things
+subset,422,Faces of things
+subset,423,Faces of things
+subset,424,Edges of objects
+subset,425,Regions with straight features
+subset,426,Regions with straight features
+subset,427,Edges of objects
+subset,428,Edges of objects
+subset,429,Edges of objects
+subset,430,Hands of people
+subset,431,Regions with straight features
+subset,432,Edges of objects
+subset,433,Faces of things
+subset,434,Human hands
+subset,435,Edges of objects
+subset,436,Edges of objects
+subset,437,Living things
+subset,438,Faces of things
+subset,439,Edges of objects
+subset,440,Edges of objects
+subset,441,Edges of objects
+subset,442,The ground
+subset,443,Edges of objects
+subset,444,Faces of things
+subset,445,Edges of objects
+subset,446,The ground
+subset,447,Edges of objects
+subset,448,Edges of objects
+subset,449,Clothes
+subset,450,Regions with straight features
+subset,451,Edges of objects
+subset,452,Regions with straight features
+subset,453,Human hands
+subset,454,Edges of objects
+subset,455,Edges of objects
+subset,456,Faces of things
+subset,457,Dogs
+subset,458,Regions with straight features
+subset,459,Regions with straight features
+subset,460,Faces of things
+subset,461,Hands of people
+subset,462,Regions with straight features
+subset,463,Edges of objects
+subset,464,Edges of objects
+subset,465,Faces of things
+subset,466,Regions with straight features
+subset,467,Edges of objects
+subset,468,Edges of objects
+subset,469,Edges of objects
+subset,470,Edges of objects
+subset,471,Edges of objects
+subset,472,The ground
+subset,473,Rounded edges in pictures
+subset,474,Regions with straight features
+subset,475,Regions with straight features
+subset,476,Rounded edges in pictures
+subset,477,Faces of things
+subset,478,Faces of things
+subset,479,Living things
+subset,480,Edges of objects
+subset,481,Diagonal lines
+subset,482,Edges of objects
+subset,483,Items with circular features
+subset,484,Faces of things
+subset,485,Faces of things
+subset,486,Human faces
+subset,487,Edges of objects
+subset,488,Regions with straight features
+subset,489,Edges of objects
+subset,490,Clothes
+subset,491,Edges of objects
+subset,492,Edges of objects
+subset,493,Edges of objects
+subset,494,Regions with straight features
+subset,495,Regions with straight features
+subset,496,Faces of things
+subset,497,Edges of objects
+subset,498,Dog ears
+subset,499,Regions with straight features
+subset,500,Edges of objects
+subset,501,The corners of objects
+subset,502,Edges of objects
+subset,503,Faces of things
+subset,504,Edges of objects
+subset,505,Items with designs
+subset,506,Faces of things
+subset,507,Edges of objects
+subset,508,Hinges
+subset,509,Edges of objects
+subset,510,Edges of objects
+subset,511,The ground
+subset,512,Faces of things
+subset,513,Faces of things
+subset,514,Edges of objects
+subset,515,Regions with straight features
+subset,516,Faces of things
+subset,517,Human faces
+subset,518,Regions with straight features
+subset,519,Edges of objects
+subset,520,Grass
+subset,521,Edges of objects
+subset,522,Edges of objects
+subset,523,Edges of objects
+subset,524,Faces of things
+subset,525,Hinges
+subset,526,Edges of objects
+subset,527,Edges of objects
+subset,528,Faces of things
+subset,529,Round edges on objects
+subset,530,The ground
+subset,531,Edges of objects
+subset,532,Edges of objects
+subset,533,Faces of things
+subset,534,Faces of things
+subset,535,Faces of things
+subset,536,The ground
+subset,537,Hands of people
+subset,538,Animals and cowls
+subset,539,Human faces
+subset,540,Edges of objects
+subset,541,Edges of objects
+subset,542,Human faces
+subset,543,Faces of things
+subset,544,Dog ears
+subset,545,Faces of things
+subset,546,Edges of objects
+subset,547,Faces of things
+subset,548,Regions with straight features
+subset,549,Faces of things
+subset,550,Edges of objects
+subset,551,Regions with straight features
+subset,552,Faces of things
+subset,553,Faces of things
+subset,554,Regions with straight features
+subset,555,Regions with straight features
+subset,556,Faces of things
+subset,557,Faces of things
+subset,558,Edges of objects
+subset,559,Faces of things
+subset,560,Regions with straight features
+subset,561,Faces of things
+subset,562,Faces of things
+subset,563,Edges of objects
+subset,564,Regions with straight features
+subset,565,Faces of things
+subset,566,Faces of things
+subset,567,Light reflections
+subset,568,Faces of things
+subset,569,Faces of things
+subset,570,Items with designs
+subset,571,Faces of things
+subset,572,Edges of objects
+subset,573,Edges of objects
+subset,574,Faces of things
+subset,575,Edges of objects
+subset,576,The right side of a object
+subset,577,Human faces
+subset,578,Edges of objects
+subset,579,Diagonal lines
+subset,580,Edges of objects
+subset,581,The ground
+subset,582,Faces of things
+subset,583,Faces of things
+subset,584,Food
+subset,585,Faces of things
+subset,586,Edges of objects
+subset,587,Regions with straight features
+subset,588,Edges of objects
+subset,589,Faces of things
+subset,590,The ground
+subset,591,Regions with straight features
+subset,592,Edges of objects
+subset,593,Edges of objects
+subset,594,Edges of objects
+subset,595,Rounded edges in pictures
+subset,596,Edges of objects
+subset,597,Regions with straight features
+subset,598,Edges of objects
+subset,599,Diagonal lines
+subset,600,Faces of things
+subset,601,Regions with straight features
+subset,602,Human faces
+subset,603,Edges of objects
+subset,604,Edges of objects
+subset,605,Clothing
+subset,606,Faces of things
+subset,607,Faces of things
+subset,608,Faces of things
+subset,609,Faces of things
+subset,610,Edges of objects
+subset,611,Edges of objects
+subset,612,Regions with straight features
+subset,613,Edges of objects
+subset,614,Edges of objects
+subset,615,Edges of objects
+subset,616,Edges of objects
+subset,617,Regions with straight features
+subset,618,People
+subset,619,Edges of objects
+subset,620,Edges of objects
+subset,621,Faces of things
+subset,622,Faces of things
+subset,623,The ground
+subset,624,Faces of things
+subset,625,Edges of objects
+subset,626,Diagonal lines
+subset,627,Edges of objects
+subset,628,Faces of things
+subset,629,Edges of objects
+subset,630,Edges of objects
+subset,631,Faces of things
+subset,632,Edges of objects
+subset,633,Faces of things
+subset,634,Faces of things
+subset,635,The ground
+subset,636,Faces of things
+subset,637,Edges of objects
+subset,638,Edges of objects
+subset,639,Edges of objects
+subset,640,Regions with straight features
+subset,641,Edges of objects
+subset,642,Edges of objects
+subset,643,Edges of objects
+subset,644,Edges of objects
+subset,645,Faces of things
+subset,646,Faces of things
+subset,647,Human faces
+subset,648,Edges of objects
+subset,649,Faces of things
+subset,650,Faces of things
+subset,651,Edges of objects
+subset,652,Rounded edges in pictures
+subset,653,Faces of things
+subset,654,Human hands
+subset,655,Regions with straight features
+subset,656,Faces of things
+subset,657,Regions with straight features
+subset,658,Faces of things
+subset,659,Human faces
+subset,660,Faces of things
+subset,661,People and animals
+subset,662,Edges of objects
+subset,663,Faces of things
+subset,664,Regions with straight features
+subset,665,Faces of things
+subset,666,Edges of objects
+subset,667,Regions with straight features
+subset,668,Regions with straight features
+subset,669,Edges of objects
+subset,670,Faces of things
+subset,671,Faces of things
+subset,672,Edges of objects
+subset,673,Areas of blue
+subset,674,Regions with straight features
+subset,675,Faces of things
+subset,676,The ground
+subset,677,Items with designs
+subset,678,Edges of objects
+subset,679,Faces of things
+subset,680,Edges of objects
+subset,681,Regions with straight features
+subset,682,Regions with straight features
+subset,683,Green areas in picture
+subset,684,White areas
+subset,685,Edges of objects
+subset,686,Regions with straight features
+subset,687,Faces of things
+subset,688,Edges of objects
+subset,689,Edges of objects
+subset,690,Edges of objects
+subset,691,Edges of objects
+subset,692,Edges of objects
+subset,693,Edges of objects
+subset,694,Faces of things
+subset,695,Edges of objects
+subset,696,Light reflections
+subset,697,Edges of objects
+subset,698,Faces of things
+subset,699,Faces of things
+subset,700,Living things
+subset,701,The ground
+subset,702,Regions with straight features
+subset,703,Edges of objects
+subset,704,Edges of objects
+subset,705,Edges of objects
+subset,706,Edges of objects
+subset,707,Faces of things
+subset,708,Faces of things
+subset,709,Regions with straight features
+subset,710,Edges of objects
+subset,711,Faces of things
+subset,712,Vehicles
+subset,713,Faces of things
+subset,714,Regions with straight features
+subset,715,Edges of objects
+subset,716,Edges of objects
+subset,717,Rounded edges in pictures
+subset,718,Clothes
+subset,719,The ground
+subset,720,Faces of things
+subset,721,Edges of objects
+subset,722,Regions with straight features
+subset,723,Edges of objects
+subset,724,Edges of objects
+subset,725,Regions with straight features
+subset,726,The ground
+subset,727,Edges of objects
+subset,728,Items with designs
+subset,729,Faces of things
+subset,730,Regions with straight features
+subset,731,Faces of things
+subset,732,Edges of objects
+subset,733,Edges of objects
+subset,734,Faces of things
+subset,735,Faces of things
+subset,736,Edges of objects
+subset,737,Faces of things
+subset,738,Edges of objects
+subset,739,Faces of things
+subset,740,Items with designs
+subset,741,Edges of objects
+subset,742,Faces of things
+subset,743,Edges of objects
+subset,744,Faces of things
+subset,745,Edges of objects
+subset,746,Edges of objects
+subset,747,Edges of objects
+subset,748,Edges of objects
+subset,749,Regions with straight features
+subset,750,Edges of objects
+subset,751,Edges of objects
+subset,752,Faces of things
+subset,753,Faces of things
+subset,754,Edges of objects
+subset,755,Regions with straight features
+subset,756,Faces of things
+subset,757,Faces of things
+subset,758,Edges of objects
+subset,759,Regions with straight features
+subset,760,Faces of things
+subset,761,Edges of objects
+subset,762,Edges of objects
+subset,763,Faces of things
+subset,764,Faces of things
+subset,765,Regions with straight features
+subset,766,Edges of objects
+subset,767,Faces of things

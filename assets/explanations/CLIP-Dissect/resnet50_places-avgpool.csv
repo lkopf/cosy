@@ -1,0 +1,2049 @@
+layer,unit,description,similarity
+avgpool,0,childs room,0.21365356
+avgpool,1,courthouse,0.3722229
+avgpool,2,"jacuzzi, indoor",0.33709717
+avgpool,3,shower,0.37579346
+avgpool,4,building facade,0.31137085
+avgpool,5,bamboo forest,0.8652649
+avgpool,6,rafting,0.45281982
+avgpool,7,mosque,0.294281
+avgpool,8,ball pit,0.33132935
+avgpool,9,"shopping mall, indoor",0.6697998
+avgpool,10,burial chamber,0.14712524
+avgpool,11,"shopping mall, indoor",0.2666626
+avgpool,12,balcony,0.27505493
+avgpool,13,phone booth,0.9159546
+avgpool,14,surf,0.16888428
+avgpool,15,bedchamber,0.6795654
+avgpool,16,football field,0.18167114
+avgpool,17,motels,0.43286133
+avgpool,18,pharmacist,0.43850708
+avgpool,19,window,0.20928955
+avgpool,20,computer room,0.253479
+avgpool,21,boxing,0.62286377
+avgpool,22,building facade,0.16555786
+avgpool,23,deployment,0.4388733
+avgpool,24,art gallery,0.21539307
+avgpool,25,oast house,0.3734436
+avgpool,26,building facade,0.45498657
+avgpool,27,martial arts gym,0.44250488
+avgpool,28,vineyards,0.3878479
+avgpool,29,spires,0.37579346
+avgpool,30,staircase,0.5314026
+avgpool,31,gas station,0.7229004
+avgpool,32,crevasse,0.40844727
+avgpool,33,enlisted,0.45617676
+avgpool,34,basketball,0.20245361
+avgpool,35,performing,0.2744751
+avgpool,36,habitat,0.26727295
+avgpool,37,building facade,0.30947876
+avgpool,38,wetland,0.35849
+avgpool,39,operating room,0.6816101
+avgpool,40,igloo,0.42349243
+avgpool,41,office cubicles,0.22460938
+avgpool,42,television studio,0.38946533
+avgpool,43,racing,0.4940796
+avgpool,44,zen garden,0.32318115
+avgpool,45,computer room,0.36749268
+avgpool,46,elevator shaft,0.3720398
+avgpool,47,"desert, vegetation",0.32208252
+avgpool,48,bus interior,0.36642456
+avgpool,49,instructors,0.447052
+avgpool,50,varieties,0.13864136
+avgpool,51,kayaking,0.33187866
+avgpool,52,crosswalk,0.3548584
+avgpool,53,bamboo forest,0.2529602
+avgpool,54,fishpond,0.34146118
+avgpool,55,swimming,0.39715576
+avgpool,56,amusement arcade,0.37182617
+avgpool,57,ice shelf,0.32965088
+avgpool,58,music studio,0.41131592
+avgpool,59,"shopping mall, indoor",0.57925415
+avgpool,60,cathedral,0.49047852
+avgpool,61,operating room,0.16305542
+avgpool,62,sofas,0.52001953
+avgpool,63,"atrium, public",0.33843994
+avgpool,64,gas station,0.28604126
+avgpool,65,pagoda,0.6386719
+avgpool,66,"balcony, interior",0.3293152
+avgpool,67,mosque,0.53759766
+avgpool,68,rope bridge,0.2829895
+avgpool,69,rapids,0.40231323
+avgpool,70,gas station,0.7338562
+avgpool,71,ordered,0.15042114
+avgpool,72,contemporary,0.40652466
+avgpool,73,shoe shop,0.58425903
+avgpool,74,windmill,0.27450562
+avgpool,75,cafeteria,0.3062439
+avgpool,76,doors,0.21765137
+avgpool,77,carrousel,0.31448364
+avgpool,78,bookshop,0.57333374
+avgpool,79,"arena, hockey",0.6633606
+avgpool,80,"shopping mall, indoor",0.17330933
+avgpool,81,"hangar, indoor",0.45361328
+avgpool,82,amusement park,0.39389038
+avgpool,83,"flea market, indoor",0.25256348
+avgpool,84,landing deck,0.3467102
+avgpool,85,invitational,0.23947144
+avgpool,86,rope bridge,0.29678345
+avgpool,87,"greenhouse, outdoor",0.21487427
+avgpool,88,automotive,0.43411255
+avgpool,89,amphitheater,0.3338318
+avgpool,90,engine room,0.29333496
+avgpool,91,sold,0.18435669
+avgpool,92,bank vault,0.38754272
+avgpool,93,stargate,0.23617554
+avgpool,94,tree farm,0.4918213
+avgpool,95,snowy,0.42755127
+avgpool,96,sign,0.31018066
+avgpool,97,living room,0.48156738
+avgpool,98,"garage, outdoor",0.47235107
+avgpool,99,kitchens,0.48745728
+avgpool,100,butchers shop,0.27355957
+avgpool,101,aqueduct,0.21621704
+avgpool,102,landfill,0.38461304
+avgpool,103,nursery,0.48538208
+avgpool,104,fire station,0.49499512
+avgpool,105,participants,0.13256836
+avgpool,106,laundromat,0.36865234
+avgpool,107,"lake, natural",0.22006226
+avgpool,108,"subway station, platform",0.26901245
+avgpool,109,railways,0.4017334
+avgpool,110,basement,0.16946411
+avgpool,111,amusement park,0.175354
+avgpool,112,mausoleum,0.3572693
+avgpool,113,ice floe,0.5411682
+avgpool,114,ice floe,0.5250244
+avgpool,115,yachts,0.13195801
+avgpool,116,dancer,0.13696289
+avgpool,117,harbour,0.3809204
+avgpool,118,foods,0.36108398
+avgpool,119,gas station,0.33148193
+avgpool,120,sandbox,0.4940796
+avgpool,121,vineyards,0.27267456
+avgpool,122,building facade,0.41363525
+avgpool,123,berg,0.3505249
+avgpool,124,sailing,0.4236145
+avgpool,125,homestead,0.4701233
+avgpool,126,"field, cultivated",0.29733276
+avgpool,127,"ice skating rink, outdoor",0.2262268
+avgpool,128,cafeteria,0.35583496
+avgpool,129,"ice skating rink, outdoor",0.20681763
+avgpool,130,"ice skating rink, outdoor",0.19876099
+avgpool,131,performing,0.1975708
+avgpool,132,engine,0.3699646
+avgpool,133,cavalry,0.27572632
+avgpool,134,hockey,0.37213135
+avgpool,135,"temple, asia",0.22677612
+avgpool,136,"elevator, door",0.31381226
+avgpool,137,"stadium, football",0.35009766
+avgpool,138,computer room,0.32565308
+avgpool,139,wetland,0.2515564
+avgpool,140,baseball,0.5815735
+avgpool,141,princess,0.13830566
+avgpool,142,"gazebo, exterior",0.22677612
+avgpool,143,participants,0.15759277
+avgpool,144,"doorway, outdoor",0.12686157
+avgpool,145,cabin,0.35165405
+avgpool,146,tree house,0.679657
+avgpool,147,building facade,0.20477295
+avgpool,148,gas station,0.36184692
+avgpool,149,manufactured home,0.19281006
+avgpool,150,horticulture,0.33059692
+avgpool,151,carrousel,0.1743164
+avgpool,152,dining room,0.30282593
+avgpool,153,dams,0.46466064
+avgpool,154,habitat,0.22039795
+avgpool,155,pagoda,0.2975464
+avgpool,156,rodeo,0.50006104
+avgpool,157,planting,0.2765808
+avgpool,158,airplane cabin,0.80841064
+avgpool,159,television studio,0.40341187
+avgpool,160,"escalator, indoor",0.2758484
+avgpool,161,motor,0.39266968
+avgpool,162,attic,0.6616516
+avgpool,163,sahara,0.33285522
+avgpool,164,cambodia,0.42111206
+avgpool,165,amphitheater,0.24191284
+avgpool,166,waterfront,0.26901245
+avgpool,167,viaduct,0.3580017
+avgpool,168,jewellery,0.5909424
+avgpool,169,stable,0.18051147
+avgpool,170,"swimming pool, indoor",0.5588379
+avgpool,171,music studio,0.18127441
+avgpool,172,carrousel,0.9082031
+avgpool,173,lagoon,0.22381592
+avgpool,174,"synagogue, outdoor",0.2930603
+avgpool,175,boats,0.48242188
+avgpool,176,storage room,0.29180908
+avgpool,177,automotive,0.3786621
+avgpool,178,crowd,0.15127563
+avgpool,179,restaurant kitchen,0.23648071
+avgpool,180,wind farm,0.6755371
+avgpool,181,"pub, indoor",0.49621582
+avgpool,182,putting,0.3640442
+avgpool,183,boardwalk,0.5592346
+avgpool,184,waterfall,0.17782593
+avgpool,185,shelving,0.4275818
+avgpool,186,"escalator, indoor",0.24038696
+avgpool,187,locker,0.39007568
+avgpool,188,rope bridge,0.45187378
+avgpool,189,pizza,0.43652344
+avgpool,190,dome,0.1277771
+avgpool,191,tree house,0.3834839
+avgpool,192,"synagogue, outdoor",0.28878784
+avgpool,193,rescued,0.12384033
+avgpool,194,bissau,0.14593506
+avgpool,195,habit,0.40649414
+avgpool,196,utility room,0.407135
+avgpool,197,"gazebo, exterior",0.4949646
+avgpool,198,boeing,0.12231445
+avgpool,199,door,0.3665161
+avgpool,200,"booth, indoor",0.30368042
+avgpool,201,candy store,0.5109863
+avgpool,202,carrousel,0.8276367
+avgpool,203,courtroom,0.216156
+avgpool,204,kindergarden classroom,0.598053
+avgpool,205,aquarium,0.19943237
+avgpool,206,greenhouse,0.8548584
+avgpool,207,operating room,0.5369873
+avgpool,208,svalbard,0.26742554
+avgpool,209,driveway,0.27963257
+avgpool,210,operating room,0.8279114
+avgpool,211,bamboo forest,0.81747437
+avgpool,212,participants,0.30648804
+avgpool,213,ballroom,0.44366455
+avgpool,214,yellowstone,0.62841797
+avgpool,215,clouds,0.38845825
+avgpool,216,amusement park,0.3486328
+avgpool,217,alley,0.39779663
+avgpool,218,arcade,0.51446533
+avgpool,219,"arena, rodeo",0.2850952
+avgpool,220,door,0.51660156
+avgpool,221,mountain path,0.45309448
+avgpool,222,exhibits,0.24356079
+avgpool,223,dancers,0.27960205
+avgpool,224,aqueduct,1.0456238
+avgpool,225,bowling,0.7600708
+avgpool,226,fire station,0.20089722
+avgpool,227,rock arch,0.48999023
+avgpool,228,utility room,0.39102173
+avgpool,229,junkyard,0.3704834
+avgpool,230,sauna,0.5090027
+avgpool,231,presenters,0.29556274
+avgpool,232,forest path,0.27835083
+avgpool,233,corridor,0.3562317
+avgpool,234,rafting,0.7425842
+avgpool,235,helicopter,0.39639282
+avgpool,236,"market, indoor",0.35317993
+avgpool,237,homeowner,0.46896362
+avgpool,238,pasture,0.38052368
+avgpool,239,"moat, water",0.44403076
+avgpool,240,"temple, asia",0.55255127
+avgpool,241,archaeological,0.26611328
+avgpool,242,waterfall,0.11627197
+avgpool,243,flower,0.24398804
+avgpool,244,car interior,0.7298889
+avgpool,245,attic,0.36120605
+avgpool,246,lighthouse,0.69869995
+avgpool,247,ordered,0.23428345
+avgpool,248,sauna,0.50994873
+avgpool,249,sauna,0.39834595
+avgpool,250,bamboo,0.2333374
+avgpool,251,fabric store,0.243927
+avgpool,252,"field, cultivated",0.24801636
+avgpool,253,cabinet,0.34014893
+avgpool,254,bus interior,0.33062744
+avgpool,255,bottles,0.22283936
+avgpool,256,fountain,0.6778259
+avgpool,257,rice paddy,0.3334961
+avgpool,258,yellowstone,0.6933899
+avgpool,259,rice paddy,0.34753418
+avgpool,260,nightlife,0.29501343
+avgpool,261,boat deck,0.4892273
+avgpool,262,bowling alley,0.5215454
+avgpool,263,reprint,0.12689209
+avgpool,264,athlete,0.22387695
+avgpool,265,author,0.37734985
+avgpool,266,car interior,0.6235657
+avgpool,267,alley,0.2144165
+avgpool,268,flower,0.27957153
+avgpool,269,skyline,0.17993164
+avgpool,270,crowd,0.28799438
+avgpool,271,loader,0.28079224
+avgpool,272,habit,0.34100342
+avgpool,273,rowing,0.26168823
+avgpool,274,habitat,0.3001709
+avgpool,275,clouds,0.25576782
+avgpool,276,art studio,0.35586548
+avgpool,277,jail cell,0.3982849
+avgpool,278,signage,0.19415283
+avgpool,279,trains,0.497406
+avgpool,280,"arena, rodeo",0.16552734
+avgpool,281,hotel room,0.2055664
+avgpool,282,"desert, sand",0.6349182
+avgpool,283,castle,0.4074707
+avgpool,284,junkyard,0.38375854
+avgpool,285,catacomb,0.3744812
+avgpool,286,"jacuzzi, indoor",0.5791626
+avgpool,287,beach house,0.412323
+avgpool,288,kasbah,0.50860596
+avgpool,289,automotive,0.23596191
+avgpool,290,courtyard,0.5281372
+avgpool,291,sofas,0.33898926
+avgpool,292,"florist shop, indoor",0.43881226
+avgpool,293,party,0.28344727
+avgpool,294,football field,0.36349487
+avgpool,295,swimming,0.16531372
+avgpool,296,"train station, platform",0.32089233
+avgpool,297,homestead,0.22018433
+avgpool,298,exterior,0.27227783
+avgpool,299,chef,0.61920166
+avgpool,300,shoe shop,0.4121704
+avgpool,301,bank vault,0.3468933
+avgpool,302,performing,0.21670532
+avgpool,303,"doorway, outdoor",0.27545166
+avgpool,304,sign,0.3725586
+avgpool,305,aquarium,0.6103821
+avgpool,306,shoe shop,0.67041016
+avgpool,307,hospital room,0.3369751
+avgpool,308,homestead,0.38546753
+avgpool,309,barn,0.30322266
+avgpool,310,igloo,0.25430298
+avgpool,311,shelving,0.21591187
+avgpool,312,hay,0.32284546
+avgpool,313,amusement park,0.48876953
+avgpool,314,grassroots,0.113098145
+avgpool,315,skyscraper,0.246521
+avgpool,316,rope bridge,0.30618286
+avgpool,317,building facade,0.32037354
+avgpool,318,pinball,0.41757202
+avgpool,319,shopfront,0.22146606
+avgpool,320,vegetable garden,0.46929932
+avgpool,321,canal,0.3612671
+avgpool,322,juvenile,0.3302307
+avgpool,323,tree house,0.34674072
+avgpool,324,office cubicles,0.7246399
+avgpool,325,snorkeling,0.34854126
+avgpool,326,fabrics,0.44055176
+avgpool,327,soccer,0.3725891
+avgpool,328,"market, indoor",0.48721313
+avgpool,329,sahara,0.52453613
+avgpool,330,valley,0.37573242
+avgpool,331,door,0.14956665
+avgpool,332,snowy,0.46813965
+avgpool,333,dining room,0.56033325
+avgpool,334,fountains,0.48031616
+avgpool,335,building facade,0.27438354
+avgpool,336,junkyard,0.23980713
+avgpool,337,"shopping mall, indoor",0.24151611
+avgpool,338,zen garden,0.34973145
+avgpool,339,plaque,0.2715149
+avgpool,340,viaduct,0.49194336
+avgpool,341,collier,0.27319336
+avgpool,342,badlands,0.88900757
+avgpool,343,habitat,0.19714355
+avgpool,344,junkyard,0.5444336
+avgpool,345,waterfall,0.37472534
+avgpool,346,kindergarden classroom,0.19961548
+avgpool,347,dining,0.34924316
+avgpool,348,mozambique,0.256958
+avgpool,349,archaelogical excavation,0.4650879
+avgpool,350,childs room,0.33096313
+avgpool,351,shoe shop,0.34387207
+avgpool,352,"lake, natural",0.2567749
+avgpool,353,recreation room,0.39227295
+avgpool,354,amphitheater,0.4727478
+avgpool,355,aviation,0.50439453
+avgpool,356,kindergarden classroom,0.5027466
+avgpool,357,ticket booth,0.2590027
+avgpool,358,volcano,0.21170044
+avgpool,359,residential neighborhood,0.46166992
+avgpool,360,fire escape,0.35159302
+avgpool,361,palace,0.355011
+avgpool,362,igloo,0.2554016
+avgpool,363,ruins,0.530426
+avgpool,364,amphitheater,0.63287354
+avgpool,365,tableware,0.16061401
+avgpool,366,flowers,0.44223022
+avgpool,367,fire station,0.7088318
+avgpool,368,licensees,0.18588257
+avgpool,369,entrance hall,0.34753418
+avgpool,370,greenhouse,0.22195435
+avgpool,371,mausoleum,0.3595581
+avgpool,372,skyscraper,0.3022461
+avgpool,373,"swimming pool, outdoor",0.37921143
+avgpool,374,rice paddy,0.4139099
+avgpool,375,airfield,0.29919434
+avgpool,376,pharmacist,0.49853516
+avgpool,377,storage room,0.49682617
+avgpool,378,fountains,0.5534668
+avgpool,379,landing deck,0.6012268
+avgpool,380,watering hole,0.30355835
+avgpool,381,gas station,0.52545166
+avgpool,382,"garage, outdoor",0.16653442
+avgpool,383,jail cell,0.1713562
+avgpool,384,water tower,0.45889282
+avgpool,385,server room,0.23309326
+avgpool,386,hoodia,0.40560913
+avgpool,387,"general store, outdoor",0.33120728
+avgpool,388,columns,0.4144287
+avgpool,389,operating room,1.0318909
+avgpool,390,paving,0.3859253
+avgpool,391,botanical garden,0.32192993
+avgpool,392,plants,0.27218628
+avgpool,393,conference room,0.44244385
+avgpool,394,restaurant kitchen,0.62316895
+avgpool,395,server room,0.23269653
+avgpool,396,volleyball,0.6143799
+avgpool,397,archaelogical excavation,0.24835205
+avgpool,398,dining room,0.19451904
+avgpool,399,"subway station, platform",0.50805664
+avgpool,400,restaurant patio,0.33483887
+avgpool,401,campsite,0.5458069
+avgpool,402,participants,0.31411743
+avgpool,403,carrousel,0.7875061
+avgpool,404,tree farm,0.42895508
+avgpool,405,jewellery,0.51208496
+avgpool,406,baseball,0.22158813
+avgpool,407,bookstore,0.48220825
+avgpool,408,department store,0.2538452
+avgpool,409,motels,0.58203125
+avgpool,410,operating room,0.14898682
+avgpool,411,tomb,0.19949341
+avgpool,412,oilrig,0.18606567
+avgpool,413,symposium,0.28207397
+avgpool,414,ingredients,0.29858398
+avgpool,415,"shopping mall, indoor",0.4480896
+avgpool,416,putting,0.14608765
+avgpool,417,boat,0.5335388
+avgpool,418,"hangar, indoor",0.26882935
+avgpool,419,cabinets,0.23446655
+avgpool,420,crypt,0.3828125
+avgpool,421,bowling,0.46899414
+avgpool,422,ruins,0.28668213
+avgpool,423,zen garden,0.20632935
+avgpool,424,tent,0.5762329
+avgpool,425,coral,0.28308105
+avgpool,426,"volleyball court, outdoor",0.543396
+avgpool,427,carrousel,0.89105225
+avgpool,428,bank vault,0.51278687
+avgpool,429,aviation,0.21459961
+avgpool,430,engine room,0.37728882
+avgpool,431,rock arch,0.37628174
+avgpool,432,columns,0.390625
+avgpool,433,ball pit,0.6889038
+avgpool,434,wetland,0.40444946
+avgpool,435,chevrolet,0.13406372
+avgpool,436,cabinets,0.36184692
+avgpool,437,wind farm,0.33840942
+avgpool,438,spires,0.1506958
+avgpool,439,strands,0.20074463
+avgpool,440,rock arch,0.2937622
+avgpool,441,igloo,0.74487305
+avgpool,442,rafting,0.3095703
+avgpool,443,archaelogical excavation,0.59191895
+avgpool,444,volcano,0.6843872
+avgpool,445,auditorium,0.56588745
+avgpool,446,boxing,0.3849182
+avgpool,447,valley,0.35910034
+avgpool,448,soccer,0.5123291
+avgpool,449,baccarat,0.12286377
+avgpool,450,bamboo forest,0.933136
+avgpool,451,phone booth,0.20413208
+avgpool,452,elevator shaft,0.3711853
+avgpool,453,horse,0.18075562
+avgpool,454,shelving,0.37322998
+avgpool,455,performing,0.205719
+avgpool,456,canal,0.46569824
+avgpool,457,kitchen,0.22924805
+avgpool,458,cockpit,0.4862671
+avgpool,459,restaurant kitchen,0.5783386
+avgpool,460,invitational,0.24353027
+avgpool,461,"escalator, indoor",0.25863647
+avgpool,462,restaurant patio,0.27505493
+avgpool,463,forest road,0.37850952
+avgpool,464,archaelogical excavation,0.30166626
+avgpool,465,"arena, rodeo",0.36679077
+avgpool,466,building facade,0.18069458
+avgpool,467,restaurant kitchen,0.5470276
+avgpool,468,building facade,0.3430481
+avgpool,469,botanical garden,0.30706787
+avgpool,470,"swimming pool, indoor",0.37954712
+avgpool,471,"ice skating rink, outdoor",0.43063354
+avgpool,472,fabric store,0.22918701
+avgpool,473,fostering,0.34387207
+avgpool,474,santos,0.25668335
+avgpool,475,"parking garage, indoor",0.24234009
+avgpool,476,igloo,0.10534668
+avgpool,477,"jacuzzi, indoor",0.43237305
+avgpool,478,tunnel,0.4119568
+avgpool,479,utility room,0.4657898
+avgpool,480,utility room,0.48150635
+avgpool,481,natural history museum,0.6679077
+avgpool,482,figurines,0.2387085
+avgpool,483,building facade,0.2203064
+avgpool,484,elevator shaft,0.3399353
+avgpool,485,"market, outdoor",0.340271
+avgpool,486,staircase,0.5013733
+avgpool,487,buses,0.7869568
+avgpool,488,throne room,0.38433838
+avgpool,489,yummy,0.31729126
+avgpool,490,golf course,0.23904419
+avgpool,491,windmill,0.13537598
+avgpool,492,office cubicles,0.30621338
+avgpool,493,playground,0.5721741
+avgpool,494,volleyball,0.44317627
+avgpool,495,mountain snowy,0.51364136
+avgpool,496,dlp,0.20489502
+avgpool,497,ice floe,0.3630371
+avgpool,498,jail cell,0.39569092
+avgpool,499,kindergarden classroom,0.31420898
+avgpool,500,tent,0.6260071
+avgpool,501,technician,0.31533813
+avgpool,502,wetland,0.28326416
+avgpool,503,ice floe,0.19091797
+avgpool,504,bowling,0.27270508
+avgpool,505,utility room,0.27667236
+avgpool,506,butchers shop,0.34805298
+avgpool,507,street,0.32281494
+avgpool,508,"parking garage, indoor",0.37271118
+avgpool,509,bedchamber,0.3774109
+avgpool,510,beach,0.15646362
+avgpool,511,"desert, sand",0.54849243
+avgpool,512,topiary garden,0.93218994
+avgpool,513,lecture room,0.38510132
+avgpool,514,panel,0.26937866
+avgpool,515,engine room,0.34207153
+avgpool,516,bldg,0.27731323
+avgpool,517,tomb,0.33093262
+avgpool,518,"garage, outdoor",0.40899658
+avgpool,519,svalbard,0.18395996
+avgpool,520,aquarium,0.22906494
+avgpool,521,tomb,0.30963135
+avgpool,522,bookstore,0.10229492
+avgpool,523,cafeteria,0.24761963
+avgpool,524,carrousel,0.642395
+avgpool,525,barn,0.24053955
+avgpool,526,courthouse,0.3581543
+avgpool,527,raceway,0.23077393
+avgpool,528,dams,0.4072876
+avgpool,529,"volleyball court, outdoor",0.40542603
+avgpool,530,field,0.2060852
+avgpool,531,interstate,0.31430054
+avgpool,532,"hangar, indoor",0.34170532
+avgpool,533,toyshop,0.42965698
+avgpool,534,invitational,0.36975098
+avgpool,535,water tower,0.1892395
+avgpool,536,ticket booth,0.28259277
+avgpool,537,bank vault,0.59399414
+avgpool,538,baroque,0.40667725
+avgpool,539,airport terminal,0.11352539
+avgpool,540,laundromat,0.70166016
+avgpool,541,drugstore,0.23043823
+avgpool,542,"general store, outdoor",0.26223755
+avgpool,543,clutter,0.22210693
+avgpool,544,sky,0.20071411
+avgpool,545,viaduct,0.2814026
+avgpool,546,"bus station, indoor",0.37557983
+avgpool,547,operating room,0.13964844
+avgpool,548,drugstore,0.4404297
+avgpool,549,trains,0.5307007
+avgpool,550,shelving,0.29248047
+avgpool,551,phone booth,0.5126648
+avgpool,552,"shopping mall, indoor",0.59609985
+avgpool,553,fabric store,0.3800354
+avgpool,554,buildings,0.18969727
+avgpool,555,amphitheater,0.22631836
+avgpool,556,bikes,0.18447876
+avgpool,557,"gazebo, exterior",0.3734131
+avgpool,558,island,0.26220703
+avgpool,559,water tower,0.651947
+avgpool,560,galley,0.40673828
+avgpool,561,throne room,0.4512329
+avgpool,562,igloo,0.24673462
+avgpool,563,recreation room,0.3050537
+avgpool,564,kindergarden classroom,0.21844482
+avgpool,565,"field, cultivated",0.35498047
+avgpool,566,campsite,0.60427856
+avgpool,567,"atrium, public",0.40176392
+avgpool,568,shelving,0.19247437
+avgpool,569,"train station, platform",0.49554443
+avgpool,570,gas station,0.31637573
+avgpool,571,restaurant patio,0.49298096
+avgpool,572,amphitheater,0.18719482
+avgpool,573,"elevator, door",0.35003662
+avgpool,574,participants,0.22506714
+avgpool,575,shopfront,0.36740112
+avgpool,576,tent,0.777771
+avgpool,577,entrance hall,0.36035156
+avgpool,578,kindergarden classroom,0.6016846
+avgpool,579,dance,0.29571533
+avgpool,580,rock arch,0.5258179
+avgpool,581,sofas,0.33145142
+avgpool,582,"shopping mall, indoor",0.12588501
+avgpool,583,rave,0.23135376
+avgpool,584,restaurant patio,0.5288086
+avgpool,585,landing deck,0.4671936
+avgpool,586,"mosque, outdoor",0.30706787
+avgpool,587,airplane cabin,0.38638306
+avgpool,588,airplane cabin,0.2511902
+avgpool,589,spires,0.20993042
+avgpool,590,bonsai,0.1621399
+avgpool,591,commissioners,0.29284668
+avgpool,592,ruins,0.3057251
+avgpool,593,rope bridge,0.38824463
+avgpool,594,catacomb,0.3746643
+avgpool,595,auto factory,0.5192871
+avgpool,596,baseball,0.16479492
+avgpool,597,fabric store,0.21920776
+avgpool,598,surfing,0.6277466
+avgpool,599,"hunting lodge, outdoor",0.6010437
+avgpool,600,assembly line,0.3085022
+avgpool,601,snooker,0.2921753
+avgpool,602,landing,0.30560303
+avgpool,603,ultraviolet,0.20718384
+avgpool,604,throne room,0.40881348
+avgpool,605,bw,0.19015503
+avgpool,606,vineyards,0.7904358
+avgpool,607,methodist,0.12426758
+avgpool,608,habitat,0.2954712
+avgpool,609,volleyball,0.19580078
+avgpool,610,restaurant patio,0.515625
+avgpool,611,ball pit,0.28799438
+avgpool,612,bookstore,0.51068115
+avgpool,613,producing,0.13562012
+avgpool,614,phone booth,0.80148315
+avgpool,615,"kennel, outdoor",0.55841064
+avgpool,616,fishpond,0.23147583
+avgpool,617,butchers shop,0.31192017
+avgpool,618,steam,0.2467041
+avgpool,619,roof garden,0.3987732
+avgpool,620,arch,0.18432617
+avgpool,621,"hunting lodge, outdoor",0.44326782
+avgpool,622,ticket booth,0.3696289
+avgpool,623,attic,0.47921753
+avgpool,624,dam,0.2472229
+avgpool,625,desert road,0.27041626
+avgpool,626,skiing,0.4777832
+avgpool,627,rice paddy,0.5279236
+avgpool,628,unicef,0.13208008
+avgpool,629,home theater,0.25280762
+avgpool,630,chapel,0.27981567
+avgpool,631,glacier,0.5458374
+avgpool,632,shoe shop,0.50949097
+avgpool,633,crosswalk,0.45025635
+avgpool,634,entrance hall,0.26846313
+avgpool,635,beach,0.42489624
+avgpool,636,sand,0.2338562
+avgpool,637,bank vault,0.38760376
+avgpool,638,yellowstone,0.316864
+avgpool,639,arcade,0.29589844
+avgpool,640,assembly line,0.23010254
+avgpool,641,caves,0.313385
+avgpool,642,bureau,0.2987976
+avgpool,643,"bow window, indoor",0.5093994
+avgpool,644,author,0.25134277
+avgpool,645,canyon,0.36621094
+avgpool,646,"subway station, platform",0.6158142
+avgpool,647,elevator shaft,0.34384155
+avgpool,648,bamboo forest,0.25769043
+avgpool,649,aggregation,0.1182251
+avgpool,650,waiting room,0.28582764
+avgpool,651,pantry,0.60250854
+avgpool,652,martial arts gym,0.4413452
+avgpool,653,"greenhouse, outdoor",0.62457275
+avgpool,654,canyon,0.54849243
+avgpool,655,fostering,0.14871216
+avgpool,656,burial chamber,0.38467407
+avgpool,657,"stage, indoor",0.37158203
+avgpool,658,sandbox,0.557312
+avgpool,659,"volleyball court, outdoor",0.4024048
+avgpool,660,sauna,0.15716553
+avgpool,661,airport terminal,0.33273315
+avgpool,662,pedestrian,0.17211914
+avgpool,663,volunteers,0.27340698
+avgpool,664,flower,0.22015381
+avgpool,665,auditorium,0.771698
+avgpool,666,"temple, asia",0.70077515
+avgpool,667,formal garden,0.48535156
+avgpool,668,"diner, outdoor",0.33981323
+avgpool,669,corsair,0.3529663
+avgpool,670,storage room,0.21432495
+avgpool,671,badlands,0.8345642
+avgpool,672,rope bridge,0.29296875
+avgpool,673,collier,0.52041626
+avgpool,674,fabric store,0.25408936
+avgpool,675,"temple, asia",0.4257202
+avgpool,676,picnic area,0.38275146
+avgpool,677,"stadium, football",0.58026123
+avgpool,678,juvenile,0.24786377
+avgpool,679,staircase,0.29867554
+avgpool,680,restaurant kitchen,0.4338684
+avgpool,681,soldiers,0.15267944
+avgpool,682,banquet hall,0.64611816
+avgpool,683,crosswalk,0.46463013
+avgpool,684,aisle,0.41116333
+avgpool,685,attic,0.478302
+avgpool,686,rafting,0.5101013
+avgpool,687,blinds,0.17312622
+avgpool,688,crypt,0.27572632
+avgpool,689,landing deck,0.22897339
+avgpool,690,"stage, indoor",0.24969482
+avgpool,691,autumn,0.18457031
+avgpool,692,msrp,0.16882324
+avgpool,693,archaelogical excavation,0.4871521
+avgpool,694,aquarium,0.14700317
+avgpool,695,field road,0.34207153
+avgpool,696,sauna,0.7220764
+avgpool,697,crowd,0.31106567
+avgpool,698,delegates,0.2531128
+avgpool,699,canyon,0.43582153
+avgpool,700,sandbox,0.48666382
+avgpool,701,cabin,0.3592224
+avgpool,702,ballroom,0.34729004
+avgpool,703,building facade,0.1772461
+avgpool,704,bank vault,0.38009644
+avgpool,705,rope bridge,0.8713684
+avgpool,706,dancers,0.42819214
+avgpool,707,canyon,0.46728516
+avgpool,708,tackling,0.29397583
+avgpool,709,bathroom,0.6706543
+avgpool,710,toilet,0.27346802
+avgpool,711,"kennel, outdoor",0.27957153
+avgpool,712,bus interior,0.7131958
+avgpool,713,fossil,0.33953857
+avgpool,714,fire escape,0.47561646
+avgpool,715,rope bridge,0.30471802
+avgpool,716,airplane cabin,0.28808594
+avgpool,717,hostel,0.53811646
+avgpool,718,schoolhouse,0.39434814
+avgpool,719,pizza,0.54229736
+avgpool,720,"underwater, ocean deep",0.29977417
+avgpool,721,dancer,0.26278687
+avgpool,722,panorama,0.23809814
+avgpool,723,fishpond,0.39041138
+avgpool,724,pedestrian,0.29660034
+avgpool,725,zen garden,0.97283936
+avgpool,726,fabric store,0.45217896
+avgpool,727,aquarium,0.20578003
+avgpool,728,storage room,0.26123047
+avgpool,729,building facade,0.33377075
+avgpool,730,instructors,0.36398315
+avgpool,731,cabin,0.25546265
+avgpool,732,homestead,0.38900757
+avgpool,733,amusement park,0.3227539
+avgpool,734,building facade,0.3887329
+avgpool,735,"hangar, outdoor",0.20407104
+avgpool,736,"desert, vegetation",0.5225525
+avgpool,737,bank vault,0.51345825
+avgpool,738,market,0.6378784
+avgpool,739,bookstore,0.12756348
+avgpool,740,fastfood restaurant,0.27459717
+avgpool,741,pantry,0.29333496
+avgpool,742,flores,0.45507812
+avgpool,743,racecourse,0.25048828
+avgpool,744,physics laboratory,0.44729614
+avgpool,745,"escalator, indoor",0.5798645
+avgpool,746,airplane cabin,0.56030273
+avgpool,747,badlands,0.9746399
+avgpool,748,jewellery,0.39743042
+avgpool,749,zen garden,0.91656494
+avgpool,750,veterinary,0.29647827
+avgpool,751,kennel,0.3260193
+avgpool,752,skyline,0.27139282
+avgpool,753,cathedral,0.41351318
+avgpool,754,clouds,0.45672607
+avgpool,755,columns,0.2520752
+avgpool,756,fire escape,0.23806763
+avgpool,757,"volleyball court, outdoor",0.4880371
+avgpool,758,panels,0.1581726
+avgpool,759,chemistry lab,0.20022583
+avgpool,760,archaelogical excavation,0.16479492
+avgpool,761,"greenhouse, indoor",0.574646
+avgpool,762,cottages,0.36773682
+avgpool,763,signage,0.16513062
+avgpool,764,bureau,0.40689087
+avgpool,765,oast house,0.7718506
+avgpool,766,"parking garage, indoor",0.36993408
+avgpool,767,pizzeria,0.3965149
+avgpool,768,cemetery,0.5513916
+avgpool,769,attic,0.47805786
+avgpool,770,building facade,0.4555359
+avgpool,771,campus,0.25027466
+avgpool,772,snorkeling,0.31555176
+avgpool,773,archaeological,0.25531006
+avgpool,774,courtyard,0.37756348
+avgpool,775,"elevator, door",0.4762268
+avgpool,776,"apartment building, outdoor",0.2633667
+avgpool,777,bathroom,0.41055298
+avgpool,778,karate,0.27087402
+avgpool,779,kayaking,0.22131348
+avgpool,780,castle,0.3881836
+avgpool,781,airport terminal,0.51742554
+avgpool,782,morocco,0.5975952
+avgpool,783,"elevator, door",0.25473022
+avgpool,784,zen garden,0.6131592
+avgpool,785,boardwalk,0.54776
+avgpool,786,mountain snowy,0.22702026
+avgpool,787,wind farm,0.8142395
+avgpool,788,martial arts gym,0.38848877
+avgpool,789,pharmacy,0.5137024
+avgpool,790,volcano,0.59332275
+avgpool,791,bus interior,0.6947632
+avgpool,792,art gallery,0.5018616
+avgpool,793,seville,0.35092163
+avgpool,794,"atrium, public",0.22866821
+avgpool,795,"volleyball court, outdoor",0.5248108
+avgpool,796,water tower,0.86068726
+avgpool,797,badlands,0.28955078
+avgpool,798,cockpit,0.2840271
+avgpool,799,vineyards,0.37298584
+avgpool,800,wetland,0.2510376
+avgpool,801,pillars,0.2541504
+avgpool,802,"underwater, ocean deep",0.431427
+avgpool,803,aqueduct,0.8739624
+avgpool,804,bus interior,0.3239746
+avgpool,805,desserts,0.21072388
+avgpool,806,jewelry shop,0.4276123
+avgpool,807,volcano,0.36270142
+avgpool,808,"garage, indoor",0.5546875
+avgpool,809,"bakery, shop",0.37191772
+avgpool,810,childs room,0.78549194
+avgpool,811,manufactured home,0.331604
+avgpool,812,pathway,0.38894653
+avgpool,813,operating room,0.5762024
+avgpool,814,building facade,0.36120605
+avgpool,815,surfing,0.37628174
+avgpool,816,"desert, sand",0.38052368
+avgpool,817,pantry,0.43847656
+avgpool,818,butchers shop,0.4536438
+avgpool,819,shoes,0.25976562
+avgpool,820,greenhouse,0.8067627
+avgpool,821,rope bridge,0.7923889
+avgpool,822,tree house,0.30871582
+avgpool,823,living room,0.42913818
+avgpool,824,bedchamber,0.4880066
+avgpool,825,habit,0.305542
+avgpool,826,elevator shaft,0.30117798
+avgpool,827,shopfront,0.402771
+avgpool,828,hair,0.30575562
+avgpool,829,silhouette,0.19085693
+avgpool,830,waterfall,0.48815918
+avgpool,831,yellowstone,0.54733276
+avgpool,832,offshore,0.29779053
+avgpool,833,television studio,0.43362427
+avgpool,834,fundraiser,0.22109985
+avgpool,835,cottages,0.36016846
+avgpool,836,tree house,0.578125
+avgpool,837,campsite,0.23257446
+avgpool,838,racing,0.3758545
+avgpool,839,conference room,0.69036865
+avgpool,840,countryside,0.28625488
+avgpool,841,building facade,0.35656738
+avgpool,842,childs room,0.3861084
+avgpool,843,penalty,0.31134033
+avgpool,844,building facade,0.43344116
+avgpool,845,desert road,0.24945068
+avgpool,846,horses,0.29077148
+avgpool,847,concert,0.2783203
+avgpool,848,gift shop,0.44415283
+avgpool,849,jewellery,0.6407776
+avgpool,850,zen garden,0.36550903
+avgpool,851,entrance hall,0.5004883
+avgpool,852,"desert, vegetation",0.4421997
+avgpool,853,fabric store,0.2987976
+avgpool,854,harbor,0.48272705
+avgpool,855,zen garden,0.77215576
+avgpool,856,mausoleum,0.34817505
+avgpool,857,home theater,0.1642456
+avgpool,858,courthouse,0.22662354
+avgpool,859,shelving,0.17312622
+avgpool,860,aquarium,0.65319824
+avgpool,861,"shopping mall, indoor",0.57302856
+avgpool,862,landing deck,0.25064087
+avgpool,863,train interior,0.5589905
+avgpool,864,landing deck,0.401886
+avgpool,865,throne room,0.6090088
+avgpool,866,kindergarden classroom,0.54833984
+avgpool,867,boxing,0.5801697
+avgpool,868,trains,0.11798096
+avgpool,869,surfer,0.26205444
+avgpool,870,fire escape,0.4645691
+avgpool,871,collier,0.3119812
+avgpool,872,rafting,0.5900879
+avgpool,873,shopfront,0.5774536
+avgpool,874,badlands,0.28097534
+avgpool,875,bookshelf,0.21984863
+avgpool,876,"apartment building, outdoor",0.53030396
+avgpool,877,bowling,0.80822754
+avgpool,878,horses,0.36816406
+avgpool,879,homeowner,0.49108887
+avgpool,880,crowd,0.28826904
+avgpool,881,door,0.2685547
+avgpool,882,banquet hall,0.21923828
+avgpool,883,"escalator, indoor",0.24591064
+avgpool,884,volcano,0.59091187
+avgpool,885,"garage, outdoor",0.3196106
+avgpool,886,"arena, rodeo",0.56185913
+avgpool,887,swimming,0.24810791
+avgpool,888,art studio,0.40411377
+avgpool,889,operating room,0.4619751
+avgpool,890,building facade,0.4055481
+avgpool,891,performing,0.29605103
+avgpool,892,building facade,0.24777222
+avgpool,893,pizza,0.40237427
+avgpool,894,"stadium, football",0.46810913
+avgpool,895,interviewing,0.114227295
+avgpool,896,cockpit,0.70758057
+avgpool,897,dorm room,0.19558716
+avgpool,898,grapes,0.36523438
+avgpool,899,sauna,0.8871155
+avgpool,900,drawers,0.22106934
+avgpool,901,barn,0.34143066
+avgpool,902,horizon,0.15130615
+avgpool,903,childs room,0.32217407
+avgpool,904,canyon,0.32977295
+avgpool,905,aquarium,0.3265686
+avgpool,906,"general store, indoor",0.3484497
+avgpool,907,"canal, urban",0.26330566
+avgpool,908,palace,0.32019043
+avgpool,909,junkyard,0.1638794
+avgpool,910,gift shop,0.30966187
+avgpool,911,elevator lobby,0.4439087
+avgpool,912,tourists,0.14523315
+avgpool,913,vendor,0.16064453
+avgpool,914,childs room,0.366333
+avgpool,915,engine room,0.28378296
+avgpool,916,natural history museum,0.67059326
+avgpool,917,rope bridge,0.35232544
+avgpool,918,stadium,0.28198242
+avgpool,919,bus interior,0.53463745
+avgpool,920,courthouse,0.2886963
+avgpool,921,oast house,0.78881836
+avgpool,922,aisle,0.17330933
+avgpool,923,nursery,0.41671753
+avgpool,924,infants,0.21157837
+avgpool,925,building facade,0.36080933
+avgpool,926,oast house,0.90478516
+avgpool,927,canal,0.46548462
+avgpool,928,kitchen,0.65948486
+avgpool,929,vegetable garden,0.47140503
+avgpool,930,oilrig,0.36257935
+avgpool,931,canyon,0.23757935
+avgpool,932,building facade,0.35183716
+avgpool,933,archaeological,0.46020508
+avgpool,934,crosswalk,0.19250488
+avgpool,935,collier,0.12927246
+avgpool,936,glacier,0.38058472
+avgpool,937,"doorway, outdoor",0.30856323
+avgpool,938,parade,0.26867676
+avgpool,939,firefighters,0.2368164
+avgpool,940,archaelogical excavation,0.48095703
+avgpool,941,conference,0.3748169
+avgpool,942,closet,0.5332947
+avgpool,943,bamboo forest,0.5600281
+avgpool,944,shelving,0.30386353
+avgpool,945,"parking garage, indoor",0.43515015
+avgpool,946,grapes,0.2956543
+avgpool,947,slum,0.33340454
+avgpool,948,utility room,0.17196655
+avgpool,949,"parking garage, indoor",0.5116577
+avgpool,950,igloo,0.18774414
+avgpool,951,seats,0.26431274
+avgpool,952,auto showroom,0.29309082
+avgpool,953,butchers shop,0.35708618
+avgpool,954,habitat,0.44500732
+avgpool,955,zen garden,0.32424927
+avgpool,956,kayaking,0.4328003
+avgpool,957,ice shelf,0.48272705
+avgpool,958,baseball,0.5831909
+avgpool,959,engine room,0.16171265
+avgpool,960,mountain path,0.43469238
+avgpool,961,"balcony, exterior",0.37948608
+avgpool,962,crosswalk,0.42227173
+avgpool,963,boathouse,0.35839844
+avgpool,964,"balcony, exterior",0.33535767
+avgpool,965,auditorium,0.30026245
+avgpool,966,shopfront,0.2331543
+avgpool,967,infant,0.40252686
+avgpool,968,attic,0.3595276
+avgpool,969,castle,0.26367188
+avgpool,970,"greenhouse, outdoor",0.8279114
+avgpool,971,hotel room,0.6583557
+avgpool,972,auto factory,0.29571533
+avgpool,973,wiring,0.1593628
+avgpool,974,lobby,0.34140015
+avgpool,975,corn field,0.33511353
+avgpool,976,instructors,0.29611206
+avgpool,977,recreation room,0.17700195
+avgpool,978,water tower,0.37368774
+avgpool,979,botswana,0.20812988
+avgpool,980,pharmacy,0.39416504
+avgpool,981,aviation,0.3416748
+avgpool,982,aqueduct,0.75076294
+avgpool,983,rice paddy,0.33657837
+avgpool,984,bowling,0.87323
+avgpool,985,bus interior,0.3123169
+avgpool,986,headquarters,0.29656982
+avgpool,987,bowling,0.68460083
+avgpool,988,baseball,0.2531128
+avgpool,989,courtyard,0.4010315
+avgpool,990,tomb,0.43099976
+avgpool,991,pantry,0.30899048
+avgpool,992,statute,0.12728882
+avgpool,993,"field, cultivated",0.318573
+avgpool,994,hotel room,0.5656738
+avgpool,995,rodeo,0.467865
+avgpool,996,"garage, outdoor",0.1289978
+avgpool,997,restaurant kitchen,0.30203247
+avgpool,998,closet,0.5042114
+avgpool,999,"hangar, indoor",0.59484863
+avgpool,1000,rafting,0.6382141
+avgpool,1001,lecture room,0.5369873
+avgpool,1002,bedrooms,0.5029907
+avgpool,1003,"bakery, shop",0.2963562
+avgpool,1004,bedchamber,0.58569336
+avgpool,1005,"gazebo, exterior",0.36065674
+avgpool,1006,throne room,0.15563965
+avgpool,1007,homestead,0.40396118
+avgpool,1008,quarry,0.2649536
+avgpool,1009,picnic area,0.3501587
+avgpool,1010,participants,0.27764893
+avgpool,1011,viaduct,0.638031
+avgpool,1012,backyard,0.2519226
+avgpool,1013,promenade,0.27792358
+avgpool,1014,"synagogue, outdoor",0.37615967
+avgpool,1015,darkness,0.20025635
+avgpool,1016,butchers shop,0.43322754
+avgpool,1017,golf course,0.32580566
+avgpool,1018,pantry,0.84573364
+avgpool,1019,topiary garden,0.35595703
+avgpool,1020,aqueduct,0.7023926
+avgpool,1021,closet,0.42504883
+avgpool,1022,fastfood restaurant,0.23654175
+avgpool,1023,speed,0.2715149
+avgpool,1024,forest path,0.45498657
+avgpool,1025,fabric store,0.45562744
+avgpool,1026,"subway station, platform",0.5158081
+avgpool,1027,rice paddy,0.60665894
+avgpool,1028,coastline,0.4826355
+avgpool,1029,ball pit,0.37695312
+avgpool,1030,corn field,0.64279175
+avgpool,1031,igloo,0.6055908
+avgpool,1032,lightbox,0.16333008
+avgpool,1033,"gazebo, exterior",0.52545166
+avgpool,1034,golf course,0.75164795
+avgpool,1035,rope bridge,0.7579346
+avgpool,1036,panorama,0.17489624
+avgpool,1037,"atrium, public",0.20080566
+avgpool,1038,fire escape,0.7168579
+avgpool,1039,seminary,0.32107544
+avgpool,1040,"shopping mall, indoor",0.53756714
+avgpool,1041,topiary garden,0.30230713
+avgpool,1042,vegetable garden,0.33728027
+avgpool,1043,storage room,0.35446167
+avgpool,1044,corridor,0.42422485
+avgpool,1045,office cubicles,0.31271362
+avgpool,1046,"garage, indoor",0.37368774
+avgpool,1047,dunes,0.13659668
+avgpool,1048,schoolhouse,0.29833984
+avgpool,1049,"balcony, interior",0.20462036
+avgpool,1050,elevator shaft,0.3071289
+avgpool,1051,dam,0.33114624
+avgpool,1052,salons,0.4907837
+avgpool,1053,yellowstone,0.6802368
+avgpool,1054,chromatography,0.20071411
+avgpool,1055,exhibitors,0.27590942
+avgpool,1056,carrousel,0.8045654
+avgpool,1057,campus,0.23849487
+avgpool,1058,"library, indoor",0.24249268
+avgpool,1059,archaelogical excavation,0.32806396
+avgpool,1060,aqueduct,0.8095093
+avgpool,1061,locker room,0.62008667
+avgpool,1062,childs room,0.26864624
+avgpool,1063,slum,0.35839844
+avgpool,1064,computer room,0.44213867
+avgpool,1065,bank vault,0.276062
+avgpool,1066,lighthouse,0.36447144
+avgpool,1067,"swimming pool, indoor",0.63357544
+avgpool,1068,panel,0.38879395
+avgpool,1069,wetland,0.3189087
+avgpool,1070,volcano,0.44387817
+avgpool,1071,beer,0.3170166
+avgpool,1072,stairs,0.57418823
+avgpool,1073,cassettes,0.15463257
+avgpool,1074,"doorway, outdoor",0.29815674
+avgpool,1075,wrestling,0.28359985
+avgpool,1076,landing deck,0.59439087
+avgpool,1077,sauna,0.4965515
+avgpool,1078,washer,0.4159546
+avgpool,1079,guess,0.19213867
+avgpool,1080,bus interior,0.94403076
+avgpool,1081,office cubicles,0.46276855
+avgpool,1082,automotive,0.23660278
+avgpool,1083,arabidopsis,0.21087646
+avgpool,1084,japanese garden,0.66308594
+avgpool,1085,bowling,0.32070923
+avgpool,1086,operating room,0.5962219
+avgpool,1087,forest path,0.30993652
+avgpool,1088,winter,0.28701782
+avgpool,1089,pizza,0.3927307
+avgpool,1090,"swimming pool, indoor",0.77145386
+avgpool,1091,home theater,0.8425598
+avgpool,1092,nursery,0.6315613
+avgpool,1093,construction site,0.28173828
+avgpool,1094,boat deck,0.33499146
+avgpool,1095,ballroom,0.25741577
+avgpool,1096,bowling alley,0.27474976
+avgpool,1097,racing,0.26779175
+avgpool,1098,putting,0.4060669
+avgpool,1099,ball pit,0.55548096
+avgpool,1100,orchard,0.51394653
+avgpool,1101,kindergarden classroom,0.39660645
+avgpool,1102,surf,0.4579773
+avgpool,1103,surfing,0.5791626
+avgpool,1104,salons,0.23284912
+avgpool,1105,dining hall,0.33084106
+avgpool,1106,shopfront,0.23901367
+avgpool,1107,auditorium,0.24642944
+avgpool,1108,sauna,0.54599
+avgpool,1109,"escalator, indoor",0.19882202
+avgpool,1110,cottages,0.42663574
+avgpool,1111,performing,0.30355835
+avgpool,1112,"flea market, indoor",0.28631592
+avgpool,1113,closet,0.35586548
+avgpool,1114,igloo,0.5254822
+avgpool,1115,archaelogical excavation,0.23843384
+avgpool,1116,hot spring,0.2932434
+avgpool,1117,fostering,0.13101196
+avgpool,1118,grave,0.17333984
+avgpool,1119,aqueduct,0.8343506
+avgpool,1120,golf course,0.75338745
+avgpool,1121,skyscraper,0.37213135
+avgpool,1122,"apartment building, outdoor",0.4821167
+avgpool,1123,japanese garden,0.8076477
+avgpool,1124,musicians,0.18014526
+avgpool,1125,valley,0.119262695
+avgpool,1126,ice cream parlor,0.41809082
+avgpool,1127,automotive,0.28463745
+avgpool,1128,"elevator, door",0.44952393
+avgpool,1129,boats,0.44665527
+avgpool,1130,"escalator, indoor",0.28607178
+avgpool,1131,nursing home,0.48434448
+avgpool,1132,"desert, sand",0.110961914
+avgpool,1133,"escalator, indoor",0.30221558
+avgpool,1134,"shopping mall, indoor",0.582428
+avgpool,1135,canal,0.39337158
+avgpool,1136,"synagogue, outdoor",0.20739746
+avgpool,1137,bathroom,0.6147766
+avgpool,1138,"doorway, outdoor",0.43121338
+avgpool,1139,boxing,0.21875
+avgpool,1140,"desert, vegetation",0.45562744
+avgpool,1141,performing,0.38702393
+avgpool,1142,author,0.11691284
+avgpool,1143,"arena, hockey",0.6248169
+avgpool,1144,basketball,0.5328064
+avgpool,1145,spires,0.21691895
+avgpool,1146,aqueduct,0.23022461
+avgpool,1147,jars,0.107910156
+avgpool,1148,home theater,0.46148682
+avgpool,1149,excavation,0.25338745
+avgpool,1150,rock arch,0.48828125
+avgpool,1151,playground,0.34683228
+avgpool,1152,building facade,0.2250061
+avgpool,1153,garden,0.4708252
+avgpool,1154,vineyards,0.627594
+avgpool,1155,chapel,0.36895752
+avgpool,1156,exhibitors,0.3244934
+avgpool,1157,bed,0.3854065
+avgpool,1158,rock arch,0.5256653
+avgpool,1159,soil,0.24743652
+avgpool,1160,chromatography,0.13623047
+avgpool,1161,elevator shaft,0.2739563
+avgpool,1162,computer room,0.4210205
+avgpool,1163,rowing,0.097961426
+avgpool,1164,cemetery,0.43167114
+avgpool,1165,"escalator, indoor",0.47091675
+avgpool,1166,outerwear,0.18789673
+avgpool,1167,fire escape,0.2727661
+avgpool,1168,harvesting,0.21557617
+avgpool,1169,balcony,0.23904419
+avgpool,1170,cockpit,0.7953186
+avgpool,1171,attorneys,0.14053345
+avgpool,1172,dining room,0.30426025
+avgpool,1173,childcare,0.37628174
+avgpool,1174,ball pit,1.0677795
+avgpool,1175,dunes,0.49490356
+avgpool,1176,"volleyball court, outdoor",0.18704224
+avgpool,1177,bowling,0.29406738
+avgpool,1178,automotive,0.44659424
+avgpool,1179,chef,0.37130737
+avgpool,1180,water tower,0.57611084
+avgpool,1181,"shopping mall, indoor",0.5359497
+avgpool,1182,wind farm,0.14675903
+avgpool,1183,sauna,0.66137695
+avgpool,1184,volleyball,0.5191345
+avgpool,1185,engine room,0.42352295
+avgpool,1186,infant,0.16156006
+avgpool,1187,fire escape,0.34707642
+avgpool,1188,carrousel,0.2564087
+avgpool,1189,crosswalk,0.20800781
+avgpool,1190,archaelogical excavation,0.307312
+avgpool,1191,"gazebo, exterior",0.9035034
+avgpool,1192,rice paddy,0.2599182
+avgpool,1193,produce,0.24554443
+avgpool,1194,karate,0.23364258
+avgpool,1195,ballroom,0.36639404
+avgpool,1196,boxing,0.43359375
+avgpool,1197,mountain path,0.24932861
+avgpool,1198,elevator lobby,0.28027344
+avgpool,1199,"apartment building, outdoor",0.2897339
+avgpool,1200,bedrooms,0.53448486
+avgpool,1201,pink,0.29779053
+avgpool,1202,carrousel,0.7538452
+avgpool,1203,"gazebo, exterior",0.4031067
+avgpool,1204,bus interior,1.0181885
+avgpool,1205,airport terminal,0.28015137
+avgpool,1206,entrance hall,0.45343018
+avgpool,1207,laundromat,0.723114
+avgpool,1208,oast house,0.49639893
+avgpool,1209,closet,0.30438232
+avgpool,1210,equestrian,0.3577881
+avgpool,1211,yellowstone,0.7416992
+avgpool,1212,bedchamber,0.7616577
+avgpool,1213,fabrics,0.31869507
+avgpool,1214,yellow,0.2975769
+avgpool,1215,paving,0.39874268
+avgpool,1216,waterfall,0.3069458
+avgpool,1217,exhibitions,0.29016113
+avgpool,1218,forest road,0.317688
+avgpool,1219,infant,0.3991089
+avgpool,1220,barn,0.3397827
+avgpool,1221,rafting,0.34777832
+avgpool,1222,buses,0.2036438
+avgpool,1223,bamboo forest,0.8041687
+avgpool,1224,water tower,0.73876953
+avgpool,1225,"market, indoor",0.39016724
+avgpool,1226,"elevator, door",0.35101318
+avgpool,1227,concert,0.2355957
+avgpool,1228,pinball,0.410614
+avgpool,1229,television studio,0.22381592
+avgpool,1230,japanese garden,0.5005188
+avgpool,1231,corridor,0.56988525
+avgpool,1232,"field, cultivated",0.3100891
+avgpool,1233,laptop,0.1673584
+avgpool,1234,igloo,0.3140564
+avgpool,1235,graders,0.5574646
+avgpool,1236,skiing,0.37353516
+avgpool,1237,bookshelf,0.35009766
+avgpool,1238,cabin,0.4699402
+avgpool,1239,"escalator, indoor",0.23095703
+avgpool,1240,carrousel,0.71850586
+avgpool,1241,drugstore,0.57910156
+avgpool,1242,bamboo forest,0.29138184
+avgpool,1243,beach,0.35839844
+avgpool,1244,automotive,0.22415161
+avgpool,1245,gift shop,0.25982666
+avgpool,1246,automotive,0.40634155
+avgpool,1247,zen garden,0.6506653
+avgpool,1248,bazaar,0.50460815
+avgpool,1249,columns,0.13427734
+avgpool,1250,"greenhouse, indoor",0.4631958
+avgpool,1251,office cubicles,0.3138733
+avgpool,1252,phone booth,0.683136
+avgpool,1253,bouquets,0.3779297
+avgpool,1254,statue,0.18035889
+avgpool,1255,martial arts gym,0.60165405
+avgpool,1256,music studio,0.3571167
+avgpool,1257,mountains,0.4147644
+avgpool,1258,tub,0.21481323
+avgpool,1259,office cubicles,0.19317627
+avgpool,1260,server room,0.24758911
+avgpool,1261,bowling,0.43554688
+avgpool,1262,carrousel,0.37606812
+avgpool,1263,blackpool,0.10827637
+avgpool,1264,baseball,0.51208496
+avgpool,1265,foods,0.29510498
+avgpool,1266,exhibitors,0.22668457
+avgpool,1267,fire escape,0.37548828
+avgpool,1268,botanical garden,0.15536499
+avgpool,1269,hoodia,0.3869934
+avgpool,1270,wetland,0.29074097
+avgpool,1271,vegetable garden,0.19897461
+avgpool,1272,chemistry lab,0.26034546
+avgpool,1273,"hangar, indoor",0.61413574
+avgpool,1274,sauna,0.33743286
+avgpool,1275,"desert, vegetation",0.39297485
+avgpool,1276,classroom,0.46710205
+avgpool,1277,wheat field,0.6335449
+avgpool,1278,equestrian,0.3114624
+avgpool,1279,office cubicles,0.57962036
+avgpool,1280,golf course,0.22982788
+avgpool,1281,art gallery,0.385437
+avgpool,1282,locker,0.19644165
+avgpool,1283,amphitheater,0.7437134
+avgpool,1284,fire escape,0.69677734
+avgpool,1285,bamboo,0.15744019
+avgpool,1286,pagoda,0.1675415
+avgpool,1287,glacier,0.7210388
+avgpool,1288,chemistry lab,0.15731812
+avgpool,1289,childs room,0.52056885
+avgpool,1290,phone booth,0.7998047
+avgpool,1291,"volleyball court, outdoor",0.23339844
+avgpool,1292,banner,0.16482544
+avgpool,1293,boxing,0.23651123
+avgpool,1294,cabin,0.2053833
+avgpool,1295,exhibits,0.3678894
+avgpool,1296,yellowstone,0.7295227
+avgpool,1297,rafting,0.6824646
+avgpool,1298,shelving,0.26843262
+avgpool,1299,horses,0.3380127
+avgpool,1300,horticulture,0.24737549
+avgpool,1301,"lake, natural",0.28372192
+avgpool,1302,archaeological,0.23718262
+avgpool,1303,childs room,0.45907593
+avgpool,1304,dcs,0.20993042
+avgpool,1305,badlands,0.42800903
+avgpool,1306,"general store, indoor",0.36273193
+avgpool,1307,flatbed,0.25793457
+avgpool,1308,dining room,0.7198181
+avgpool,1309,bus interior,0.1829834
+avgpool,1310,fastfood restaurant,0.46124268
+avgpool,1311,lawn,0.25357056
+avgpool,1312,roof garden,0.25823975
+avgpool,1313,locker room,0.4855957
+avgpool,1314,"temple, asia",0.5722046
+avgpool,1315,childs room,0.36462402
+avgpool,1316,field,0.35290527
+avgpool,1317,restaurant,0.3668518
+avgpool,1318,"desert, sand",0.5136719
+avgpool,1319,flower,0.27011108
+avgpool,1320,ball pit,0.32305908
+avgpool,1321,panorama,0.2263794
+avgpool,1322,"stadium, football",0.4546814
+avgpool,1323,"apartment building, outdoor",0.1559143
+avgpool,1324,exhibitors,0.44525146
+avgpool,1325,classroom,0.15655518
+avgpool,1326,"underwater, ocean deep",0.5906372
+avgpool,1327,tasting,0.24880981
+avgpool,1328,dining room,0.33062744
+avgpool,1329,coastline,0.4161682
+avgpool,1330,instructors,0.15274048
+avgpool,1331,rope bridge,0.3651123
+avgpool,1332,building facade,0.2192688
+avgpool,1333,spires,0.3114624
+avgpool,1334,rafting,0.40774536
+avgpool,1335,"apartment building, outdoor",0.17849731
+avgpool,1336,exhibits,0.31448364
+avgpool,1337,derby,0.23434448
+avgpool,1338,underwater,0.23071289
+avgpool,1339,participants,0.21313477
+avgpool,1340,dance,0.30233765
+avgpool,1341,pizza,0.29452515
+avgpool,1342,utility room,0.48632812
+avgpool,1343,cottages,0.4154358
+avgpool,1344,firefighters,0.31713867
+avgpool,1345,ski resort,0.41485596
+avgpool,1346,sauna,0.26950073
+avgpool,1347,elevator shaft,0.30517578
+avgpool,1348,"temple, asia",0.17626953
+avgpool,1349,trains,0.3019104
+avgpool,1350,water tower,0.28457642
+avgpool,1351,tree farm,0.36065674
+avgpool,1352,server room,0.5192871
+avgpool,1353,performing,0.26974487
+avgpool,1354,bathroom,0.44021606
+avgpool,1355,corridor,0.31381226
+avgpool,1356,upholstery,0.19735718
+avgpool,1357,"swimming pool, outdoor",0.36914062
+avgpool,1358,utility room,0.5276184
+avgpool,1359,ice floe,0.18200684
+avgpool,1360,rope bridge,0.53048706
+avgpool,1361,corn field,0.17208862
+avgpool,1362,bowling,0.39761353
+avgpool,1363,office cubicles,0.48477173
+avgpool,1364,airplane cabin,0.29864502
+avgpool,1365,bookshelf,0.32928467
+avgpool,1366,invitational,0.32125854
+avgpool,1367,musicians,0.2262268
+avgpool,1368,mountain path,0.39978027
+avgpool,1369,audience,0.23635864
+avgpool,1370,ski resort,0.63549805
+avgpool,1371,"greenhouse, outdoor",0.522583
+avgpool,1372,dining hall,0.3761902
+avgpool,1373,pantry,0.35733032
+avgpool,1374,amphitheater,0.28408813
+avgpool,1375,"subway station, platform",0.33129883
+avgpool,1376,boardwalk,0.47433472
+avgpool,1377,florists,0.21414185
+avgpool,1378,engine room,0.28759766
+avgpool,1379,amphitheater,0.27941895
+avgpool,1380,hospital room,0.25482178
+avgpool,1381,oast house,0.5105591
+avgpool,1382,boxing,0.39541626
+avgpool,1383,dams,0.6451111
+avgpool,1384,orchard,0.26428223
+avgpool,1385,art gallery,0.51068115
+avgpool,1386,locker room,0.59506226
+avgpool,1387,fire escape,0.4418335
+avgpool,1388,operating room,0.35491943
+avgpool,1389,server room,0.4151001
+avgpool,1390,sunset,0.22885132
+avgpool,1391,ski resort,0.416687
+avgpool,1392,horse,0.35791016
+avgpool,1393,caves,0.414917
+avgpool,1394,bedroom,0.39761353
+avgpool,1395,soccer,0.47052002
+avgpool,1396,foods,0.31518555
+avgpool,1397,passage,0.4029541
+avgpool,1398,restaurant kitchen,0.21835327
+avgpool,1399,"stadium, baseball",0.2586975
+avgpool,1400,"garage, outdoor",0.42022705
+avgpool,1401,bedchamber,0.35684204
+avgpool,1402,juvenile,0.23834229
+avgpool,1403,motels,0.40078735
+avgpool,1404,conservatory,0.3390808
+avgpool,1405,jail cell,0.34094238
+avgpool,1406,vineyard,0.18688965
+avgpool,1407,rope bridge,0.87316895
+avgpool,1408,martial arts gym,0.3191223
+avgpool,1409,"subway station, platform",0.20751953
+avgpool,1410,snowboarding,0.41915894
+avgpool,1411,elevator shaft,0.16296387
+avgpool,1412,office cubicles,0.86499023
+avgpool,1413,bamboo forest,0.4888916
+avgpool,1414,aquarium,0.29885864
+avgpool,1415,storage room,0.2536316
+avgpool,1416,boxing,0.18518066
+avgpool,1417,hotel room,0.31970215
+avgpool,1418,corn field,0.6656494
+avgpool,1419,music studio,0.2991333
+avgpool,1420,"moat, water",0.29537964
+avgpool,1421,gas station,0.23352051
+avgpool,1422,oilrig,0.24554443
+avgpool,1423,desert road,0.19140625
+avgpool,1424,beer,0.25378418
+avgpool,1425,forest road,0.30026245
+avgpool,1426,rafting,0.60028076
+avgpool,1427,fountains,0.20584106
+avgpool,1428,aquarium,0.3951416
+avgpool,1429,kayaking,0.20077515
+avgpool,1430,server room,0.552948
+avgpool,1431,butchers shop,0.6595764
+avgpool,1432,forest road,0.43920898
+avgpool,1433,office cubicles,0.29577637
+avgpool,1434,phone booth,0.79315186
+avgpool,1435,cemetery,0.26916504
+avgpool,1436,bamboo forest,0.29055786
+avgpool,1437,pizza,0.58010864
+avgpool,1438,infants,0.29141235
+avgpool,1439,landfill,0.41729736
+avgpool,1440,engine,0.386261
+avgpool,1441,flower,0.31448364
+avgpool,1442,classroom,0.60702515
+avgpool,1443,bowling,0.55023193
+avgpool,1444,childbirth,0.25204468
+avgpool,1445,windmill,0.47357178
+avgpool,1446,dressing room,0.17733765
+avgpool,1447,hotel room,0.33041382
+avgpool,1448,flowers,0.27426147
+avgpool,1449,mosque,0.46871948
+avgpool,1450,"arena, rodeo",0.48986816
+avgpool,1451,automotive,0.15820312
+avgpool,1452,oast house,0.17160034
+avgpool,1453,operating room,0.873291
+avgpool,1454,dessert,0.2803955
+avgpool,1455,caves,0.652771
+avgpool,1456,fire escape,0.2749939
+avgpool,1457,glacier,0.25656128
+avgpool,1458,jewellery,0.23684692
+avgpool,1459,ball pit,0.24313354
+avgpool,1460,buses,0.41299438
+avgpool,1461,tree house,0.33239746
+avgpool,1462,ice shelf,0.48928833
+avgpool,1463,exhibitors,0.40148926
+avgpool,1464,railways,0.4487915
+avgpool,1465,water tower,0.3033142
+avgpool,1466,ice cream parlor,0.32598877
+avgpool,1467,dams,0.28121948
+avgpool,1468,shopfront,0.37924194
+avgpool,1469,sea,0.31417847
+avgpool,1470,desk,0.31536865
+avgpool,1471,wheat field,0.2262268
+avgpool,1472,"shopping mall, indoor",0.33139038
+avgpool,1473,fossil,0.2470398
+avgpool,1474,restaurant kitchen,0.12008667
+avgpool,1475,"arena, rodeo",0.6923218
+avgpool,1476,schoolhouse,0.5582886
+avgpool,1477,boxing,0.5079956
+avgpool,1478,specimens,0.18518066
+avgpool,1479,archaelogical excavation,0.3465271
+avgpool,1480,ballroom,0.4439087
+avgpool,1481,"shopping mall, indoor",0.36547852
+avgpool,1482,galley,0.3132019
+avgpool,1483,boxing,0.57733154
+avgpool,1484,aerial,0.30734253
+avgpool,1485,desserts,0.23031616
+avgpool,1486,"temple, asia",0.44702148
+avgpool,1487,"escalator, indoor",0.61816406
+avgpool,1488,food court,0.41479492
+avgpool,1489,pagoda,0.80532837
+avgpool,1490,pavilion,0.48327637
+avgpool,1491,vegetable garden,0.28182983
+avgpool,1492,compost,0.23989868
+avgpool,1493,fountain,0.69607544
+avgpool,1494,boxing,0.27972412
+avgpool,1495,administering,0.1390686
+avgpool,1496,vegetable garden,0.29092407
+avgpool,1497,wheat field,0.50531006
+avgpool,1498,rave,0.15270996
+avgpool,1499,"desert, sand",0.62750244
+avgpool,1500,machinery,0.19833374
+avgpool,1501,throne room,0.42926025
+avgpool,1502,crosswalk,0.33816528
+avgpool,1503,sauna,0.81936646
+avgpool,1504,prisoners,0.20336914
+avgpool,1505,"bakery, shop",0.27764893
+avgpool,1506,aqueduct,0.37020874
+avgpool,1507,panorama,0.43008423
+avgpool,1508,quilts,0.18032837
+avgpool,1509,enlisted,0.3894348
+avgpool,1510,sauna,0.5106201
+avgpool,1511,picnic area,0.344635
+avgpool,1512,"escalator, indoor",0.30059814
+avgpool,1513,"doorway, outdoor",0.28268433
+avgpool,1514,pizza,0.541687
+avgpool,1515,zen garden,0.3710022
+avgpool,1516,"desert, vegetation",0.4258423
+avgpool,1517,chemistry lab,0.18362427
+avgpool,1518,locker room,0.38131714
+avgpool,1519,field road,0.34506226
+avgpool,1520,buses,0.36068726
+avgpool,1521,pantry,0.6503296
+avgpool,1522,childs room,0.78952026
+avgpool,1523,"hunting lodge, outdoor",0.3191223
+avgpool,1524,natural history museum,0.62854004
+avgpool,1525,stocked,0.32687378
+avgpool,1526,door,0.41555786
+avgpool,1527,badlands,0.63449097
+avgpool,1528,"elevator, door",0.5878601
+avgpool,1529,crafts,0.20407104
+avgpool,1530,entrance hall,0.34820557
+avgpool,1531,shopfront,0.35253906
+avgpool,1532,"volleyball court, outdoor",0.32470703
+avgpool,1533,bowling,0.22335815
+avgpool,1534,collier,0.22009277
+avgpool,1535,motels,0.40893555
+avgpool,1536,fire station,0.6187439
+avgpool,1537,horse,0.4320984
+avgpool,1538,compost,0.23010254
+avgpool,1539,dining room,0.26504517
+avgpool,1540,oast house,0.8494873
+avgpool,1541,kayaking,0.32244873
+avgpool,1542,instructors,0.26870728
+avgpool,1543,rope bridge,0.9445801
+avgpool,1544,toyshop,0.19085693
+avgpool,1545,"elevator, door",0.49279785
+avgpool,1546,"library, outdoor",0.27990723
+avgpool,1547,tackling,0.5998535
+avgpool,1548,japanese garden,0.55496216
+avgpool,1549,"stadium, football",0.54766846
+avgpool,1550,"shopping mall, indoor",0.28811646
+avgpool,1551,martial arts gym,0.33236694
+avgpool,1552,fabrics,0.20541382
+avgpool,1553,shelving,0.38964844
+avgpool,1554,monitors,0.29434204
+avgpool,1555,topiary garden,0.9251709
+avgpool,1556,"flea market, indoor",0.44903564
+avgpool,1557,ticket booth,0.45996094
+avgpool,1558,bus interior,0.6416321
+avgpool,1559,sky,0.20404053
+avgpool,1560,parking lot,0.2791443
+avgpool,1561,rock arch,0.34146118
+avgpool,1562,"arena, rodeo",0.25958252
+avgpool,1563,bamboo forest,0.67126465
+avgpool,1564,volcano,0.6462097
+avgpool,1565,engine room,0.54260254
+avgpool,1566,crevasse,0.5426941
+avgpool,1567,art studio,0.34387207
+avgpool,1568,"desert, vegetation",0.78930664
+avgpool,1569,sedan,0.24316406
+avgpool,1570,"hangar, indoor",0.39831543
+avgpool,1571,dunes,0.2592163
+avgpool,1572,"market, outdoor",0.17138672
+avgpool,1573,"bow window, indoor",0.33551025
+avgpool,1574,recreation room,0.38494873
+avgpool,1575,swamp,0.410614
+avgpool,1576,staircase,0.36764526
+avgpool,1577,oilrig,0.41763306
+avgpool,1578,sushi bar,0.24490356
+avgpool,1579,golfers,0.4678955
+avgpool,1580,rope bridge,0.6593933
+avgpool,1581,assembly line,0.34436035
+avgpool,1582,throne room,0.15802002
+avgpool,1583,amusement park,0.44473267
+avgpool,1584,instructors,0.3695984
+avgpool,1585,"greenhouse, outdoor",0.25198364
+avgpool,1586,watering hole,0.28567505
+avgpool,1587,laundromat,0.860199
+avgpool,1588,cockpit,0.58877563
+avgpool,1589,amusement park,0.30386353
+avgpool,1590,habitat,0.3998413
+avgpool,1591,locker room,0.64678955
+avgpool,1592,performing,0.35684204
+avgpool,1593,construction site,0.3927002
+avgpool,1594,bedroom,0.3947754
+avgpool,1595,"shopping mall, indoor",0.3640442
+avgpool,1596,gym,0.56985474
+avgpool,1597,"balcony, interior",0.24935913
+avgpool,1598,airport terminal,0.616333
+avgpool,1599,airplane cabin,0.48376465
+avgpool,1600,toyshop,0.18582153
+avgpool,1601,uss,0.41799927
+avgpool,1602,"gazebo, exterior",0.22381592
+avgpool,1603,classroom,0.3777771
+avgpool,1604,graffiti,0.16860962
+avgpool,1605,"stadium, soccer",0.30795288
+avgpool,1606,"garage, indoor",0.40182495
+avgpool,1607,castle,0.35864258
+avgpool,1608,dams,0.26791382
+avgpool,1609,childs room,0.23278809
+avgpool,1610,bank vault,0.265625
+avgpool,1611,gas station,0.40203857
+avgpool,1612,operating room,0.87677
+avgpool,1613,office cubicles,0.5159607
+avgpool,1614,aquarium,0.46035767
+avgpool,1615,cabin,0.7475891
+avgpool,1616,heliport,0.48309326
+avgpool,1617,television studio,0.35110474
+avgpool,1618,sauna,0.864624
+avgpool,1619,landing deck,0.3191223
+avgpool,1620,childcare,0.25628662
+avgpool,1621,jail cell,0.42599487
+avgpool,1622,rope bridge,0.8197937
+avgpool,1623,escherichia,0.23306274
+avgpool,1624,bus interior,1.1046753
+avgpool,1625,castles,0.41482544
+avgpool,1626,fishpond,0.37771606
+avgpool,1627,"hangar, indoor",0.32531738
+avgpool,1628,"doorway, outdoor",0.27301025
+avgpool,1629,crosswalk,0.18182373
+avgpool,1630,childrens,0.11428833
+avgpool,1631,server room,0.2296753
+avgpool,1632,bamboo forest,0.20742798
+avgpool,1633,flowers,0.37438965
+avgpool,1634,"temple, asia",0.38949585
+avgpool,1635,bus interior,0.7325134
+avgpool,1636,mauritania,0.22286987
+avgpool,1637,natural history museum,0.26867676
+avgpool,1638,excavation,0.6248779
+avgpool,1639,quilts,0.5161133
+avgpool,1640,racing,0.13980103
+avgpool,1641,"temple, asia",0.38012695
+avgpool,1642,ball pit,0.41989136
+avgpool,1643,alley,0.22238159
+avgpool,1644,bank vault,0.89263916
+avgpool,1645,pizza,0.6030884
+avgpool,1646,purchasing,0.18774414
+avgpool,1647,ordered,0.18600464
+avgpool,1648,aquarium,0.39675903
+avgpool,1649,barn,0.3327942
+avgpool,1650,building facade,0.43865967
+avgpool,1651,castle,0.26385498
+avgpool,1652,operating room,0.8712158
+avgpool,1653,butchers shop,0.38827515
+avgpool,1654,volcano,0.71139526
+avgpool,1655,"ice skating rink, indoor",0.37435913
+avgpool,1656,"ice skating rink, indoor",0.33493042
+avgpool,1657,skyscraper,0.15182495
+avgpool,1658,aqueduct,0.21383667
+avgpool,1659,"field, cultivated",0.31713867
+avgpool,1660,drugstore,0.49417114
+avgpool,1661,"hunting lodge, outdoor",0.34259033
+avgpool,1662,flower,0.14389038
+avgpool,1663,windmill,0.8569946
+avgpool,1664,desk,0.5091553
+avgpool,1665,florists,0.18728638
+avgpool,1666,carrousel,0.47888184
+avgpool,1667,field,0.23641968
+avgpool,1668,volcano,0.61868286
+avgpool,1669,horticulture,0.2600708
+avgpool,1670,shed,0.4232483
+avgpool,1671,car interior,0.633667
+avgpool,1672,basement,0.18807983
+avgpool,1673,schoolhouse,0.24456787
+avgpool,1674,rock arch,0.71469116
+avgpool,1675,consulate,0.16174316
+avgpool,1676,lock chamber,0.2963562
+avgpool,1677,"field, cultivated",0.3583374
+avgpool,1678,unicef,0.20205688
+avgpool,1679,closet,0.32852173
+avgpool,1680,boat,0.26278687
+avgpool,1681,gyms,0.6119385
+avgpool,1682,plant,0.31549072
+avgpool,1683,lava,0.17739868
+avgpool,1684,coral,0.28329468
+avgpool,1685,auditorium,0.42910767
+avgpool,1686,"market, indoor",0.3347168
+avgpool,1687,helicopter,0.59259033
+avgpool,1688,beach,0.15270996
+avgpool,1689,"elevator, door",0.22192383
+avgpool,1690,desert road,0.29562378
+avgpool,1691,juvenile,0.2920227
+avgpool,1692,collier,0.5012207
+avgpool,1693,igloo,0.26553345
+avgpool,1694,tree house,0.3692932
+avgpool,1695,"bow window, indoor",0.40682983
+avgpool,1696,monument,0.27676392
+avgpool,1697,exercising,0.15478516
+avgpool,1698,"stadium, football",0.27130127
+avgpool,1699,boxing,0.10360718
+avgpool,1700,forest path,0.39294434
+avgpool,1701,trees,0.21957397
+avgpool,1702,pagoda,0.5446167
+avgpool,1703,burial chamber,0.31152344
+avgpool,1704,entrance hall,0.29367065
+avgpool,1705,windmill,0.2514038
+avgpool,1706,clothing store,0.51348877
+avgpool,1707,fishpond,0.28451538
+avgpool,1708,morocco,0.56118774
+avgpool,1709,beach,0.286438
+avgpool,1710,bamboo forest,0.45837402
+avgpool,1711,schoolhouse,0.4251709
+avgpool,1712,classrooms,0.49554443
+avgpool,1713,golf course,0.71276855
+avgpool,1714,kindergarden classroom,0.43371582
+avgpool,1715,mountain path,0.31451416
+avgpool,1716,childs room,0.23724365
+avgpool,1717,beer garden,0.2298584
+avgpool,1718,dryer,0.39230347
+avgpool,1719,abandoned,0.19570923
+avgpool,1720,dancers,0.21432495
+avgpool,1721,highway,0.46658325
+avgpool,1722,crosswalk,0.13006592
+avgpool,1723,living room,0.4963379
+avgpool,1724,tree farm,0.41662598
+avgpool,1725,crevasse,0.44125366
+avgpool,1726,childs room,0.43844604
+avgpool,1727,ball pit,0.32437134
+avgpool,1728,throne room,0.40533447
+avgpool,1729,barn,0.49264526
+avgpool,1730,bathroom,0.62435913
+avgpool,1731,mausoleum,0.2244873
+avgpool,1732,laundromat,0.9456482
+avgpool,1733,kayaking,0.27850342
+avgpool,1734,"ice skating rink, indoor",0.7602234
+avgpool,1735,tree house,0.537323
+avgpool,1736,bouquets,0.2625122
+avgpool,1737,fastfood restaurant,0.44812012
+avgpool,1738,explosion,0.1559143
+avgpool,1739,"synagogue, outdoor",0.4237671
+avgpool,1740,bedroom,0.34017944
+avgpool,1741,boxing,0.63360596
+avgpool,1742,pasture,0.37799072
+avgpool,1743,locker,0.24581909
+avgpool,1744,orchestra pit,0.13064575
+avgpool,1745,drawers,0.14486694
+avgpool,1746,aquarium,0.34857178
+avgpool,1747,"jacuzzi, indoor",0.40701294
+avgpool,1748,cottages,0.26739502
+avgpool,1749,badlands,0.51779175
+avgpool,1750,auditorium,0.67211914
+avgpool,1751,home theater,0.21740723
+avgpool,1752,corn field,0.18862915
+avgpool,1753,"elevator, door",0.32037354
+avgpool,1754,courtyard,0.36294556
+avgpool,1755,slum,0.24829102
+avgpool,1756,boiler,0.24505615
+avgpool,1757,sunset,0.29034424
+avgpool,1758,juvenile,0.16070557
+avgpool,1759,hostel,0.4671631
+avgpool,1760,aqueduct,0.18286133
+avgpool,1761,party,0.1715393
+avgpool,1762,crosswalk,0.2324524
+avgpool,1763,abandoned,0.28723145
+avgpool,1764,topiary garden,0.8328247
+avgpool,1765,automotive,0.15966797
+avgpool,1766,enlisted,0.31793213
+avgpool,1767,clothing store,0.19372559
+avgpool,1768,exhibits,0.33377075
+avgpool,1769,headlights,0.14276123
+avgpool,1770,amphitheater,0.17129517
+avgpool,1771,automotive,0.2494812
+avgpool,1772,aqueduct,0.576355
+avgpool,1773,pagoda,0.71047974
+avgpool,1774,buses,0.49743652
+avgpool,1775,motels,0.6956177
+avgpool,1776,ball pit,0.25369263
+avgpool,1777,building facade,0.1791687
+avgpool,1778,ski resort,0.54248047
+avgpool,1779,amusement park,0.29656982
+avgpool,1780,glassware,0.22702026
+avgpool,1781,shelves,0.2815857
+avgpool,1782,chefs,0.2807312
+avgpool,1783,crevasse,0.27801514
+avgpool,1784,fabric store,0.2697754
+avgpool,1785,paintings,0.36245728
+avgpool,1786,wetland,0.38830566
+avgpool,1787,"general store, indoor",0.323761
+avgpool,1788,office cubicles,0.24209595
+avgpool,1789,mauritania,0.40805054
+avgpool,1790,soccer,0.2880249
+avgpool,1791,fostering,0.32699585
+avgpool,1792,fire escape,0.29205322
+avgpool,1793,vineyards,0.41964722
+avgpool,1794,darkness,0.16693115
+avgpool,1795,"hunting lodge, outdoor",0.44195557
+avgpool,1796,amphitheater,0.43551636
+avgpool,1797,glassware,0.2980652
+avgpool,1798,fountain,0.5202942
+avgpool,1799,"general store, indoor",0.3439331
+avgpool,1800,kayaking,0.17416382
+avgpool,1801,"apartment building, outdoor",0.18502808
+avgpool,1802,bamboo forest,0.72732544
+avgpool,1803,frontgate,0.32818604
+avgpool,1804,bank vault,0.5215149
+avgpool,1805,cockpit,0.21664429
+avgpool,1806,ministerial,0.3190918
+avgpool,1807,autumn,0.29699707
+avgpool,1808,dressing room,0.12338257
+avgpool,1809,fishpond,0.44692993
+avgpool,1810,bank vault,0.29959106
+avgpool,1811,childs room,0.3703003
+avgpool,1812,boat,0.19741821
+avgpool,1813,"apartment building, outdoor",0.31710815
+avgpool,1814,zen garden,0.78134155
+avgpool,1815,closet,0.5114136
+avgpool,1816,boxing,0.27282715
+avgpool,1817,"apartment building, outdoor",0.27285767
+avgpool,1818,salon,0.4202881
+avgpool,1819,canyon,0.328125
+avgpool,1820,performing,0.16583252
+avgpool,1821,bowling,0.37158203
+avgpool,1822,snowfield,0.17199707
+avgpool,1823,wheat field,0.47253418
+avgpool,1824,chemistry lab,0.3244629
+avgpool,1825,grapes,0.22854614
+avgpool,1826,"temple, asia",0.4300537
+avgpool,1827,topiary garden,0.42684937
+avgpool,1828,"field, cultivated",0.4694214
+avgpool,1829,clouds,0.19241333
+avgpool,1830,ball pit,0.2131958
+avgpool,1831,"apartment building, outdoor",0.4935608
+avgpool,1832,corn field,0.15283203
+avgpool,1833,archaelogical excavation,0.63464355
+avgpool,1834,teaching,0.15997314
+avgpool,1835,sauna,0.645874
+avgpool,1836,japanese garden,0.36187744
+avgpool,1837,bookstore,0.4805603
+avgpool,1838,sandbox,0.21109009
+avgpool,1839,"subway station, platform",0.4907837
+avgpool,1840,home theater,0.21911621
+avgpool,1841,"subway station, platform",0.25805664
+avgpool,1842,slum,0.22113037
+avgpool,1843,bamboo forest,0.5526428
+avgpool,1844,fire station,0.6793823
+avgpool,1845,childs room,0.4159851
+avgpool,1846,bank vault,0.19274902
+avgpool,1847,archaeological,0.24212646
+avgpool,1848,basement,0.37051392
+avgpool,1849,participants,0.28155518
+avgpool,1850,caves,0.43328857
+avgpool,1851,"apartment building, outdoor",0.2727661
+avgpool,1852,automotive,0.34591675
+avgpool,1853,wind farm,0.8627014
+avgpool,1854,enlisted,0.5435791
+avgpool,1855,landing deck,0.32852173
+avgpool,1856,aquarium,0.49227905
+avgpool,1857,concentrating,0.21762085
+avgpool,1858,corn field,0.49472046
+avgpool,1859,"escalator, indoor",0.6760559
+avgpool,1860,invitational,0.31954956
+avgpool,1861,building facade,0.37490845
+avgpool,1862,nature,0.24960327
+avgpool,1863,closet,0.58380127
+avgpool,1864,"arena, rodeo",0.572052
+avgpool,1865,igloo,0.43865967
+avgpool,1866,hockey,0.63812256
+avgpool,1867,amusement park,0.2685547
+avgpool,1868,chapel,0.40402222
+avgpool,1869,picnic area,0.21514893
+avgpool,1870,ball pit,0.3088379
+avgpool,1871,vegetable garden,0.4263916
+avgpool,1872,desk,0.5073242
+avgpool,1873,airport terminal,0.2718506
+avgpool,1874,sauna,0.40426636
+avgpool,1875,horticulture,0.28903198
+avgpool,1876,"elevator, door",0.18484497
+avgpool,1877,rope bridge,0.40951538
+avgpool,1878,ice cream parlor,0.23355103
+avgpool,1879,"stage, indoor",0.18173218
+avgpool,1880,rafting,1.2986755
+avgpool,1881,"apartment building, outdoor",0.39648438
+avgpool,1882,snowfield,0.33041382
+avgpool,1883,yellowstone,0.51831055
+avgpool,1884,resort,0.36047363
+avgpool,1885,japanese garden,0.56103516
+avgpool,1886,yellowstone,0.3232422
+avgpool,1887,contested,0.22836304
+avgpool,1888,bamboo forest,0.42001343
+avgpool,1889,swimming,0.32592773
+avgpool,1890,railways,0.4317932
+avgpool,1891,cabinets,0.44622803
+avgpool,1892,building facade,0.32266235
+avgpool,1893,runway,0.15811157
+avgpool,1894,engine room,0.56973267
+avgpool,1895,ski resort,0.24227905
+avgpool,1896,mausoleum,0.3397522
+avgpool,1897,chefs,0.09390259
+avgpool,1898,attic,0.81259155
+avgpool,1899,vegetable garden,0.27157593
+avgpool,1900,jewelry shop,0.32144165
+avgpool,1901,automotive,0.4031372
+avgpool,1902,habitat,0.25012207
+avgpool,1903,statue,0.13027954
+avgpool,1904,bowling alley,0.57876587
+avgpool,1905,locker room,0.44354248
+avgpool,1906,projector,0.23782349
+avgpool,1907,boxing,0.68182373
+avgpool,1908,art gallery,0.5577698
+avgpool,1909,shoe shop,0.47808838
+avgpool,1910,shoe shop,0.28308105
+avgpool,1911,kick,0.1376648
+avgpool,1912,yellowstone,0.5717163
+avgpool,1913,bank vault,0.10928345
+avgpool,1914,arcade,0.5965576
+avgpool,1915,barn,0.2060852
+avgpool,1916,mountain snowy,0.5288696
+avgpool,1917,"bus station, indoor",0.41766357
+avgpool,1918,automotive,0.3092041
+avgpool,1919,landfill,0.5783081
+avgpool,1920,kindergarten,0.24224854
+avgpool,1921,wetland,0.42410278
+avgpool,1922,pinball,0.18386841
+avgpool,1923,cabinet,0.25195312
+avgpool,1924,sculptures,0.27908325
+avgpool,1925,forests,0.3586731
+avgpool,1926,skating,0.5171814
+avgpool,1927,banquet hall,0.72543335
+avgpool,1928,legislative chamber,0.5028076
+avgpool,1929,"museum, indoor",0.31167603
+avgpool,1930,"bakery, shop",0.34371948
+avgpool,1931,corridor,0.38638306
+avgpool,1932,dining room,0.3551941
+avgpool,1933,"jacuzzi, indoor",0.3244629
+avgpool,1934,"field, cultivated",0.4069214
+avgpool,1935,locker,0.5913086
+avgpool,1936,ball pit,0.2795105
+avgpool,1937,"flea market, indoor",0.3100891
+avgpool,1938,throne room,0.5442505
+avgpool,1939,oast house,0.41662598
+avgpool,1940,hostel,0.5776367
+avgpool,1941,gas station,0.51116943
+avgpool,1942,cemetery,0.38763428
+avgpool,1943,"desert, sand",0.37435913
+avgpool,1944,bowling alley,0.29580688
+avgpool,1945,landing deck,0.27642822
+avgpool,1946,arcade,0.36053467
+avgpool,1947,snorkeling,0.2510376
+avgpool,1948,landfill,0.38702393
+avgpool,1949,putting,0.25967407
+avgpool,1950,"volleyball court, outdoor",0.38708496
+avgpool,1951,carrousel,0.67633057
+avgpool,1952,caves,0.65371704
+avgpool,1953,lighthouse,0.2366333
+avgpool,1954,signage,0.26522827
+avgpool,1955,"elevator, door",0.54504395
+avgpool,1956,"canal, urban",0.3392334
+avgpool,1957,building facade,0.2444458
+avgpool,1958,rice paddy,0.35656738
+avgpool,1959,ski resort,0.3373108
+avgpool,1960,drawers,0.20422363
+avgpool,1961,surfing,0.09927368
+avgpool,1962,banquet hall,0.27008057
+avgpool,1963,habitat,0.29248047
+avgpool,1964,building facade,0.197052
+avgpool,1965,aquarium,0.35272217
+avgpool,1966,"escalator, indoor",0.7218933
+avgpool,1967,"elevator, door",0.5536194
+avgpool,1968,pizza,0.15289307
+avgpool,1969,zen garden,0.63067627
+avgpool,1970,dewalt,0.18301392
+avgpool,1971,auditorium,0.5281372
+avgpool,1972,crypt,0.26428223
+avgpool,1973,tackling,0.31582642
+avgpool,1974,ice cream parlor,0.4244995
+avgpool,1975,watersports,0.33758545
+avgpool,1976,diocese,0.31585693
+avgpool,1977,"synagogue, outdoor",0.2810669
+avgpool,1978,aqueduct,0.54907227
+avgpool,1979,fabric store,0.68011475
+avgpool,1980,shed,0.4569397
+avgpool,1981,vegetable garden,0.40301514
+avgpool,1982,snorkeling,0.32080078
+avgpool,1983,building facade,0.21609497
+avgpool,1984,clothing store,0.25927734
+avgpool,1985,shoe shop,0.41937256
+avgpool,1986,bank vault,0.31436157
+avgpool,1987,fishpond,0.2609558
+avgpool,1988,building facade,0.33096313
+avgpool,1989,attic,0.4784851
+avgpool,1990,paving,0.3208313
+avgpool,1991,methodist,0.35299683
+avgpool,1992,bank vault,0.30004883
+avgpool,1993,road,0.2845459
+avgpool,1994,beach,0.23486328
+avgpool,1995,cemetery,0.58773804
+avgpool,1996,throne room,0.56155396
+avgpool,1997,skyscraper,0.15100098
+avgpool,1998,depot,0.25891113
+avgpool,1999,lighthouse,0.30688477
+avgpool,2000,hostel,0.48620605
+avgpool,2001,igloo,0.4138794
+avgpool,2002,restaurant kitchen,0.50845337
+avgpool,2003,toys,0.17364502
+avgpool,2004,aquarium,0.51885986
+avgpool,2005,corn field,0.6737671
+avgpool,2006,vegetable garden,0.24069214
+avgpool,2007,shopfront,0.3831787
+avgpool,2008,bookstore,0.19869995
+avgpool,2009,home theater,0.647522
+avgpool,2010,archaelogical excavation,0.36688232
+avgpool,2011,coffee shop,0.3501892
+avgpool,2012,"stage, indoor",0.17782593
+avgpool,2013,monitors,0.2868042
+avgpool,2014,darkness,0.15127563
+avgpool,2015,cabin,0.7010498
+avgpool,2016,lock chamber,0.23199463
+avgpool,2017,bamboo forest,0.17318726
+avgpool,2018,mountains,0.28497314
+avgpool,2019,rope bridge,0.12609863
+avgpool,2020,"market, indoor",0.57418823
+avgpool,2021,archaelogical excavation,0.16467285
+avgpool,2022,tree farm,0.4190979
+avgpool,2023,bamboo forest,1.0180664
+avgpool,2024,toyshop,0.3317566
+avgpool,2025,"elevator, door",0.19726562
+avgpool,2026,paving,0.3663025
+avgpool,2027,fence,0.15679932
+avgpool,2028,computer room,0.35733032
+avgpool,2029,"balcony, interior",0.3508606
+avgpool,2030,tree house,0.5362549
+avgpool,2031,dining,0.23049927
+avgpool,2032,dance,0.30929565
+avgpool,2033,gym,0.6621704
+avgpool,2034,tree house,0.21002197
+avgpool,2035,golf course,0.379364
+avgpool,2036,horseback,0.23944092
+avgpool,2037,shelving,0.44088745
+avgpool,2038,mausoleum,0.27633667
+avgpool,2039,aerial,0.23510742
+avgpool,2040,amphitheater,0.53009033
+avgpool,2041,bureau,0.5291748
+avgpool,2042,rafting,0.24020386
+avgpool,2043,"field, wild",0.23339844
+avgpool,2044,basketball,0.4840088
+avgpool,2045,childs room,0.7787781
+avgpool,2046,bookshop,0.315979
+avgpool,2047,sunset,0.25708008

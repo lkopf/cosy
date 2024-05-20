@@ -1,3 +1,7 @@
+"""
+python src/evaluation.py --target_model=resnet18 --target_layer=avgpool --method=CLIP-Dissect --gen_images_dir=/mnt/beegfs/share/atbstaff/coval/generated_images/sdxl_base/
+"""
+
 import os
 import torch
 import random
@@ -48,12 +52,16 @@ if __name__ == '__main__':
 
     layer_name = args.target_layer.split(".")[-1]
     model_layer = f"{args.target_model}-{layer_name}"
-    target_model, preprocess = get_target_model(args.target_model, args.device)
+    target_model, features_layer, preprocess = get_target_model(args.target_model, args.device)
+    # densenet
+    if args.target_model == "densenet161_places":
+        target_model = features_layer
+    
     n_neurons = get_n_neurons(model_layer)
     
     print(f"Evaluate target: {model_layer}")
 
-    EXPLANATION_PATH = f"./assets/explanations/{args.method}/{model_layer}.csv"
+    EXPLANATION_PATH = f"./assets/explanations/{args.method}/{model_layer}.csv" ###
     NEURON_IDS = random.sample(range(n_neurons), args.n_neurons_random)
     EXPLANATIONS, _ = load_explanations(path=EXPLANATION_PATH,name=args.method,
                                         image_path=args.gen_images_dir,neuron_ids=NEURON_IDS)
@@ -67,7 +75,7 @@ if __name__ == '__main__':
     A_F_val = torch.load(f"{args.activation_dir}/val_{model_layer}.pt").to(args.device)
 
     csv_filename = f"{args.result_dir}/evaluation_{args.method}_{model_layer}.csv"
-    csv_headers = ["neuron", "concept", "auc", "U1", "p", "avg. activations", "statistic", "m_pvalue", "median"]
+    csv_headers = ["neuron", "concept", "auc", "U1", "p", "avg. activation diff"]
 
     if not csv_file_exists(csv_filename):
         create_csv(csv_filename, csv_headers)
@@ -87,7 +95,7 @@ if __name__ == '__main__':
                                                 shuffle=False,
                                                 num_workers=args.num_workers)
         
-        TENSOR_PATH = f"{args.activation_dir}/{args.method}_{model_layer}_neuron-{NEURON_ID}.pt"
+        TENSOR_PATH = f"{args.activation_dir}/method_eval/{args.method}_{model_layer}_neuron-{NEURON_ID}.pt"
 
         if os.path.exists(TENSOR_PATH):
             A_F = torch.load(TENSOR_PATH)
@@ -106,10 +114,10 @@ if __name__ == '__main__':
         # Binary classification scores
         auc_synthetic = roc_auc_score(class_labels.to("cpu"), A_D.to("cpu"))
         U1, p = mannwhitneyu(class_labels.to("cpu"), A_D.to("cpu"))
-        statistic, m_pvalue, median, table = median_test(activ_non_class.to("cpu"), activ_class.to("cpu"))
-        avg_activations = activ_class.mean().item()
+        # statistic, m_pvalue, median, table = median_test(activ_non_class.to("cpu"), activ_class.to("cpu"))
+        avg_activation_diff = activ_class.mean().item() - activ_non_class.mean().item()
 
-        new_rows  = [[NEURON_ID, concept_raw, auc_synthetic, U1, p, avg_activations, statistic, m_pvalue, median]]
+        new_rows  = [[NEURON_ID, concept_raw, auc_synthetic, U1, p, avg_activation_diff]]
         add_rows_to_csv(csv_filename, new_rows)
 
     end = datetime.now()

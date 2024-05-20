@@ -1,0 +1,129 @@
+layer,unit,description,similarity
+layer2,0,"crayfish, crawfish, crawdad, crawdaddy",0.2204895
+layer2,1,"leopard, Panthera pardus",0.17666626
+layer2,2,auditorium,0.08035278
+layer2,3,brain coral,0.39111328
+layer2,4,fruits,0.22668457
+layer2,5,"maillot, tank suit",0.14849854
+layer2,6,"leopard, Panthera pardus",0.2846985
+layer2,7,"solar dish, solar collector, solar furnace",0.13504028
+layer2,8,menu,0.084503174
+layer2,9,chainlink fence,0.19610596
+layer2,10,"spider monkey, Ateles geoffroyi",0.21539307
+layer2,11,vase,0.067108154
+layer2,12,food,0.21554565
+layer2,13,bittern,0.09341431
+layer2,14,butternut squash,0.08526611
+layer2,15,"loudspeaker, speaker, speaker unit, loudspeaker system, speaker system",0.16326904
+layer2,16,ear,0.1000061
+layer2,17,vases,0.10797119
+layer2,18,honeycomb,0.076049805
+layer2,19,brain coral,0.2987671
+layer2,20,"spider monkey, Ateles geoffroyi",0.68414307
+layer2,21,"chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour",0.07711792
+layer2,22,gyromitra,0.2218628
+layer2,23,typewriter keyboard,0.1449585
+layer2,24,female,0.28811646
+layer2,25,chainlink fence,0.28112793
+layer2,26,"bookshop, bookstore, bookstall",0.20840454
+layer2,27,garrison,0.116760254
+layer2,28,components,0.08798218
+layer2,29,manhole cover,0.083343506
+layer2,30,"slide rule, slipstick",0.16003418
+layer2,31,"crossword puzzle, crossword",0.1076355
+layer2,32,"night snake, Hypsiglena torquata",0.28961182
+layer2,33,"red-breasted merganser, Mergus serrator",0.31430054
+layer2,34,window screen,0.21762085
+layer2,35,chainlink fence,0.31817627
+layer2,36,"grille, radiator grille",0.23358154
+layer2,37,"garden spider, Aranea diademata",0.17266846
+layer2,38,shower curtain,0.20028687
+layer2,39,"bannister, banister, balustrade, balusters, handrail",0.12997437
+layer2,40,"academic gown, academic robe, judge's robe",0.25878906
+layer2,41,"dishrag, dishcloth",0.22875977
+layer2,42,"ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle",0.10519409
+layer2,43,"green lizard, Lacerta viridis",0.16525269
+layer2,44,brain coral,0.1331482
+layer2,45,"hammerhead, hammerhead shark",0.1904602
+layer2,46,wildlife,0.1088562
+layer2,47,soap dispenser,0.09283447
+layer2,48,scabbard,0.12658691
+layer2,49,"fire screen, fireguard",0.25881958
+layer2,50,blue,0.12930298
+layer2,51,typewriter keyboard,0.19937134
+layer2,52,window screen,0.17071533
+layer2,53,bw,0.16137695
+layer2,54,"colobus, colobus monkey",0.092315674
+layer2,55,"sidewinder, horned rattlesnake, Crotalus cerastes",0.1661377
+layer2,56,"rock beauty, Holocanthus tricolor",0.24786377
+layer2,57,vibrant,0.10168457
+layer2,58,chainlink fence,0.29779053
+layer2,59,splinter,0.08679199
+layer2,60,"prayer rug, prayer mat",0.16555786
+layer2,61,"slide rule, slipstick",0.21228027
+layer2,62,tile roof,0.44921875
+layer2,63,chainlink fence,0.22146606
+layer2,64,threaded,0.078826904
+layer2,65,"washbasin, handbasin, washbowl, lavabo, wash-hand basin",0.0909729
+layer2,66,"electric fan, blower",0.118774414
+layer2,67,window screen,0.20526123
+layer2,68,honeycomb,0.18292236
+layer2,69,juvenile,0.1362915
+layer2,70,Australian terrier,0.21035767
+layer2,71,"disk brake, disc brake",0.11755371
+layer2,72,"garter snake, grass snake",0.14718628
+layer2,73,fruits,0.3363037
+layer2,74,window screen,0.3007202
+layer2,75,"loudspeaker, speaker, speaker unit, loudspeaker system, speaker system",0.1121521
+layer2,76,participants,0.1088562
+layer2,77,chainlink fence,0.20715332
+layer2,78,brain coral,0.28933716
+layer2,79,chainlink fence,0.1055603
+layer2,80,brain coral,0.15924072
+layer2,81,damselfly,0.113464355
+layer2,82,tile roof,0.104003906
+layer2,83,"rock beauty, Holocanthus tricolor",0.15258789
+layer2,84,bee eater,0.1661377
+layer2,85,music,0.109680176
+layer2,86,bw,0.11764526
+layer2,87,cassette player,0.19934082
+layer2,88,manhole cover,0.22528076
+layer2,89,dough,0.22369385
+layer2,90,brain coral,0.26474
+layer2,91,typewriter keyboard,0.16522217
+layer2,92,honeycomb,0.12997437
+layer2,93,"bald eagle, American eagle, Haliaeetus leucocephalus",0.11807251
+layer2,94,"prayer rug, prayer mat",0.18774414
+layer2,95,instruments,0.10861206
+layer2,96,fruits,0.23828125
+layer2,97,juvenile,0.1670227
+layer2,98,chainlink fence,0.16860962
+layer2,99,"red-breasted merganser, Mergus serrator",0.41766357
+layer2,100,produce,0.22125244
+layer2,101,"organ, pipe organ",0.25106812
+layer2,102,honeycomb,0.15621948
+layer2,103,fruits,0.14245605
+layer2,104,magenta,0.20880127
+layer2,105,Kerry blue terrier,0.23062134
+layer2,106,window screen,0.21051025
+layer2,107,dotted,0.08822632
+layer2,108,bookcase,0.13989258
+layer2,109,"hand-held computer, hand-held microcomputer",0.2470398
+layer2,110,"marimba, xylophone",0.14779663
+layer2,111,"grille, radiator grille",0.22937012
+layer2,112,"echidna, spiny anteater, anteater",0.13296509
+layer2,113,manhole cover,0.16827393
+layer2,114,yellow,0.23370361
+layer2,115,"black stork, Ciconia nigra",0.23522949
+layer2,116,"computer keyboard, keypad",0.18457031
+layer2,117,fur,0.13427734
+layer2,118,juvenile,0.1960144
+layer2,119,jack-o'-lantern,0.20336914
+layer2,120,"hand-held computer, hand-held microcomputer",0.14776611
+layer2,121,"worm fence, snake fence, snake-rail fence, Virginia fence",0.17901611
+layer2,122,quilt,0.1459961
+layer2,123,rapeseed,0.10205078
+layer2,124,chainlink fence,0.3103943
+layer2,125,fruits,0.15493774
+layer2,126,homepage,0.17785645
+layer2,127,barrels,0.1194458

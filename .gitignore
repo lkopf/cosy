@@ -3,3 +3,5 @@ src/.ipynb_checkpoints/
 activations/
 results/
 gen_images/
+assets/train50k_*.csv
+assets/ILSVRC2012_val_labels.csv

@@ -1,0 +1,2209 @@
+layer,unit,description
+features,0,Items of central focus
+features,1,Trees
+features,2,Lights
+features,3,Vertical lines
+features,4,Black and white colored objects
+features,5,Landscapes
+features,6,Green and brown colored objects
+features,7,Water
+features,8,Items of central focus
+features,9,Food
+features,10,Diagonal lines
+features,11,"Water, trees, building"
+features,12,Buildings
+features,13,The sky
+features,14,Circular objects
+features,15,Buildings
+features,16,Green and brown colored objects
+features,17,Landscapes
+features,18,Waterfalls
+features,19,Green grass
+features,20,Windows
+features,21,Red and white colored objects
+features,22,Diagonal lines
+features,23,Red and white colored objects
+features,24,Lights
+features,25,Buildings and plants
+features,26,Grass and water
+features,27,Flowers
+features,28,Vertical lines
+features,29,Bright lights
+features,30,Nature
+features,31,Green and brown colored objects
+features,32,Windows
+features,33,Red objects
+features,34,Head of people
+features,35,Buildings
+features,36,Bright lights
+features,37,Green and brown colored objects
+features,38,Poles
+features,39,Green and brown colored objects
+features,40,Lights
+features,41,Items of central focus
+features,42,Poles and legs
+features,43,Green and brown colored objects
+features,44,The ground
+features,45,Items of central focus
+features,46,Colorful items
+features,47,Landscapes
+features,48,Top of a building
+features,49,Plants
+features,50,Green grass
+features,51,Landscapes
+features,52,Top of a building
+features,53,Landscapes
+features,54,Food
+features,55,Green and brown colored objects
+features,56,Vertical lines
+features,57,Bright lights
+features,58,Heads
+features,59,Green and brown colored objects
+features,60,Buildings
+features,61,Diagonal lines
+features,62,Windows
+features,63,Areas with straight features
+features,64,Top of a building
+features,65,Red and white colored objects
+features,66,"Building, people"
+features,67,Items of central focus
+features,68,Windows
+features,69,Poles
+features,70,Bookcases
+features,71,Diagonal lines
+features,72,Structures and landscapes
+features,73,Areas of central focus
+features,74,The sky and the ground
+features,75,Top of a building
+features,76,Nature
+features,77,Waterfalls
+features,78,Green and brown colored objects
+features,79,Top of a building
+features,80,Plants
+features,81,Brown colored objects
+features,82,Sky and trees
+features,83,"Trees, water, people"
+features,84,Landscapes
+features,85,Items of central focus
+features,86,Green and brown colored objects
+features,87,Vertical lines
+features,88,Plants
+features,89,Plants
+features,90,Bright yellow colored objects
+features,91,Green and brown colored objects
+features,92,Views of the mountaintop
+features,93,Plants
+features,94,"Building, people"
+features,95,Bright yellow colored objects
+features,96,Items of central focus
+features,97,Arched ceilings
+features,98,Vertical lines
+features,99,Trees
+features,100,Walls and floors
+features,101,Top of a building
+features,102,Wall art
+features,103,Black and white colored objects
+features,104,Flowers
+features,105,Diagonal lines
+features,106,Bookcases
+features,107,Food
+features,108,Landscapes
+features,109,Buildings
+features,110,Windows
+features,111,People
+features,112,Buildings and books
+features,113,Corners of different places
+features,114,Buildings
+features,115,Regions with straight features
+features,116,Buildings
+features,117,Top of a building
+features,118,Bright lights
+features,119,Items of central focus
+features,120,Columns
+features,121,Black and white colored objects
+features,122,Buildings
+features,123,Windows
+features,124,Green and brown colored objects
+features,125,Green and brown colored objects
+features,126,Diagonal lines
+features,127,Flowers and flowers
+features,128,Brown colored objects
+features,129,Top of a building
+features,130,Plants
+features,131,Columns
+features,132,Buildings
+features,133,Landscapes
+features,134,Top of a building
+features,135,Regions with straight features
+features,136,Items with patterns
+features,137,"Building, people"
+features,138,Green grass
+features,139,Landscapes
+features,140,Green and brown colored objects
+features,141,Top of a building
+features,142,Green and brown colored objects
+features,143,Vertical lines
+features,144,Items of central focus
+features,145,Black and white colored objects
+features,146,Green and brown colored objects
+features,147,Plants
+features,148,Vertical lines
+features,149,Green and brown colored objects
+features,150,Black and white colored objects
+features,151,Vertical lines
+features,152,Vertical lines
+features,153,Plants
+features,154,Items of central focus
+features,155,"Building, people"
+features,156,Landscapes
+features,157,Lights
+features,158,Top of a building
+features,159,Circular objects
+features,160,Black and white colored objects
+features,161,Structures
+features,162,Vertical lines
+features,163,Items of central focus
+features,164,Windows
+features,165,Top of a building
+features,166,Green grass
+features,167,Landscapes
+features,168,Vertical lines
+features,169,"Building, sky"
+features,170,Landscapes
+features,171,Items of central focus
+features,172,Top of a building
+features,173,Yellow and blue colored objects
+features,174,Vertical lines
+features,175,Green and brown colored objects
+features,176,Vertical lines
+features,177,Areas around items of central focus and edges
+features,178,Green and brown colored objects
+features,179,Poles and legs
+features,180,Circular objects
+features,181,Pink colored objects
+features,182,Buildings
+features,183,Vertical lines
+features,184,Top of a building
+features,185,Vertical lines
+features,186,Horizontal lines
+features,187,Buildings
+features,188,Buildings
+features,189,Trees
+features,190,Waterfalls
+features,191,Black and white colored objects
+features,192,Bright yellow and yellow things
+features,193,Green and brown colored objects
+features,194,White colored objects
+features,195,Items with patterns
+features,196,Bright lights
+features,197,Items of central focus
+features,198,Items of central focus
+features,199,Items of central focus
+features,200,Plants
+features,201,Top of a building
+features,202,Red and white colored objects
+features,203,Green grass
+features,204,Items of central focus
+features,205,Regions with straight features
+features,206,Trees
+features,207,Buildings
+features,208,Black and white photographs
+features,209,Poles and legs
+features,210,Trees
+features,211,Items of central focus
+features,212,People
+features,213,Wall art
+features,214,Top of a building
+features,215,Green and brown colored objects
+features,216,Green grass
+features,217,Structures and landscapes
+features,218,Top of a building
+features,219,Pink colored objects
+features,220,People
+features,221,Structures and landscapes
+features,222,Vertical lines
+features,223,Black and white colored objects
+features,224,Poles
+features,225,Top of a building
+features,226,"Building, sky"
+features,227,Trees and crowds
+features,228,Areas around a central focus
+features,229,The ground
+features,230,Buildings
+features,231,Vertical lines
+features,232,Green and brown colored objects
+features,233,Wall art
+features,234,Red and white colored objects
+features,235,Top of a building
+features,236,Green grass
+features,237,Trees
+features,238,Nature
+features,239,Landscapes
+features,240,Poles
+features,241,Top of a building
+features,242,Buildings
+features,243,Vertical lines
+features,244,Top of a building
+features,245,Stairs
+features,246,Black and white colored objects
+features,247,Vertical lines
+features,248,Vertical lines
+features,249,People
+features,250,Vibrant colors in pictures
+features,251,Poles
+features,252,Items of central focus
+features,253,Green grass
+features,254,Landscapes
+features,255,Blue and pink objects
+features,256,Top of a building
+features,257,White colored object with black border
+features,258,Buildings
+features,259,Green grass
+features,260,Buildings
+features,261,Diagonal lines
+features,262,Poles and legs
+features,263,Buildings
+features,264,Top of a building
+features,265,Trees
+features,266,Green and brown colored objects
+features,267,Black and white colored objects
+features,268,Buildings
+features,269,Colorful items
+features,270,Green and brown colored objects
+features,271,Objects with stripes in it
+features,272,Orange and yellow objects
+features,273,Green and brown colored objects
+features,274,Bright yellow colored objects
+features,275,Colorful items
+features,276,Green and brown colored objects
+features,277,Items of central focus
+features,278,Buildings and fields
+features,279,Buildings
+features,280,Brown colored objects
+features,281,Items of central focus
+features,282,Regions with straight features
+features,283,Views of the mountaintop
+features,284,Sunsets
+features,285,Pizza and buildings
+features,286,Plants
+features,287,Trees and crowds
+features,288,Structures and landscapes
+features,289,Vertical lines
+features,290,Windows
+features,291,Plants
+features,292,Landscapes
+features,293,Food
+features,294,Red and white colored objects
+features,295,Areas with straight features
+features,296,Arches
+features,297,Poles
+features,298,Regions with straight features
+features,299,Sports stadiums
+features,300,Black and white colored objects
+features,301,Plants
+features,302,Food
+features,303,Buildings
+features,304,Top of a building
+features,305,Top of a building
+features,306,Areas around central items
+features,307,Colorful items
+features,308,Green and brown colored objects
+features,309,Wall art
+features,310,Trees
+features,311,Green grass
+features,312,Poles
+features,313,Black and white colored objects
+features,314,Black and white colored objects
+features,315,Vertical lines
+features,316,The ground
+features,317,Poles and legs
+features,318,Windows
+features,319,Vertical lines
+features,320,Wall art
+features,321,Wall art
+features,322,Structures and landscapes
+features,323,Food
+features,324,Green and brown colored objects
+features,325,Doors and windows
+features,326,Vibrant colors in pictures
+features,327,Landscapes
+features,328,Poles
+features,329,Buildings
+features,330,Buildings
+features,331,Items of central focus
+features,332,Windows
+features,333,Grass and trees
+features,334,Vertical lines
+features,335,Water
+features,336,Landscapes
+features,337,Green colored objects
+features,338,Objects with stripes in it
+features,339,"Building, people"
+features,340,Pools
+features,341,Items of central focus
+features,342,"Water, people"
+features,343,People
+features,344,Items of central focus
+features,345,"Food, people"
+features,346,Green grass
+features,347,Landscapes
+features,348,Green grass
+features,349,Top of a building
+features,350,Colorful items
+features,351,Heads
+features,352,Buildings
+features,353,Yellow and blue colored objects
+features,354,Trees
+features,355,Top of a building
+features,356,Plants
+features,357,Items of central focus
+features,358,Vertical lines
+features,359,Circular objects
+features,360,Bright yellow colored objects
+features,361,Green and brown colored objects
+features,362,Areas of central focus
+features,363,Green grass
+features,364,Buildings
+features,365,Pizza and trees
+features,366,Walkways
+features,367,Buildings
+features,368,Nature
+features,369,Views of the mountaintop
+features,370,Old buildings
+features,371,Landscapes
+features,372,Nature
+features,373,"Building, people"
+features,374,Lights
+features,375,Green grass
+features,376,"Building, people"
+features,377,Regions with straight features
+features,378,Landscapes
+features,379,The sky
+features,380,Buildings
+features,381,Balls
+features,382,Plants and flowers
+features,383,Sunsets
+features,384,Old buildings
+features,385,Top of a building
+features,386,"Water, people"
+features,387,Circular objects
+features,388,Top of a building
+features,389,Windows
+features,390,Green and brown colored objects
+features,391,Wall art
+features,392,"Building, people"
+features,393,Plants
+features,394,Buildings
+features,395,Buildings
+features,396,Green and brown colored objects
+features,397,Lights
+features,398,Lights
+features,399,Top of a building
+features,400,Green and brown colored objects
+features,401,Pools
+features,402,Buildings
+features,403,Top of a building
+features,404,Pools
+features,405,Green and brown colored objects
+features,406,Regions with straight features
+features,407,Red and white colored objects
+features,408,Green and brown colored objects
+features,409,Green grass
+features,410,Bright yellow colored objects
+features,411,Circular objects
+features,412,Water
+features,413,Heads
+features,414,Columns
+features,415,Poles
+features,416,Red and white colored objects
+features,417,Landscapes
+features,418,Bright yellow colored objects
+features,419,Green grass
+features,420,Top of a building
+features,421,Buildings
+features,422,Buildings
+features,423,Sports stadiums
+features,424,Top of a building
+features,425,Buildings
+features,426,Brown colored objects
+features,427,Plants
+features,428,Black and white colored objects
+features,429,Green grass
+features,430,Windows
+features,431,Bright yellow colored objects
+features,432,Flowers
+features,433,Buildings
+features,434,The ground
+features,435,Top of a building
+features,436,Regions with straight features
+features,437,Green and brown colored objects
+features,438,Buildings
+features,439,People
+features,440,"Water, trees, building"
+features,441,Items of central focus
+features,442,Black and white colored objects
+features,443,Windows
+features,444,Areas around a central focus
+features,445,Items of central focus
+features,446,Green and brown colored objects
+features,447,Green and brown colored objects
+features,448,Green grass
+features,449,Green and brown colored objects
+features,450,Pools
+features,451,Windows
+features,452,Windows of a building
+features,453,Nature
+features,454,Red and white colored objects
+features,455,Horizontal lines
+features,456,Bright yellow colored objects
+features,457,Top of a building
+features,458,Flowers and flowers
+features,459,Colorful items
+features,460,Views of the mountaintop
+features,461,Green grass
+features,462,Nature
+features,463,"Building, windows"
+features,464,Diagonal lines
+features,465,"Water, trees, people"
+features,466,Green and brown colored objects
+features,467,Top of a building
+features,468,Plants
+features,469,Buildings
+features,470,Plants
+features,471,Red colored object with text
+features,472,Bright lights
+features,473,Bright yellow colored objects
+features,474,Windows
+features,475,Areas of central focus
+features,476,Buildings
+features,477,Trees
+features,478,Landscapes
+features,479,"Water, trees, people"
+features,480,Green and brown colored objects
+features,481,Top of a building
+features,482,Green grass
+features,483,Green grass
+features,484,Plants
+features,485,Top of a building
+features,486,Top of a building
+features,487,Landscapes
+features,488,Windows
+features,489,Plants and flowers
+features,490,Trees
+features,491,Landscapes
+features,492,Buildings
+features,493,Black and white colored objects
+features,494,Areas of central focus
+features,495,Top of a building
+features,496,"Building, people"
+features,497,Wall art
+features,498,Lights
+features,499,Poles
+features,500,Poles and legs
+features,501,"Building, people"
+features,502,Buildings
+features,503,Windows
+features,504,Green grass
+features,505,Diagonal lines
+features,506,Structures and landscapes
+features,507,Poles
+features,508,Black and white colored objects
+features,509,Buildings
+features,510,Lights
+features,511,Bright lights
+features,512,Windows
+features,513,Red and white colored objects
+features,514,Items of central focus
+features,515,Green and brown colored objects
+features,516,Green and brown colored objects
+features,517,Circular items
+features,518,Water
+features,519,Sunsets
+features,520,Stairs
+features,521,Windows
+features,522,Grass and trees
+features,523,Stairs
+features,524,Trees
+features,525,Buildings
+features,526,Windows
+features,527,Buildings
+features,528,Red and white colored objects
+features,529,Buildings
+features,530,Nature
+features,531,Black and white colored objects
+features,532,Circular objects
+features,533,Wall art
+features,534,Buildings
+features,535,Top of a building
+features,536,Windows
+features,537,Top of a building
+features,538,Orange and yellow objects
+features,539,Flowers and flowers
+features,540,Plants
+features,541,Nature
+features,542,Regions with straight features
+features,543,"Sky, trees, building"
+features,544,Landscapes
+features,545,Colorful items
+features,546,Red and white colored objects
+features,547,Structures and landscapes
+features,548,Landscapes
+features,549,Buildings
+features,550,Buildings
+features,551,Black and white colored objects
+features,552,Buildings
+features,553,Bright lights
+features,554,Buildings
+features,555,Green and brown colored objects
+features,556,Poles and legs
+features,557,Windows
+features,558,Walls
+features,559,Buildings
+features,560,Wall art
+features,561,Yellow and blue colored objects
+features,562,Lights
+features,563,Green and brown colored objects
+features,564,Items of central focus
+features,565,Nature
+features,566,The sky
+features,567,Windows on a building
+features,568,Structures and landscapes
+features,569,Green and brown colored objects
+features,570,Buildings
+features,571,The sky and trees
+features,572,Items of central focus
+features,573,Bright lights
+features,574,Black and white colored objects
+features,575,Items of central focus
+features,576,Red colored object with text
+features,577,Landscapes
+features,578,Items of central focus
+features,579,Gray colored objects
+features,580,Items with patterns
+features,581,Landscapes
+features,582,Black and white colored objects
+features,583,Buildings
+features,584,Waterfalls
+features,585,Black and white colored objects
+features,586,Plants
+features,587,Buildings
+features,588,Diagonal lines
+features,589,Green and brown colored objects
+features,590,Green and brown colored objects
+features,591,Blue objects
+features,592,Bright yellow colored objects
+features,593,Grass and flowers
+features,594,Items of central focus
+features,595,Buildings
+features,596,Green and brown colored objects
+features,597,Ice cream pools
+features,598,Buildings
+features,599,Green grass
+features,600,Windows
+features,601,Red and white colored objects
+features,602,Items of central focus
+features,603,Faces of human beings
+features,604,Green and brown colored objects
+features,605,Vibrant colored objects
+features,606,Lights
+features,607,Regions with straight features
+features,608,Structures
+features,609,Vertical lines
+features,610,Nature
+features,611,Vertical lines
+features,612,Black and white colored objects
+features,613,Ice cream and water
+features,614,Green grass
+features,615,Buildings
+features,616,Landscapes
+features,617,Top of a building
+features,618,Green grass
+features,619,Wall art
+features,620,Green and brown colored objects
+features,621,The sky
+features,622,Top of a building
+features,623,The sky
+features,624,Wall art
+features,625,Food
+features,626,Mountains and valleys
+features,627,Grass and flowers
+features,628,Top of a building
+features,629,Waterfalls
+features,630,Buildings
+features,631,Green and brown colored objects
+features,632,Bright yellow colored objects
+features,633,Grass and trees
+features,634,Green grass
+features,635,Lights
+features,636,Top of a building
+features,637,Windows and doors
+features,638,Green and brown colored objects
+features,639,Top of a building
+features,640,Buildings
+features,641,Diagonal lines
+features,642,Landscapes
+features,643,Brown colored objects
+features,644,Areas of central focus
+features,645,Green and brown colored objects
+features,646,Landscapes
+features,647,Diagonal lines
+features,648,Nature
+features,649,Top of a building
+features,650,Top of a building
+features,651,Plants
+features,652,Walls
+features,653,Areas around items of central focus and edges
+features,654,Bookcases
+features,655,Landscapes
+features,656,Trees
+features,657,Circular objects
+features,658,Black and white colored objects
+features,659,Landscapes
+features,660,"Water, building, people"
+features,661,Walls
+features,662,Buildings
+features,663,Black and white colored objects
+features,664,Green and brown colored objects
+features,665,Columns
+features,666,Areas with straight features
+features,667,Buildings and plants
+features,668,The ground
+features,669,Windows
+features,670,Buildings and trees
+features,671,Vertical lines
+features,672,Lights
+features,673,Areas around items of central focus and edges
+features,674,Diagonal lines
+features,675,Vertical lines
+features,676,Green and brown colored objects
+features,677,Grass and people
+features,678,Areas on the sides of items
+features,679,Views of the mountaintop
+features,680,White colored object with black border
+features,681,Structures and landscapes
+features,682,Buildings
+features,683,Buildings
+features,684,Vertical lines
+features,685,Green and brown colored objects
+features,686,Green and brown colored objects
+features,687,"Building, people"
+features,688,Nature
+features,689,Top of a building
+features,690,Lights
+features,691,Trees
+features,692,Walls and the sky
+features,693,Regions with straight features
+features,694,Corners of different places
+features,695,Diagonal lines
+features,696,Plants
+features,697,Buildings
+features,698,Nature
+features,699,Black and white colored objects
+features,700,Top of a building
+features,701,Columns
+features,702,Sign boards with text in it
+features,703,Colorful items
+features,704,Poles
+features,705,Windows
+features,706,Areas of central focus
+features,707,Lights
+features,708,Top of a building
+features,709,Buildings and water
+features,710,Black and white colored objects
+features,711,Buildings
+features,712,"Water, trees, people"
+features,713,Heads of peoples
+features,714,Black and white colored objects
+features,715,Trees
+features,716,Top of a building
+features,717,Green grass
+features,718,Items of central focus
+features,719,Green and brown colored objects
+features,720,Top of a building
+features,721,Windows
+features,722,Top of a building
+features,723,Corners of different places
+features,724,Buildings
+features,725,Colorful items
+features,726,Diagonal lines
+features,727,Vertical lines
+features,728,Items of central focus
+features,729,Black and white colored objects
+features,730,Bright yellow colored objects
+features,731,Green grass
+features,732,Sunsets
+features,733,Vertical lines
+features,734,Regions with straight features
+features,735,Plants
+features,736,Top of a building
+features,737,Windows
+features,738,Plants
+features,739,Buildings and shelves
+features,740,Buildings and people
+features,741,Buildings
+features,742,Top of a building
+features,743,Top of a building
+features,744,Trees
+features,745,Green grass
+features,746,"Water, trees, people"
+features,747,Buildings
+features,748,Green and brown colored objects
+features,749,Buildings
+features,750,Black and white colored objects
+features,751,Plants
+features,752,Lights
+features,753,Plants
+features,754,Top of a building
+features,755,Items of central focus
+features,756,Black and white colored objects
+features,757,Green and brown colored objects
+features,758,Top of a building
+features,759,Horizontal lines
+features,760,Green and brown colored objects
+features,761,The ground
+features,762,Structures and landscapes
+features,763,Buildings
+features,764,Green and brown colored objects
+features,765,The ground
+features,766,Regions with straight features
+features,767,Views of the mountaintop
+features,768,Bright yellow colored objects
+features,769,"Building, people"
+features,770,Green and brown colored objects
+features,771,Black and white colored objects
+features,772,Buildings
+features,773,Water
+features,774,Circular items
+features,775,Top of a building
+features,776,Structures and landscapes
+features,777,Outdoor landscapes
+features,778,Black and white colored objects
+features,779,Green and brown colored objects
+features,780,Green and brown colored objects
+features,781,Buildings
+features,782,Green grass
+features,783,Items of central focus
+features,784,Nature
+features,785,Buildings
+features,786,Items of central focus
+features,787,Green and brown colored objects
+features,788,Ice
+features,789,Buildings
+features,790,Buildings
+features,791,Structures and landscapes
+features,792,Items of central focus
+features,793,Top of a building
+features,794,Black and white colored objects
+features,795,Items of central focus
+features,796,Vertical lines
+features,797,Diagonal lines
+features,798,Top of a building
+features,799,Sports stadiums
+features,800,Areas of central focus
+features,801,Top of a building
+features,802,Red colored object with text
+features,803,Bodies of water
+features,804,Poles
+features,805,Items of central focus
+features,806,Poles
+features,807,Stairs
+features,808,Buildings
+features,809,"Water, trees, building"
+features,810,Top of a building
+features,811,Pink colored objects
+features,812,Plants
+features,813,Top of a building
+features,814,Green grass
+features,815,Items of central focus
+features,816,Regions with straight features
+features,817,Green grass
+features,818,Top of a building
+features,819,Windows
+features,820,"Building, people"
+features,821,Plants
+features,822,Vertical lines
+features,823,Buildings
+features,824,Top of a building
+features,825,Trees
+features,826,Head of people
+features,827,Green and brown colored objects
+features,828,Areas around items of central focus and edges
+features,829,Wall art
+features,830,Buildings
+features,831,Colorful items
+features,832,Windows
+features,833,Green and brown colored objects
+features,834,Structures and landscapes
+features,835,Structures
+features,836,Green and brown colored objects
+features,837,Buildings
+features,838,Bookcases
+features,839,Buildings
+features,840,Black and white colored objects
+features,841,Black and white colored objects
+features,842,Green and brown colored objects
+features,843,Wall art
+features,844,People
+features,845,Green and brown colored objects
+features,846,Green and brown colored objects
+features,847,Buildings
+features,848,Grass and trees
+features,849,Plants
+features,850,Lights
+features,851,Trees
+features,852,Black and white colored objects
+features,853,Athletes
+features,854,Green and brown colored objects
+features,855,Black and white colored objects
+features,856,Outdoor landscapes
+features,857,Views of the mountaintop
+features,858,Trees
+features,859,Windows
+features,860,Buildings
+features,861,Vertical lines
+features,862,Black and white colored objects
+features,863,Bright yellow colored objects
+features,864,Green and brown colored objects
+features,865,Tops of buildings
+features,866,Poles
+features,867,Landscapes
+features,868,Blue colored objects
+features,869,Windows
+features,870,The sky and trees
+features,871,Red colored object with text
+features,872,Buildings
+features,873,Items of central focus
+features,874,Windows
+features,875,Green and brown colored objects
+features,876,Top of a building
+features,877,Green and brown colored objects
+features,878,Green and brown colored objects
+features,879,Buildings
+features,880,Black and white colored objects
+features,881,Buildings
+features,882,Head of people
+features,883,Horizontal lines
+features,884,Windows
+features,885,Trees
+features,886,Green grass
+features,887,Buildings
+features,888,Green and brown colored objects
+features,889,People
+features,890,Nature
+features,891,Top of a building
+features,892,Green and brown colored objects
+features,893,Buildings
+features,894,Black and white colored objects
+features,895,"Building, people"
+features,896,Green and brown colored objects
+features,897,Water
+features,898,Items of central focus
+features,899,Green and brown colored objects
+features,900,Buildings and water
+features,901,Colorful items
+features,902,Nature
+features,903,Circular objects
+features,904,Buildings
+features,905,Items of central focus
+features,906,Lights
+features,907,Bright yellow colored objects
+features,908,Structures
+features,909,Areas around central items
+features,910,Windows
+features,911,Bright yellow colored objects
+features,912,Items of central focus
+features,913,Regions with straight features
+features,914,Old buildings
+features,915,Circular objects
+features,916,Red and white colored objects
+features,917,Nature
+features,918,Top of a building
+features,919,The ground
+features,920,Corners of different places
+features,921,Top of a building
+features,922,Green and brown colored objects
+features,923,Green and brown colored objects
+features,924,Orange and red walls
+features,925,Poles
+features,926,Ice
+features,927,Items of central focus
+features,928,Black and white colored objects
+features,929,Top of a building
+features,930,Black and white colored objects
+features,931,Buildings
+features,932,Ice cream and flowers
+features,933,Doors and windows
+features,934,Landscapes
+features,935,Top of a building
+features,936,Nature
+features,937,Green grass
+features,938,Top of a building
+features,939,Green grass
+features,940,Buildings
+features,941,Bright lights
+features,942,Brown colored objects
+features,943,Structures and landscapes
+features,944,Plants
+features,945,Landscapes
+features,946,"Building, sky"
+features,947,Buildings
+features,948,Vibrant colors in pictures
+features,949,Trees
+features,950,Grass and flowers
+features,951,Black and white colored objects
+features,952,Regions with straight features
+features,953,Buildings and books
+features,954,Top of a building
+features,955,Plants
+features,956,Plants
+features,957,Items of central focus
+features,958,Poles
+features,959,Green grass
+features,960,Top of a building
+features,961,Plants
+features,962,Circular objects
+features,963,Areas of central focus
+features,964,Bright yellow colored objects
+features,965,Water
+features,966,Poles
+features,967,Plants
+features,968,Green grass
+features,969,Black and white colored objects
+features,970,Top of a building
+features,971,Green and brown colored objects
+features,972,Green and brown colored objects
+features,973,Green grass
+features,974,Green colored objects
+features,975,Buildings
+features,976,Buildings
+features,977,Windows
+features,978,Head of people
+features,979,Windows
+features,980,Items of central focus
+features,981,Furniture
+features,982,Poles
+features,983,Vertical lines
+features,984,Green and brown colored objects
+features,985,Green and brown colored objects
+features,986,Buildings
+features,987,Poles and legs
+features,988,Regions with straight features
+features,989,Green grass
+features,990,Windows
+features,991,Green and brown colored objects
+features,992,Windows
+features,993,Items of central focus
+features,994,Green grass
+features,995,Top of a building
+features,996,Red colored object with text
+features,997,Faces of human beings
+features,998,Vertical lines
+features,999,The ground
+features,1000,The sky
+features,1001,Regions with straight features
+features,1002,Green and brown colored objects
+features,1003,Grass
+features,1004,Regions with straight features
+features,1005,Green and brown colored objects
+features,1006,Vertical lines
+features,1007,Landscapes
+features,1008,Buildings
+features,1009,Plants
+features,1010,Lights
+features,1011,Old buildings
+features,1012,Bright yellow colored objects
+features,1013,Landscapes
+features,1014,Staircases
+features,1015,Wall art
+features,1016,Blue objects
+features,1017,Colorful items
+features,1018,Poles and legs
+features,1019,Top of a building
+features,1020,Top of a building
+features,1021,Poles
+features,1022,Top of a building
+features,1023,Black and white colored objects
+features,1024,Grass and trees
+features,1025,Buildings
+features,1026,Top of a building
+features,1027,Green and brown colored objects
+features,1028,Trees
+features,1029,Diagonal lines
+features,1030,Plants
+features,1031,Items of central focus
+features,1032,Poles
+features,1033,Bright yellow colored objects
+features,1034,"Building, people"
+features,1035,Lights
+features,1036,Black and white colored objects
+features,1037,Trees
+features,1038,Windows
+features,1039,Green and brown colored objects
+features,1040,Diagonal lines
+features,1041,Nature
+features,1042,Top of a building
+features,1043,Buildings
+features,1044,Flowers and flowers
+features,1045,Green and brown colored objects
+features,1046,"Building, sunset"
+features,1047,Structures and landscapes
+features,1048,Buildings
+features,1049,Plants
+features,1050,Trees
+features,1051,Structures and landscapes
+features,1052,White colored object with black border
+features,1053,Flowers and flowers
+features,1054,Poles and legs
+features,1055,Trees
+features,1056,Lights
+features,1057,Green grass
+features,1058,Poles
+features,1059,Top of a building
+features,1060,Green grass
+features,1061,Nature
+features,1062,Buildings
+features,1063,Water
+features,1064,Green grass
+features,1065,Heads of peoples
+features,1066,Trees
+features,1067,"Water, grass, people"
+features,1068,Top of a building
+features,1069,Windows of a building
+features,1070,The sky
+features,1071,Buildings
+features,1072,Sign boards with text in it
+features,1073,Waterfalls
+features,1074,Nature
+features,1075,Waterfalls
+features,1076,Views of the mountaintop
+features,1077,Top of a building
+features,1078,Top of a building
+features,1079,Windows of a building
+features,1080,Pathways
+features,1081,Top of a building
+features,1082,"Sky, trees, building"
+features,1083,Green grass
+features,1084,Wall art
+features,1085,Views of the mountaintop
+features,1086,Buildings
+features,1087,Green and brown colored objects
+features,1088,Wall art
+features,1089,Vertical lines
+features,1090,Green and brown colored objects
+features,1091,Green and brown colored objects
+features,1092,Landscapes
+features,1093,Windows
+features,1094,Top of a building
+features,1095,Poles and legs
+features,1096,Top of a building
+features,1097,Water
+features,1098,Water
+features,1099,Waterfalls
+features,1100,Landscapes
+features,1101,Columns
+features,1102,Buildings
+features,1103,Black and white colored objects
+features,1104,Lights
+features,1105,Food
+features,1106,Green grass
+features,1107,Diagonal lines
+features,1108,The ground
+features,1109,Areas around central items
+features,1110,Top of a building
+features,1111,Sky and trees
+features,1112,Food
+features,1113,Green grass
+features,1114,Green grass
+features,1115,Green grass
+features,1116,"Water, trees, people"
+features,1117,Green grass
+features,1118,Poles
+features,1119,Plants
+features,1120,Nature
+features,1121,Green and brown colored objects
+features,1122,Green grass
+features,1123,Nature
+features,1124,Plants
+features,1125,Plants
+features,1126,Views of the mountaintop
+features,1127,Windows of a building
+features,1128,Wall art
+features,1129,Head of people
+features,1130,Buildings and athletes
+features,1131,Top of a building
+features,1132,Plants
+features,1133,People
+features,1134,Top of a building
+features,1135,Green grass
+features,1136,Brown colored objects
+features,1137,Green grass
+features,1138,Plants
+features,1139,Water
+features,1140,Wall art
+features,1141,Top of a building
+features,1142,Items of central focus
+features,1143,The ground
+features,1144,Wall art
+features,1145,Faces of human beings
+features,1146,Sign boards with text in it
+features,1147,Top of a building
+features,1148,The ground
+features,1149,Black and white colored objects
+features,1150,Black and white colored objects
+features,1151,Trees
+features,1152,Nature
+features,1153,Buildings
+features,1154,Green and brown colored objects
+features,1155,Food
+features,1156,Grass and water
+features,1157,Lights
+features,1158,Vertical lines
+features,1159,Trees
+features,1160,Colorful items
+features,1161,Top of a building
+features,1162,Windows
+features,1163,Walls
+features,1164,Green grass
+features,1165,Green grass
+features,1166,Lights
+features,1167,Green and brown colored objects
+features,1168,Pink colored objects
+features,1169,Vehicles
+features,1170,Plants
+features,1171,Windows
+features,1172,Corners of different places
+features,1173,Green grass
+features,1174,Buildings
+features,1175,Buildings
+features,1176,Green and brown colored objects
+features,1177,Food
+features,1178,"Water, trees, people"
+features,1179,Areas with straight features
+features,1180,Green and brown colored objects
+features,1181,"Water, grass, people"
+features,1182,Black and white colored objects
+features,1183,"Building, people"
+features,1184,"Building, people"
+features,1185,Poles
+features,1186,Waterfalls
+features,1187,"Water, trees, building"
+features,1188,Top of a building
+features,1189,Buildings
+features,1190,Green and brown colored objects
+features,1191,Wall art
+features,1192,Black and white colored objects
+features,1193,Water
+features,1194,Top of a building
+features,1195,Wall art
+features,1196,Outdoor landscapes
+features,1197,Landscapes
+features,1198,Top of a building
+features,1199,Faces of human beings
+features,1200,Plants
+features,1201,Plants
+features,1202,Plants
+features,1203,"Trees, people"
+features,1204,Flowers and flowers
+features,1205,Diagonal lines
+features,1206,Diagonal lines
+features,1207,Green grass
+features,1208,Vertical lines
+features,1209,Waterfalls
+features,1210,Top of a building
+features,1211,"Building, sky"
+features,1212,Top of a building
+features,1213,Top of a building
+features,1214,Trees
+features,1215,Flowers and flowers
+features,1216,Windows
+features,1217,Diagonal lines
+features,1218,Green grass
+features,1219,Poles
+features,1220,Plants
+features,1221,Wall art
+features,1222,Green and brown colored objects
+features,1223,Plants
+features,1224,Windows
+features,1225,Plants
+features,1226,Flowers
+features,1227,Nature
+features,1228,Colorful items
+features,1229,Green and brown colored objects
+features,1230,Flowers and flowers
+features,1231,"Building, people"
+features,1232,People
+features,1233,Plants
+features,1234,Black and white colored objects
+features,1235,Pink colored objects
+features,1236,Green grass
+features,1237,Green and brown colored objects
+features,1238,Black and white colored objects
+features,1239,Green grass
+features,1240,Green grass
+features,1241,Poles
+features,1242,Green and brown colored objects
+features,1243,Wall art
+features,1244,Trees
+features,1245,Mountains and valleys
+features,1246,Trees
+features,1247,Lights
+features,1248,Waterfalls
+features,1249,Green grass
+features,1250,Buildings
+features,1251,"Water, people"
+features,1252,Nature
+features,1253,Top of a building
+features,1254,Black and white colored objects
+features,1255,Landscapes
+features,1256,Circular objects
+features,1257,"Building, people"
+features,1258,Green grass
+features,1259,Green grass
+features,1260,Plants
+features,1261,Head of people
+features,1262,Green and brown colored objects
+features,1263,Windows
+features,1264,Windows
+features,1265,Sports fields
+features,1266,Plants
+features,1267,Regions with straight features
+features,1268,Top of a building
+features,1269,Buildings
+features,1270,Lights
+features,1271,Sports stadiums
+features,1272,Trees
+features,1273,Windows of a building
+features,1274,Lights
+features,1275,Top of a building
+features,1276,Poles
+features,1277,Corners of different places
+features,1278,Circular objects
+features,1279,Buildings
+features,1280,Grass and trees
+features,1281,Nature
+features,1282,Walls
+features,1283,Green grass
+features,1284,Grass and water
+features,1285,Grass and people
+features,1286,Diagonal lines
+features,1287,Trees
+features,1288,The sky and walls
+features,1289,Windows
+features,1290,Top of a building
+features,1291,Trees
+features,1292,Poles
+features,1293,Green grass
+features,1294,Buildings
+features,1295,Nature
+features,1296,Food
+features,1297,Black and white colored objects
+features,1298,Diagonal lines
+features,1299,Top of a building
+features,1300,Black and white colored objects
+features,1301,Areas around central items
+features,1302,Black and white colored objects
+features,1303,Windows
+features,1304,Sports stadiums
+features,1305,Lights
+features,1306,Poles
+features,1307,Vertical lines
+features,1308,Food
+features,1309,Transportation
+features,1310,Vertical lines
+features,1311,Wall art
+features,1312,Top of a building
+features,1313,Top of a building
+features,1314,Top of a building
+features,1315,Sports stadiums
+features,1316,Nature
+features,1317,Lights
+features,1318,Top of a building
+features,1319,Cars
+features,1320,Buildings
+features,1321,Top of a building
+features,1322,Bright lights
+features,1323,"Building, windows"
+features,1324,Poles and legs
+features,1325,Green and brown colored objects
+features,1326,Heads of peoples
+features,1327,Lights
+features,1328,Buildings
+features,1329,Green grass
+features,1330,Head of people
+features,1331,Poles
+features,1332,People
+features,1333,Windows
+features,1334,Bright yellow colored objects
+features,1335,"Building, sky"
+features,1336,Green grass
+features,1337,Top of a building
+features,1338,Poles
+features,1339,Areas around items of central focus and edges
+features,1340,People
+features,1341,Nature
+features,1342,Vertical lines
+features,1343,Views of the mountaintop
+features,1344,Green grass
+features,1345,Top of a building
+features,1346,Plants
+features,1347,Grass and flowers
+features,1348,Windows
+features,1349,Trees
+features,1350,The ground
+features,1351,Diagonal lines
+features,1352,Colorful items
+features,1353,Cars and trees
+features,1354,Black and white colored objects
+features,1355,Plants
+features,1356,Poles
+features,1357,Wall art
+features,1358,Windows
+features,1359,Walkways
+features,1360,Vertical lines
+features,1361,Trees
+features,1362,People
+features,1363,"Trees, people"
+features,1364,Top of a building
+features,1365,Buildings
+features,1366,Sports stadiums
+features,1367,Sports stadiums
+features,1368,Pathways
+features,1369,Top of a building
+features,1370,Green grass
+features,1371,Head of people
+features,1372,Items of central focus
+features,1373,Wall art
+features,1374,Head of people
+features,1375,People
+features,1376,Bookcases
+features,1377,Green grass
+features,1378,Top of a building
+features,1379,Green and brown colored objects
+features,1380,Diagonal lines
+features,1381,Trees
+features,1382,Plants
+features,1383,Plants
+features,1384,Pathways
+features,1385,People
+features,1386,Areas around items of central focus and edges
+features,1387,Plants
+features,1388,Vertical lines
+features,1389,Windows
+features,1390,Water
+features,1391,Nature
+features,1392,People
+features,1393,Top of a building
+features,1394,Landscapes
+features,1395,Green and brown colored objects
+features,1396,People
+features,1397,Waterfalls
+features,1398,Top of a building
+features,1399,Colorful items
+features,1400,Top of a building
+features,1401,Nature
+features,1402,Green and brown colored objects
+features,1403,Diagonal lines
+features,1404,Top of a building
+features,1405,Buses
+features,1406,Top of a building
+features,1407,Plants
+features,1408,Colorful items
+features,1409,Poles
+features,1410,People
+features,1411,Items of central focus
+features,1412,Buildings
+features,1413,Nature
+features,1414,Green and brown colored objects
+features,1415,Top of a building
+features,1416,Horizontal lines
+features,1417,Green and brown colored objects
+features,1418,Trees
+features,1419,Sports stadiums
+features,1420,Green grass
+features,1421,Diagonal lines
+features,1422,Top of a building
+features,1423,Nature
+features,1424,Poles
+features,1425,Sports fields
+features,1426,Buildings
+features,1427,Sports stadiums
+features,1428,White colored object with black border
+features,1429,Buildings
+features,1430,Lights
+features,1431,Buildings
+features,1432,Nature
+features,1433,People
+features,1434,Windows
+features,1435,Buildings
+features,1436,Buildings
+features,1437,Poles
+features,1438,Top of a building
+features,1439,People
+features,1440,Nature
+features,1441,Green grass
+features,1442,White colored object with black border
+features,1443,Top of a building
+features,1444,Windows and doors
+features,1445,Green and brown colored objects
+features,1446,Green and brown colored objects
+features,1447,"Water, trees, people"
+features,1448,"Building, people"
+features,1449,Areas around items of central focus and edges
+features,1450,Tall buildings
+features,1451,Columns
+features,1452,Windows
+features,1453,Items of central focus
+features,1454,"Building, people"
+features,1455,Green and brown colored objects
+features,1456,People
+features,1457,Windows
+features,1458,Poles
+features,1459,Plants
+features,1460,Circular objects
+features,1461,Heads of peoples
+features,1462,Poles and legs
+features,1463,Nature
+features,1464,Grass and trees
+features,1465,Poles and legs
+features,1466,Structures and landscapes
+features,1467,Top of a building
+features,1468,Plants
+features,1469,People
+features,1470,Tall buildings
+features,1471,Diagonal lines
+features,1472,Items of central focus
+features,1473,Nature
+features,1474,Diagonal lines
+features,1475,Green and brown colored objects
+features,1476,Stairs
+features,1477,Views of the mountaintop
+features,1478,"Building, people"
+features,1479,The ground
+features,1480,Areas around items of central focus and edges
+features,1481,Top of a building
+features,1482,Top of a building
+features,1483,Green grass
+features,1484,Brown colored objects
+features,1485,Top of a building
+features,1486,Buildings
+features,1487,Top of a building
+features,1488,Wall art
+features,1489,Nature
+features,1490,Trees
+features,1491,Buses
+features,1492,Trees
+features,1493,Poles
+features,1494,Brown colored objects
+features,1495,Doors and windows
+features,1496,Windows
+features,1497,Food
+features,1498,Windows
+features,1499,Windows
+features,1500,Trees
+features,1501,Vertical lines
+features,1502,Windows
+features,1503,Green grass
+features,1504,Regions with straight features
+features,1505,Top of a building
+features,1506,Windows
+features,1507,Windows
+features,1508,Faces of human beings
+features,1509,Areas around items of central focus and edges
+features,1510,Diagonal lines
+features,1511,Green and brown colored objects
+features,1512,Diagonal lines
+features,1513,Top of a building
+features,1514,Windows
+features,1515,Windows of a building
+features,1516,"Building, people"
+features,1517,Diagonal lines
+features,1518,Buses
+features,1519,Columns
+features,1520,Circular objects
+features,1521,Pools
+features,1522,Buses
+features,1523,Trees
+features,1524,Green grass
+features,1525,Windows
+features,1526,Plants
+features,1527,Windows
+features,1528,Poles
+features,1529,Red and white colored objects
+features,1530,Poles
+features,1531,Diagonal lines
+features,1532,Wall art
+features,1533,Top of a building
+features,1534,Green and brown colored objects
+features,1535,Lights
+features,1536,Buildings
+features,1537,Green grass
+features,1538,Green and brown colored objects
+features,1539,Plants
+features,1540,Top of a building
+features,1541,Buildings
+features,1542,Sports stadiums
+features,1543,Buildings
+features,1544,Green grass
+features,1545,Diagonal lines
+features,1546,Poles
+features,1547,Head of people
+features,1548,Black and white colored objects
+features,1549,Yellow and blue colored objects
+features,1550,Plants
+features,1551,Black and white colored objects
+features,1552,Top of a building
+features,1553,Top of a building
+features,1554,Top of a building
+features,1555,Green grass
+features,1556,Pink colored objects
+features,1557,Plants
+features,1558,Top of a building
+features,1559,Poles
+features,1560,Items of central focus
+features,1561,People
+features,1562,Top of a building
+features,1563,Green and brown colored objects
+features,1564,Green and brown colored objects
+features,1565,Sports stadiums
+features,1566,Bright yellow colored objects
+features,1567,Garage doors and windows
+features,1568,Buildings
+features,1569,Wall art
+features,1570,Top of a building
+features,1571,Landscapes
+features,1572,Walls
+features,1573,"Building, sky"
+features,1574,Plants
+features,1575,Athletes
+features,1576,Vertical lines
+features,1577,Items of central focus
+features,1578,Vertical lines
+features,1579,Top of a building
+features,1580,Lights
+features,1581,Black and white colored objects
+features,1582,Top of a building
+features,1583,Buildings
+features,1584,"Building, people"
+features,1585,Top of a building
+features,1586,Walls
+features,1587,Walls
+features,1588,Top of a building
+features,1589,Brown colored objects
+features,1590,Lights
+features,1591,Windows
+features,1592,Green grass
+features,1593,Nature
+features,1594,Vertical lines
+features,1595,Green and brown colored objects
+features,1596,Cars and planes
+features,1597,Red and white colored objects
+features,1598,Green grass
+features,1599,Faces of human beings
+features,1600,Red and white colored objects
+features,1601,Sports stadiums
+features,1602,Heads of peoples
+features,1603,People
+features,1604,Bright yellow colored objects
+features,1605,Poles
+features,1606,People
+features,1607,Top of a building
+features,1608,Top of a building
+features,1609,Cars and buildings
+features,1610,Top of a building
+features,1611,Green and brown colored objects
+features,1612,Diagonal lines
+features,1613,Cars and people
+features,1614,Top of a building
+features,1615,Top of a building
+features,1616,Nature
+features,1617,Landscapes
+features,1618,Reflective surfaces
+features,1619,Bees wax
+features,1620,Black and white colored objects
+features,1621,Walls
+features,1622,Windows
+features,1623,Windows
+features,1624,Red and white colored objects
+features,1625,Bright yellow colored objects
+features,1626,"Building, windows"
+features,1627,Poles
+features,1628,Waterfalls
+features,1629,Heads of peoples
+features,1630,Top of a building
+features,1631,Plants
+features,1632,Poles
+features,1633,Green colored objects
+features,1634,People
+features,1635,Green and brown colored objects
+features,1636,Green grass
+features,1637,Black and white colored objects
+features,1638,Colorful items
+features,1639,Plants
+features,1640,Buildings
+features,1641,Diagonal lines
+features,1642,Poles and legs
+features,1643,Plants
+features,1644,Black and white colored objects
+features,1645,Side view of a car
+features,1646,Arches
+features,1647,Wall art
+features,1648,"Building, people"
+features,1649,Nature
+features,1650,Vertical lines
+features,1651,Vertical lines
+features,1652,Circular objects
+features,1653,Columns
+features,1654,Buildings
+features,1655,Nature
+features,1656,Buildings and doors
+features,1657,Structures
+features,1658,Top of a building
+features,1659,Vertical lines
+features,1660,Top of a building
+features,1661,Plants
+features,1662,Buildings and doors
+features,1663,Green grass
+features,1664,Views of the mountaintop
+features,1665,Diagonal lines
+features,1666,Green and brown colored objects
+features,1667,Plants
+features,1668,Top of a building
+features,1669,Poles
+features,1670,Windows
+features,1671,Vertical lines
+features,1672,Bookcases
+features,1673,Plants
+features,1674,Items of central focus
+features,1675,Brown colored objects
+features,1676,Nature
+features,1677,Black and white colored objects
+features,1678,Top of a building
+features,1679,"Building, windows"
+features,1680,Top of a building
+features,1681,Regions with straight features
+features,1682,Top of a building
+features,1683,Head of people
+features,1684,Green and brown colored objects
+features,1685,Green and brown colored objects
+features,1686,Green and brown colored objects
+features,1687,Columns
+features,1688,Green grass
+features,1689,Top of a building
+features,1690,Poles
+features,1691,Wall art
+features,1692,Red and white colored objects
+features,1693,Green grass
+features,1694,Lights
+features,1695,Nature
+features,1696,Cars and trees
+features,1697,Lights
+features,1698,Green grass
+features,1699,Poles
+features,1700,Brown colored objects
+features,1701,Black and white colored objects
+features,1702,Yellow and blue colored objects
+features,1703,Trees
+features,1704,Green and brown colored objects
+features,1705,Wall art
+features,1706,Top of a building
+features,1707,"Building, trees"
+features,1708,Windows
+features,1709,Top of a building
+features,1710,Green and brown colored objects
+features,1711,Green and brown colored objects
+features,1712,People
+features,1713,Top of a building
+features,1714,Red and white colored objects
+features,1715,Windows
+features,1716,Brown colored objects
+features,1717,Top of a building
+features,1718,Green grass
+features,1719,Green and brown colored objects
+features,1720,Green and brown colored objects
+features,1721,Poles
+features,1722,Green and brown colored objects
+features,1723,Black and white colored objects
+features,1724,Green and brown colored objects
+features,1725,Structures
+features,1726,People
+features,1727,Old hotel signs
+features,1728,Windows
+features,1729,Top of a building
+features,1730,Poles
+features,1731,Vertical lines
+features,1732,Green and brown colored objects
+features,1733,Lights
+features,1734,Diagonal lines
+features,1735,Green and brown colored objects
+features,1736,Green and brown colored objects
+features,1737,Top of a building
+features,1738,People
+features,1739,Cars and buildings
+features,1740,Buildings
+features,1741,Top of a building
+features,1742,Trees
+features,1743,Green and brown colored objects
+features,1744,Old hotel signs
+features,1745,Top of a building
+features,1746,Windows
+features,1747,Green grass
+features,1748,Yellow and blue colored objects
+features,1749,Green and brown colored objects
+features,1750,Buildings
+features,1751,Corners of different places
+features,1752,Green grass
+features,1753,Buildings
+features,1754,Poles
+features,1755,Top of a building
+features,1756,Green grass
+features,1757,Red and white colored objects
+features,1758,Buildings
+features,1759,Landscapes
+features,1760,Vertical lines
+features,1761,Plants
+features,1762,Green grass
+features,1763,Poles
+features,1764,Poles and legs
+features,1765,Green grass
+features,1766,"Building, people"
+features,1767,Windows
+features,1768,Pools
+features,1769,Cars and trees
+features,1770,Windows
+features,1771,Green grass
+features,1772,Brown colored objects
+features,1773,Lights
+features,1774,Pools
+features,1775,Black and white colored objects
+features,1776,Windows
+features,1777,Nature
+features,1778,Bright yellow colored objects
+features,1779,Vertical lines
+features,1780,People
+features,1781,Diagonal lines
+features,1782,Poles and legs
+features,1783,Diagonal lines
+features,1784,Poles
+features,1785,Green grass
+features,1786,Waterfalls
+features,1787,Pink colored objects
+features,1788,Windows
+features,1789,"Building, people"
+features,1790,Trees
+features,1791,Poles
+features,1792,Windows
+features,1793,Top of a building
+features,1794,Green and brown colored objects
+features,1795,Diagonal lines
+features,1796,Corners of different places
+features,1797,Green and brown colored objects
+features,1798,Green and brown colored objects
+features,1799,Nature
+features,1800,Furniture
+features,1801,Items of central focus
+features,1802,The ground
+features,1803,Vertical lines
+features,1804,Windows
+features,1805,Black and white colored objects
+features,1806,Poles
+features,1807,Buildings
+features,1808,Buildings
+features,1809,People
+features,1810,Vertical lines
+features,1811,Green and brown colored objects
+features,1812,Black and white colored objects
+features,1813,Wall art
+features,1814,Head of people
+features,1815,Nature
+features,1816,Nature
+features,1817,Windows of a building
+features,1818,Views of the mountaintop
+features,1819,Black and white colored objects
+features,1820,Green grass
+features,1821,Items of central focus
+features,1822,Green and brown colored objects
+features,1823,Top of a building
+features,1824,Green grass
+features,1825,People
+features,1826,Red and white colored objects
+features,1827,Green and brown colored objects
+features,1828,Water
+features,1829,Legs
+features,1830,Black and white colored objects
+features,1831,Sports fields
+features,1832,Water
+features,1833,The ground
+features,1834,Faces of human beings
+features,1835,Green grass
+features,1836,Legs
+features,1837,Pink colored objects
+features,1838,Buildings
+features,1839,Athletes
+features,1840,People 's legs
+features,1841,Columns
+features,1842,Head of people
+features,1843,The sky
+features,1844,Poles
+features,1845,Plants
+features,1846,Walls
+features,1847,Areas around a central focus
+features,1848,Old cottage homes
+features,1849,Top of a building
+features,1850,Top of a building
+features,1851,Poles
+features,1852,Views of the mountaintop
+features,1853,Lights
+features,1854,Black and white colored objects
+features,1855,Green and brown colored objects
+features,1856,Green and brown colored objects
+features,1857,People 's heads
+features,1858,Buildings
+features,1859,Pink colored objects
+features,1860,Top of a building
+features,1861,Nature
+features,1862,Circular objects
+features,1863,Reflective surfaces
+features,1864,Vertical lines
+features,1865,Nature
+features,1866,Poles
+features,1867,People
+features,1868,Green and brown colored objects
+features,1869,Diagonal lines
+features,1870,People
+features,1871,Circular objects
+features,1872,Windows
+features,1873,Head of people
+features,1874,Poles
+features,1875,Athletes
+features,1876,Nature
+features,1877,Corners of different places
+features,1878,Green and brown colored objects
+features,1879,Poles and legs
+features,1880,Stair cases
+features,1881,Waterfalls
+features,1882,White colored object with black border
+features,1883,Columns
+features,1884,People
+features,1885,Blue objects
+features,1886,Lights
+features,1887,Sports stadiums
+features,1888,Top of a building
+features,1889,Ice cream people
+features,1890,Plants
+features,1891,Trees
+features,1892,Green grass
+features,1893,Green and brown colored objects
+features,1894,Heads
+features,1895,Horizontal lines
+features,1896,Green and brown colored objects
+features,1897,The ground
+features,1898,Yellow and blue colored objects
+features,1899,Green grass
+features,1900,Walls
+features,1901,Vertical lines
+features,1902,Landscapes
+features,1903,Grass and water
+features,1904,Green grass
+features,1905,Poles
+features,1906,Yellow and blue colored objects
+features,1907,"Water, people"
+features,1908,"Water, grass, people"
+features,1909,"The sky, trees, building"
+features,1910,Windows
+features,1911,Faces of human beings
+features,1912,Plants
+features,1913,Green and brown colored objects
+features,1914,Head of people
+features,1915,Items of central focus
+features,1916,Lights
+features,1917,"Building, people"
+features,1918,Legs
+features,1919,Green and brown colored objects
+features,1920,Walls
+features,1921,Windows
+features,1922,Windows
+features,1923,Green and brown colored objects
+features,1924,Items of central focus
+features,1925,Faces of human beings
+features,1926,Windows
+features,1927,Diagonal lines
+features,1928,People 's heads
+features,1929,Lights
+features,1930,Green grass
+features,1931,Windows
+features,1932,Buildings
+features,1933,Windows
+features,1934,Green grass
+features,1935,Windows of a building
+features,1936,Heads of peoples
+features,1937,Green grass
+features,1938,Items of central focus
+features,1939,Trees
+features,1940,Black and white colored objects
+features,1941,Lights
+features,1942,Vertical lines
+features,1943,Poles and legs
+features,1944,Poles
+features,1945,Green and brown colored objects
+features,1946,Brown colored objects
+features,1947,Vertical lines
+features,1948,Diagonal lines
+features,1949,Trees
+features,1950,Green and brown colored objects
+features,1951,Green grass
+features,1952,Green and brown colored objects
+features,1953,Food
+features,1954,Horizontal lines
+features,1955,Green and brown colored objects
+features,1956,Top of a building
+features,1957,Diagonal lines
+features,1958,Buildings
+features,1959,Green and brown colored objects
+features,1960,Poles and legs
+features,1961,"Building, people"
+features,1962,Green grass
+features,1963,Black and white colored objects
+features,1964,People
+features,1965,Lights
+features,1966,Brown colored objects
+features,1967,Green and brown colored objects
+features,1968,Diagonal lines
+features,1969,Top of a building
+features,1970,Vertical lines
+features,1971,"Building, people"
+features,1972,People
+features,1973,Buildings and trees
+features,1974,Poles
+features,1975,Vertical lines
+features,1976,Top of a building
+features,1977,Brown colored objects
+features,1978,Black and white colored objects
+features,1979,Top of a building
+features,1980,Doors and windows
+features,1981,Red colored object with text
+features,1982,Wall art
+features,1983,Horses and grass
+features,1984,Heads
+features,1985,Head of people
+features,1986,Black and white colored objects
+features,1987,Diagonal lines
+features,1988,Buildings
+features,1989,The ground
+features,1990,Diagonal lines
+features,1991,Top of a building
+features,1992,Green and brown colored objects
+features,1993,Poles and legs
+features,1994,Views of the mountaintop
+features,1995,Black and white colored objects
+features,1996,Items of central focus
+features,1997,Horizontal lines
+features,1998,Green and brown colored objects
+features,1999,Poles
+features,2000,Green and brown colored objects
+features,2001,Green grass
+features,2002,Red and white colored objects
+features,2003,Windows
+features,2004,Wall art
+features,2005,Poles
+features,2006,Windows
+features,2007,Poles
+features,2008,"Water, sky, people"
+features,2009,People
+features,2010,Brown colored objects
+features,2011,Top of a building
+features,2012,Sports stadiums
+features,2013,Black and white colored objects
+features,2014,Lights
+features,2015,Windows
+features,2016,Regions with straight features
+features,2017,Poles
+features,2018,Windows
+features,2019,Poles
+features,2020,Plants
+features,2021,Heads of peoples
+features,2022,Plants
+features,2023,Poles
+features,2024,Top of a building
+features,2025,Green grass
+features,2026,"Building, people"
+features,2027,Wall art
+features,2028,Heads of peoples
+features,2029,"Water, people"
+features,2030,Poles and legs
+features,2031,Green grass
+features,2032,Landscapes
+features,2033,Green and brown colored objects
+features,2034,Top of a building
+features,2035,People
+features,2036,Green and brown colored objects
+features,2037,Poles and legs
+features,2038,Views of the mountaintop
+features,2039,Poles
+features,2040,Waterfalls
+features,2041,"Building, people"
+features,2042,Diagonal lines
+features,2043,Black and white colored objects
+features,2044,Heads of peoples
+features,2045,Green and brown colored objects
+features,2046,Plants
+features,2047,Vertical lines
+features,2048,Yellow and blue colored objects
+features,2049,Windows
+features,2050,Regions with straight features
+features,2051,Bright lights
+features,2052,"Building, people"
+features,2053,People
+features,2054,Black and white colored objects
+features,2055,Arches
+features,2056,Buildings
+features,2057,Black and white colored objects
+features,2058,Diagonal lines
+features,2059,Green and brown colored objects
+features,2060,Stairs
+features,2061,Vertical lines
+features,2062,White colored object with black border
+features,2063,Top of a building
+features,2064,Green grass
+features,2065,Buildings
+features,2066,Grass and flowers
+features,2067,Wall art
+features,2068,Buildings
+features,2069,Top of a building
+features,2070,Green and brown colored objects
+features,2071,Lights
+features,2072,Green and brown colored objects
+features,2073,Green grass
+features,2074,Top of a building
+features,2075,Green grass
+features,2076,Lights
+features,2077,"Building, people"
+features,2078,Green grass
+features,2079,Buildings
+features,2080,"Building, people"
+features,2081,Buildings
+features,2082,Lights
+features,2083,Windows
+features,2084,Green grass
+features,2085,Red and white colored objects
+features,2086,Green and brown colored objects
+features,2087,Food
+features,2088,Views of the mountaintop
+features,2089,Trees
+features,2090,Top of a building
+features,2091,Poles and legs
+features,2092,Lights
+features,2093,Green grass
+features,2094,Diagonal lines
+features,2095,Green grass
+features,2096,Green and brown colored objects
+features,2097,Faces of human beings
+features,2098,Buildings
+features,2099,Lights
+features,2100,Lights
+features,2101,Lights
+features,2102,Lights
+features,2103,Lights
+features,2104,Top of a building
+features,2105,Top of a building
+features,2106,Windows
+features,2107,Top of a building
+features,2108,Top of a building
+features,2109,Green and brown colored objects
+features,2110,Areas around central items
+features,2111,Views of the mountaintop
+features,2112,Heads of peoples
+features,2113,Black and white colored objects
+features,2114,Black and white colored objects
+features,2115,"Building, people"
+features,2116,Windows
+features,2117,Doors and windows
+features,2118,"Building, people"
+features,2119,Windows
+features,2120,Wall art
+features,2121,Black and white colored objects
+features,2122,Wall art
+features,2123,Vertical lines
+features,2124,Top of a building
+features,2125,Diagonal lines
+features,2126,Columns
+features,2127,Poles and legs
+features,2128,Green and brown colored objects
+features,2129,White colored object with black border
+features,2130,Top of a building
+features,2131,Poles
+features,2132,Diagonal lines
+features,2133,Poles and legs
+features,2134,Vertical lines
+features,2135,Lights
+features,2136,Poles
+features,2137,Red and white colored objects
+features,2138,Top of a building
+features,2139,Windows
+features,2140,Diagonal lines
+features,2141,Colorful items
+features,2142,Black and white colored objects
+features,2143,Buildings
+features,2144,Wall art
+features,2145,Wall art
+features,2146,Plants
+features,2147,Poles
+features,2148,Areas with straight features
+features,2149,Green and brown colored objects
+features,2150,Green grass
+features,2151,"Building, people"
+features,2152,Lights
+features,2153,Poles and legs
+features,2154,Food
+features,2155,Lights
+features,2156,Windows of a building
+features,2157,People
+features,2158,Areas around items of central focus and edges
+features,2159,Black and white colored objects
+features,2160,Colorful items
+features,2161,Diagonal lines
+features,2162,Lights
+features,2163,Athletes
+features,2164,Green colored objects
+features,2165,Columns
+features,2166,Outdoor landscapes
+features,2167,Items of central focus
+features,2168,Top of a building
+features,2169,Landscapes
+features,2170,Green and brown colored objects
+features,2171,Buildings
+features,2172,Poles and legs
+features,2173,Green grass
+features,2174,Sports stadiums
+features,2175,Green and brown colored objects
+features,2176,Walls
+features,2177,Sports stadiums
+features,2178,Top of a building
+features,2179,Wall art
+features,2180,Circular objects
+features,2181,Top of a building
+features,2182,Buildings
+features,2183,Trees
+features,2184,Athletes
+features,2185,Areas around a central focus
+features,2186,Plants and flowers
+features,2187,Poles
+features,2188,Trees and crowds
+features,2189,Top of a building
+features,2190,Windows
+features,2191,Plants
+features,2192,Green grass
+features,2193,Poles
+features,2194,Poles and legs
+features,2195,Views of the mountaintop
+features,2196,Plants
+features,2197,"Building, people"
+features,2198,Trees
+features,2199,Top of a building
+features,2200,Plants
+features,2201,Buildings and produce
+features,2202,Lights
+features,2203,Plants
+features,2204,Waterfalls
+features,2205,Edges of things
+features,2206,People
+features,2207,The ground

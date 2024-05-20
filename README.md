@@ -1,7 +1,7 @@
 <!--<br/><br/>
 <p align="center">
   <img width="450" src="https://github.com/annahedstroem/sanity-checks-revisited/blob/394f166226e4ac415c6534e0e0441d8b3c9258f2/emprt_smprt_logo.png">
-<!--<h3 align="center"><b>Concept Synthesis: Evaluation of Concept-based Textual Explanations</b></h3>
+<!--<h3 align="center"><b>CoSy: Evaluating Textual Explanations of Neurons with Concept Synthesis</b></h3>
 <p align="center">
   PyTorch-->
 

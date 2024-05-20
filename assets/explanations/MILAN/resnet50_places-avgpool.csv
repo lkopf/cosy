@@ -1,0 +1,2049 @@
+layer,unit,description
+avgpool,0,Green grass
+avgpool,1,Buildings
+avgpool,2,Pools
+avgpool,3,Corners of different places
+avgpool,4,Buildings
+avgpool,5,Green grass
+avgpool,6,Trees
+avgpool,7,Top of a building
+avgpool,8,Black and white colored objects
+avgpool,9,Windows
+avgpool,10,Regions with straight features
+avgpool,11,Nature
+avgpool,12,Diagonal lines
+avgpool,13,Windows and doors
+avgpool,14,Green and brown colored objects
+avgpool,15,Walls
+avgpool,16,Green grass
+avgpool,17,Red colored object with text
+avgpool,18,Food
+avgpool,19,Windows
+avgpool,20,"Building, people"
+avgpool,21,Vertical lines
+avgpool,22,Buildings
+avgpool,23,"Building, people"
+avgpool,24,Green colored objects
+avgpool,25,Black and white colored objects
+avgpool,26,Buildings
+avgpool,27,People
+avgpool,28,Green grass
+avgpool,29,Towers
+avgpool,30,Stairs
+avgpool,31,Sign boards with text in it
+avgpool,32,Peoples legs
+avgpool,33,People
+avgpool,34,Heads
+avgpool,35,Colorful items
+avgpool,36,Green grass
+avgpool,37,Buildings
+avgpool,38,Trees
+avgpool,39,Waterfalls
+avgpool,40,"Building, people"
+avgpool,41,Windows
+avgpool,42,Lights
+avgpool,43,The ground
+avgpool,44,Green grass
+avgpool,45,Black and white colored objects
+avgpool,46,Corners of different places
+avgpool,47,Flowers and flowers
+avgpool,48,Windows
+avgpool,49,People
+avgpool,50,Areas around a central focus
+avgpool,51,Mountains and water
+avgpool,52,Sports fields
+avgpool,53,Vertical lines
+avgpool,54,Water
+avgpool,55,Pools
+avgpool,56,Red and white colored objects
+avgpool,57,Pools
+avgpool,58,Windows
+avgpool,59,Shelves
+avgpool,60,Windows
+avgpool,61,Black and white colored objects
+avgpool,62,Furniture
+avgpool,63,Windows
+avgpool,64,Windows
+avgpool,65,Buildings
+avgpool,66,Regions with straight features
+avgpool,67,Arches
+avgpool,68,Vertical lines
+avgpool,69,Water
+avgpool,70,Green and brown colored objects
+avgpool,71,Colorful items
+avgpool,72,Windows
+avgpool,73,Black and white colored objects
+avgpool,74,White colored object with black border
+avgpool,75,Green and brown colored objects
+avgpool,76,"Building, windows, people"
+avgpool,77,Vertical lines
+avgpool,78,Bookcases
+avgpool,79,Ice
+avgpool,80,Green and brown colored objects
+avgpool,81,Windows
+avgpool,82,Sign boards with text in it
+avgpool,83,Vertical lines
+avgpool,84,"Water, people"
+avgpool,85,People
+avgpool,86,Nature
+avgpool,87,Plants
+avgpool,88,Cars and planes
+avgpool,89,Buildings
+avgpool,90,Horizontal lines
+avgpool,91,Diagonal lines
+avgpool,92,Windows
+avgpool,93,Diagonal lines
+avgpool,94,Trees
+avgpool,95,Trees
+avgpool,96,Vertical lines
+avgpool,97,Walls
+avgpool,98,Plants
+avgpool,99,Walls
+avgpool,100,Red colored object with text
+avgpool,101,Green grass
+avgpool,102,Items of central focus
+avgpool,103,Circular objects
+avgpool,104,Buildings
+avgpool,105,Diagonal lines
+avgpool,106,Diagonal lines
+avgpool,107,The sky
+avgpool,108,Windows
+avgpool,109,Nature
+avgpool,110,Lights
+avgpool,111,Top of a building
+avgpool,112,"Building, sky"
+avgpool,113,Landscapes
+avgpool,114,Landscapes
+avgpool,115,Diagonal lines
+avgpool,116,Green and brown colored objects
+avgpool,117,Bridges and gazebos
+avgpool,118,Food
+avgpool,119,Windows
+avgpool,120,Mountains and people
+avgpool,121,Green grass
+avgpool,122,Windows
+avgpool,123,"Water, trees, people"
+avgpool,124,Water
+avgpool,125,Buildings
+avgpool,126,Grass and flowers
+avgpool,127,Trees and people
+avgpool,128,Poles
+avgpool,129,The ground
+avgpool,130,Nature
+avgpool,131,Lights
+avgpool,132,Diagonal lines
+avgpool,133,People 's heads
+avgpool,134,Ice
+avgpool,135,Nature
+avgpool,136,Items of central focus
+avgpool,137,Sports fields
+avgpool,138,Windows
+avgpool,139,Tree branches without leaves
+avgpool,140,Faces of human beings
+avgpool,141,Faces of human beings
+avgpool,142,Trees
+avgpool,143,"Water, trees, people"
+avgpool,144,Top of a building
+avgpool,145,Walls
+avgpool,146,Top of a building
+avgpool,147,Windows
+avgpool,148,Head of people
+avgpool,149,Buildings
+avgpool,150,Flowers and flowers
+avgpool,151,Objects with stripes in it
+avgpool,152,People
+avgpool,153,Corners of different places
+avgpool,154,Plants
+avgpool,155,Top of a building
+avgpool,156,Green grass
+avgpool,157,Plants
+avgpool,158,Windows
+avgpool,159,People
+avgpool,160,Diagonal lines
+avgpool,161,Cars
+avgpool,162,Buildings
+avgpool,163,Top of a building
+avgpool,164,"Building, people"
+avgpool,165,Nature
+avgpool,166,Buildings
+avgpool,167,Top of a building
+avgpool,168,Plants
+avgpool,169,Vertical lines
+avgpool,170,Trees
+avgpool,171,Diagonal lines
+avgpool,172,Red and white colored objects
+avgpool,173,Top of a building
+avgpool,174,Trees
+avgpool,175,Diagonal lines
+avgpool,176,Buildings and shelves
+avgpool,177,Trees
+avgpool,178,People
+avgpool,179,Head of people
+avgpool,180,Towers
+avgpool,181,Windows
+avgpool,182,Green grass
+avgpool,183,Diagonal lines
+avgpool,184,Waterfalls
+avgpool,185,Bookcases
+avgpool,186,Diagonal lines
+avgpool,187,Outdoor landscapes
+avgpool,188,Walkways
+avgpool,189,Food
+avgpool,190,Black and white colored objects
+avgpool,191,Buildings
+avgpool,192,Old buildings
+avgpool,193,Poles
+avgpool,194,Top of a building
+avgpool,195,Flowers and flowers
+avgpool,196,Walls
+avgpool,197,Trees
+avgpool,198,Views of the mountaintop
+avgpool,199,Doors and windows
+avgpool,200,Windows
+avgpool,201,Items of central focus
+avgpool,202,Items of central focus
+avgpool,203,Windows
+avgpool,204,People
+avgpool,205,Trees and people
+avgpool,206,Windows
+avgpool,207,The ground
+avgpool,208,The sky
+avgpool,209,Green grass
+avgpool,210,People
+avgpool,211,Trees
+avgpool,212,People
+avgpool,213,Windows
+avgpool,214,Nature
+avgpool,215,The sky
+avgpool,216,Views of the mountaintop
+avgpool,217,Buildings
+avgpool,218,Green and brown colored objects
+avgpool,219,Lights
+avgpool,220,Buildings and doors
+avgpool,221,The sky
+avgpool,222,Food
+avgpool,223,People
+avgpool,224,Arches
+avgpool,225,Bright yellow colored objects
+avgpool,226,Red objects
+avgpool,227,People
+avgpool,228,Pools
+avgpool,229,"Trees, water, people"
+avgpool,230,Regions with straight features
+avgpool,231,Lights
+avgpool,232,Windows
+avgpool,233,Stairs
+avgpool,234,Sports stadiums
+avgpool,235,Diagonal lines
+avgpool,236,Plants
+avgpool,237,Walls
+avgpool,238,Green grass
+avgpool,239,Pools
+avgpool,240,Buildings
+avgpool,241,Nature
+avgpool,242,Areas around items of central focus and edges
+avgpool,243,Plants
+avgpool,244,Diagonal lines
+avgpool,245,Diagonal lines
+avgpool,246,Towers
+avgpool,247,Black and white colored objects
+avgpool,248,People
+avgpool,249,Black and white colored objects
+avgpool,250,Green and brown colored objects
+avgpool,251,Green and brown colored objects
+avgpool,252,Nature
+avgpool,253,Windows
+avgpool,254,Lights
+avgpool,255,Vertical lines
+avgpool,256,Trees
+avgpool,257,Items of central focus
+avgpool,258,Nature
+avgpool,259,Plants
+avgpool,260,Lights
+avgpool,261,Wooden furniture
+avgpool,262,Windows
+avgpool,263,Black and white colored objects
+avgpool,264,Green and brown colored objects
+avgpool,265,Bookcases
+avgpool,266,Cars
+avgpool,267,"Building, windows"
+avgpool,268,Grass and flowers
+avgpool,269,Top of a building
+avgpool,270,People
+avgpool,271,Cars and planes
+avgpool,272,Trees
+avgpool,273,Poles
+avgpool,274,Outdoor landscapes
+avgpool,275,Trees
+avgpool,276,Vertical lines
+avgpool,277,Windows
+avgpool,278,Green and brown colored objects
+avgpool,279,Nature
+avgpool,280,Green grass
+avgpool,281,Orange and red objects
+avgpool,282,Sport activity
+avgpool,283,"Building, sky"
+avgpool,284,Items of central focus
+avgpool,285,Items of central focus
+avgpool,286,Pools
+avgpool,287,Trees
+avgpool,288,Top of a building
+avgpool,289,Diagonal lines
+avgpool,290,Buildings
+avgpool,291,Pools
+avgpool,292,Plants
+avgpool,293,People
+avgpool,294,Green grass
+avgpool,295,Green and brown colored objects
+avgpool,296,Windows
+avgpool,297,Green grass
+avgpool,298,Buildings
+avgpool,299,Heads of peoples
+avgpool,300,Black and white colored objects
+avgpool,301,Poles and legs
+avgpool,302,People
+avgpool,303,Windows and doors
+avgpool,304,Sign boards with text in it
+avgpool,305,Landscapes
+avgpool,306,Plants
+avgpool,307,Head of people
+avgpool,308,"Building, people"
+avgpool,309,Bright lights
+avgpool,310,Ice
+avgpool,311,Windows
+avgpool,312,Structures and landscapes
+avgpool,313,Diagonal lines
+avgpool,314,Green grass
+avgpool,315,Buildings
+avgpool,316,Mountains and valleys
+avgpool,317,Buildings
+avgpool,318,Top of a building
+avgpool,319,Top of a building
+avgpool,320,Plants
+avgpool,321,"Water, trees, building"
+avgpool,322,Plants
+avgpool,323,Trees
+avgpool,324,Windows
+avgpool,325,Water
+avgpool,326,Red and white colored objects
+avgpool,327,Athletes
+avgpool,328,Head of people
+avgpool,329,Top of a building
+avgpool,330,Nature
+avgpool,331,Regions with straight features
+avgpool,332,Nature
+avgpool,333,Furniture
+avgpool,334,"Water, trees, people"
+avgpool,335,Buildings
+avgpool,336,Plants
+avgpool,337,Items of central focus
+avgpool,338,Green and brown colored objects
+avgpool,339,Signs
+avgpool,340,Stairs
+avgpool,341,Plants
+avgpool,342,Landscapes
+avgpool,343,Plants
+avgpool,344,Cars and grass
+avgpool,345,"Building, sky"
+avgpool,346,Black and white colored objects
+avgpool,347,Tables
+avgpool,348,The ground
+avgpool,349,Head of people
+avgpool,350,Windows
+avgpool,351,Diagonal lines
+avgpool,352,Landscapes
+avgpool,353,Lights and strawberries
+avgpool,354,Structures
+avgpool,355,Cars and planes
+avgpool,356,People
+avgpool,357,Black and white colored objects
+avgpool,358,Black and white colored objects
+avgpool,359,Buildings
+avgpool,360,Buildings
+avgpool,361,Buildings
+avgpool,362,Trees
+avgpool,363,Top of a building
+avgpool,364,Structures
+avgpool,365,Circular objects
+avgpool,366,Flowers and flowers
+avgpool,367,Red colored object with text
+avgpool,368,People
+avgpool,369,Windows
+avgpool,370,Black and white colored objects
+avgpool,371,Towers
+avgpool,372,Buildings
+avgpool,373,Pools
+avgpool,374,Nature
+avgpool,375,Top of a building
+avgpool,376,People
+avgpool,377,Bookcases
+avgpool,378,"Trees, water, people"
+avgpool,379,Water
+avgpool,380,People and animals
+avgpool,381,Red colored object with text
+avgpool,382,The ground
+avgpool,383,Windows
+avgpool,384,Buildings
+avgpool,385,Green and brown colored objects
+avgpool,386,Structures and landscapes
+avgpool,387,Top of a building
+avgpool,388,Top of a building
+avgpool,389,Walls
+avgpool,390,Corners of different places
+avgpool,391,Trees
+avgpool,392,Plants
+avgpool,393,Poles
+avgpool,394,Circular objects
+avgpool,395,Diagonal lines
+avgpool,396,Legs
+avgpool,397,Buildings
+avgpool,398,Poles
+avgpool,399,Lights
+avgpool,400,Poles
+avgpool,401,Poles
+avgpool,402,The sky
+avgpool,403,Lights
+avgpool,404,Plants
+avgpool,405,Green and brown colored objects
+avgpool,406,People
+avgpool,407,Shelves
+avgpool,408,Buildings
+avgpool,409,Buildings
+avgpool,410,Colorful items
+avgpool,411,Green grass
+avgpool,412,Poles
+avgpool,413,Lights
+avgpool,414,Food
+avgpool,415,Windows
+avgpool,416,Ice
+avgpool,417,Water
+avgpool,418,Diagonal lines
+avgpool,419,Windows
+avgpool,420,Landscapes
+avgpool,421,Diagonal lines
+avgpool,422,Buildings
+avgpool,423,Items of central focus
+avgpool,424,Green and brown colored objects
+avgpool,425,Colorful items
+avgpool,426,Top of a building
+avgpool,427,Columns
+avgpool,428,Regions with straight features
+avgpool,429,Cars and planes
+avgpool,430,Diagonal lines
+avgpool,431,Green and brown colored objects
+avgpool,432,Arches
+avgpool,433,Bright yellow colored objects
+avgpool,434,"Water, trees, people"
+avgpool,435,Green grass
+avgpool,436,Windows
+avgpool,437,A windmill farm
+avgpool,438,Top of a building
+avgpool,439,Green and brown colored objects
+avgpool,440,Buses
+avgpool,441,Top of a building
+avgpool,442,Green grass
+avgpool,443,Landscapes
+avgpool,444,Top of a building
+avgpool,445,Lights
+avgpool,446,People
+avgpool,447,Landscapes
+avgpool,448,People 's legs
+avgpool,449,Outdoor landscapes
+avgpool,450,Trees and people
+avgpool,451,Buildings
+avgpool,452,Items of central focus
+avgpool,453,Poles and legs
+avgpool,454,Bookcases
+avgpool,455,Blue colored objects
+avgpool,456,Nature
+avgpool,457,Windows
+avgpool,458,Items of central focus
+avgpool,459,Windows
+avgpool,460,Athletes
+avgpool,461,Diagonal lines
+avgpool,462,Poles and legs
+avgpool,463,Trees
+avgpool,464,Green grass
+avgpool,465,Areas around a central focus
+avgpool,466,Buildings
+avgpool,467,Lights
+avgpool,468,Buildings
+avgpool,469,Trees
+avgpool,470,Green and brown colored objects
+avgpool,471,"Water, people"
+avgpool,472,Bright yellow colored objects
+avgpool,473,Poles
+avgpool,474,"Building, sky"
+avgpool,475,Diagonal lines
+avgpool,476,Landscapes
+avgpool,477,Pools
+avgpool,478,"Nature, building"
+avgpool,479,Walls
+avgpool,480,Walls
+avgpool,481,Green and brown colored objects
+avgpool,482,"Food, people"
+avgpool,483,Vertical lines
+avgpool,484,Corners of different places
+avgpool,485,Plants
+avgpool,486,Diagonal lines
+avgpool,487,Buses
+avgpool,488,Buildings
+avgpool,489,Food
+avgpool,490,Green grass
+avgpool,491,Top of a building
+avgpool,492,Poles
+avgpool,493,Poles
+avgpool,494,People
+avgpool,495,Mountain
+avgpool,496,Top of a building
+avgpool,497,Landscapes
+avgpool,498,Poles
+avgpool,499,Plants
+avgpool,500,Poles
+avgpool,501,Lights
+avgpool,502,Plants
+avgpool,503,Landscapes
+avgpool,504,Green grass
+avgpool,505,Buildings
+avgpool,506,Food
+avgpool,507,Top of a building
+avgpool,508,Buildings
+avgpool,509,Windows
+avgpool,510,Diagonal lines
+avgpool,511,Sports fields
+avgpool,512,Green and brown colored objects
+avgpool,513,Vertical lines
+avgpool,514,Buildings
+avgpool,515,Diagonal lines
+avgpool,516,Vertical lines
+avgpool,517,Buildings
+avgpool,518,Green grass
+avgpool,519,Gray colored objects
+avgpool,520,Top of a building
+avgpool,521,Items of central focus
+avgpool,522,Black and white colored objects
+avgpool,523,People
+avgpool,524,Lights
+avgpool,525,Buildings
+avgpool,526,Buildings
+avgpool,527,Grass fields
+avgpool,528,Diagonal lines
+avgpool,529,Poles and legs
+avgpool,530,Green grass
+avgpool,531,Top of a building
+avgpool,532,Windows
+avgpool,533,Items of central focus
+avgpool,534,People 's legs
+avgpool,535,Green and brown colored objects
+avgpool,536,Green and brown colored objects
+avgpool,537,Regions with straight features
+avgpool,538,Buildings
+avgpool,539,Green grass
+avgpool,540,Circular objects
+avgpool,541,Vertical lines
+avgpool,542,Green grass
+avgpool,543,Food
+avgpool,544,Blue sky and white clouds
+avgpool,545,Buildings
+avgpool,546,Windows
+avgpool,547,Poles
+avgpool,548,Shelving
+avgpool,549,Nature
+avgpool,550,Buildings
+avgpool,551,Poles
+avgpool,552,Buildings
+avgpool,553,Items of central focus
+avgpool,554,Buildings
+avgpool,555,Items of central focus
+avgpool,556,Diagonal lines
+avgpool,557,Top of a building
+avgpool,558,Plants
+avgpool,559,Buildings
+avgpool,560,Four corners of a pizza
+avgpool,561,Buildings
+avgpool,562,People
+avgpool,563,Poles
+avgpool,564,Regions with straight features
+avgpool,565,Grass
+avgpool,566,Nature
+avgpool,567,Windows
+avgpool,568,Green and brown colored objects
+avgpool,569,Windows
+avgpool,570,Windows
+avgpool,571,Plants
+avgpool,572,Corners of different places
+avgpool,573,Doors and windows
+avgpool,574,Plants
+avgpool,575,Top of a building
+avgpool,576,Diagonal lines
+avgpool,577,Windows
+avgpool,578,Head of people
+avgpool,579,Heads
+avgpool,580,Mountains and valleys
+avgpool,581,Poles
+avgpool,582,Regions with straight features
+avgpool,583,Colorful items
+avgpool,584,Furniture
+avgpool,585,The sky and the ground
+avgpool,586,Trees
+avgpool,587,Windows
+avgpool,588,Green and brown colored objects
+avgpool,589,Trees
+avgpool,590,Top of a building
+avgpool,591,Poles
+avgpool,592,Buildings
+avgpool,593,Black and white colored objects
+avgpool,594,Items of central focus
+avgpool,595,Windows
+avgpool,596,Plants
+avgpool,597,Red colored object with text
+avgpool,598,"Water, sky, people"
+avgpool,599,Trees
+avgpool,600,Head of people
+avgpool,601,Green grass
+avgpool,602,Top of a building
+avgpool,603,Blue colored objects
+avgpool,604,Black and white colored objects
+avgpool,605,"Building, people"
+avgpool,606,Green and brown colored objects
+avgpool,607,Faces of human beings
+avgpool,608,Trees
+avgpool,609,Black and white colored objects
+avgpool,610,Green grass
+avgpool,611,Head of people
+avgpool,612,Bookcases
+avgpool,613,Diagonal lines
+avgpool,614,Red colored object with text
+avgpool,615,Garage doors
+avgpool,616,Items with patterns
+avgpool,617,People
+avgpool,618,Top of a building
+avgpool,619,Plants
+avgpool,620,Arches
+avgpool,621,Nature
+avgpool,622,Windows
+avgpool,623,Green and brown colored objects
+avgpool,624,Buildings
+avgpool,625,"Sky, trees, people"
+avgpool,626,Trees
+avgpool,627,Nature
+avgpool,628,People
+avgpool,629,Green and brown colored objects
+avgpool,630,Windows
+avgpool,631,Nature
+avgpool,632,Windows
+avgpool,633,Buildings
+avgpool,634,Buildings
+avgpool,635,Water
+avgpool,636,Nature
+avgpool,637,Lights
+avgpool,638,The ground
+avgpool,639,Sign boards with text in it
+avgpool,640,Food
+avgpool,641,Items of central focus
+avgpool,642,Circular objects
+avgpool,643,Windows
+avgpool,644,People
+avgpool,645,Plants
+avgpool,646,Black and white colored objects
+avgpool,647,Windows
+avgpool,648,Bright yellow colored objects
+avgpool,649,Items of central focus
+avgpool,650,Trees
+avgpool,651,Bookcases
+avgpool,652,Green and brown colored objects
+avgpool,653,Plants
+avgpool,654,Nature
+avgpool,655,Black and white colored objects
+avgpool,656,Green grass
+avgpool,657,Items of central focus
+avgpool,658,Athletes
+avgpool,659,Trees
+avgpool,660,Black and white colored objects
+avgpool,661,Columns
+avgpool,662,Green and brown colored objects
+avgpool,663,People
+avgpool,664,Flowers and flowers
+avgpool,665,Lights
+avgpool,666,Buildings
+avgpool,667,Columns
+avgpool,668,Food
+avgpool,669,Planes and planes
+avgpool,670,Buildings
+avgpool,671,Nature
+avgpool,672,Fences and grass
+avgpool,673,Bright yellow colored objects
+avgpool,674,Red colored object with text
+avgpool,675,Buildings
+avgpool,676,The ground
+avgpool,677,Green grass
+avgpool,678,Circular objects
+avgpool,679,Diagonal lines
+avgpool,680,Plants
+avgpool,681,"Building, people"
+avgpool,682,Furniture
+avgpool,683,The ground
+avgpool,684,Head of people
+avgpool,685,Windows
+avgpool,686,Top of a building
+avgpool,687,Regions with straight features
+avgpool,688,Lights
+avgpool,689,Top of a building
+avgpool,690,Lights
+avgpool,691,Landscapes
+avgpool,692,Red and white colored objects
+avgpool,693,Nature
+avgpool,694,Green and brown colored objects
+avgpool,695,Trees
+avgpool,696,Corners of different places
+avgpool,697,Crowds and people
+avgpool,698,People
+avgpool,699,Mountains and valleys
+avgpool,700,People
+avgpool,701,The ground
+avgpool,702,Windows
+avgpool,703,Items of central focus
+avgpool,704,Vertical lines
+avgpool,705,Green grass
+avgpool,706,Circular objects
+avgpool,707,Nature
+avgpool,708,Athletes
+avgpool,709,Walls
+avgpool,710,Circular objects
+avgpool,711,Vertical lines
+avgpool,712,Windows
+avgpool,713,Landscapes
+avgpool,714,Vertical lines
+avgpool,715,Items of central focus
+avgpool,716,Diagonal lines
+avgpool,717,Vertical lines
+avgpool,718,Buildings
+avgpool,719,Faces of human beings
+avgpool,720,Circular objects
+avgpool,721,Diagonal lines
+avgpool,722,Landscapes
+avgpool,723,Grass and water
+avgpool,724,People
+avgpool,725,Green grass
+avgpool,726,Bookcases
+avgpool,727,Green grass
+avgpool,728,Top of a building
+avgpool,729,Buildings
+avgpool,730,People
+avgpool,731,Lights
+avgpool,732,Buildings
+avgpool,733,Poles
+avgpool,734,Buildings
+avgpool,735,Top of a building
+avgpool,736,Trees
+avgpool,737,Vertical lines
+avgpool,738,People
+avgpool,739,Items of central focus
+avgpool,740,Buildings
+avgpool,741,Food
+avgpool,742,Plants
+avgpool,743,Green grass
+avgpool,744,White colored object with black border
+avgpool,745,Diagonal lines
+avgpool,746,Diagonal lines
+avgpool,747,Landscapes
+avgpool,748,Buildings
+avgpool,749,Food
+avgpool,750,Head of people
+avgpool,751,Stairs
+avgpool,752,Nature
+avgpool,753,Towers
+avgpool,754,Sky and trees
+avgpool,755,Top of a building
+avgpool,756,Green and brown colored objects
+avgpool,757,Green grass
+avgpool,758,Bright yellow colored objects
+avgpool,759,Waterfalls
+avgpool,760,"Building, people"
+avgpool,761,Windows
+avgpool,762,Buildings
+avgpool,763,Sign boards with text in it
+avgpool,764,Windows
+avgpool,765,Trees
+avgpool,766,Lights
+avgpool,767,Dining room
+avgpool,768,Green grass
+avgpool,769,Windows
+avgpool,770,Buildings
+avgpool,771,Trees
+avgpool,772,Pools
+avgpool,773,Arches
+avgpool,774,Buildings
+avgpool,775,"Door, door"
+avgpool,776,Nature
+avgpool,777,The ground
+avgpool,778,Waterfalls
+avgpool,779,Cars and water
+avgpool,780,Buildings
+avgpool,781,Windows
+avgpool,782,Buildings
+avgpool,783,Buildings
+avgpool,784,Landscapes
+avgpool,785,Green grass
+avgpool,786,Sky and trees
+avgpool,787,Top of a building
+avgpool,788,Heads
+avgpool,789,Windows
+avgpool,790,Nature
+avgpool,791,Windows
+avgpool,792,Walls
+avgpool,793,Diagonal lines
+avgpool,794,Items of central focus
+avgpool,795,Green grass
+avgpool,796,Views of the mountaintop
+avgpool,797,Waterfalls
+avgpool,798,Gray colored objects
+avgpool,799,Green grass
+avgpool,800,Items of central focus
+avgpool,801,Columns
+avgpool,802,Plants
+avgpool,803,Buildings
+avgpool,804,Windows
+avgpool,805,Plants
+avgpool,806,Vertical lines
+avgpool,807,Colorful items
+avgpool,808,Garage doors and windows
+avgpool,809,Items with patterns
+avgpool,810,Walls
+avgpool,811,Top of a building
+avgpool,812,Walkways
+avgpool,813,Green grass
+avgpool,814,Buildings
+avgpool,815,The ground
+avgpool,816,Top of a building
+avgpool,817,Pink colored objects
+avgpool,818,Old buildings
+avgpool,819,Yellow and blue colored objects
+avgpool,820,Windows
+avgpool,821,Green grass
+avgpool,822,Green and brown colored objects
+avgpool,823,Furniture
+avgpool,824,Windows and doors
+avgpool,825,People and trees
+avgpool,826,Vertical lines
+avgpool,827,Signs and buildings
+avgpool,828,People
+avgpool,829,"Water, trees, building"
+avgpool,830,Waterfalls
+avgpool,831,Landscapes
+avgpool,832,Black and white colored objects
+avgpool,833,Lights
+avgpool,834,People
+avgpool,835,Buildings
+avgpool,836,Vertical lines
+avgpool,837,Green grass
+avgpool,838,The ground
+avgpool,839,Furniture
+avgpool,840,Grass and trees
+avgpool,841,Buildings
+avgpool,842,Furniture
+avgpool,843,Legs
+avgpool,844,Buildings
+avgpool,845,Trees and people
+avgpool,846,Windows
+avgpool,847,People
+avgpool,848,Plants
+avgpool,849,Items of central focus
+avgpool,850,Landscapes
+avgpool,851,Windows
+avgpool,852,Green grass
+avgpool,853,Structures and landscapes
+avgpool,854,Water
+avgpool,855,Green grass
+avgpool,856,Archways
+avgpool,857,Windows
+avgpool,858,Buildings
+avgpool,859,Areas around items of central focus and edges
+avgpool,860,Green and brown colored objects
+avgpool,861,Nature
+avgpool,862,Lights
+avgpool,863,Buses
+avgpool,864,Water
+avgpool,865,Buildings
+avgpool,866,The color white
+avgpool,867,People
+avgpool,868,Red and white colored objects
+avgpool,869,"Water, trees, people"
+avgpool,870,Buildings
+avgpool,871,Circular objects
+avgpool,872,Red and white colored objects
+avgpool,873,Windows of a building
+avgpool,874,Brown colored objects
+avgpool,875,Green and brown colored objects
+avgpool,876,Buildings
+avgpool,877,Areas with straight features
+avgpool,878,Green grass
+avgpool,879,Buildings
+avgpool,880,Crowds
+avgpool,881,Vertical lines
+avgpool,882,Lights
+avgpool,883,Areas with straight features
+avgpool,884,Landscapes
+avgpool,885,Diagonal lines
+avgpool,886,Landscapes
+avgpool,887,"Water, sky, people"
+avgpool,888,Bookcases
+avgpool,889,Poles
+avgpool,890,Buildings
+avgpool,891,People
+avgpool,892,Buildings
+avgpool,893,Green grass
+avgpool,894,People 's legs
+avgpool,895,People
+avgpool,896,Items of central focus
+avgpool,897,Landscapes
+avgpool,898,Plants
+avgpool,899,Windows
+avgpool,900,Bright yellow colored objects
+avgpool,901,Top of a building
+avgpool,902,The sky and screens
+avgpool,903,Windows
+avgpool,904,Nature
+avgpool,905,People
+avgpool,906,Items of central focus
+avgpool,907,"The sky, trees, building"
+avgpool,908,Top of a building
+avgpool,909,Top of a building
+avgpool,910,Items of central focus
+avgpool,911,Walls
+avgpool,912,Green grass
+avgpool,913,People
+avgpool,914,Balls and balloons
+avgpool,915,Items of central focus
+avgpool,916,Waterfalls
+avgpool,917,Waterfalls
+avgpool,918,Trees and crowds
+avgpool,919,Windows
+avgpool,920,Buildings
+avgpool,921,Trees
+avgpool,922,Horizontal lines
+avgpool,923,Vertical lines
+avgpool,924,People
+avgpool,925,Buildings
+avgpool,926,Buildings
+avgpool,927,Nature
+avgpool,928,Furniture
+avgpool,929,Plants
+avgpool,930,Top of a building
+avgpool,931,Nature
+avgpool,932,Buildings
+avgpool,933,Buildings
+avgpool,934,Top of a building
+avgpool,935,People
+avgpool,936,Nature
+avgpool,937,Green grass
+avgpool,938,Trees
+avgpool,939,People
+avgpool,940,Nature
+avgpool,941,People
+avgpool,942,Green and brown colored objects
+avgpool,943,Vertical lines
+avgpool,944,Buildings
+avgpool,945,Windows
+avgpool,946,Plants
+avgpool,947,"Building, people"
+avgpool,948,Poles
+avgpool,949,Windows
+avgpool,950,Top of a building
+avgpool,951,Black and white colored objects
+avgpool,952,Cars and buildings
+avgpool,953,Food
+avgpool,954,Trees
+avgpool,955,Green grass
+avgpool,956,Outdoor landscapes
+avgpool,957,Landscapes
+avgpool,958,Green grass
+avgpool,959,Poles
+avgpool,960,Nature
+avgpool,961,Buildings
+avgpool,962,Green and brown colored objects
+avgpool,963,Nature
+avgpool,964,Buildings
+avgpool,965,Lights
+avgpool,966,Red and white colored objects
+avgpool,967,Objects with stripes in it
+avgpool,968,Windows
+avgpool,969,"Building, people"
+avgpool,970,Green grass
+avgpool,971,Walls
+avgpool,972,People
+avgpool,973,Poles and legs
+avgpool,974,Windows
+avgpool,975,Plants
+avgpool,976,People
+avgpool,977,Poles and legs
+avgpool,978,Green and brown colored objects
+avgpool,979,Poles and legs
+avgpool,980,Bookcases
+avgpool,981,Diagonal lines
+avgpool,982,Structures
+avgpool,983,Green grass
+avgpool,984,Poles and legs
+avgpool,985,The ground
+avgpool,986,Buildings
+avgpool,987,Sports fields
+avgpool,988,Green grass
+avgpool,989,Buildings
+avgpool,990,Buildings
+avgpool,991,Horizontal lines
+avgpool,992,Faces of human beings
+avgpool,993,Green and brown colored objects
+avgpool,994,Garage doors
+avgpool,995,Diagonal lines
+avgpool,996,Head of people
+avgpool,997,Windows
+avgpool,998,Windows
+avgpool,999,Windows
+avgpool,1000,Athletes
+avgpool,1001,Windows
+avgpool,1002,Furniture
+avgpool,1003,Food
+avgpool,1004,Walls
+avgpool,1005,Buildings
+avgpool,1006,People
+avgpool,1007,Trees
+avgpool,1008,Nature
+avgpool,1009,Trees
+avgpool,1010,People
+avgpool,1011,Bridges
+avgpool,1012,Green grass
+avgpool,1013,Landscapes
+avgpool,1014,Buildings
+avgpool,1015,Lights
+avgpool,1016,Pizza and people
+avgpool,1017,Green grass
+avgpool,1018,Furniture
+avgpool,1019,People
+avgpool,1020,Arched ceilings
+avgpool,1021,Diagonal lines
+avgpool,1022,Red and white colored objects
+avgpool,1023,The ground
+avgpool,1024,Nature
+avgpool,1025,Items of central focus
+avgpool,1026,White colored object with black border
+avgpool,1027,Green grass
+avgpool,1028,Landscapes
+avgpool,1029,Items of central focus
+avgpool,1030,Plants
+avgpool,1031,The sky
+avgpool,1032,Lights
+avgpool,1033,Green grass
+avgpool,1034,Green grass
+avgpool,1035,Diagonal lines
+avgpool,1036,Top of a building
+avgpool,1037,Windows
+avgpool,1038,Buildings
+avgpool,1039,Buildings and people
+avgpool,1040,Stair cases
+avgpool,1041,"Water, trees, people"
+avgpool,1042,Plants
+avgpool,1043,Windows
+avgpool,1044,Windows
+avgpool,1045,Windows
+avgpool,1046,Windows
+avgpool,1047,Landscapes
+avgpool,1048,People
+avgpool,1049,Lights
+avgpool,1050,Corners of different places
+avgpool,1051,Diagonal lines
+avgpool,1052,Green and brown colored objects
+avgpool,1053,"Water, sky, building"
+avgpool,1054,Black and white colored objects
+avgpool,1055,Heads of peoples
+avgpool,1056,Black and white colored objects
+avgpool,1057,The sky and trees
+avgpool,1058,Windows
+avgpool,1059,Head of people
+avgpool,1060,Bridges and buildings
+avgpool,1061,Windows
+avgpool,1062,The sky and walls
+avgpool,1063,Items of central focus
+avgpool,1064,Windows
+avgpool,1065,Items of central focus
+avgpool,1066,Nature
+avgpool,1067,Pools
+avgpool,1068,Windows
+avgpool,1069,Green grass
+avgpool,1070,Items of central focus
+avgpool,1071,Faces of human beings
+avgpool,1072,Stairs
+avgpool,1073,Black and white colored objects
+avgpool,1074,Windows
+avgpool,1075,Green and brown colored objects
+avgpool,1076,Cars and planes
+avgpool,1077,Vertical lines
+avgpool,1078,Circular objects
+avgpool,1079,Green and brown colored objects
+avgpool,1080,Windows
+avgpool,1081,Horizontal lines
+avgpool,1082,Pink colored objects
+avgpool,1083,Plants and flowers
+avgpool,1084,Green grass
+avgpool,1085,White colored object with black border
+avgpool,1086,Ice cream pools
+avgpool,1087,Trees
+avgpool,1088,Trees
+avgpool,1089,"Building, people"
+avgpool,1090,Pools
+avgpool,1091,Walls
+avgpool,1092,Vertical lines
+avgpool,1093,Green grass
+avgpool,1094,Diagonal lines
+avgpool,1095,People
+avgpool,1096,Head of people
+avgpool,1097,The sky and ground
+avgpool,1098,Grass
+avgpool,1099,Bright yellow colored objects
+avgpool,1100,Plants
+avgpool,1101,Green grass
+avgpool,1102,Water
+avgpool,1103,Landscapes
+avgpool,1104,Head of people
+avgpool,1105,Windows
+avgpool,1106,Buildings
+avgpool,1107,Horizontal lines
+avgpool,1108,Regions with straight features
+avgpool,1109,Diagonal lines
+avgpool,1110,"Building, people"
+avgpool,1111,People
+avgpool,1112,Colorful items
+avgpool,1113,Green and brown colored objects
+avgpool,1114,Items of central focus
+avgpool,1115,"Water, trees, people"
+avgpool,1116,Items of central focus
+avgpool,1117,Four corners of a pizza
+avgpool,1118,Corners of different places
+avgpool,1119,Buildings
+avgpool,1120,Green grass
+avgpool,1121,Buildings
+avgpool,1122,Buildings
+avgpool,1123,Trees
+avgpool,1124,Green grass
+avgpool,1125,Corners of different places
+avgpool,1126,Green grass
+avgpool,1127,Cars and airplanes
+avgpool,1128,"Building, windows, people"
+avgpool,1129,Windows
+avgpool,1130,Green and brown colored objects
+avgpool,1131,People
+avgpool,1132,Items of central focus
+avgpool,1133,Diagonal lines
+avgpool,1134,Windows
+avgpool,1135,Nature
+avgpool,1136,Arches
+avgpool,1137,Walls
+avgpool,1138,Windows and doors
+avgpool,1139,People
+avgpool,1140,The sky
+avgpool,1141,People
+avgpool,1142,Head of people
+avgpool,1143,Ice
+avgpool,1144,People
+avgpool,1145,Top of a building
+avgpool,1146,Buildings
+avgpool,1147,People
+avgpool,1148,Walls
+avgpool,1149,Head of people
+avgpool,1150,"Building, sky"
+avgpool,1151,Diagonal lines
+avgpool,1152,Buildings
+avgpool,1153,Trees
+avgpool,1154,Green grass
+avgpool,1155,Windows
+avgpool,1156,People
+avgpool,1157,The ground
+avgpool,1158,Nature
+avgpool,1159,Landscapes
+avgpool,1160,Yellow and blue colored objects
+avgpool,1161,Windows
+avgpool,1162,Windows
+avgpool,1163,Poles and legs
+avgpool,1164,Trees
+avgpool,1165,Diagonal lines
+avgpool,1166,People
+avgpool,1167,Poles
+avgpool,1168,Trees
+avgpool,1169,Poles
+avgpool,1170,Windows
+avgpool,1171,People
+avgpool,1172,Windows
+avgpool,1173,Head of the people
+avgpool,1174,Colorful items
+avgpool,1175,Top of a building
+avgpool,1176,Top of a building
+avgpool,1177,People
+avgpool,1178,Diagonal lines
+avgpool,1179,Windows
+avgpool,1180,Top of a building
+avgpool,1181,Stair cases
+avgpool,1182,Sunsets
+avgpool,1183,Walls
+avgpool,1184,Legs
+avgpool,1185,Buildings
+avgpool,1186,Diagonal lines
+avgpool,1187,Buildings
+avgpool,1188,Balls and mma fighters
+avgpool,1189,"Building, people"
+avgpool,1190,Items of central focus
+avgpool,1191,Columns
+avgpool,1192,Green grass
+avgpool,1193,Plants
+avgpool,1194,People
+avgpool,1195,Buildings
+avgpool,1196,Food
+avgpool,1197,Landscapes
+avgpool,1198,Lights
+avgpool,1199,Buildings
+avgpool,1200,Pathways
+avgpool,1201,Pink and purple objects
+avgpool,1202,Poles
+avgpool,1203,Pools
+avgpool,1204,Windows
+avgpool,1205,Water
+avgpool,1206,Windows
+avgpool,1207,Windows
+avgpool,1208,Top of a building
+avgpool,1209,Vertical lines
+avgpool,1210,Green grass
+avgpool,1211,Sunsets
+avgpool,1212,Furniture
+avgpool,1213,Black and white colored objects
+avgpool,1214,Bright yellow colored objects
+avgpool,1215,Poles
+avgpool,1216,Trees
+avgpool,1217,Black and white colored objects
+avgpool,1218,Nature
+avgpool,1219,People
+avgpool,1220,Buildings
+avgpool,1221,"Water, people"
+avgpool,1222,Cars
+avgpool,1223,Green grass
+avgpool,1224,Top of a building
+avgpool,1225,Items of central focus
+avgpool,1226,Top of a building
+avgpool,1227,Lights
+avgpool,1228,Sports stadiums
+avgpool,1229,Green grass
+avgpool,1230,Green grass
+avgpool,1231,Windows
+avgpool,1232,Nature
+avgpool,1233,Green grass
+avgpool,1234,Top of a building
+avgpool,1235,Green grass
+avgpool,1236,Landscapes
+avgpool,1237,Bookcases
+avgpool,1238,Windows
+avgpool,1239,Diagonal lines
+avgpool,1240,Top of a building
+avgpool,1241,Shelves
+avgpool,1242,Plants
+avgpool,1243,The sky
+avgpool,1244,Red and white colored objects
+avgpool,1245,Items of central focus
+avgpool,1246,Cars and buildings
+avgpool,1247,Items of central focus
+avgpool,1248,Buildings and people
+avgpool,1249,Top of a building
+avgpool,1250,Green grass
+avgpool,1251,Furniture
+avgpool,1252,Buildings
+avgpool,1253,Flowers
+avgpool,1254,Trees and people
+avgpool,1255,Poles
+avgpool,1256,Poles and legs
+avgpool,1257,Mountains and valleys
+avgpool,1258,Diagonal lines
+avgpool,1259,Regions with straight features
+avgpool,1260,Green and brown colored objects
+avgpool,1261,Green grass
+avgpool,1262,Heads of peoples
+avgpool,1263,Black and white colored objects
+avgpool,1264,Sports fields
+avgpool,1265,Food
+avgpool,1266,People
+avgpool,1267,Windows
+avgpool,1268,Green and brown colored objects
+avgpool,1269,Areas with straight features
+avgpool,1270,Nature
+avgpool,1271,Green grass
+avgpool,1272,White colored object with black border
+avgpool,1273,Diagonal lines
+avgpool,1274,Diagonal lines
+avgpool,1275,Nature
+avgpool,1276,Wooden furniture
+avgpool,1277,Grass and flowers
+avgpool,1278,Trees
+avgpool,1279,Windows
+avgpool,1280,Landscapes
+avgpool,1281,Lights
+avgpool,1282,Red colored object with text
+avgpool,1283,Lights
+avgpool,1284,Buildings
+avgpool,1285,Poles and legs
+avgpool,1286,Nature
+avgpool,1287,"Water, sky, people"
+avgpool,1288,Furniture
+avgpool,1289,Furniture
+avgpool,1290,People
+avgpool,1291,Grass
+avgpool,1292,People
+avgpool,1293,Food
+avgpool,1294,Windows
+avgpool,1295,Items of central focus
+avgpool,1296,Nature
+avgpool,1297,Waterfalls
+avgpool,1298,Shelves
+avgpool,1299,The ground
+avgpool,1300,Plants
+avgpool,1301,Landscapes
+avgpool,1302,"Building, people"
+avgpool,1303,Windows
+avgpool,1304,Towers
+avgpool,1305,Landscapes
+avgpool,1306,Buildings
+avgpool,1307,Cars
+avgpool,1308,Furniture
+avgpool,1309,Diagonal lines
+avgpool,1310,Signs
+avgpool,1311,Green grass
+avgpool,1312,Plants
+avgpool,1313,Sports stadiums
+avgpool,1314,Buildings
+avgpool,1315,Windows
+avgpool,1316,Sunsets
+avgpool,1317,Vertical lines
+avgpool,1318,Areas around a central focus
+avgpool,1319,Flowers and flowers
+avgpool,1320,Colorful items
+avgpool,1321,Landscapes
+avgpool,1322,Athletes
+avgpool,1323,"Building, sky"
+avgpool,1324,Signs
+avgpool,1325,Waterfalls
+avgpool,1326,Blue objects
+avgpool,1327,Food
+avgpool,1328,Furniture
+avgpool,1329,Water
+avgpool,1330,Produce and flowers
+avgpool,1331,Nature
+avgpool,1332,Buildings
+avgpool,1333,Views of the mountaintop
+avgpool,1334,Pools
+avgpool,1335,"The sky, trees, building"
+avgpool,1336,People
+avgpool,1337,"Water, grass, people"
+avgpool,1338,Landscapes
+avgpool,1339,Heads of peoples
+avgpool,1340,People
+avgpool,1341,Black and white colored objects
+avgpool,1342,Furniture
+avgpool,1343,Buildings
+avgpool,1344,Lights
+avgpool,1345,Trees
+avgpool,1346,Stairs
+avgpool,1347,Diagonal lines
+avgpool,1348,Nature
+avgpool,1349,Top of a building
+avgpool,1350,Top of a building
+avgpool,1351,Trees
+avgpool,1352,Poles
+avgpool,1353,People
+avgpool,1354,Pools
+avgpool,1355,Archways
+avgpool,1356,Black and white colored objects
+avgpool,1357,Plants
+avgpool,1358,Windows
+avgpool,1359,Landscapes
+avgpool,1360,A windmill farm
+avgpool,1361,Plants
+avgpool,1362,Legs
+avgpool,1363,Nature
+avgpool,1364,Windows
+avgpool,1365,Windows
+avgpool,1366,Athletes
+avgpool,1367,People
+avgpool,1368,Nature
+avgpool,1369,People
+avgpool,1370,Mountains and valleys
+avgpool,1371,Plants
+avgpool,1372,Windows
+avgpool,1373,Bookcases
+avgpool,1374,Circular objects
+avgpool,1375,People
+avgpool,1376,Top of a building
+avgpool,1377,Plants
+avgpool,1378,Diagonal lines
+avgpool,1379,Structures and landscapes
+avgpool,1380,"Water, people"
+avgpool,1381,Trees
+avgpool,1382,Heads
+avgpool,1383,Nature
+avgpool,1384,Items of central focus
+avgpool,1385,Windows
+avgpool,1386,Vertical lines
+avgpool,1387,Buildings
+avgpool,1388,People
+avgpool,1389,Green grass
+avgpool,1390,Landscapes
+avgpool,1391,Mountains and valleys
+avgpool,1392,Regions with straight features
+avgpool,1393,Items of central focus
+avgpool,1394,Walls
+avgpool,1395,Grass
+avgpool,1396,Food
+avgpool,1397,Buildings
+avgpool,1398,Head of people
+avgpool,1399,Top of a building
+avgpool,1400,Trees
+avgpool,1401,"Building, people"
+avgpool,1402,"Water, trees, people"
+avgpool,1403,Buildings
+avgpool,1404,Windows
+avgpool,1405,Windows
+avgpool,1406,Plants
+avgpool,1407,Buildings
+avgpool,1408,Nature
+avgpool,1409,Buildings
+avgpool,1410,Trees
+avgpool,1411,Horizontal lines
+avgpool,1412,Walls
+avgpool,1413,Green grass
+avgpool,1414,Blue and purple objects
+avgpool,1415,Buildings
+avgpool,1416,People
+avgpool,1417,Walls and floors
+avgpool,1418,Landscapes
+avgpool,1419,People
+avgpool,1420,"Water, sky, building"
+avgpool,1421,Green and brown colored objects
+avgpool,1422,Buildings
+avgpool,1423,Walkways
+avgpool,1424,People
+avgpool,1425,Nature
+avgpool,1426,Nature
+avgpool,1427,Lights
+avgpool,1428,Green and brown colored objects
+avgpool,1429,Poles and legs
+avgpool,1430,Windows
+avgpool,1431,Colorful items
+avgpool,1432,Trees
+avgpool,1433,Poles
+avgpool,1434,Diagonal lines
+avgpool,1435,Columns
+avgpool,1436,Items of central focus
+avgpool,1437,Top of a building
+avgpool,1438,People
+avgpool,1439,Top of a building
+avgpool,1440,White colored object with black border
+avgpool,1441,Flowers and flowers
+avgpool,1442,Head of people
+avgpool,1443,Heads of peoples
+avgpool,1444,People
+avgpool,1445,Landscapes
+avgpool,1446,Green grass
+avgpool,1447,Lights
+avgpool,1448,Flowers and flowers
+avgpool,1449,Arches
+avgpool,1450,Peoples legs
+avgpool,1451,Black and white colored objects
+avgpool,1452,People
+avgpool,1453,People
+avgpool,1454,Pink colored objects
+avgpool,1455,Items of central focus
+avgpool,1456,Buildings
+avgpool,1457,Diagonal lines
+avgpool,1458,Circular objects
+avgpool,1459,Colorful items
+avgpool,1460,Red and white colored objects
+avgpool,1461,Trees
+avgpool,1462,Nature
+avgpool,1463,Head of people
+avgpool,1464,Top of a building
+avgpool,1465,Items of central focus
+avgpool,1466,Lights
+avgpool,1467,Nature
+avgpool,1468,Windows
+avgpool,1469,Water
+avgpool,1470,Walls
+avgpool,1471,Green grass
+avgpool,1472,Doors and windows
+avgpool,1473,Landscapes
+avgpool,1474,Outdoor landscapes
+avgpool,1475,Green grass
+avgpool,1476,Windows
+avgpool,1477,Poles and legs
+avgpool,1478,Buildings and plants
+avgpool,1479,Items of central focus
+avgpool,1480,People
+avgpool,1481,Windows
+avgpool,1482,Doors and windows
+avgpool,1483,Poles and legs
+avgpool,1484,Top of a building
+avgpool,1485,Green and brown colored objects
+avgpool,1486,Buildings
+avgpool,1487,Diagonal lines
+avgpool,1488,Windows
+avgpool,1489,Buildings
+avgpool,1490,Arches
+avgpool,1491,Plants
+avgpool,1492,Plants
+avgpool,1493,Top of a building
+avgpool,1494,The sky and water
+avgpool,1495,People
+avgpool,1496,Plants
+avgpool,1497,"Flowers, grass and butterflies"
+avgpool,1498,Red colored object with text
+avgpool,1499,The ground
+avgpool,1500,Poles
+avgpool,1501,Lights
+avgpool,1502,Green and brown colored objects
+avgpool,1503,Windows
+avgpool,1504,Black and white colored objects
+avgpool,1505,Circular objects
+avgpool,1506,Nature
+avgpool,1507,"Building, sky"
+avgpool,1508,Landscapes
+avgpool,1509,People
+avgpool,1510,Regions with straight features
+avgpool,1511,Grass and trees
+avgpool,1512,Diagonal lines
+avgpool,1513,Top of a building
+avgpool,1514,Food
+avgpool,1515,Green and brown colored objects
+avgpool,1516,Top of a building
+avgpool,1517,Circular objects
+avgpool,1518,Buildings
+avgpool,1519,Buses
+avgpool,1520,Vehicles
+avgpool,1521,Shelving
+avgpool,1522,Furniture
+avgpool,1523,Buildings
+avgpool,1524,Heads of peoples
+avgpool,1525,Food
+avgpool,1526,"Building, windows"
+avgpool,1527,The ground
+avgpool,1528,Doors and windows
+avgpool,1529,Food
+avgpool,1530,Windows
+avgpool,1531,Signs
+avgpool,1532,Green grass
+avgpool,1533,Walls and floors
+avgpool,1534,Top of a building
+avgpool,1535,Sign boards with text in it
+avgpool,1536,Windows
+avgpool,1537,Green and brown colored objects
+avgpool,1538,Green grass
+avgpool,1539,Poles
+avgpool,1540,Buildings
+avgpool,1541,Water
+avgpool,1542,People
+avgpool,1543,Poles
+avgpool,1544,Plants
+avgpool,1545,"Door, door"
+avgpool,1546,Trees
+avgpool,1547,People playing sports
+avgpool,1548,Trees
+avgpool,1549,Sports fields
+avgpool,1550,Windows
+avgpool,1551,People
+avgpool,1552,Plants
+avgpool,1553,Food
+avgpool,1554,White colored object with black border
+avgpool,1555,Plants
+avgpool,1556,Shelves
+avgpool,1557,Windows
+avgpool,1558,Diagonal lines
+avgpool,1559,Landscapes
+avgpool,1560,The sky and ground
+avgpool,1561,Structures and landscapes
+avgpool,1562,Green grass
+avgpool,1563,Trees
+avgpool,1564,Top of a building
+avgpool,1565,Poles and legs
+avgpool,1566,Nature
+avgpool,1567,Areas around items of central focus
+avgpool,1568,Grass and trees
+avgpool,1569,Cars and buildings
+avgpool,1570,Poles
+avgpool,1571,"Sky, trees, building"
+avgpool,1572,Green grass
+avgpool,1573,Windows
+avgpool,1574,Walls
+avgpool,1575,Green grass
+avgpool,1576,Stair cases
+avgpool,1577,Top of a building
+avgpool,1578,Diagonal lines
+avgpool,1579,Green grass
+avgpool,1580,People
+avgpool,1581,Head of people
+avgpool,1582,Athletes
+avgpool,1583,Views of the mountaintop
+avgpool,1584,People
+avgpool,1585,Green grass
+avgpool,1586,Waterfalls
+avgpool,1587,Top of a building
+avgpool,1588,Diagonal lines
+avgpool,1589,Top of a building
+avgpool,1590,Nature
+avgpool,1591,Vertical lines
+avgpool,1592,People
+avgpool,1593,Buildings
+avgpool,1594,Windows
+avgpool,1595,Windows
+avgpool,1596,Poles
+avgpool,1597,Poles
+avgpool,1598,"Building, people"
+avgpool,1599,Cars and planes
+avgpool,1600,Athletes
+avgpool,1601,Water
+avgpool,1602,Black and white colored objects
+avgpool,1603,People
+avgpool,1604,Vertical lines
+avgpool,1605,Athletes
+avgpool,1606,Windows
+avgpool,1607,Top of a building
+avgpool,1608,Top of a building
+avgpool,1609,Windows
+avgpool,1610,Green and brown colored objects
+avgpool,1611,Poles
+avgpool,1612,People
+avgpool,1613,Walls
+avgpool,1614,Water
+avgpool,1615,Windows
+avgpool,1616,Planes and planes
+avgpool,1617,People
+avgpool,1618,Items of central focus
+avgpool,1619,Waterfalls
+avgpool,1620,Green grass
+avgpool,1621,Vertical lines
+avgpool,1622,Diagonal lines
+avgpool,1623,Bright yellow colored objects
+avgpool,1624,Windows
+avgpool,1625,Trees
+avgpool,1626,Plants
+avgpool,1627,Green grass
+avgpool,1628,Windows
+avgpool,1629,Sports stadiums
+avgpool,1630,Kids playing in a field
+avgpool,1631,Poles and legs
+avgpool,1632,Green and brown colored objects
+avgpool,1633,Plants
+avgpool,1634,Columns
+avgpool,1635,Lights
+avgpool,1636,Top of a building
+avgpool,1637,Buildings
+avgpool,1638,Green grass
+avgpool,1639,Objects with stripes in it
+avgpool,1640,Black and white colored objects
+avgpool,1641,Buildings
+avgpool,1642,Faces of human beings
+avgpool,1643,Doors and windows
+avgpool,1644,Windows
+avgpool,1645,Pizza and trees
+avgpool,1646,Black and white colored objects
+avgpool,1647,Top of a building
+avgpool,1648,Flowers and flowers
+avgpool,1649,Trees
+avgpool,1650,Buildings
+avgpool,1651,Water
+avgpool,1652,People
+avgpool,1653,Plants
+avgpool,1654,Nature
+avgpool,1655,Legs
+avgpool,1656,The ground
+avgpool,1657,Green grass
+avgpool,1658,Items of central focus
+avgpool,1659,Colorful items
+avgpool,1660,Black and white colored objects
+avgpool,1661,Buildings
+avgpool,1662,People
+avgpool,1663,Top of a building
+avgpool,1664,Walls
+avgpool,1665,Head of people
+avgpool,1666,"Food, people, clam"
+avgpool,1667,Nature
+avgpool,1668,Top of a building
+avgpool,1669,Plants
+avgpool,1670,Buildings
+avgpool,1671,Diagonal lines
+avgpool,1672,Head of people
+avgpool,1673,Buildings
+avgpool,1674,Landscapes
+avgpool,1675,People
+avgpool,1676,"Water, trees, building"
+avgpool,1677,Plants
+avgpool,1678,People
+avgpool,1679,Items of central focus
+avgpool,1680,Nature
+avgpool,1681,Poles
+avgpool,1682,Flowers and flowers
+avgpool,1683,Grass and trees
+avgpool,1684,Items of central focus
+avgpool,1685,Lights
+avgpool,1686,Head of people
+avgpool,1687,Windmills
+avgpool,1688,Landscapes
+avgpool,1689,"Building, people"
+avgpool,1690,Nature
+avgpool,1691,Grass and water
+avgpool,1692,Black and white colored objects
+avgpool,1693,Landscapes
+avgpool,1694,Green grass
+avgpool,1695,Windows
+avgpool,1696,Items of central focus
+avgpool,1697,Top of a building
+avgpool,1698,Sports fields
+avgpool,1699,Poles and legs
+avgpool,1700,Trees
+avgpool,1701,Trees
+avgpool,1702,Top of a building
+avgpool,1703,Buildings
+avgpool,1704,Windows
+avgpool,1705,Diagonal lines
+avgpool,1706,Head of people
+avgpool,1707,Landscapes
+avgpool,1708,Buildings
+avgpool,1709,People
+avgpool,1710,Trees
+avgpool,1711,Buildings
+avgpool,1712,Stairs
+avgpool,1713,Green grass
+avgpool,1714,Items of central focus
+avgpool,1715,Corners of different places
+avgpool,1716,People
+avgpool,1717,Trees and people
+avgpool,1718,Walls
+avgpool,1719,Top of a building
+avgpool,1720,Flowers and flowers
+avgpool,1721,Sports stadiums
+avgpool,1722,Poles
+avgpool,1723,Walls
+avgpool,1724,Trees
+avgpool,1725,Items of central focus
+avgpool,1726,Pink colored objects
+avgpool,1727,Food
+avgpool,1728,Buildings
+avgpool,1729,Doors and windows
+avgpool,1730,Pools
+avgpool,1731,Windows
+avgpool,1732,Arches
+avgpool,1733,Grass and water
+avgpool,1734,Ice
+avgpool,1735,Trees
+avgpool,1736,Plants
+avgpool,1737,Red colored object with text
+avgpool,1738,Bright lights
+avgpool,1739,Buildings
+avgpool,1740,Walls
+avgpool,1741,Black and white colored objects
+avgpool,1742,Grass
+avgpool,1743,Poles
+avgpool,1744,Poles and legs
+avgpool,1745,Wheels of an object
+avgpool,1746,Outdoor landscapes
+avgpool,1747,Pools
+avgpool,1748,Nature
+avgpool,1749,Items of central focus
+avgpool,1750,This are fishes
+avgpool,1751,Corners of different places
+avgpool,1752,People
+avgpool,1753,"Water, sky, people"
+avgpool,1754,Buildings
+avgpool,1755,Buildings
+avgpool,1756,Poles
+avgpool,1757,The sky and trees
+avgpool,1758,Green grass
+avgpool,1759,Furniture
+avgpool,1760,Staircases
+avgpool,1761,People
+avgpool,1762,People
+avgpool,1763,Green grass
+avgpool,1764,Green grass
+avgpool,1765,Red and white colored objects
+avgpool,1766,Trees and people
+avgpool,1767,The sky
+avgpool,1768,People
+avgpool,1769,Lights
+avgpool,1770,Green and brown colored objects
+avgpool,1771,Trees
+avgpool,1772,Nature
+avgpool,1773,Trees
+avgpool,1774,Buses
+avgpool,1775,Sign boards with text in it
+avgpool,1776,Head of people
+avgpool,1777,Buildings
+avgpool,1778,Trees
+avgpool,1779,Trees
+avgpool,1780,Green and brown colored objects
+avgpool,1781,Vertical lines
+avgpool,1782,People
+avgpool,1783,"Flowers, flowers and flowers"
+avgpool,1784,Items of central focus
+avgpool,1785,Areas of central focus
+avgpool,1786,Green grass
+avgpool,1787,Signs
+avgpool,1788,Windows
+avgpool,1789,Old buildings
+avgpool,1790,Athletes
+avgpool,1791,Poles and legs
+avgpool,1792,Lights
+avgpool,1793,Trees
+avgpool,1794,Lights
+avgpool,1795,Buildings
+avgpool,1796,"Building, people"
+avgpool,1797,Lights
+avgpool,1798,Top of a building
+avgpool,1799,Items of central focus
+avgpool,1800,Nature
+avgpool,1801,Buildings
+avgpool,1802,Grass
+avgpool,1803,Buildings
+avgpool,1804,Black and white colored objects
+avgpool,1805,Corners of different places
+avgpool,1806,People
+avgpool,1807,Trees and flowers
+avgpool,1808,Red and white colored objects
+avgpool,1809,Pools
+avgpool,1810,Black and white colored objects
+avgpool,1811,Poles
+avgpool,1812,Poles
+avgpool,1813,Windows
+avgpool,1814,"Building, windows"
+avgpool,1815,Walls
+avgpool,1816,Windows
+avgpool,1817,Buildings
+avgpool,1818,Windows
+avgpool,1819,Bright yellow colored objects
+avgpool,1820,People
+avgpool,1821,Arches
+avgpool,1822,White colored object with black border
+avgpool,1823,Grass and flowers
+avgpool,1824,Poles and legs
+avgpool,1825,Plants and flowers
+avgpool,1826,Buildings
+avgpool,1827,Green grass
+avgpool,1828,Green grass
+avgpool,1829,Landscapes
+avgpool,1830,Bright yellow colored objects
+avgpool,1831,Buildings
+avgpool,1832,Black and white colored objects
+avgpool,1833,Nature
+avgpool,1834,Head of people
+avgpool,1835,Vertical lines
+avgpool,1836,Plants
+avgpool,1837,Bookcases
+avgpool,1838,Sports stadiums
+avgpool,1839,Windows
+avgpool,1840,Lights
+avgpool,1841,Buildings
+avgpool,1842,Buildings
+avgpool,1843,Buildings
+avgpool,1844,Windows
+avgpool,1845,Furniture
+avgpool,1846,Windows
+avgpool,1847,Buildings and people
+avgpool,1848,Walls
+avgpool,1849,People
+avgpool,1850,Items of central focus
+avgpool,1851,Buildings
+avgpool,1852,Cars and planes
+avgpool,1853,White colored object with black border
+avgpool,1854,People
+avgpool,1855,Bright lights
+avgpool,1856,"Water, trees, people"
+avgpool,1857,Head of people
+avgpool,1858,Grass and fields
+avgpool,1859,Diagonal lines
+avgpool,1860,Baseball players
+avgpool,1861,Buildings
+avgpool,1862,Trees
+avgpool,1863,Head of people
+avgpool,1864,Circular objects
+avgpool,1865,Sunsets
+avgpool,1866,Hockey players
+avgpool,1867,Green and brown colored objects
+avgpool,1868,Windows
+avgpool,1869,Green grass
+avgpool,1870,Pink colored objects
+avgpool,1871,Green grass
+avgpool,1872,White colored object with black border
+avgpool,1873,"Building, sky"
+avgpool,1874,People
+avgpool,1875,Plants
+avgpool,1876,Windows
+avgpool,1877,Nature
+avgpool,1878,Green and brown colored objects
+avgpool,1879,Lights
+avgpool,1880,The ground
+avgpool,1881,Windows
+avgpool,1882,Trees
+avgpool,1883,Lights and people
+avgpool,1884,Trees
+avgpool,1885,Plants
+avgpool,1886,The ground
+avgpool,1887,People
+avgpool,1888,Green and brown colored objects
+avgpool,1889,Water
+avgpool,1890,Circular objects
+avgpool,1891,Regions with straight features
+avgpool,1892,Buildings
+avgpool,1893,Corners of different places
+avgpool,1894,Diagonal lines
+avgpool,1895,Nature
+avgpool,1896,Top of a building
+avgpool,1897,Green and brown colored objects
+avgpool,1898,Windows
+avgpool,1899,Food
+avgpool,1900,Furniture
+avgpool,1901,Cars and buildings
+avgpool,1902,Plants
+avgpool,1903,Poles and legs
+avgpool,1904,Windows
+avgpool,1905,Windows
+avgpool,1906,Lights
+avgpool,1907,Diagonal lines
+avgpool,1908,Windows
+avgpool,1909,Old buildings
+avgpool,1910,Ice
+avgpool,1911,Lights
+avgpool,1912,Mountains and valleys
+avgpool,1913,Green and brown colored objects
+avgpool,1914,Red colored object with text
+avgpool,1915,Areas with straight features
+avgpool,1916,Mountains and valleys
+avgpool,1917,Windows
+avgpool,1918,Cars and buildings
+avgpool,1919,Items of central focus
+avgpool,1920,People
+avgpool,1921,Grass and water
+avgpool,1922,Black and white colored objects
+avgpool,1923,Doors and windows
+avgpool,1924,"People, nature"
+avgpool,1925,Trees
+avgpool,1926,Legs
+avgpool,1927,Tables and chairs
+avgpool,1928,Buildings
+avgpool,1929,Diagonal lines
+avgpool,1930,Food
+avgpool,1931,Windows
+avgpool,1932,Walls
+avgpool,1933,Green grass
+avgpool,1934,Trees
+avgpool,1935,Regions with straight features
+avgpool,1936,Yellow and blue colored objects
+avgpool,1937,Plants
+avgpool,1938,Lights
+avgpool,1939,Views of the mountaintop
+avgpool,1940,Poles
+avgpool,1941,Poles
+avgpool,1942,Grass and trees
+avgpool,1943,Nature
+avgpool,1944,Blue colored objects
+avgpool,1945,People
+avgpool,1946,Green and brown colored objects
+avgpool,1947,Landscapes
+avgpool,1948,Green grass
+avgpool,1949,Black and white colored objects
+avgpool,1950,Grass and trees
+avgpool,1951,Head of people
+avgpool,1952,Items of central focus
+avgpool,1953,Green grass
+avgpool,1954,Red colored object with text
+avgpool,1955,Windows
+avgpool,1956,Buildings
+avgpool,1957,Buildings
+avgpool,1958,Green and brown colored objects
+avgpool,1959,Trees
+avgpool,1960,Colorful items
+avgpool,1961,Heads of peoples
+avgpool,1962,Lights
+avgpool,1963,Trees and people
+avgpool,1964,Buildings
+avgpool,1965,Plants
+avgpool,1966,Diagonal lines
+avgpool,1967,Doors and windows
+avgpool,1968,Circular items
+avgpool,1969,The ground
+avgpool,1970,Green and brown colored objects
+avgpool,1971,Lights
+avgpool,1972,Lights
+avgpool,1973,Green and brown colored objects
+avgpool,1974,Food
+avgpool,1975,The ground
+avgpool,1976,Buildings
+avgpool,1977,Buildings
+avgpool,1978,Green and brown colored objects
+avgpool,1979,Black and white colored objects
+avgpool,1980,Grass and trees
+avgpool,1981,Plants
+avgpool,1982,Water
+avgpool,1983,Sign boards with text in it
+avgpool,1984,Poles and legs
+avgpool,1985,Food
+avgpool,1986,Cars and planes
+avgpool,1987,Plants
+avgpool,1988,Top of a building
+avgpool,1989,Green and brown colored objects
+avgpool,1990,Items of central focus
+avgpool,1991,Buildings
+avgpool,1992,Poles
+avgpool,1993,Nature
+avgpool,1994,Top of a building
+avgpool,1995,Top of a building
+avgpool,1996,Poles
+avgpool,1997,Buildings
+avgpool,1998,Top of a building
+avgpool,1999,Green and brown colored objects
+avgpool,2000,Poles
+avgpool,2001,Nature
+avgpool,2002,Circular objects
+avgpool,2003,Red and white colored objects
+avgpool,2004,Green and brown colored objects
+avgpool,2005,Green grass
+avgpool,2006,Plants
+avgpool,2007,Windows
+avgpool,2008,People
+avgpool,2009,Poles
+avgpool,2010,Items of central focus
+avgpool,2011,Furniture
+avgpool,2012,Lights
+avgpool,2013,White colored object with black border
+avgpool,2014,Skylines
+avgpool,2015,Windows
+avgpool,2016,Buildings
+avgpool,2017,Green grass
+avgpool,2018,"Building, sky"
+avgpool,2019,Circular objects
+avgpool,2020,Plants
+avgpool,2021,Colorful items
+avgpool,2022,Trees
+avgpool,2023,Green grass
+avgpool,2024,Food
+avgpool,2025,Green and brown colored objects
+avgpool,2026,Sports stadiums
+avgpool,2027,Poles and legs
+avgpool,2028,Windows
+avgpool,2029,Windows
+avgpool,2030,Green grass
+avgpool,2031,Food
+avgpool,2032,People
+avgpool,2033,Poles
+avgpool,2034,Green grass
+avgpool,2035,Trees
+avgpool,2036,Nature
+avgpool,2037,Bookcases
+avgpool,2038,Structures and landscapes
+avgpool,2039,Nature
+avgpool,2040,Items of central focus
+avgpool,2041,Furniture
+avgpool,2042,Green grass
+avgpool,2043,Crowds
+avgpool,2044,Athletes
+avgpool,2045,Windows
+avgpool,2046,Vertical lines
+avgpool,2047,Landscapes

@@ -2,8 +2,8 @@
 torchrun src/image_generator.py --nproc_per_node=3
 """
 import os
-import random
 import torch
+import random
 from datetime import datetime
 import torch.distributed as dist
 import torch.multiprocessing as mp
@@ -19,31 +19,57 @@ start = datetime.now()
 print("START: ", start)
 
 IMAGE_PATH = "./gen_images/"
+
 os.makedirs(IMAGE_PATH, exist_ok=True)
 
 # Load Explanations
 METHOD = (# "MILAN"
           # "INVERT"
-          "CLIP-Dissect"
-          # "FALCON"
+          # "CLIP-Dissect"
+          "FALCON"
           )
 print(METHOD)
-MODEL_NAME = ("resnet18-avgpool"
-              # "vit16b-ln"
+MODEL_NAME = (# "resnet18-avgpool"
+              # "vit_b_16-ln"
+              # "densenet161-denseblock4"
+              # "densenet161_places-features"
+              # "resnet18-fc"             
+              "resnet18-layer4"
+              # "resnet18-layer3"
+              # "resnet18-layer2"
+              # "resnet18-layer1"
+              # "resnet50_places-avgpool"
+              # "vit_b_16-heads"
             )
 print(MODEL_NAME)
-if MODEL_NAME == "resnet18-fc":
+if MODEL_NAME == "resnet18-fc" or MODEL_NAME == "densenet161-fc" or MODEL_NAME == "googlenet-fc" or MODEL_NAME == "vit_b_16-head":
     N_NEURONS = 1000
 elif MODEL_NAME == "resnet18-layer4" or MODEL_NAME == "resnet18-avgpool":
     N_NEURONS = 512
-elif MODEL_NAME == "vit16b-ln":
+elif MODEL_NAME == "resnet18-layer3":
+    N_NEURONS = 256
+elif MODEL_NAME == "resnet18-layer2":
+    N_NEURONS = 128
+elif MODEL_NAME == "resnet18-layer1":
+    N_NEURONS = 64
+elif MODEL_NAME == "resnet50_places-avgpool":
+    N_NEURONS =2048
+elif MODEL_NAME == "vit_b_16-ln":
     N_NEURONS = 768
+elif MODEL_NAME == "densenet161_places-features" or MODEL_NAME == "densenet161-features" or MODEL_NAME == "densenet161-denseblock4":
+    N_NEURONS = 2208
+elif MODEL_NAME == "googlenet-inception5b":
+    N_NEURONS = 1024
+elif MODEL_NAME == "vit_b_16-heads" or MODEL_NAME == "vit_b_16-layer11" or MODEL_NAME == "vit_b_16-ln" or MODEL_NAME == "beit-layer13":
+    N_NEURONS = 768
+
 
 N_NEURONS_RANDOM = 50
 NEURON_IDS = random.sample(range(N_NEURONS), N_NEURONS_RANDOM)
 EXPLANATION_PATH = f"./assets/explanations/{METHOD}/{MODEL_NAME}.csv" # path to METHOD csv file with neuron explanations
-_, EXPLANATIONS = load_explanations(path=EXPLANATION_PATH, name=METHOD, image_path=IMAGE_PATH, neuron_ids=NEURON_IDS)
+_, EXPLANATIONS = load_explanations(path=EXPLANATION_PATH, name=METHOD, image_path=IMAGE_PATH, neuron_ids=NEURON_IDS)                                                                               
 print("# EXPLANATIONS", len(EXPLANATIONS))
+print(EXPLANATIONS)
 
 N_SIZE = 3 # world and batch size
 N_IMAGES = 50 # number of generated images

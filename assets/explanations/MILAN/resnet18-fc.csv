@@ -1,0 +1,1001 @@
+layer,unit,description
+fc,0,Living things
+fc,1,Living things
+fc,2,The ocean
+fc,3,The ocean
+fc,4,The ocean
+fc,5,Aquatic life
+fc,6,The ocean
+fc,7,Birds
+fc,8,Birds
+fc,9,Animals
+fc,10,Birds
+fc,11,Birds
+fc,12,Birds
+fc,13,Birds
+fc,14,Birds
+fc,15,Birds
+fc,16,Birds
+fc,17,Birds
+fc,18,Birds
+fc,19,Birds
+fc,20,Birds
+fc,21,Birds
+fc,22,Birds
+fc,23,Birds
+fc,24,Living things
+fc,25,Living things
+fc,26,Living things
+fc,27,Living things
+fc,28,Living things
+fc,29,Living things
+fc,30,Animals
+fc,31,Yellow or green
+fc,32,Animals
+fc,33,Living things
+fc,34,Living things
+fc,35,Living things
+fc,36,Living things
+fc,37,Living things
+fc,38,Living things
+fc,39,Living things
+fc,40,Brighter areas of objects
+fc,41,Nature
+fc,42,Living things
+fc,43,Living things
+fc,44,Animals
+fc,45,Living things
+fc,46,Yellow areas
+fc,47,Animals
+fc,48,Animals
+fc,49,Animals
+fc,50,Animals
+fc,51,Living things
+fc,52,Nature
+fc,53,Living things
+fc,54,Nature
+fc,55,Greenery
+fc,56,Animal
+fc,57,Animal
+fc,58,Nature
+fc,59,Greenery
+fc,60,Nature
+fc,61,Nature
+fc,62,Nature
+fc,63,Animals
+fc,64,Greenery
+fc,65,Nature
+fc,66,Animals
+fc,67,Animals
+fc,68,Animals
+fc,69,Fossils
+fc,70,Insects
+fc,71,Living things
+fc,72,"Insects, spiders"
+fc,73,"Insects, spiders"
+fc,74,"Insects, spiders"
+fc,75,Nature
+fc,76,Spiders and lizards
+fc,77,Spiders and lizards
+fc,78,"Insect, animal"
+fc,79,Nature
+fc,80,Birds
+fc,81,Birds
+fc,82,Birds
+fc,83,Birds
+fc,84,Birds
+fc,85,Birds
+fc,86,Birds
+fc,87,Animals
+fc,88,Living things
+fc,89,Birds
+fc,90,Birds
+fc,91,Birds
+fc,92,Birds
+fc,93,Birds
+fc,94,Birds
+fc,95,Birds
+fc,96,Living things
+fc,97,Birds
+fc,98,Birds
+fc,99,Birds
+fc,100,Birds
+fc,101,Living things
+fc,102,Animals
+fc,103,Animals
+fc,104,Animals
+fc,105,Animals
+fc,106,Animals
+fc,107,The jellyfish are illuminated to the point of glowing
+fc,108,Aquatic life
+fc,109,Aquatic life
+fc,110,Aquatic life
+fc,111,Green and white
+fc,112,Aquatic life
+fc,113,Living things
+fc,114,Nature
+fc,115,Aquatic life
+fc,116,Aquatic life
+fc,117,Aquatic life
+fc,118,Living things
+fc,119,Living things
+fc,120,Living things
+fc,121,Living things
+fc,122,Red and orange objects
+fc,123,Living things
+fc,124,Living things
+fc,125,Living things
+fc,126,Living things
+fc,127,Birds
+fc,128,Birds
+fc,129,Birds
+fc,130,Living things
+fc,131,Birds
+fc,132,Birds
+fc,133,Birds
+fc,134,Birds
+fc,135,Birds
+fc,136,Birds
+fc,137,Birds
+fc,138,Birds
+fc,139,Birds
+fc,140,Birds
+fc,141,Birds
+fc,142,Birds
+fc,143,Birds
+fc,144,Birds
+fc,145,Birds
+fc,146,Birds
+fc,147,Water
+fc,148,The ocean
+fc,149,Underwater
+fc,150,Animals in the water
+fc,151,Dogs
+fc,152,Dogs
+fc,153,Dogs
+fc,154,Dogs
+fc,155,Faces of dogs
+fc,156,Dogs
+fc,157,Dogs
+fc,158,Dogs
+fc,159,Dogs
+fc,160,Dogs
+fc,161,Dog ears
+fc,162,Dogs
+fc,163,Dog ears
+fc,164,Dogs
+fc,165,Dogs
+fc,166,Dogs
+fc,167,Dogs
+fc,168,Dog ears
+fc,169,Dogs
+fc,170,Dogs
+fc,171,Dogs
+fc,172,Dogs
+fc,173,Dog ears
+fc,174,Dogs
+fc,175,Dogs
+fc,176,Dogs
+fc,177,Dogs
+fc,178,Dog ears
+fc,179,Dogs
+fc,180,Dogs
+fc,181,Dogs
+fc,182,Dogs
+fc,183,Dogs
+fc,184,Dogs
+fc,185,Dogs
+fc,186,Dogs
+fc,187,Dogs
+fc,188,Dogs
+fc,189,Dogs
+fc,190,Dogs
+fc,191,Dogs
+fc,192,Dogs
+fc,193,Dogs
+fc,194,Dogs
+fc,195,Dogs
+fc,196,Dogs
+fc,197,Dogs
+fc,198,Dogs
+fc,199,Dogs
+fc,200,Dogs
+fc,201,Dogs
+fc,202,Dogs
+fc,203,Dogs
+fc,204,Faces of dogs
+fc,205,Dogs
+fc,206,Dogs
+fc,207,Dogs
+fc,208,Dogs
+fc,209,Dogs
+fc,210,Dogs
+fc,211,Dogs
+fc,212,Dogs
+fc,213,Dog ears
+fc,214,Dogs
+fc,215,Dogs
+fc,216,Dogs
+fc,217,Dogs
+fc,218,Dogs
+fc,219,Dogs
+fc,220,Dogs
+fc,221,Dogs
+fc,222,Dogs
+fc,223,Dogs
+fc,224,Dogs
+fc,225,Dogs
+fc,226,Dogs
+fc,227,Dogs
+fc,228,Faces of things
+fc,229,Dogs
+fc,230,Dogs
+fc,231,Dogs
+fc,232,Dogs
+fc,233,Dogs
+fc,234,Dogs
+fc,235,Dogs
+fc,236,Dogs
+fc,237,Dogs
+fc,238,Dogs
+fc,239,Dogs
+fc,240,Dogs
+fc,241,Dogs
+fc,242,Dogs
+fc,243,Dogs
+fc,244,Dog faces
+fc,245,Dogs
+fc,246,Dogs
+fc,247,Dogs
+fc,248,Animal
+fc,249,Animal
+fc,250,Animal
+fc,251,Living things
+fc,252,Dogs
+fc,253,Dog ears
+fc,254,Dogs
+fc,255,Dogs
+fc,256,Dogs
+fc,257,Dogs
+fc,258,Faces of dogs
+fc,259,Animal faces
+fc,260,Dog faces
+fc,261,Dogs
+fc,262,Dogs
+fc,263,Dogs
+fc,264,Dogs
+fc,265,Dogs
+fc,266,Dogs
+fc,267,Dogs
+fc,268,Animals
+fc,269,Animal
+fc,270,Animal
+fc,271,Animals
+fc,272,Animal
+fc,273,Animal
+fc,274,Animal
+fc,275,Animals
+fc,276,Animals
+fc,277,Animals
+fc,278,Animals
+fc,279,Animals
+fc,280,Animals
+fc,281,Faces of things
+fc,282,Animals
+fc,283,Faces of things
+fc,284,Faces of things
+fc,285,Faces of things
+fc,286,Animals
+fc,287,Animals
+fc,288,Animals
+fc,289,Animals
+fc,290,Animals
+fc,291,Animal
+fc,292,Living things
+fc,293,Animals
+fc,294,Animals
+fc,295,Animals
+fc,296,The ground
+fc,297,Animals
+fc,298,Animals
+fc,299,Animals
+fc,300,Insects
+fc,301,Green areas in picture
+fc,302,Insects
+fc,303,Insects
+fc,304,Green areas in picture
+fc,305,Living things
+fc,306,Living things
+fc,307,Insects
+fc,308,Insects
+fc,309,Butterflies and flowers
+fc,310,Insects
+fc,311,Bugs
+fc,312,Insects
+fc,313,Diagonal lines
+fc,314,Insects
+fc,315,Bugs
+fc,316,"Insects, birds"
+fc,317,Green areas in picture
+fc,318,Nature
+fc,319,Insects and spiders
+fc,320,Insects
+fc,321,Butterflies
+fc,322,Butterflies
+fc,323,Butterflies
+fc,324,Nature
+fc,325,Flowers
+fc,326,Butterflies
+fc,327,Living things
+fc,328,Aquatic life
+fc,329,Aquatic life
+fc,330,Animals
+fc,331,Animals
+fc,332,Faces of things
+fc,333,Faces of things
+fc,334,Animals
+fc,335,Animals
+fc,336,Living things
+fc,337,Animals
+fc,338,Animal fur
+fc,339,Animal legs
+fc,340,Stripes
+fc,341,Animals
+fc,342,Animals
+fc,343,Animals
+fc,344,Living things
+fc,345,Animals
+fc,346,Animals
+fc,347,Animals
+fc,348,Animals
+fc,349,Animals
+fc,350,Animals
+fc,351,Animals
+fc,352,Living things
+fc,353,Living things
+fc,354,Animal legs
+fc,355,Animals
+fc,356,Animals
+fc,357,Animals
+fc,358,Animals
+fc,359,Animals
+fc,360,Living things
+fc,361,Animals
+fc,362,Animals
+fc,363,Animals
+fc,364,Animals
+fc,365,Animals
+fc,366,Animals
+fc,367,Animals
+fc,368,Animal legs
+fc,369,Animals
+fc,370,Animals
+fc,371,Animals
+fc,372,Animals
+fc,373,Faces of things
+fc,374,Animals
+fc,375,Animals
+fc,376,Animals
+fc,377,Animals
+fc,378,Animals
+fc,379,Animals
+fc,380,Animal
+fc,381,Animals
+fc,382,Animal
+fc,383,Animals
+fc,384,Animals
+fc,385,Living things
+fc,386,Living things
+fc,387,Animals
+fc,388,Animals
+fc,389,Living things
+fc,390,Living things
+fc,391,Living things
+fc,392,The fish
+fc,393,Aquatic life
+fc,394,Living things
+fc,395,Living things
+fc,396,Aquatic life
+fc,397,Living things
+fc,398,Lines
+fc,399,Clothes
+fc,400,Human faces
+fc,401,Stripes
+fc,402,The right side of a object
+fc,403,The sky
+fc,404,The sky
+fc,405,The sky
+fc,406,Furniture and archways
+fc,407,They all contain leg-like areas
+fc,408,Vehicles
+fc,409,Clocks
+fc,410,Regions with straight features
+fc,411,Clothing
+fc,412,Regions with straight features
+fc,413,Light reflections
+fc,414,Clothing
+fc,415,Food
+fc,416,The color blue
+fc,417,Blue sky
+fc,418,Diagonal lines
+fc,419,White areas
+fc,420,Edges of objects
+fc,421,Diagonal lines
+fc,422,Wheels
+fc,423,Furniture
+fc,424,Furniture
+fc,425,Regions with straight features
+fc,426,Clocks
+fc,427,Wooden objects
+fc,428,The ground
+fc,429,Dots
+fc,430,The right side of a object
+fc,431,Clothing
+fc,432,Wooden instruments
+fc,433,The blue and green
+fc,434,Faces of things
+fc,435,The ground
+fc,436,Vehicles
+fc,437,The sky
+fc,438,Bottles
+fc,439,Faces of things
+fc,440,Bottles
+fc,441,Food
+fc,442,Arches
+fc,443,Clothing
+fc,444,The ground
+fc,445,Clothes
+fc,446,Regions with straight features
+fc,447,Circles
+fc,448,Edges of objects
+fc,449,The sky
+fc,450,Diagonal lines
+fc,451,The right side of a object
+fc,452,Clothes
+fc,453,Furniture
+fc,454,Furniture
+fc,455,Round objects
+fc,456,Diagonal lines
+fc,457,Bowties
+fc,458,Items with designs
+fc,459,Clothes
+fc,460,Water and sky
+fc,461,Clothing
+fc,462,Diagonal lines
+fc,463,The area outside the object
+fc,464,Edges of objects
+fc,465,Clothes
+fc,466,Vehicles
+fc,467,Items with designs
+fc,468,Vehicles
+fc,469,Food
+fc,470,Jack o lanterns
+fc,471,Tires
+fc,472,Mobile
+fc,473,Cylindrical objects
+fc,474,Clothing
+fc,475,Faces of things
+fc,476,Living things
+fc,477,Edges of objects
+fc,478,Rectangular objects
+fc,479,The bottom of wheels
+fc,480,Edges of objects
+fc,481,Circles
+fc,482,Edges of objects
+fc,483,Landscapes
+fc,484,Boats
+fc,485,Electronics
+fc,486,Red and orange objects
+fc,487,Areas of white
+fc,488,The area around the object
+fc,489,Fences
+fc,490,Clothing
+fc,491,Edges of objects
+fc,492,Furniture
+fc,493,Furniture
+fc,494,Round objects
+fc,495,Furniture
+fc,496,Red objects
+fc,497,Arches
+fc,498,Regions with straight features
+fc,499,Edges of objects
+fc,500,Houses built in rock cliff
+fc,501,Clothes
+fc,502,Edges of objects
+fc,503,The sides of objects
+fc,504,Rounded edges in pictures
+fc,505,Handles and mugs
+fc,506,Stripes
+fc,507,The right side of a object
+fc,508,"Typewriter keys, keyboards on a keyboard"
+fc,509,Items with designs
+fc,510,Boats and cities and planes along the ocean
+fc,511,Vehicles
+fc,512,The area around the object
+fc,513,Handles
+fc,514,Edges of objects
+fc,515,People
+fc,516,Clothing
+fc,517,The sky
+fc,518,Circles
+fc,519,Regions with straight features
+fc,520,Vertical patterns
+fc,521,Food
+fc,522,Areas of green
+fc,523,Poles
+fc,524,Clothing
+fc,525,Regions with straight features
+fc,526,Hinges
+fc,527,Computer screens
+fc,528,Circles
+fc,529,Clothes
+fc,530,Text
+fc,531,White areas
+fc,532,Furniture
+fc,533,Rugs
+fc,534,Wooden chairs
+fc,535,Circles
+fc,536,Boats
+fc,537,The ground
+fc,538,The top of a church
+fc,539,Items with designs
+fc,540,Blue skies and ships
+fc,541,Edges of objects
+fc,542,Edges of objects
+fc,543,Circles
+fc,544,Food
+fc,545,Circles
+fc,546,The right side of a object
+fc,547,Trains in pictures
+fc,548,Furniture
+fc,549,Regions with straight features
+fc,550,Hinges
+fc,551,White areas
+fc,552,Pink and pink
+fc,553,Furniture
+fc,554,Water sources
+fc,555,Red colored objects
+fc,556,Square objects
+fc,557,The sky
+fc,558,Hands of people
+fc,559,Vertical lines
+fc,560,Areas of blue
+fc,561,Vehicles
+fc,562,Water sources
+fc,563,Diagonal lines
+fc,564,Walls
+fc,565,Horizontal lines on objects
+fc,566,Musical instruments
+fc,567,Food
+fc,568,People and clothes
+fc,569,Vehicles
+fc,570,Faces of things
+fc,571,Regions with straight features
+fc,572,The right side of a object
+fc,573,Vehicles
+fc,574,Round objects
+fc,575,Vehicles
+fc,576,Boats
+fc,577,Round objects
+fc,578,Dresses
+fc,579,Furniture
+fc,580,Nature
+fc,581,Horizontal lines
+fc,582,Food
+fc,583,Edges of objects
+fc,584,White areas
+fc,585,Bottles
+fc,586,Vehicles
+fc,587,"Long, thin objects"
+fc,588,Edges of objects
+fc,589,Bottles
+fc,590,Computer screens
+fc,591,Items with designs
+fc,592,Circles
+fc,593,Edges of objects
+fc,594,Vertical line patterns
+fc,595,Wheels
+fc,596,"Long, thin objects"
+fc,597,Light reflections
+fc,598,Screens and tis
+fc,599,Items with designs
+fc,600,The area around the object
+fc,601,Dresses wear dresses
+fc,602,Edges
+fc,603,Horses and horses
+fc,604,Parts of things
+fc,605,Circles
+fc,606,White areas
+fc,607,Jack o lanterns and lit up halloween decoration
+fc,608,Clothing
+fc,609,Vehicles
+fc,610,Clothes
+fc,611,Items with designs
+fc,612,Wheels
+fc,613,Circles
+fc,614,Clothes
+fc,615,The right side of objects
+fc,616,Diagonal lines
+fc,617,Clothes
+fc,618,Round objects
+fc,619,The top of the objects
+fc,620,Edges of objects
+fc,621,Wheels
+fc,622,Circles
+fc,623,Diagonal lines
+fc,624,Furniture
+fc,625,Mobile
+fc,626,Fire
+fc,627,Classic cars
+fc,628,Boats
+fc,629,The corners of objects
+fc,630,Edges of objects
+fc,631,Bottles
+fc,632,Circles
+fc,633,Circles
+fc,634,Vehicles
+fc,635,Clocks
+fc,636,Clothing
+fc,637,Regions with straight features
+fc,638,Clothes
+fc,639,Clothes
+fc,640,Manhole covers
+fc,641,Parts of things
+fc,642,Light reflections
+fc,643,Faces of things
+fc,644,Red and orange objects
+fc,645,Nature
+fc,646,Landscapes
+fc,647,Bottles
+fc,648,Bottles
+fc,649,Landscapes
+fc,650,Circles
+fc,651,Rectangular objects
+fc,652,Faces of people wearing wearing
+fc,653,Bottles
+fc,654,Vehicles
+fc,655,Clothes
+fc,656,Vehicles
+fc,657,Smoke and the sky
+fc,658,Clothing
+fc,659,Food
+fc,660,The sky
+fc,661,Wheels
+fc,662,White areas
+fc,663,Arced ridgeway
+fc,664,Computer screens
+fc,665,Wheels
+fc,666,Rounded edges in pictures
+fc,667,Human faces
+fc,668,Tops of buildings
+fc,669,Regions with straight features
+fc,670,Wheels
+fc,671,The ground
+fc,672,Nature
+fc,673,White areas
+fc,674,Diagonal lines
+fc,675,The sky
+fc,676,Dog ears
+fc,677,Diagonal lines
+fc,678,Faces
+fc,679,Similar patterns
+fc,680,Bottles
+fc,681,Edges of objects
+fc,682,The sky
+fc,683,Edges of objects
+fc,684,Parts of things
+fc,685,Speedometer
+fc,686,Circles
+fc,687,Organ
+fc,688,Edges of objects
+fc,689,Dresses wear dresses
+fc,690,Horses and horses
+fc,691,Faces of things
+fc,692,Food
+fc,693,The ocean
+fc,694,Horizontal lines
+fc,695,Edges of objects
+fc,696,Diagonal lines
+fc,697,Clothes
+fc,698,Items with designs
+fc,699,Parts of things
+fc,700,Edges of objects
+fc,701,The sky
+fc,702,Edges
+fc,703,Regions with straight features
+fc,704,Wheels
+fc,705,Trains in pictures
+fc,706,Furniture
+fc,707,Edges of objects
+fc,708,Structures
+fc,709,Diagonal lines
+fc,710,Red areas
+fc,711,The tops of objects
+fc,712,Round objects
+fc,713,Hinges
+fc,714,The right side of a object
+fc,715,Arches
+fc,716,Fences
+fc,717,Vehicles
+fc,718,The sky
+fc,719,Circles
+fc,720,Bottles
+fc,721,Items with designs
+fc,722,Balls
+fc,723,Flower petals
+fc,724,Boats
+fc,725,Rounded edges in pictures
+fc,726,Wooden flooring
+fc,727,Tops of buildings
+fc,728,Clothing
+fc,729,Edges of objects
+fc,730,The ground
+fc,731,Light reflections
+fc,732,Circles
+fc,733,Regions with straight features
+fc,734,Vehicles
+fc,735,Clothing
+fc,736,Areas of green
+fc,737,Bottles
+fc,738,Green areas in picture
+fc,739,Rounded edges in pictures
+fc,740,Light reflections
+fc,741,Items with designs
+fc,742,Regions with straight features
+fc,743,Windows
+fc,744,Smoke and the sky
+fc,745,Circles
+fc,746,The right side of a object
+fc,747,Bottles
+fc,748,Clothing
+fc,749,Diagonal lines
+fc,750,Furniture
+fc,751,Vehicles
+fc,752,Green and blue
+fc,753,Vertical lines
+fc,754,White areas
+fc,755,The sky
+fc,756,Edges of objects
+fc,757,Vehicles
+fc,758,Circles
+fc,759,Circles
+fc,760,Regions with straight features
+fc,761,Circles
+fc,762,Regions with straight features
+fc,763,Edges of objects
+fc,764,Light reflections
+fc,765,Vertical lines
+fc,766,Food
+fc,767,Cylindrical objects
+fc,768,Living things
+fc,769,Diagonal lines
+fc,770,The ground
+fc,771,Hinges of objects
+fc,772,Diagonal lines
+fc,773,Bottles
+fc,774,Edges of objects
+fc,775,Clothes
+fc,776,Edges of objects
+fc,777,Metal objects
+fc,778,Clocks
+fc,779,Yellow areas in pictures
+fc,780,Boats
+fc,781,Text
+fc,782,Computer screens
+fc,783,Objects with ridges
+fc,784,Edges of objects
+fc,785,Faces
+fc,786,Hinges
+fc,787,Faces of things
+fc,788,Edges of objects
+fc,789,Windows
+fc,790,Diagonal lines
+fc,791,Wooden chairs and grocery
+fc,792,Diagonal lines
+fc,793,Shower caps
+fc,794,Items with designs
+fc,795,The sky
+fc,796,Clothes
+fc,797,Clothing
+fc,798,Regions with straight features
+fc,799,Windows
+fc,800,Text
+fc,801,The ocean
+fc,802,The ground
+fc,803,The ground
+fc,804,Light reflections
+fc,805,Soccer balls
+fc,806,Clothing
+fc,807,The sky
+fc,808,People
+fc,809,Food
+fc,810,Keyboards
+fc,811,Hinges
+fc,812,Regions with straight features
+fc,813,Round objects
+fc,814,The ocean
+fc,815,"Insects, spiders"
+fc,816,Cylindrical objects
+fc,817,Cars
+fc,818,Circles
+fc,819,The color blue
+fc,820,Vehicles
+fc,821,The sky
+fc,822,Edges of objects
+fc,823,Circles
+fc,824,Clothing
+fc,825,Grass and rocks
+fc,826,Clocks
+fc,827,Edges of objects
+fc,828,Circles
+fc,829,Trains in pictures
+fc,830,Diagonal lines
+fc,831,Regions with straight features
+fc,832,Bridges and towers
+fc,833,Water
+fc,834,Clothes
+fc,835,Round edges on objects
+fc,836,The area around the object
+fc,837,Faces
+fc,838,Bottles
+fc,839,Diagonal lines
+fc,840,Diagonal lines
+fc,841,Clothes
+fc,842,People and water
+fc,843,Poles
+fc,844,Hinges
+fc,845,Cylindrical objects
+fc,846,Clothes
+fc,847,Vehicles
+fc,848,Electronics
+fc,849,Rounded edges in pictures
+fc,850,Faces of things
+fc,851,The screens
+fc,852,Green and yellow
+fc,853,Nature
+fc,854,Red curtain
+fc,855,Cylindrical objects
+fc,856,Wheels
+fc,857,Regions with straight features
+fc,858,Similar color patterns
+fc,859,White areas
+fc,860,Text
+fc,861,Round edges on objects
+fc,862,Clothes
+fc,863,Regions with straight features
+fc,864,Vehicles
+fc,865,Clothing
+fc,866,Wheels
+fc,867,The sky
+fc,868,Items with designs
+fc,869,Clothes
+fc,870,Wheels
+fc,871,Boats
+fc,872,The right side of a object
+fc,873,"Sky, buildings, arches"
+fc,874,Vehicles
+fc,875,Musical instruments
+fc,876,Faces of things
+fc,877,Hinges
+fc,878,Keyboards
+fc,879,Red colored objects
+fc,880,The ground
+fc,881,Furniture
+fc,882,Edges of objects
+fc,883,The right side of a object
+fc,884,Arches ceilings
+fc,885,Clothing
+fc,886,Edges of objects
+fc,887,Clothing
+fc,888,Nature
+fc,889,Red and orange objects
+fc,890,Chairs
+fc,891,Edges of objects
+fc,892,Clocks
+fc,893,Regions with straight features
+fc,894,Furniture
+fc,895,The sky
+fc,896,The ground
+fc,897,Edges of objects
+fc,898,Bottles
+fc,899,Rounded edges in pictures
+fc,900,The sky
+fc,901,Bottles
+fc,902,The corners of objects
+fc,903,Ugly ugly ugly
+fc,904,Dots
+fc,905,Walls
+fc,906,Clothes
+fc,907,Bottles
+fc,908,The sky
+fc,909,Food
+fc,910,Food
+fc,911,Clothing
+fc,912,Nature
+fc,913,Boats
+fc,914,Boats
+fc,915,Windows
+fc,916,Text on a web page
+fc,917,Text
+fc,918,Text
+fc,919,The sky
+fc,920,The sky
+fc,921,Text
+fc,922,Text
+fc,923,Food
+fc,924,Food
+fc,925,Food
+fc,926,Food
+fc,927,Food
+fc,928,Food
+fc,929,Human faces
+fc,930,Food
+fc,931,Food
+fc,932,Food
+fc,933,Food
+fc,934,Food
+fc,935,Food
+fc,936,Green areas in picture
+fc,937,Green areas in picture
+fc,938,Green areas in picture
+fc,939,Green areas in picture
+fc,940,Fruit
+fc,941,Food
+fc,942,Food
+fc,943,Green areas in picture
+fc,944,Green areas in picture
+fc,945,Produce
+fc,946,"Flowers, aquatic life"
+fc,947,Nature
+fc,948,Yellow or green
+fc,949,Red areas in picture
+fc,950,Produce
+fc,951,Produce
+fc,952,Fruit and vegetables
+fc,953,Produce
+fc,954,Yellow areas
+fc,955,Green areas in picture
+fc,956,Green areas in picture
+fc,957,Food
+fc,958,The ground
+fc,959,"The shredded cheese, beef, and possibly green onion bits on top of a"
+fc,960,Food
+fc,961,Food
+fc,962,Food
+fc,963,Food
+fc,964,Food
+fc,965,Food
+fc,966,The right side of a object
+fc,967,The right side of a circle
+fc,968,Round edges on objects
+fc,969,Food
+fc,970,Landscapes
+fc,971,Faces of things
+fc,972,Landscapes
+fc,973,Aquatic life
+fc,974,Water geysers
+fc,975,Landscapes
+fc,976,Landscapes
+fc,977,The ocean
+fc,978,Landscapes
+fc,979,Mountain valleys that are green
+fc,980,Volcanoes erupting
+fc,981,The ground
+fc,982,Clothes
+fc,983,Underwater
+fc,984,The grassy field has numerous flowers
+fc,985,Flowers
+fc,986,Green areas in picture
+fc,987,Produce
+fc,988,Green areas in picture
+fc,989,Produce
+fc,990,Produce
+fc,991,Coral
+fc,992,"Mushrooms, flamingoes, and fields"
+fc,993,Nature
+fc,994,Items with designs
+fc,995,Food
+fc,996,Aquatic life
+fc,997,Nature
+fc,998,Produce
+fc,999,Edges of objects
