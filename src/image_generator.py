@@ -60,7 +60,7 @@ elif MODEL_NAME == "densenet161_places-features" or MODEL_NAME == "densenet161-f
     N_NEURONS = 2208
 elif MODEL_NAME == "googlenet-inception5b":
     N_NEURONS = 1024
-elif MODEL_NAME == "vit_b_16-heads" or MODEL_NAME == "vit_b_16-layer11" or MODEL_NAME == "vit_b_16-ln" or MODEL_NAME == "beit-layer13":
+elif MODEL_NAME == "vit_b_16-features" or MODEL_NAME == "vit_b_16-layer11" or MODEL_NAME == "vit_b_16-ln" or MODEL_NAME == "beit-layer13":
     N_NEURONS = 768
 
 
