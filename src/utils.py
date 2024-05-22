@@ -131,7 +131,6 @@ class Subset(torch.nn.Module):
 def get_target_model(target_name, device):
     """
     returns target model in eval mode and its preprocess function
-    target_name: supported options - {resnet18, vit_b_16, detr, beit}
     """
     if target_name == "resnet18":
         weights = torchvision.models.ResNet18_Weights.IMAGENET1K_V1
@@ -152,33 +151,36 @@ def get_target_model(target_name, device):
         target_model = target_model.eval().to(device)
         preprocess = TRANSFORMS["transform_places365"]   
         features_layer = target_model.avgpool
-    # elif target_name == "vit_b_16":
-    #     weights = torchvision.models.ViT_B_16_Weights.IMAGENET1K_V1
-    #     preprocess = weights.transforms()
-    #     target_model = torchvision.models.vit_b_16(weights=weights).to(device).eval()
-    # elif "densenet161" in target_name:
-    #     weights = torchvision.models.DenseNet161_Weights.IMAGENET1K_V1
-    #     preprocess = weights.transforms()
-    #     target_model = torchvision.models.densenet161(weights=weights).to(device)
-    # elif "googlenet" in target_name:
-    #     weights = torchvision.models.GoogLeNet_Weights.IMAGENET1K_V1
-    #     preprocess = weights.transforms()
-    #     target_model = torchvision.models.googlenet(weights=weights).to(device)
-    elif target_name == 'densenet161':
-        weights = torchvision.models.DenseNet161_Weights.IMAGENET1K_V1
-        target_model = torchvision.models.densenet161(weights=weights).to(device).eval()
+    elif target_name == "vit_b_16":
+        weights = torchvision.models.ViT_B_16_Weights.IMAGENET1K_V1
         preprocess = weights.transforms()
+        target_model = torchvision.models.vit_b_16(weights=weights).to(device).eval()
+        features_layer = target_model.heads.head
+    elif "densenet161" in target_name:
+        weights = torchvision.models.DenseNet161_Weights.IMAGENET1K_V1
+        preprocess = weights.transforms()
+        target_model = torchvision.models.densenet161(weights=weights).to(device)
+        features_layer = target_model.classifier
+    elif "googlenet" in target_name:
+        weights = torchvision.models.GoogLeNet_Weights.IMAGENET1K_V1
+        preprocess = weights.transforms()
+        target_model = torchvision.models.googlenet(weights=weights).to(device)
+        features_layer = target_model.fc
+    # elif target_name == 'densenet161':
+    #     weights = torchvision.models.DenseNet161_Weights.IMAGENET1K_V1
+    #     target_model = torchvision.models.densenet161(weights=weights).to(device).eval()
+    #     preprocess = weights.transforms()
 
-        target_model.features.add_module("relu", torch.nn.ReLU(inplace=False))
-        target_model.features.add_module(
-            "adaptive_avgpool", torch.nn.AdaptiveAvgPool2d((1, 1)))
-        target_model.features.add_module("flatten", torch.nn.Flatten(1))
-        def new_forward(self, x: torch.Tensor):
-            features = self.features(x)
-            out = self.classifier(features)
-            return out
-        target_model.forward = types.MethodType(new_forward, target_model)
-        features_layer = target_model.features.to(device).eval()
+    #     target_model.features.add_module("relu", torch.nn.ReLU(inplace=False))
+    #     target_model.features.add_module(
+    #         "adaptive_avgpool", torch.nn.AdaptiveAvgPool2d((1, 1)))
+    #     target_model.features.add_module("flatten", torch.nn.Flatten(1))
+    #     def new_forward(self, x: torch.Tensor):
+    #         features = self.features(x)
+    #         out = self.classifier(features)
+    #         return out
+    #     target_model.forward = types.MethodType(new_forward, target_model)
+    #     features_layer = target_model.features.to(device).eval()
     elif "densenet161_places" in target_name:
         arch = 'densenet161'
         # load the pre-trained weights
@@ -211,30 +213,30 @@ def get_target_model(target_name, device):
         target_model = target_model.to(device).eval()
         features_layer = target_model.features.to(device).eval()
         # target_model = features_layer
-    elif target_name == 'vit_b_16':
-        weights = torchvision.models.ViT_B_16_Weights.IMAGENET1K_V1
-        target_model = torchvision.models.vit_b_16(weights=weights).eval()
-        preprocess = weights.transforms()
-        # see here https://pytorch.org/vision/stable/_modules/torchvision/models/vision_transformer.html#vit_b_16
-        index = torch.zeros([1]).long()
-        setattr(target_model, 'subset', torch.nn.Sequential(Subset(index),
-                                                     torch.nn.Flatten()))
-        def new_forward(self, x: torch.Tensor):
-            # Reshape and permute the input tensor
-            x = self._process_input(x)
-            n = x.shape[0]
-            # Expand the class token to the full batch
-            batch_class_token = self.class_token.expand(n, -1, -1)
-            x = torch.cat([batch_class_token, x], dim=1)
-            x = self.encoder(x)
-            x = self.subset(x)
-            x = self.heads(x)
-            return x
+    # elif target_name == 'vit_b_16':
+    #     weights = torchvision.models.ViT_B_16_Weights.IMAGENET1K_V1
+    #     target_model = torchvision.models.vit_b_16(weights=weights).eval()
+    #     preprocess = weights.transforms()
+    #     # see here https://pytorch.org/vision/stable/_modules/torchvision/models/vision_transformer.html#vit_b_16
+    #     index = torch.zeros([1]).long()
+    #     setattr(target_model, 'subset', torch.nn.Sequential(Subset(index),
+    #                                                  torch.nn.Flatten()))
+    #     def new_forward(self, x: torch.Tensor):
+    #         # Reshape and permute the input tensor
+    #         x = self._process_input(x)
+    #         n = x.shape[0]
+    #         # Expand the class token to the full batch
+    #         batch_class_token = self.class_token.expand(n, -1, -1)
+    #         x = torch.cat([batch_class_token, x], dim=1)
+    #         x = self.encoder(x)
+    #         x = self.subset(x)
+    #         x = self.heads(x)
+    #         return x
 
-        target_model.forward = types.MethodType(new_forward, target_model)
-        target_model = target_model.to(device)
-        features_layer = target_model.subset
-        features_layer = features_layer.eval()
+    #     target_model.forward = types.MethodType(new_forward, target_model)
+    #     target_model = target_model.to(device)
+    #     features_layer = target_model.subset
+    #     features_layer = features_layer.eval()
 
     target_model.eval()
     return target_model, features_layer, preprocess

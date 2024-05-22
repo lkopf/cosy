@@ -61,8 +61,9 @@ if __name__ == '__main__':
     
     print(f"Evaluate target: {model_layer}")
 
-    EXPLANATION_PATH = f"./assets/explanations/{args.method}/{model_layer}_filter.csv" ###
-    NEURON_IDS = random.sample(range(n_neurons), args.n_neurons_random)
+    EXPLANATION_PATH = f"./assets/explanations/{args.method}/{model_layer}.csv" ###
+    # NEURON_IDS = random.sample(range(n_neurons), args.n_neurons_random)
+    NEURON_IDS = [221]
     EXPLANATIONS, _ = load_explanations(path=EXPLANATION_PATH,name=args.method,
                                         image_path=args.gen_images_dir,neuron_ids=NEURON_IDS)
 
@@ -74,7 +75,7 @@ if __name__ == '__main__':
     # Load activations for val dataset
     A_F_val = torch.load(f"{args.activation_dir}/val_{model_layer}.pt").to(args.device)
 
-    csv_filename = f"{args.result_dir}/evaluation_{args.method}_{model_layer}_filter.csv"
+    csv_filename = f"{args.result_dir}/evaluation_{args.method}_{model_layer}_neuron221.csv"
     csv_headers = ["neuron", "concept", "auc", "U1", "p", "avg. activation diff"]
 
     if not csv_file_exists(csv_filename):
@@ -95,7 +96,7 @@ if __name__ == '__main__':
                                                 shuffle=False,
                                                 num_workers=args.num_workers)
         
-        TENSOR_PATH = f"{args.activation_dir}/method_eval/{args.method}_{model_layer}_neuron-{NEURON_ID}_filter.pt"
+        TENSOR_PATH = f"{args.activation_dir}/method_eval/{args.method}_{model_layer}_neuron-{NEURON_ID}.pt"
 
         if os.path.exists(TENSOR_PATH):
             A_F = torch.load(TENSOR_PATH)

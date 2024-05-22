@@ -25,8 +25,8 @@ os.makedirs(IMAGE_PATH, exist_ok=True)
 # Load Explanations
 METHOD = (# "MILAN"
           # "INVERT"
-          # "CLIP-Dissect"
-          "FALCON"
+          "CLIP-Dissect"
+          # "FALCON"
           )
 print(METHOD)
 MODEL_NAME = (# "resnet18-avgpool"
