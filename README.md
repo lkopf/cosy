@@ -1,6 +1,6 @@
 <br/><br/>
 <p align="center">
-  <img width="300" src="./cosy_logo.svg">
+  <img width="350" src="./cosy_logo.svg">
 <h3 align="center"><b>CoSy: Evaluating Textual Explanations of Neurons</b></h3>
 <p align="center">
   PyTorch
@@ -40,7 +40,7 @@ This work is in review.
 
 </p>
 <p align="center">
-  <img width="700" src="./cosy_graph.png">
+  <img width="800" src="./cosy_graph.png">
 </p>
 
 **Evaluating Neuron Explanations** In Explainable AI (XAI) there are methods which connect neurons in Deep Neural Networks (DNNS) to human-understandable textual descriptions. Evaluating the quality of these explanations is challenging due to the lack of a unified quantitative approach. We introduce CoSy (Concept Synthesis), a novel, architecture-agnostic framework for evaluating textual explanations of latent neurons. Given textual explanations, our proposed framework uses a generative model conditioned on textual input to create data points representing the explanations, comparing the neuron's response to these and control data points to estimate explanation quality. We validate our framework through meta-evaluation experiments and benchmark various concept-based textual explanation methods for Computer Vision tasks, revealing significant differences in quality.
