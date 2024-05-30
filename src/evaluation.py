@@ -56,7 +56,7 @@ parser.add_argument(
 parser.add_argument(
     "--target_layer",
     type=str,
-    default="fc",
+    default="avgpool",
     help="""Which layer neurons to describe for pytorch models.""",
 )
 parser.add_argument(
@@ -145,7 +145,7 @@ if __name__ == "__main__":
     A_0 = torch.load(f"{args.activation_dir}/val_{model_layer}.pt").to(args.device)
 
     csv_filename = f"{args.result_dir}/evaluation_{args.method}_{model_layer}.csv"
-    csv_headers = ["neuron", "concept", "auc", "U1", "p", "avg. activation diff"]
+    csv_headers = ["neuron", "concept", "AUC", "U1", "p", "MAD"]
 
     if not os.path.exists(csv_filename):
         utils.create_csv(csv_filename, csv_headers)
@@ -198,16 +198,18 @@ if __name__ == "__main__":
             ),
             0,
         )
-        # Construct dataset A_D with non-class activations and synthetic class activations
+        # Construct dataset A_D with non-concept activations and synthetic concept activations
         A_D = torch.cat((activ_non_concept, activ_concept), 0)
         # Score explanations
         auc_synthetic = roc_auc_score(class_labels.to("cpu"), A_D.to("cpu"))
         U1, p = mannwhitneyu(class_labels.to("cpu"), A_D.to("cpu"))
-        avg_activation_diff = (
+        mean_activation_diff = (
             activ_concept.mean().item() - activ_non_concept.mean().item()
         )
 
-        new_rows = [[NEURON_ID, concept_raw, auc_synthetic, U1, p, avg_activation_diff]]
+        new_rows = [
+            [NEURON_ID, concept_raw, auc_synthetic, U1, p, mean_activation_diff]
+        ]
         utils.add_rows_to_csv(csv_filename, new_rows)
 
     end = datetime.now()

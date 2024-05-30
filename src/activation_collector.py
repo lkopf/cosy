@@ -39,7 +39,7 @@ parser.add_argument(
 parser.add_argument(
     "--target_layer",
     type=str,
-    default="fc",
+    default="avgpool",
     help="""Which layer neurons to describe for pytorch models.""",
 )
 parser.add_argument(
