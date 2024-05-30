@@ -7,7 +7,7 @@
 
   </p>
 
-This repository contains the code and experiments for the paper **CoSy: Evaluating Textual Explanations of Neurons]** by Kopf et al., 2024. 
+This repository contains the code and experiments for the paper **CoSy: Evaluating Textual Explanations of Neurons** by Kopf et al., 2024. 
 
 <!--[![Getting started!](https://colab.research.google.com/assets/colab-badge.svg)](anonymous)-->
 
