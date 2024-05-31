@@ -7,7 +7,7 @@
 
   </p>
 
-This repository contains the code and experiments for the paper **CoSy: Evaluating Textual Explanations of Neurons** by Kopf et al., 2024. 
+This repository contains the code and experiments for the paper **[CoSy: Evaluating Textual Explanations of Neurons](https://arxiv.org/abs/2405.20331)** by Kopf et al., 2024. 
 
 <!--[![Getting started!](https://colab.research.google.com/assets/colab-badge.svg)](anonymous)-->
 
@@ -89,10 +89,14 @@ python src/evaluation.py --target_model resnet18 --target_layer avgpool --method
 If you find this work interesting or useful in your research, use the following Bibtex annotation to cite us:
 
 ```bibtex
-@inproceedings{kopf2024cosy,
-  title={{CoSy: Evaluating Textual Explanations of Neurons}},
-  author={Kopf, Laura and Bommer, Philine Lou and Hedström, Anna and Lapuschkin, Sebastian and Höhne, Marina M. -C. and Bykov, Kirill},
-  year={2024}
+@misc{kopf2024cosy,
+      title={{CoSy: Evaluating Textual Explanations of Neurons}}, 
+      author={Laura Kopf and Philine Lou Bommer and Anna Hedström and Sebastian Lapuschkin and Marina M. -C. Höhne and Kirill Bykov},
+      year={2024},
+      eprint={2405.20331},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2405.20331}
 }
 ```
 This work is in review.
