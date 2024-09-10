@@ -9,10 +9,12 @@ import torch
 import torchvision
 from torch.utils.data import Dataset
 
-DATASET_PATH = {  # dataset : "/path/to/images/",
-    "imagenet": "/path/to/imagenet_val/",
-    "places365": "/path/to/places365_val",
-}
+# DATASET_PATH = {  # dataset : "/path/to/images/",
+#     "imagenet": "/path/to/imagenet_val/",
+#     "places365": "/path/to/places365_val",
+# }
+
+DATASET_PATH = {}  # {dataset : "/path/to/images/",}
 
 MEAN = (0.485, 0.456, 0.406)
 STD = (0.229, 0.224, 0.225)
@@ -76,7 +78,6 @@ class ImageDataset(Dataset):
         Returns:
             torch.Tensor: Transformed image.
         """
-        print((self.image_names[index]))
         image = cv2.imread(self.image_names[index])
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
@@ -85,99 +86,162 @@ class ImageDataset(Dataset):
         return image
 
 
+# Function to load pre-trained models
 def get_target_model(target_name, device):
     """
-    Get the target model in eval mode and its preprocess function.
-
-    Args:
-        target_name (str): Name of the target model.
-        device (torch.device): Device to load the model on.
-
-    Returns:
-        torch.nn.Module: Target model.
-        torch.nn.Module: Features layer of the target model.
-        torchvision.transforms.Compose: Preprocess function for the target model.
+    returns target model in eval mode and its preprocess function
     """
-    
-    def download_weights(arch, model_file):
-        """Helper function to download model weights if not already present."""
+    if target_name == "resnet18":
+        weights = torchvision.models.ResNet18_Weights.IMAGENET1K_V1
+        preprocess = weights.transforms()
+        target_model = torchvision.models.resnet18(weights=weights).to(device).eval()
+        features_layer = target_model.avgpool
+    elif target_name == "resnet50":
+        weights = torchvision.models.ResNet50_Weights.IMAGENET1K_V1
+        preprocess = weights.transforms()
+        target_model = torchvision.models.resnet50(weights=weights).to(device).eval()
+        features_layer = target_model.avgpool
+    elif target_name == "resnet50_places":
+        arch = "resnet50"
+        # load the pre-trained weights
+        model_file = "%s_places365.pth.tar" % arch
         if not os.access(model_file, os.W_OK):
-            weight_url = f"http://places2.csail.mit.edu/models_places365/{model_file}"
-            os.system(f"wget {weight_url}")
+            weight_url = "http://places2.csail.mit.edu/models_places365/" + model_file
+            os.system("wget " + weight_url)
+        target_model = torchvision.models.__dict__[arch](num_classes=365)
+        checkpoint = torch.load(model_file, map_location=lambda storage, loc: storage)
+        state_dict = {
+            str.replace(k, "module.", ""): v
+            for k, v in checkpoint["state_dict"].items()
+        }
+        target_model.load_state_dict(state_dict)
+        target_model = target_model.eval().to(device)
+        preprocess = TRANSFORMS["transform_places365"]
+        features_layer = target_model.avgpool
+    elif target_name == "vit_b_16":
+        weights = torchvision.models.ViT_B_16_Weights.IMAGENET1K_V1
+        preprocess = weights.transforms()
+        target_model = torchvision.models.vit_b_16(weights=weights).to(device).eval()
+        features_layer = target_model.heads.head
+    elif "densenet161" in target_name:
+        weights = torchvision.models.DenseNet161_Weights.IMAGENET1K_V1
+        preprocess = weights.transforms()
+        target_model = torchvision.models.densenet161(weights=weights).to(device)
+        features_layer = target_model.classifier
+    elif "googlenet" in target_name:
+        weights = torchvision.models.GoogLeNet_Weights.IMAGENET1K_V1
+        preprocess = weights.transforms()
+        target_model = torchvision.models.googlenet(weights=weights).to(device)
+        features_layer = target_model.fc
+    elif "dino_vits8" in target_name:
+        weights = None
+        preprocess = TRANSFORMS["transform_imagenet"]
+        target_model = (
+            torch.hub.load("facebookresearch/dino:main", "dino_vits8").to(device).eval()
+        )
+        features_layer = target_model.blocks[11].mlp.fc1
+    # elif target_name == "densenet161":
+    #     weights = torchvision.models.DenseNet161_Weights.IMAGENET1K_V1
+    #     target_model = torchvision.models.densenet161(weights=weights).to(device).eval()
+    #     preprocess = weights.transforms()
 
-    def load_places_model(arch, model_file, num_classes=365):
-        """Helper function to load the Places365 model."""
-        download_weights(arch, model_file)
-        target_model = torchvision.models.__dict__[arch](num_classes=num_classes)
+    #     target_model.features.add_module("relu", torch.nn.ReLU(inplace=False))
+    #     target_model.features.add_module(
+    #         "adaptive_avgpool", torch.nn.AdaptiveAvgPool2d((1, 1))
+    #     )
+    #     target_model.features.add_module("flatten", torch.nn.Flatten(1))
+
+    #     def new_forward(self, x: torch.Tensor):
+    #         features = self.features(x)
+    #         out = self.classifier(features)
+    #         return out
+
+    #     target_model.forward = types.MethodType(new_forward, target_model)
+    #     features_layer = target_model.features.to(device).eval()
+    elif "densenet161_places" in target_name:
+        arch = "densenet161"
+        # load the pre-trained weights
+        model_file = "%s_places365.pth.tar" % arch
+        if not os.access(model_file, os.W_OK):
+            weight_url = "http://places2.csail.mit.edu/models_places365/" + model_file
+            os.system("wget " + weight_url)
+        target_model = torchvision.models.__dict__[arch](num_classes=365)
         checkpoint = torch.load(model_file, map_location=lambda storage, loc: storage)
         state_dict = {
             str.replace(k, "module.", ""): v
             for k, v in checkpoint["state_dict"].items()
         }
         if arch == "densenet161":
-            state_dict = {str.replace(k, "norm.", "norm"): v for k, v in state_dict.items()}
-            state_dict = {str.replace(k, "conv.", "conv"): v for k, v in state_dict.items()}
-            state_dict = {str.replace(k, "normweight", "norm.weight"): v for k, v in state_dict.items()}
-            state_dict = {str.replace(k, "normrunning", "norm.running"): v for k, v in state_dict.items()}
-            state_dict = {str.replace(k, "normbias", "norm.bias"): v for k, v in state_dict.items()}
-            state_dict = {str.replace(k, "convweight", "conv.weight"): v for k, v in state_dict.items()}
+            state_dict = {
+                str.replace(k, "norm.", "norm"): v for k, v in state_dict.items()
+            }
+            state_dict = {
+                str.replace(k, "conv.", "conv"): v for k, v in state_dict.items()
+            }
+            state_dict = {
+                str.replace(k, "normweight", "norm.weight"): v
+                for k, v in state_dict.items()
+            }
+            state_dict = {
+                str.replace(k, "normrunning", "norm.running"): v
+                for k, v in state_dict.items()
+            }
+            state_dict = {
+                str.replace(k, "normbias", "norm.bias"): v
+                for k, v in state_dict.items()
+            }
+            state_dict = {
+                str.replace(k, "convweight", "conv.weight"): v
+                for k, v in state_dict.items()
+            }
         target_model.load_state_dict(state_dict)
-        return target_model
-
-    if target_name == "resnet18":
-        weights = torchvision.models.ResNet18_Weights.IMAGENET1K_V1
-        preprocess = weights.transforms()
-        target_model = torchvision.models.resnet18(weights=weights).to(device).eval()
-        features_layer = target_model.avgpool
-
-    elif target_name == "vit_b_16":
-        weights = torchvision.models.ViT_B_16_Weights.IMAGENET1K_V1
-        preprocess = weights.transforms()
-        target_model = torchvision.models.vit_b_16(weights=weights).to(device).eval()
-        features_layer = target_model.heads.head
-
-    elif "densenet161" in target_name:
-        weights = torchvision.models.DenseNet161_Weights.IMAGENET1K_V1
-        preprocess = weights.transforms()
-        target_model = torchvision.models.densenet161(weights=weights).to(device).eval()
-        features_layer = target_model.classifier
-
-    elif "googlenet" in target_name:
-        weights = torchvision.models.GoogLeNet_Weights.IMAGENET1K_V1
-        preprocess = weights.transforms()
-        target_model = torchvision.models.googlenet(weights=weights).to(device).eval()
-        features_layer = target_model.fc
-
-    elif target_name == "resnet50_places":
-        arch = "resnet50"
-        model_file = f"{arch}_places365.pth.tar"
-        target_model = load_places_model(arch, model_file).to(device).eval()
         preprocess = TRANSFORMS["transform_places365"]
-        features_layer = target_model.avgpool
-
-    elif "densenet161_places" in target_name:
-        arch = "densenet161"
-        model_file = f"{arch}_places365.pth.tar"
-        target_model = load_places_model(arch, model_file).to(device).eval()
-        preprocess = TRANSFORMS["transform_places365"]
-        
-        # Add required layers for Places365 DenseNet161
+        # second to last layer:
         target_model.features.add_module("relu", torch.nn.ReLU(inplace=False))
-        target_model.features.add_module("adaptive_avgpool", torch.nn.AdaptiveAvgPool2d((1, 1)))
+        target_model.features.add_module(
+            "adaptive_avgpool", torch.nn.AdaptiveAvgPool2d((1, 1))
+        )
         target_model.features.add_module("flatten", torch.nn.Flatten(1))
 
-        # Redefine the forward method to include the new features
         def new_forward(self, x: torch.Tensor):
             features = self.features(x)
             out = self.classifier(features)
             return out
 
         target_model.forward = types.MethodType(new_forward, target_model)
-        features_layer = target_model.features
+        target_model = target_model.to(device).eval()
+        features_layer = target_model.features.to(device).eval()
+    elif target_name == "vit_b_16":
+        weights = torchvision.models.ViT_B_16_Weights.IMAGENET1K_V1
+        target_model = torchvision.models.vit_b_16(weights=weights).eval()
+        preprocess = weights.transforms()
+        # see here https://pytorch.org/vision/stable/_modules/torchvision/models/vision_transformer.html#vit_b_16
+        index = torch.zeros([1]).long()
+        setattr(
+            target_model,
+            "subset",
+            torch.nn.Sequential(Subset(index), torch.nn.Flatten()),
+        )
+
+        def new_forward(self, x: torch.Tensor):
+            # Reshape and permute the input tensor
+            x = self._process_input(x)
+            n = x.shape[0]
+            # Expand the class token to the full batch
+            batch_class_token = self.class_token.expand(n, -1, -1)
+            x = torch.cat([batch_class_token, x], dim=1)
+            x = self.encoder(x)
+            x = self.subset(x)
+            x = self.heads(x)
+            return x
+
+        target_model.forward = types.MethodType(new_forward, target_model)
+        target_model = target_model.to(device)
+        features_layer = target_model.subset
+        features_layer = features_layer.eval()
 
     target_model.eval()
     return target_model, features_layer, preprocess
-
 
 
 def get_data_path(dataset_name):
@@ -236,7 +300,7 @@ def get_dataset(dataset_name):
         ValueError: If the dataset name is not supported.
     """
 
-    if dataset_name == "imagenet":
+    if dataset_name == "imagenet" or dataset_name == "imagenet_train":
         data_path = DATASET_PATH[dataset_name]
         data_transform = TRANSFORMS["transform_imagenet"]
         dataset = ImageDataset(root=data_path, transform=data_transform)
@@ -273,7 +337,13 @@ def get_n_neurons(model_layer):
         neurons = 1000
     elif model_layer == "resnet18-layer4" or model_layer == "resnet18-avgpool":
         neurons = 512
-    elif model_layer == "resnet50_places-avgpool":
+    elif model_layer == "resnet18-layer3":
+        neurons = 256
+    elif model_layer == "resnet18-layer2":
+        neurons = 128
+    elif model_layer == "resnet18-layer1":
+        neurons = 64
+    elif model_layer == "resnet50_places-avgpool" or model_layer == "resnet50-avgpool":
         neurons = 2048
     elif (
         model_layer == "densenet161-features"
@@ -319,24 +389,44 @@ def get_activations(
     def get_activation(name):
         def hook(model, input, output):
             activation[name] = output
+
         return hook
 
-    hook_layers = {
-        "resnet18-fc": model.fc,
-        "googlenet-fc": model.fc,
-        "resnet50_places-avgpool": model.avgpool,
-        "resnet18-avgpool": model.avgpool,
-        "resnet18-layer4": model.layer4,
-        "densenet161-features": model.features,
-        "densenet161_places-features": model.features,
-        "densenet161-fc": model.classifier,
-        "vit_b_16-features": model.heads,
-        "vit_b_16-head": model.heads.head,
-    }
-
-    # Register the forward hook for the specified model layer
-    if model_name in hook_layers:
-        hook_layers[model_name].register_forward_hook(get_activation(model_name.split('-')[-1]))
+    if model_name == "resnet18-fc" or model_name == "googlenet-fc":
+        model.fc.register_forward_hook(get_activation("fc"))
+    if (
+        model_name == "resnet50_places-avgpool"
+        or model_name == "resnet18-avgpool"
+        or model_name == "resnet50-avgpool"
+    ):
+        model.avgpool.register_forward_hook(get_activation("avgpool"))
+    elif model_name == "resnet18-layer4":
+        model.layer4.register_forward_hook(get_activation("layer4"))
+    elif model_name == "resnet18-layer3":
+        model.layer3.register_forward_hook(get_activation("layer3"))
+    elif model_name == "resnet18-layer2":
+        model.layer2.register_forward_hook(get_activation("layer2"))
+    elif model_name == "resnet18-layer1":
+        model.layer1.register_forward_hook(get_activation("layer1"))
+    elif model_name == "densenet161-denseblock4":
+        model.features.denseblock4.register_forward_hook(get_activation("denseblock4"))
+    elif (
+        model_name == "densenet161-features"
+        or model_name == "densenet161_places-features"
+    ):
+        model.register_forward_hook(get_activation("features"))
+    elif model_name == "densenet161-fc":
+        model.classifier.register_forward_hook(get_activation("classifier"))
+    elif model_name == "googlenet-inception5b":
+        model.inception5b.register_forward_hook(get_activation("inception5b"))
+    elif model_name == "vit_b_16-features":
+        model.subset.register_forward_hook(get_activation("heads"))
+    elif model_name == "vit_b_16-head":
+        model.heads.head.register_forward_hook(get_activation("head"))
+    elif model_name == "vit_b_16-layer11":
+        model.encoder.layers[11].register_forward_hook(get_activation("layer11"))
+    elif model_name == "vit_b_16-ln":
+        model.encoder.ln.register_forward_hook(get_activation("ln"))
 
     model_features = torch.zeros([len(dataset), n_neurons]).to(device)
 
@@ -344,23 +434,59 @@ def get_activations(
         for i, x in tqdm(enumerate(dataloader), total=len(dataloader)):
             torch.cuda.empty_cache()
             x = x.float().to(device)
-            _ = model(x)  # Forward pass to populate the activation dictionary
+            _ = model(x)
 
-            if i == 0:
-                # Print the shape of the activation for debugging purposes
-                print(f"Activation shape for {model_name}: {activation[model_name.split('-')[-1]].shape}")
+            # if i == 0:
+            #     # Print the shape of the activation for debugging purposes
+            #     print(
+            #         f"Activation shape for {model_name}: {activation[model_name.split('-')[-1]].shape}"
+            #     )
 
-            # Assign the appropriate activation to the model_features tensor
-            if model_name in ["resnet18-fc", "googlenet-fc", "densenet161-fc", "vit_b_16-head"]:
-                model_features[i * x.size(0):(i + 1) * x.size(0), :] = activation[model_name.split('-')[-1]].data
+            if model_name in [
+                "resnet18-fc",
+                "googlenet-fc",
+                "vit_b_16-head",
+            ]:
+                model_features[i * x.size(0) : (i + 1) * x.size(0), :] = activation[
+                    model_name.split("-")[-1]
+                ].data
+            elif model_name == "densenet161-fc":
+                model_features[i * x.size(0) : (i + 1) * x.size(0), :] = activation[
+                    "classifier"
+                ].data
             elif model_name == "vit_b_16-features":
-                model_features[i * x.size(0):(i + 1) * x.size(0), :] = activation["heads"].data
-            elif model_name in ["resnet18-avgpool", "resnet50_places-avgpool"]:
-                model_features[i * x.size(0):(i + 1) * x.size(0), :] = activation["avgpool"][:, :, 0, 0].data
+                model_features[i * x.size(0) : (i + 1) * x.size(0), :] = activation[
+                    "heads"
+                ].data
+            elif model_name in [
+                "resnet18-avgpool",
+                "resnet50_places-avgpool",
+                "resnet50-avgpool",
+            ]:
+                model_features[i * x.size(0) : (i + 1) * x.size(0), :] = activation[
+                    "avgpool"
+                ][:, :, 0, 0].data
             elif model_name == "resnet18-layer4":
-                model_features[i * x.size(0):(i + 1) * x.size(0), :] = activation["layer4"].mean(dim=[2, 3]).data
+                model_features[i * x.size(0) : (i + 1) * x.size(0), :] = (
+                    activation["layer4"].mean(dim=[2, 3]).data
+                )
+            elif model_name == "resnet18-layer3":
+                model_features[i * x.size(0) : (i + 1) * x.size(0), :] = (
+                    activation["layer3"].mean(axis=[2, 3]).data
+                )
+            elif model_name == "resnet18-layer2":
+                model_features[i * x.size(0) : (i + 1) * x.size(0), :] = (
+                    activation["layer2"].mean(axis=[2, 3]).data
+                )
+            elif model_name == "resnet18-layer1":
+                model_features[i * x.size(0) : (i + 1) * x.size(0), :] = (
+                    activation["layer1"].mean(axis=[2, 3]).data
+                )
+
             elif model_name in ["densenet161-features", "densenet161_places-features"]:
-                model_features[i * x.size(0):(i + 1) * x.size(0), :] = activation["features"].data
+                model_features[i * x.size(0) : (i + 1) * x.size(0), :] = activation[
+                    "features"
+                ].data
 
     torch.save(model_features, tensor_path)
     return model_features
@@ -389,7 +515,7 @@ def load_explanations(path, name, image_path, neuron_ids):
         df = pd.read_csv(path)
     except FileNotFoundError:
         raise FileNotFoundError("The CSV file does not exist.")
-    
+
     if name == "INVERT":
         explanations = []
         for neuron_id in neuron_ids:

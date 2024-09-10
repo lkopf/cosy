@@ -40,20 +40,27 @@ MODEL_NAME = (
     # "resnet18-layer3"
     # "resnet18-layer2"
     # "resnet18-layer1"
+    # "resnet50-avgpool"
     # "vit_b_16-features"
     # "resnet50_places-avgpool"
     # "densenet161_places-features"
 )
 print(MODEL_NAME)
+# prompt_text = "a"
+# prompt_text = "a painting of"
+# prompt_text = "photo of"
+# prompt_text = "realistic photo of"
+prompt_text = "realistic photo of a close up of"
+print(prompt_text)
 
 N_NEURONS = utils.get_n_neurons(MODEL_NAME)
 N_NEURONS_RANDOM = 50
 NEURON_IDS = random.sample(range(N_NEURONS), N_NEURONS_RANDOM)
+
 EXPLANATION_PATH = f"./assets/explanations/{METHOD}/{MODEL_NAME}.csv"
 _, EXPLANATIONS = utils.load_explanations(
     path=EXPLANATION_PATH, name=METHOD, image_path=IMAGE_PATH, neuron_ids=NEURON_IDS
 )
-print("# EXPLANATIONS", len(EXPLANATIONS))
 print(EXPLANATIONS)
 
 N_SIZE = 3  # world and batch size
@@ -101,13 +108,13 @@ def run_inference(
 
         for i in range(num_images):
             if torch.distributed.get_rank() == 0:
-                prompt = f"realistic photo of a close up of {current_batch[0]}"
+                prompt = f"{prompt_text} {current_batch[0]}"
                 prompt_name = current_batch[0]
             elif torch.distributed.get_rank() == 1 and len(current_batch) > 0:
-                prompt = f"realistic photo of a close up of {current_batch[1]}"
+                prompt = f"{prompt_text} {current_batch[1]}"
                 prompt_name = current_batch[1]
             elif torch.distributed.get_rank() == 2 and len(current_batch) > 1:
-                prompt = f"realistic photo of a close up of {current_batch[2]}"
+                prompt = f"{prompt_text} {current_batch[2]}"
                 prompt_name = current_batch[2]
 
             folder_name = image_path + f"{prompt_name.replace(' ', '_')}"

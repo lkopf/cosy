@@ -1,21 +1,22 @@
 """
 This script performs evaluation on a target model using different explanation methods.
 It calculates the area under the ROC curve (AUC), Mann-Whitney U statistic, p-value, and
-average activation difference for each neuron and concept.
+mean activation difference (MAD) for each neuron and concept.
 The script saves the evaluation results in a CSV file.
 
 Usage:
     python src/evaluation.py [--target_model TARGET_MODEL] [--target_layer TARGET_LAYER]
-                             [--dataset DATASET] [--method METHOD] [--transform TRANSFORM]
+                             [--method METHOD] [--transform TRANSFORM]
                              [--n_neurons_random N_NEURONS_RANDOM] [--device DEVICE]
                              [--batch_size_eval BATCH_SIZE_EVAL] [--num_workers NUM_WORKERS]
                              [--activation_dir ACTIVATION_DIR] [--result_dir RESULT_DIR]
                              [--gen_images_dir GEN_IMAGES_DIR]
 
+python src/evaluation.py --target_model=resnet50 --target_layer=avgpool --method=FALCON --gen_images_dir=/mnt/beegfs/share/atbstaff/coval/generated_images/sdxl_base/
+
 Arguments:
     --target_model (str): Which model to analyze, supported options are pretrained pytorch models.
     --target_layer (str): Which layer neurons to describe for pytorch models.
-    --dataset (str): Which dataset to use for evaluation.
     --method (str): Which explanation method to use for analysis.
     --transform (str): Which transform to use for dataset.
     --n_neurons_random (int): Number of random neurons in model layer.
@@ -58,12 +59,6 @@ parser.add_argument(
     type=str,
     default="avgpool",
     help="""Which layer neurons to describe for pytorch models.""",
-)
-parser.add_argument(
-    "--dataset",
-    type=str,
-    default="imagenet",
-    help="""Which dataset to use for evaluation.""",
 )
 parser.add_argument(
     "--method",
@@ -122,7 +117,7 @@ if __name__ == "__main__":
     target_model, features_layer, preprocess = utils.get_target_model(
         args.target_model, args.device
     )
-
+    # target_model = features_layer
     n_neurons = utils.get_n_neurons(model_layer)
 
     print(f"Evaluate target: {model_layer}")
@@ -136,7 +131,6 @@ if __name__ == "__main__":
         neuron_ids=NEURON_IDS,
     )
 
-    data_path = utils.get_data_path(args.dataset)
     data_transform = utils.get_transform(args.transform)
 
     print("Evaluate explanations...")
@@ -191,7 +185,7 @@ if __name__ == "__main__":
         # all activations for concept dataset
         activ_concept = A_1[:, NEURON_ID]
         # Construct tensor with binary labels
-        class_labels = torch.cat(
+        concept_labels = torch.cat(
             (
                 torch.zeros([activ_non_concept.shape[0]]),
                 torch.ones([activ_concept.shape[0]]),
@@ -201,15 +195,16 @@ if __name__ == "__main__":
         # Construct dataset A_D with non-concept activations and synthetic concept activations
         A_D = torch.cat((activ_non_concept, activ_concept), 0)
         # Score explanations
-        auc_synthetic = roc_auc_score(class_labels.to("cpu"), A_D.to("cpu"))
-        U1, p = mannwhitneyu(class_labels.to("cpu"), A_D.to("cpu"))
-        mean_activation_diff = (
-            activ_concept.mean().item() - activ_non_concept.mean().item()
-        )
-
-        new_rows = [
-            [NEURON_ID, concept_raw, auc_synthetic, U1, p, mean_activation_diff]
-        ]
+        auc_synthetic = roc_auc_score(concept_labels.to("cpu"), A_D.to("cpu"))
+        U1, p = mannwhitneyu(concept_labels.to("cpu"), A_D.to("cpu"))
+        if activ_non_concept.std().item() == 0:
+            mad = 0.0
+        else:
+            # mad = activ_concept.mean().item() - activ_non_concept.mean().item()
+            mad = (
+                activ_concept.mean().item() - activ_non_concept.mean().item()
+            ) / activ_non_concept.std().item()
+        new_rows = [[NEURON_ID, concept_raw, auc_synthetic, U1, p, mad]]
         utils.add_rows_to_csv(csv_filename, new_rows)
 
     end = datetime.now()
