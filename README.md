@@ -106,6 +106,6 @@ This work is in review.
 We hope our repository is beneficial to your work and research. If you have any feedback, questions, or ideas, please feel free to raise an issue in this repository. Alternatively, you can reach out to us directly via email for more in-depth discussions or suggestions. 
 
 📧 Contact us:
-- Laura Kopf: lkopf[at]atb-potsdam.de
+- Laura Kopf: kopf[at]tu-berlin.de
 
 Thank you for your interest and support!
