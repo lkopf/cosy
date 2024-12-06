@@ -12,8 +12,6 @@ Usage:
                              [--activation_dir ACTIVATION_DIR] [--result_dir RESULT_DIR]
                              [--gen_images_dir GEN_IMAGES_DIR]
 
-python src/evaluation.py --target_model=resnet50 --target_layer=avgpool --method=FALCON --gen_images_dir=/mnt/beegfs/share/atbstaff/coval/generated_images/sdxl_base/
-
 Arguments:
     --target_model (str): Which model to analyze, supported options are pretrained pytorch models.
     --target_layer (str): Which layer neurons to describe for pytorch models.
