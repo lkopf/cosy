@@ -436,12 +436,6 @@ def get_activations(
             x = x.float().to(device)
             _ = model(x)
 
-            # if i == 0:
-            #     # Print the shape of the activation for debugging purposes
-            #     print(
-            #         f"Activation shape for {model_name}: {activation[model_name.split('-')[-1]].shape}"
-            #     )
-
             if model_name in [
                 "resnet18-fc",
                 "googlenet-fc",
@@ -546,6 +540,12 @@ def load_explanations(path, name, image_path, neuron_ids):
             key: value for key, value in falcon_concept_ids.items() if key in neuron_ids
         }
         explanations = list(filtered_dict.values())
+
+    elif name == "SAE":
+        explanations = []
+        for neuron_id in neuron_ids:
+            explanation = df.loc[df["unit"] == neuron_id, "description"].values[0]
+            explanations.append(explanation.lower())
 
     # Check which explanation images are already existing and output missing ones
     explanations_set = set(explanations)

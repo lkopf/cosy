@@ -37,8 +37,6 @@ from scipy.stats import mannwhitneyu
 
 import utils
 
-torch.cuda.empty_cache()
-
 random.seed(42)
 
 start = datetime.now()
@@ -76,7 +74,13 @@ parser.add_argument(
     default=50,
     help="Number of random neurons in model layer.",
 )
-parser.add_argument("--device", type=str, default="cuda", help="Whether to use GPU.")
+parser.add_argument(
+    "--device",
+    type=str,
+    choices=["cuda", "mps", "cpu"],
+    default="cuda",
+    help="Device to use for computation: 'cuda', 'mps', or 'cpu'.",
+)
 parser.add_argument(
     "--batch_size_eval",
     type=int,
@@ -108,20 +112,29 @@ parser.parse_args()
 if __name__ == "__main__":
     args = parser.parse_args()
 
+    # Set device dynamically
+    if args.device == "mps" and not torch.backends.mps.is_available():
+        print("MPS not available on this system. Falling back to CPU.")
+        args.device = "cpu"
+    elif args.device == "cuda" and not torch.cuda.is_available():
+        print("CUDA not available on this system. Falling back to CPU.")
+        args.device = "cpu"
+
     os.makedirs(args.result_dir, exist_ok=True)
 
     layer_name = args.target_layer.split(".")[-1]
     model_layer = f"{args.target_model}-{layer_name}"
-    target_model, features_layer, preprocess = utils.get_target_model(
-        args.target_model, args.device
-    )
+    # target_model, features_layer, preprocess = utils.get_target_model(
+    #     args.target_model, args.device
+    # )
     # target_model = features_layer
-    n_neurons = utils.get_n_neurons(model_layer)
-
+    # n_neurons = utils.get_n_neurons(model_layer)
+    n_neurons = 49152
+    target_model = True
     print(f"Evaluate target: {model_layer}")
 
     EXPLANATION_PATH = f"./assets/explanations/{args.method}/{model_layer}.csv"
-    NEURON_IDS = random.sample(range(n_neurons), args.n_neurons_random)
+    NEURON_IDS = [227, 153, 5, 62, 66, 99, 912]
     EXPLANATIONS, _ = utils.load_explanations(
         path=EXPLANATION_PATH,
         name=args.method,
@@ -134,10 +147,11 @@ if __name__ == "__main__":
     print("Evaluate explanations...")
 
     # Load activations for control dataset
-    A_0 = torch.load(f"{args.activation_dir}/val_{model_layer}.pt").to(args.device)
+    A_0_path = f"{args.activation_dir}/val_{model_layer}.pt"
+    A_0 = torch.load(A_0_path, weights_only=True, map_location=args.device)
 
     csv_filename = f"{args.result_dir}/evaluation_{args.method}_{model_layer}.csv"
-    csv_headers = ["neuron", "concept", "AUC", "U1", "p", "MAD"]
+    csv_headers = ["neuron", "concept", "AUC", "MAD", "max-MAD"]
 
     if not os.path.exists(csv_filename):
         utils.create_csv(csv_filename, csv_headers)
@@ -148,7 +162,7 @@ if __name__ == "__main__":
         NEURON_ID = int(NEURON_ID)
         concept_raw = CONCEPT_NAME
         concept = concept_raw.replace(" ", "_")
-        CONCEPT_PATH = f"{args.gen_images_dir}{concept}/"
+        CONCEPT_PATH = f"{args.gen_images_dir}/{concept}/"
 
         dataset = utils.ImageDataset(
             root=CONCEPT_PATH,
@@ -166,7 +180,7 @@ if __name__ == "__main__":
         TENSOR_PATH = f"{args.activation_dir}/method_eval/{args.method}_{model_layer}_neuron-{NEURON_ID}.pt"
 
         if os.path.exists(TENSOR_PATH):
-            A_1 = torch.load(TENSOR_PATH)
+            A_1 = torch.load(TENSOR_PATH, weights_only=True, map_location=args.device)
         else:
             A_1 = utils.get_activations(
                 model=target_model,
@@ -191,17 +205,24 @@ if __name__ == "__main__":
             0,
         )
         # Construct dataset A_D with non-concept activations and synthetic concept activations
-        A_D = torch.cat((activ_non_concept, activ_concept), 0)
+        A_D = torch.cat((activ_non_concept.cpu(), activ_concept.cpu()), 0).to(
+            args.device
+        )
         # Score explanations
-        auc_synthetic = roc_auc_score(concept_labels.to("cpu"), A_D.to("cpu"))
-        U1, p = mannwhitneyu(concept_labels.to("cpu"), A_D.to("cpu"))
-        if activ_non_concept.std().item() == 0:
+        auc_synthetic = roc_auc_score(concept_labels.cpu(), A_D.cpu())
+        print("AUC: ", auc_synthetic)
+        if activ_non_concept.cpu().std().item() == 0:
             mad = 0.0
-        else
+        else:
             mad = (
-                activ_concept.mean().item() - activ_non_concept.mean().item()
-            ) / activ_non_concept.std().item()
-        new_rows = [[NEURON_ID, concept_raw, auc_synthetic, U1, p, mad]]
+                activ_concept.cpu().mean().item()
+                - activ_non_concept.cpu().mean().item()
+            ) / activ_non_concept.cpu().std().item()
+        print("MAD: ", mad)
+        max_mad = (
+            activ_concept.cpu().mean().item() - activ_non_concept.cpu().mean().item()
+        ) / activ_non_concept.cpu().max().item()
+        new_rows = [[NEURON_ID, concept_raw, auc_synthetic, mad, max_mad]]
         utils.add_rows_to_csv(csv_filename, new_rows)
 
     end = datetime.now()
