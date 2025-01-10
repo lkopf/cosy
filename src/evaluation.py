@@ -194,11 +194,10 @@ if __name__ == "__main__":
         A_D = torch.cat((activ_non_concept, activ_concept), 0)
         # Score explanations
         auc_synthetic = roc_auc_score(concept_labels.to("cpu"), A_D.to("cpu"))
-        U1, p = mannwhitneyu(concept_labels.to("cpu"), A_D.to("cpu"))
+        U1, p = mannwhitneyu(activ_non_concept, activ_concept)
         if activ_non_concept.std().item() == 0:
             mad = 0.0
         else:
-            # mad = activ_concept.mean().item() - activ_non_concept.mean().item()
             mad = (
                 activ_concept.mean().item() - activ_non_concept.mean().item()
             ) / activ_non_concept.std().item()
