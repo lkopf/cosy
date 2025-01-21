@@ -194,14 +194,14 @@ if __name__ == "__main__":
         A_D = torch.cat((activ_non_concept, activ_concept), 0)
         # Score explanations
         auc_synthetic = roc_auc_score(concept_labels.to("cpu"), A_D.to("cpu"))
-        U1, p = mannwhitneyu(activ_non_concept, activ_concept)
+        U1, p = mannwhitneyu(activ_non_concept.to("cpu"), activ_concept.to("cpu"))
         if activ_non_concept.std().item() == 0:
             mad = 0.0
         else:
             mad = (
                 activ_concept.mean().item() - activ_non_concept.mean().item()
             ) / activ_non_concept.std().item()
-        new_rows = [[NEURON_ID, concept_raw, auc_synthetic, U1, p, mad]]
+        new_rows = [[NEURON_ID, concept_raw, auc_synthetic, U1.item(), p.item(), mad]]
         utils.add_rows_to_csv(csv_filename, new_rows)
 
     end = datetime.now()
