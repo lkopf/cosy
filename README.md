@@ -7,9 +7,7 @@
 
   </p>
 
-This repository contains the code and experiments for the paper **[CoSy: Evaluating Textual Explanations of Neurons](https://arxiv.org/abs/2405.20331)** by Kopf et al., 2024. 
-
-<!--[![Getting started!](https://colab.research.google.com/assets/colab-badge.svg)](anonymous)-->
+This repository contains the code and experiments for the paper **[CoSy: Evaluating Textual Explanations of Neurons](https://proceedings.neurips.cc/paper_files/paper/2024/hash/3d4c0a618d0acd7921493e4f30395c22-Abstract-Conference.html)** published at NeurIPS 2024. 
 
 ## Table of Contents
 1. [About](#about)
@@ -89,17 +87,18 @@ python src/evaluation.py --target_model resnet18 --target_layer avgpool --method
 If you find this work interesting or useful in your research, use the following Bibtex annotation to cite us:
 
 ```bibtex
-@misc{kopf2024cosy,
-      title={{CoSy: Evaluating Textual Explanations of Neurons}}, 
-      author={Laura Kopf and Philine Lou Bommer and Anna Hedström and Sebastian Lapuschkin and Marina M. -C. Höhne and Kirill Bykov},
-      year={2024},
-      eprint={2405.20331},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2405.20331}
+@inproceedings{kopf2024cosy,
+  author = {Kopf, Laura and Bommer, Philine Lou and Hedstr\"{o}m, Anna and Lapuschkin, Sebastian and H\"{o}hne, Marina M.-C. and Bykov, Kirill},
+  booktitle = {Advances in Neural Information Processing Systems},
+  editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+  pages = {34656--34685},
+  publisher = {Curran Associates, Inc.},
+  title = {CoSy: Evaluating Textual Explanations of Neurons},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/3d4c0a618d0acd7921493e4f30395c22-Paper-Conference.pdf},
+  volume = {37},
+  year = {2024}
 }
 ```
-This work is in review.
 
 ### Thank you
 
