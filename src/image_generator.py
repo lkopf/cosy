@@ -27,19 +27,20 @@ IMAGE_PATH = "./gen_images/"
 os.makedirs(IMAGE_PATH, exist_ok=True)
 
 METHOD = (
-    "INVERT"
+    # "INVERT"
     # "MILAN"
     # "CLIP-Dissect"
     # "FALCON"
+    "GPT4"
 )
 print(METHOD)
 MODEL_NAME = (
-    "resnet18-avgpool"
+    # "resnet18-avgpool"
     # "resnet18-fc"
     # "resnet18-layer4"
     # "resnet18-layer3"
     # "resnet18-layer2"
-    # "resnet18-layer1"
+    "resnet18-layer1"
     # "resnet50-avgpool"
     # "vit_b_16-features"
     # "resnet50_places-avgpool"
@@ -57,10 +58,11 @@ N_NEURONS = utils.get_n_neurons(MODEL_NAME)
 N_NEURONS_RANDOM = 50
 NEURON_IDS = random.sample(range(N_NEURONS), N_NEURONS_RANDOM)
 
-EXPLANATION_PATH = f"./assets/explanations/{METHOD}/{MODEL_NAME}.csv"
+EXPLANATION_PATH = f"/cosy/assets/explanations/{METHOD}/{MODEL_NAME}.csv"
 _, EXPLANATIONS = utils.load_explanations(
     path=EXPLANATION_PATH, name=METHOD, image_path=IMAGE_PATH, neuron_ids=NEURON_IDS
 )
+
 print(EXPLANATIONS)
 
 N_SIZE = 3  # world and batch size
@@ -76,8 +78,7 @@ pipe = DiffusionPipeline.from_pretrained(
 )
 pipe = pipe.to("cuda")
 # set seed for stable diffusion
-generator = torch.Generator("cuda").manual_seed(0)
-
+generator = torch.Generator(device).manual_seed(0)
 
 def run_inference(
     rank, world_size, batch_size, image_path=IMAGE_PATH, num_images=N_IMAGES
