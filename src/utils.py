@@ -10,11 +10,9 @@ import torchvision
 from torch.utils.data import Dataset
 
 DATASET_PATH = {  # dataset : "/path/to/images/",
-    "imagenet": "/Users/sinievanderben/Documents/ETH/tech/cosy/LLM_activations/imagenet_selection/imagenet_val_images/",
+    "imagenet": "/path/to/imagenet/",
     "places365": "/path/to/places365_val",
 }
-
-#DATASET_PATH = {}  # {dataset : "/path/to/images/",}
 
 MEAN = (0.485, 0.456, 0.406)
 STD = (0.229, 0.224, 0.225)
