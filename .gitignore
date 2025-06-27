@@ -5,3 +5,6 @@ results/
 gen_images/
 assets/train50k_*.csv
 assets/ILSVRC2012_val_labels.csv
+myenv312/
+src/LLM_activations/activations/
+src/LLM_activations/imagenet_selection/

@@ -9,12 +9,12 @@ import torch
 import torchvision
 from torch.utils.data import Dataset
 
-# DATASET_PATH = {  # dataset : "/path/to/images/",
-#     "imagenet": "/path/to/imagenet_val/",
-#     "places365": "/path/to/places365_val",
-# }
+DATASET_PATH = {  # dataset : "/path/to/images/",
+    "imagenet": "/Users/sinievanderben/Documents/ETH/tech/cosy/LLM_activations/imagenet_selection/imagenet_val_images/",
+    "places365": "/path/to/places365_val",
+}
 
-DATASET_PATH = {}  # {dataset : "/path/to/images/",}
+#DATASET_PATH = {}  # {dataset : "/path/to/images/",}
 
 MEAN = (0.485, 0.456, 0.406)
 STD = (0.229, 0.224, 0.225)
@@ -546,6 +546,12 @@ def load_explanations(path, name, image_path, neuron_ids):
             key: value for key, value in falcon_concept_ids.items() if key in neuron_ids
         }
         explanations = list(filtered_dict.values())
+    
+    elif name == "GPT4":
+        explanations = []
+        for neuron_id in neuron_ids:
+            explanation = df.loc[df["unit"] == neuron_id, "description"].values[0]
+            explanations.append(explanation.lower())
 
     # Check which explanation images are already existing and output missing ones
     explanations_set = set(explanations)

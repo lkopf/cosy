@@ -90,7 +90,7 @@ parser.add_argument(
     "--activation_dir",
     type=str,
     default="activations",
-    help="Where to save activations.",
+    help="Where to retrieve activations.",
 )
 parser.add_argument(
     "--result_dir", type=str, default="results", help="Where to save results."
@@ -120,7 +120,8 @@ if __name__ == "__main__":
 
     print(f"Evaluate target: {model_layer}")
 
-    EXPLANATION_PATH = f"./assets/explanations/{args.method}/{model_layer}.csv"
+    EXPLANATION_PATH = f"/cosy/assets/explanations/{args.method}/{model_layer}.csv"
+
     NEURON_IDS = random.sample(range(n_neurons), args.n_neurons_random)
     EXPLANATIONS, _ = utils.load_explanations(
         path=EXPLANATION_PATH,

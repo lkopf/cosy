@@ -73,10 +73,15 @@ if __name__ == "__main__":
 
     os.makedirs(args.activation_dir, exist_ok=True)
 
+    # detect device
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    print('Using device:', device)
+    print()
+
     layer_name = args.target_layer.split(".")[-1]
     model_layer = f"{args.target_model}-{layer_name}"
     target_model, features_layer, preprocess = utils.get_target_model(
-        args.target_model, args.device
+        args.target_model, device
     )
     n_neurons = utils.get_n_neurons(model_layer)
 
@@ -94,7 +99,7 @@ if __name__ == "__main__":
     print("Collect activations...")
 
     TENSOR_PATH = f"{args.activation_dir}/val_{model_layer}.pt"
-
+    
     A_F = utils.get_activations(
         model=target_model,
         model_name=model_layer,
@@ -102,7 +107,7 @@ if __name__ == "__main__":
         dataset=dataset,
         dataloader=dataloader,
         n_neurons=n_neurons,
-        device=args.device,
+        device=device,
         preprocess=preprocess,
     )
 
