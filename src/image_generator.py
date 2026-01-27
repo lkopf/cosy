@@ -8,6 +8,8 @@ Usage:
 import os
 import random
 from datetime import datetime
+
+import pandas as pd
 import torch
 import torch.distributed as dist
 import torch.multiprocessing as mp
@@ -26,13 +28,9 @@ IMAGE_PATH = "./gen_images/"
 
 os.makedirs(IMAGE_PATH, exist_ok=True)
 
-METHOD = (
-    "INVERT"
-    # "MILAN"
-    # "CLIP-Dissect"
-    # "FALCON"
-)
-print(METHOD)
+FOLDER_NAME = "pfad_imagenet_rn18_avgpool"  # TODO change to your folder name
+
+print(FOLDER_NAME)
 MODEL_NAME = (
     "resnet18-avgpool"
     # "resnet18-fc"
@@ -53,15 +51,15 @@ print(MODEL_NAME)
 prompt_text = "realistic photo of a close up of"
 print(prompt_text)
 
-N_NEURONS = utils.get_n_neurons(MODEL_NAME)
-N_NEURONS_RANDOM = 50
-NEURON_IDS = random.sample(range(N_NEURONS), N_NEURONS_RANDOM)
+EXPLANATION_PATH = f"./{FOLDER_NAME}/anchors_summary.csv"
+NEURON_IDS = pd.read_csv(EXPLANATION_PATH)["neuron_id"].unique().tolist()
 
-EXPLANATION_PATH = f"./assets/explanations/{METHOD}/{MODEL_NAME}.csv"
-_, EXPLANATIONS = utils.load_explanations(
-    path=EXPLANATION_PATH, name=METHOD, image_path=IMAGE_PATH, neuron_ids=NEURON_IDS
+EXPLANATIONS = utils.load_explanations(
+    path=EXPLANATION_PATH,
+    neuron_ids=NEURON_IDS,
 )
 print(EXPLANATIONS)
+
 
 N_SIZE = 3  # world and batch size
 N_IMAGES = 50  # number of generated images

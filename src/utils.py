@@ -1,13 +1,13 @@
-import os
 import csv
+import os
 import types
-import ast
+
 import cv2
 import pandas as pd
-from tqdm import tqdm
 import torch
 import torchvision
 from torch.utils.data import Dataset
+from tqdm import tqdm
 
 # DATASET_PATH = {  # dataset : "/path/to/images/",
 #     "imagenet": "/path/to/imagenet_val/",
@@ -492,23 +492,20 @@ def get_activations(
     return model_features
 
 
-def load_explanations(path, name, image_path, neuron_ids):
+def load_explanations(path, neuron_ids=None):
     """
-    Load explanations based on the given parameters.
+    Load explanations from anchors_summary.csv file.
 
     Args:
-        path (str): The path to the CSV file containing the explanations.
-        name (str): The name of the explanation method.
-        image_path (str): The path to the directory containing the explanation images.
-        neuron_ids (list): A list of neuron IDs for which explanations are needed.
+        path (str): The path to the anchors_summary.csv file.
+        neuron_ids (list, optional): A list of neuron IDs for which explanations are needed.
 
     Returns:
-        tuple: A tuple containing two lists - explanations and explanations_filtered.
-            - explanations: A list of explanations for the given neuron IDs.
-            - explanations_filtered: A list of explanations that are missing corresponding images.
+        list: A list of explanations (first top_text for each neuron_id/expert_id combination
+              where activation_level is 'max_prediction').
 
     Raises:
-        FileNotFoundError: If the CSV file or the image directory does not exist.
+        FileNotFoundError: If the CSV file does not exist.
     """
 
     try:
@@ -516,45 +513,22 @@ def load_explanations(path, name, image_path, neuron_ids):
     except FileNotFoundError:
         raise FileNotFoundError("The CSV file does not exist.")
 
-    if name == "INVERT":
-        explanations = []
-        for neuron_id in neuron_ids:
-            explanation = df.loc[df["neuron"] == neuron_id, "concept"].values[0]
-            explanations.append(explanation)
+    # Filter for max_prediction rows only
+    df_max = df[df["activation_level"] == "max_prediction"]
 
-    elif name == "CLIP-Dissect":
-        explanations = []
-        for neuron_id in neuron_ids:
-            explanation = df.loc[df["unit"] == neuron_id, "description"].values[0]
-            explanations.append(explanation)
+    # Filter by neuron_ids if provided
+    if neuron_ids is not None:
+        df_max = df_max[df_max["neuron_id"].isin(neuron_ids)]
 
-    elif name == "MILAN":
-        explanations = []
-        for neuron_id in neuron_ids:
-            explanation = df.loc[df["unit"] == neuron_id, "description"].values[0]
-            explanations.append(explanation.lower())
+    # Extract first text from top_texts (before first semicolon) for each unique neuron_id/expert_id
+    explanations = []
+    for _, row in df_max.iterrows():
+        top_texts = row["top_texts"]
+        # Extract text before first semicolon
+        first_text = top_texts.split(";")[0].strip()
+        explanations.append(first_text)
 
-    elif name == "FALCON":
-        falcon_concept_list = []
-        for i in range(len(df)):
-            falcon_concepts_all = ast.literal_eval(df["concept_set_noun_phrases"][i])
-            falcon_concept = falcon_concepts_all[0][0]
-            falcon_concept_list.append(falcon_concept)
-        falcon_neuron_ids = df["group"].to_list()
-        falcon_concept_ids = dict(zip(falcon_neuron_ids, falcon_concept_list))
-        filtered_dict = {
-            key: value for key, value in falcon_concept_ids.items() if key in neuron_ids
-        }
-        explanations = list(filtered_dict.values())
-
-    # Check which explanation images are already existing and output missing ones
-    explanations_set = set(explanations)
-    explanations_set = list(explanations_set)
-    image_directories = [i.replace("_", " ") for i in os.listdir(image_path)]
-    missing_items = list(set(explanations_set) - set(image_directories))
-    explanations_filtered = missing_items
-
-    return explanations, explanations_filtered
+    return explanations
 
 
 def create_csv(filename, headers):
