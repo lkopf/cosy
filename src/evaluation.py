@@ -1,23 +1,21 @@
 """
-This script performs evaluation on a target model using different explanation methods.
+This script performs evaluation on a target model using explanations from anchors_summary.csv.
 It calculates the area under the ROC curve (AUC), Mann-Whitney U statistic, p-value, and
-mean activation difference (MAD) for each neuron and concept.
+mean activation difference (MAD) for each neuron, expert, and concept.
 The script saves the evaluation results in a CSV file.
 
 Usage:
-    python src/evaluation.py [--target_model TARGET_MODEL] [--target_layer TARGET_LAYER]
-                             [--method METHOD] [--transform TRANSFORM]
-                             [--n_neurons_random N_NEURONS_RANDOM] [--device DEVICE]
-                             [--batch_size_eval BATCH_SIZE_EVAL] [--num_workers NUM_WORKERS]
-                             [--activation_dir ACTIVATION_DIR] [--result_dir RESULT_DIR]
-                             [--gen_images_dir GEN_IMAGES_DIR]
+    python src/evaluation.py --explanation_path PATH [--target_model TARGET_MODEL]
+                             [--target_layer TARGET_LAYER] [--transform TRANSFORM]
+                             [--device DEVICE] [--batch_size_eval BATCH_SIZE_EVAL]
+                             [--num_workers NUM_WORKERS] [--activation_dir ACTIVATION_DIR]
+                             [--result_dir RESULT_DIR] [--gen_images_dir GEN_IMAGES_DIR]
 
 Arguments:
     --target_model (str): Which model to analyze, supported options are pretrained pytorch models.
     --target_layer (str): Which layer neurons to describe for pytorch models.
-    --method (str): Which explanation method to use for analysis.
+    --explanation_path (str): Path to anchors_summary.csv file.
     --transform (str): Which transform to use for dataset.
-    --n_neurons_random (int): Number of random neurons in model layer.
     --device (str): Whether to use GPU.
     --batch_size_eval (int): Batch size when running evaluation.
     --num_workers (int): Number of workers for dataloader.
@@ -28,7 +26,6 @@ Arguments:
 
 import argparse
 import os
-import random
 from datetime import datetime
 import torch
 from tqdm import tqdm
@@ -38,8 +35,6 @@ from scipy.stats import mannwhitneyu
 import utils
 
 torch.cuda.empty_cache()
-
-random.seed(42)
 
 start = datetime.now()
 print("START: ", start)
@@ -59,22 +54,16 @@ parser.add_argument(
     help="""Which layer neurons to describe for pytorch models.""",
 )
 parser.add_argument(
-    "--method",
+    "--explanation_path",
     type=str,
-    default="INVERT",
-    help="""Which explanation method to use for analysis.""",
+    required=True,
+    help="""Path to anchors_summary.csv file.""",
 )
 parser.add_argument(
     "--transform",
     type=str,
     default="transform_imagenet",
     help="""Which transform to use for dataset.""",
-)
-parser.add_argument(
-    "--n_neurons_random",
-    type=int,
-    default=50,
-    help="Number of random neurons in model layer.",
 )
 parser.add_argument("--device", type=str, default="cuda", help="Whether to use GPU.")
 parser.add_argument(
@@ -120,14 +109,7 @@ if __name__ == "__main__":
 
     print(f"Evaluate target: {model_layer}")
 
-    EXPLANATION_PATH = f"./assets/explanations/{args.method}/{model_layer}.csv"
-    NEURON_IDS = random.sample(range(n_neurons), args.n_neurons_random)
-    EXPLANATIONS, _ = utils.load_explanations(
-        path=EXPLANATION_PATH,
-        name=args.method,
-        image_path=args.gen_images_dir,
-        neuron_ids=NEURON_IDS,
-    )
+    explanations_df = utils.load_explanations_for_eval(path=args.explanation_path)
 
     data_transform = utils.get_transform(args.transform)
 
@@ -136,17 +118,18 @@ if __name__ == "__main__":
     # Load activations for control dataset
     A_0 = torch.load(f"{args.activation_dir}/val_{model_layer}.pt").to(args.device)
 
-    csv_filename = f"{args.result_dir}/evaluation_{args.method}_{model_layer}.csv"
-    csv_headers = ["neuron", "concept", "AUC", "U1", "p", "MAD"]
+    csv_filename = f"{args.result_dir}/evaluation_{model_layer}.csv"
+    csv_headers = ["neuron_id", "expert_id", "concept", "AUC", "U1", "p", "MAD"]
 
     if not os.path.exists(csv_filename):
         utils.create_csv(csv_filename, csv_headers)
 
-    for NEURON_ID, CONCEPT_NAME in tqdm(
-        zip(NEURON_IDS, EXPLANATIONS), total=len(NEURON_IDS), desc="Processing"
+    for _, row in tqdm(
+        explanations_df.iterrows(), total=len(explanations_df), desc="Processing"
     ):
-        NEURON_ID = int(NEURON_ID)
-        concept_raw = CONCEPT_NAME
+        neuron_id = int(row["neuron_id"])
+        expert_id = int(row["expert_id"])
+        concept_raw = row["explanation"]
         concept = concept_raw.replace(" ", "_")
         CONCEPT_PATH = f"{args.gen_images_dir}{concept}/"
 
@@ -163,7 +146,7 @@ if __name__ == "__main__":
         )
 
         # Load activations for concept dataset
-        TENSOR_PATH = f"{args.activation_dir}/method_eval/{args.method}_{model_layer}_neuron-{NEURON_ID}.pt"
+        TENSOR_PATH = f"{args.activation_dir}/method_eval/{model_layer}_neuron-{neuron_id}_expert-{expert_id}.pt"
 
         if os.path.exists(TENSOR_PATH):
             A_1 = torch.load(TENSOR_PATH)
@@ -179,9 +162,9 @@ if __name__ == "__main__":
             )
 
         # all activations for control dataset
-        activ_non_concept = A_0[:, NEURON_ID]
+        activ_non_concept = A_0[:, neuron_id]
         # all activations for concept dataset
-        activ_concept = A_1[:, NEURON_ID]
+        activ_concept = A_1[:, neuron_id]
         # Construct tensor with binary labels
         concept_labels = torch.cat(
             (
@@ -201,7 +184,7 @@ if __name__ == "__main__":
             mad = (
                 activ_concept.mean().item() - activ_non_concept.mean().item()
             ) / activ_non_concept.std().item()
-        new_rows = [[NEURON_ID, concept_raw, auc_synthetic, U1.item(), p.item(), mad]]
+        new_rows = [[neuron_id, expert_id, concept_raw, auc_synthetic, U1.item(), p.item(), mad]]
         utils.add_rows_to_csv(csv_filename, new_rows)
 
     end = datetime.now()

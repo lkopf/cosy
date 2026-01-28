@@ -531,6 +531,38 @@ def load_explanations(path, neuron_ids=None):
     return explanations
 
 
+def load_explanations_for_eval(path):
+    """
+    Load explanations from anchors_summary.csv file for evaluation.
+
+    Args:
+        path (str): The path to the anchors_summary.csv file.
+
+    Returns:
+        pd.DataFrame: DataFrame with columns 'neuron_id', 'expert_id', and 'explanation'
+                      for each unique neuron_id/expert_id combination where
+                      activation_level is 'max_prediction'.
+
+    Raises:
+        FileNotFoundError: If the CSV file does not exist.
+    """
+
+    try:
+        df = pd.read_csv(path)
+    except FileNotFoundError:
+        raise FileNotFoundError("The CSV file does not exist.")
+
+    # Filter for max_prediction rows only
+    df_max = df[df["activation_level"] == "max_prediction"].copy()
+
+    # Extract first text from top_texts (before first semicolon)
+    df_max["explanation"] = df_max["top_texts"].apply(
+        lambda x: x.split(";")[0].strip()
+    )
+
+    return df_max[["neuron_id", "expert_id", "explanation"]]
+
+
 def create_csv(filename, headers):
     """
     Create a new CSV file with the given filename and write the headers to it.
