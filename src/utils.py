@@ -140,24 +140,6 @@ def get_target_model(target_name, device):
             torch.hub.load("facebookresearch/dino:main", "dino_vits8").to(device).eval()
         )
         features_layer = target_model.blocks[11].mlp.fc1
-    # elif target_name == "densenet161":
-    #     weights = torchvision.models.DenseNet161_Weights.IMAGENET1K_V1
-    #     target_model = torchvision.models.densenet161(weights=weights).to(device).eval()
-    #     preprocess = weights.transforms()
-
-    #     target_model.features.add_module("relu", torch.nn.ReLU(inplace=False))
-    #     target_model.features.add_module(
-    #         "adaptive_avgpool", torch.nn.AdaptiveAvgPool2d((1, 1))
-    #     )
-    #     target_model.features.add_module("flatten", torch.nn.Flatten(1))
-
-    #     def new_forward(self, x: torch.Tensor):
-    #         features = self.features(x)
-    #         out = self.classifier(features)
-    #         return out
-
-    #     target_model.forward = types.MethodType(new_forward, target_model)
-    #     features_layer = target_model.features.to(device).eval()
     elif "densenet161_places" in target_name:
         arch = "densenet161"
         # load the pre-trained weights
@@ -352,6 +334,8 @@ def get_n_neurons(model_layer):
         neurons = 2208
     elif model_layer == "vit_b_16-features":
         neurons = 768
+    elif model_layer == "dino_vits8-layer11":
+        neurons = 1536
     else:
         raise ValueError("Unsupported model_layer")
     return neurons
@@ -427,6 +411,8 @@ def get_activations(
         model.encoder.layers[11].register_forward_hook(get_activation("layer11"))
     elif model_name == "vit_b_16-ln":
         model.encoder.ln.register_forward_hook(get_activation("ln"))
+    elif model_name == "dino_vits8-layer11":
+        model.blocks[11].mlp.fc1.register_forward_hook(get_activation("fc1"))
 
     model_features = torch.zeros([len(dataset), n_neurons]).to(device)
 
@@ -487,6 +473,11 @@ def get_activations(
                 model_features[i * x.size(0) : (i + 1) * x.size(0), :] = activation[
                     "features"
                 ].data
+            elif model_name == "dino_vits8-layer11":
+                # fc1 output shape: (batch, num_patches+1, 1536), take CLS token (index 0)
+                model_features[i * x.size(0) : (i + 1) * x.size(0), :] = activation[
+                    "fc1"
+                ][:, 0, :].data
 
     torch.save(model_features, tensor_path)
     return model_features
@@ -556,9 +547,7 @@ def load_explanations_for_eval(path):
     df_max = df[df["activation_level"] == "max_prediction"].copy()
 
     # Extract first text from top_texts (before first semicolon)
-    df_max["explanation"] = df_max["top_texts"].apply(
-        lambda x: x.split(";")[0].strip()
-    )
+    df_max["explanation"] = df_max["top_texts"].apply(lambda x: x.split(";")[0].strip())
 
     return df_max[["neuron_id", "expert_id", "explanation"]]
 
